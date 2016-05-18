@@ -5574,7 +5574,7 @@ cite[S.~164]{Wendel.2013}
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -6501,11 +6501,11 @@ name "sub:Zurückgestellte-Funktionen"
 \end_layout
 
 \begin_layout Standard
-Bezüglich des fertig umgesetzten Prototyps wurden alle Mechanismen umgesetzt
+Bezüglich des fertig umgesetzten Prototyps sind alle Mechanismen umgesetzt
  welche für das Zielverhalten essentiell sind.
  In Anbetracht der zeitlichen Begrenzung der Implementierungsphase und den
- Gegebenheiten der Testphase, sind manche erörterte Funktionen und Spielelemente
- nicht realisiert worden.
+ Gegebenheiten der Testphase, fehlen manche erörterte Funktionen und Spielmechan
+ismen.
 \end_layout
 
 \begin_layout Standard
@@ -6592,7 +6592,19 @@ en.
 \end_layout
 
 \begin_layout Standard
+Mit Beendigung dieses Abschnitts ist das erste Ziel aus Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Ziel-der-Arbeit"
 
+\end_inset
+
+ bewältigt, nämlich die Konzeption einer gamifizierten Anwendung auf Basis
+ der existierenden Konzeptstudie 
+\emph on
+SeeSight
+\emph default
+ und unter Einbeziehung der Marktanalyse.
 \end_layout
 
 \end_body

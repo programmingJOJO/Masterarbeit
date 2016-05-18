@@ -129,13 +129,13 @@ name "chap:Evaluation"
 \begin_layout Standard
 Um genaue Erkenntnis darüber zu erlangen, ob die implementierten Mechanismen
  tatsächlich Wirkung zeigen und das Verhalten beeinflussen, wurde nach der
- Implementierungsphase ein Testzeitraum mit freiwilligen Probanten eingeplant.
+ Implementierungsphase ein Testzeitraum mit freiwilligen Probanden eingeplant.
  Dieses Kapitel befasst sich mit der Durchführung der Testphase und den
  daraus erlangten Erkenntnissen.
 \end_layout
 
 \begin_layout Section
-Nutzerstudie
+Gliederung der Testphase
 \end_layout
 
 \begin_layout Standard
@@ -152,14 +152,14 @@ Gelungene Gamification lässt sich beispielsweise effizient mit A/B-Tests
 
 \begin_layout Standard
 Ein weiterer Ansatz zur Evaluierung beschäftigt sich dagegen mit nur einer
- Probantengruppe.
- In diesem Beispiel erhalten alle Probanten das gamifizierte Produkt über
+ Probandengruppe.
+ In diesem Beispiel erhalten alle Probanden das gamifizierte Produkt über
  einen längeren Zeitraum.
  Während dieser Testinvervalls werden die verhaltensbeeinflussenden Mechanismen
  deaktiviert, sodass die Probranten über einen kurzen Zeitraum keine gamifiziert
 e Version bedienen.
  Am Ende der Testphase lässt sich ermitteln, ob zum Zeitpunkt der Deaktivierung
- aussagekräfitge Veränderungen in der Reaktion der Probanten stattfanden.
+ aussagekräfitge Veränderungen in der Reaktion der Probanden stattfanden.
 \end_layout
 
 \begin_layout Subsection
@@ -187,7 +187,7 @@ reference "sub:Anwendungsziel-bestimmen"
 ).
  Bei Festlegung des Zielverhaltens während der Konzeptphase lag allerdings
  der Gedanke nah, zu messen ob die Aktivierung und Beantwortung der Aufgaben
- auch an den nachkommenden Orten von den Probanten unmittelbar fortgeführt
+ auch an den nachkommenden Orten von den Probanden unmittelbar fortgeführt
  wird.
  Diese Ereignisse gleich nach dem Zielverhalten lassen sich analog zu Wendels
  Vorschlag zur Messung von Ereignissen unmittelbar nach dem Anwendungsziel
@@ -206,9 +206,9 @@ reference "sub:Anwendungsziel-bestimmen"
 
 \begin_layout Standard
 Dies lässt nun die Schlussfolgerung zu, dass der zweitgenannte Ansatz wegen
- der einheitlilchen Probantengrupppe die bessere Variante sei.
+ der einheitlilchen Probandengrupppe die bessere Variante sei.
  Zwingende Voraussetzung für diese Vorgehensweise ist eine kontinuierliche
- Verwendung des Produkts durch die Probanten über den veranschlagten Zeitraum.
+ Verwendung des Produkts durch die Probanden über den veranschlagten Zeitraum.
  Für den zu evaluierenden Prototyp ergibt sich daraus ein weiteres Problem.
  Denn eine kontinuierliche Durchführung des Zielverhaltens über den Testzeitraum
  ist nicht mit der Intention des Prototyps, der kontinuierlichen Durchführung
@@ -219,49 +219,46 @@ Dies lässt nun die Schlussfolgerung zu, dass der zweitgenannte Ansatz wegen
 \end_layout
 
 \begin_layout Subsection
-Erfassung der Evaluierungsdaten
+Erfassung gehaltvoller Daten
 \end_layout
 
 \begin_layout Standard
-Für die Evaluation wurde deshalb ein Mittelweg zwischen Erfassung der Verhalten
- der Probanten und einer zusätzlichen Umfrage gewählt.
- Die Erfassung stichhaltiger Daten geschah mittels Tracking (engl.
- für Verfolgung) der Nutzerinteraktionen.
- Die Probanten wurden zu Beginn der Anwendung auf der ersten Splash Page
- darüber informiert.
- Folgende Interaktionen wurden erfasst:
+Für die Evaluation wurde deshalb ein Kompromiss zwischen Erfassung der Verhalten
+ der Probanden und einer zusätzlichen Umfrage gewählt.
+ Die Erfassung stichhaltiger Daten geschah mittels Tracking der Nutzerinteraktio
+nen mit dem Prototyp.
+ Alle Teilnehmer wurden zu Beginn der Anwendung auf der ersten Splash Page
+ über das Tracking in Kenntnis gesetzt.
+ Für die Evaluierung sind folgende Interaktionen erfasst worden:
 \end_layout
 
 \begin_layout Itemize
-Start und Beendigung einer Tour
+Vollsändige Durchführung der Splash Pages mit der inbegriffenen Erklärung
+ zur Vorgehensweise
 \end_layout
 
 \begin_layout Itemize
-Die Art wie die Splash Pages mit dem Tutorial beendet wurden
+Personalisierung (Auswahl von Vorlieben-Themen bezüglich Touren)
 \end_layout
 
 \begin_layout Itemize
-Aktivierung der Aufgaben nach Tourfortschritt
+Aktiverung eines bequemen Schnellstarts einer Tour oder der manuellen Auswahl
 \end_layout
 
 \begin_layout Itemize
-Prüfung der eingegebenen Antworten
+Aktivierung der Aufgaben gemessen am Tourfortschritt
 \end_layout
 
 \begin_layout Itemize
-Akzeptanz der Tipps nach inkorrekten Antworten
-\end_layout
-
-\begin_layout Itemize
-TODO: was noch?
+Absolvierung der Aufgaben (zusätzlich nach Spielertyp)
 \end_layout
 
 \begin_layout Standard
 Neben dem Tracking wurde zudem eine Umfrage in Form eines vierteiligen Frageboge
-ns innerhalb der Anwendung zur Verfügung gestellt, welchen die Probanten
+ns innerhalb der Anwendung zur Verfügung gestellt, welchen die Probanden
  ausfüllen sollten.
- Auch dazu wurden die Probanten zu Beginn informiert.
- Gefragt wurde neben demographischer Merkmale, auch nach dem Spielertyp
+ Auch dazu wurden die Probanden zu Beginn informiert.
+ Gefragt wurde neben demographischen Merkmalen, auch nach dem Spielertyp
  und der bevorzugten Spielform.
  Zur Vermeidung der vier Spielertyp-Begriffe als offensichtliche Antwortmöglichk
 eiten, wurden diese entsprechend ihrer Charakteristika umschrieben.
@@ -331,246 +328,18 @@ description "iPhone Operating System"
 \end_layout
 
 \begin_layout Standard
-Während einer mehrstündigen Zeitspanne am ersten Tag war die Anwendung aus
- dem Play Store nicht korrekt darstellbar.
+Während einer mehrstündigen Zeitintervalls am ersten Tag war die Anwendung
+ aus dem Play Store nicht korrekt darstellbar.
  Sie ließ sich zwar herunterladen und starten, eine weiße Bildfläche versperrte
  allerdings das weitere Vorgehen.
  Aus diesem Grund gilt für die Evaluierung der Trackingdaten der 09.04.
  als Startzeitpunkt.
- Die Fragebögen sind davon ausgenommen, da die Probanten darauf Zugriff
+ Die Fragebögen sind davon ausgenommen, da die Probanden darauf Zugriff
  haben mussten, um ihn auszufüllen.
 \end_layout
 
-\begin_layout Subsection*
-Testzeit: 08.04.
- - 27.04.
- von 0 Uhr bis 24 Uhr
-\end_layout
-
-\begin_layout Standard
-Survey.joins(:user).where("users.created_at between ? AND ?", Time.parse("08.04.2016")
-, Time.parse("27.04.2016")).where(did_test_already: false).where("user_id <>
- 185")
-\end_layout
-
-\begin_layout Standard
-Anzahl erstellter Nutzer: 174, PlayStore Downloads: 82 Wegen Prof je einer
- weniger
-\end_layout
-
-\begin_layout Standard
-Ausgefüllte Umfragen: 38 Wegen Prof je einer weniger
-\end_layout
-
-\begin_layout Standard
-Alter: {nil=>2, 34=>1, 46=>1, 25=>7, 27=>1, 32=>1, 28=>2, 79=>1, 26=>3,
- 30=>1, 33=>1, 29=>2, 23=>1, 35=>2, 20=>4, 22=>2, 24=>6} == 38
-\end_layout
-
-\begin_layout Standard
-Altersdurchschnitt: 26.571428571428573 ohne prof
-\end_layout
-
-\begin_layout Standard
-Geschlecht: m 19, w 16, keine A.
- 2; ohne prof
-\end_layout
-
-\begin_layout Standard
-spielform selfexpression_1: 18 = 33,3%
-\end_layout
-
-\begin_layout Standard
-spielform selfexpression_1: 19
-\end_layout
-
-\begin_layout Standard
-conflict_1: 13 = 28,8%
-\end_layout
-
-\begin_layout Standard
-conflict_2: 19
-\end_layout
-
-\begin_layout Standard
-coordination_2: 13 = 19,8%
-\end_layout
-
-\begin_layout Standard
-coordination_1: 9
-\end_layout
-
-\begin_layout Standard
-competition_1: 3 = 7,2%
-\end_layout
-
-\begin_layout Standard
-competition_2: 5
-\end_layout
-
-\begin_layout Standard
-cooperative_1: 4 =10,8%
-\end_layout
-
-\begin_layout Standard
-cooperative_2: 8 = 111
-\end_layout
-
-\begin_layout Standard
-Spielertyp:
-\end_layout
-
-\begin_layout Standard
-killer: 10
-\end_layout
-
-\begin_layout Standard
-explorer: 28
-\end_layout
-
-\begin_layout Standard
-achiever: 10
-\end_layout
-
-\begin_layout Standard
-socializer: 18
-\end_layout
-
-\begin_layout Subsection*
-Ab den 09.04.
- - 27.04.
-\end_layout
-
-\begin_layout Standard
-Anzahl erstellter Nutzer: 121, PlayStore Downloads: 53 Wegen Prof je einer
- weniger
-\end_layout
-
-\begin_layout Standard
-106 von 120 haben Vorlieben ausgewählt.
- User.joins(:tags).where("users.created_at between ? AND ?", Time.parse("09.04.2016"),
- Time.parse("27.04.2016")).where("users.id <> 185").where("users.id IN (SELECT
- user_id from tags)").count
-\end_layout
-
-\begin_layout Standard
-Ausgefüllte Umfragen: 26 Wegen Prof je einer weniger
-\end_layout
-
-\begin_layout Standard
-Alter: {nil=>2, 34=>1, 46=>1, 25=>4, 27=>1, 32=>1, 28=>1, 79=>1, 26=>2,
- 30=>1, 33=>1, 29=>2, 23=>1, 35=>2, 22=>2, 24=>3} == 25
-\end_layout
-
-\begin_layout Standard
-Altersdurchschnitt: 28.217391304347824 ohne Prof
-\end_layout
-
-\begin_layout Standard
-Geschlecht: m 11, w 13 ohne prof
-\end_layout
-
-\begin_layout Subsubsection*
-15 Nutzer aus der Umfrage haben eine Challenge ausprobiert.
-\end_layout
-
-\begin_layout Standard
-User.joins(:user_tour_challenges, :surveys).where("users.created_at between
- ? AND ?", Time.parse("09.04.2016"), Time.parse("27.04.2016")).where("users.id <>
- 185").where("user_tour_challenges.state IN (1,2,3)").distinct.count (2.3ms)
- SELECT DISTINCT COUNT(DISTINCT "users"."id") FROM "users" INNER JOIN "user_tours
-" ON "user_tours"."user_id" = "users"."id" INNER JOIN "user_tour_challenges"
- ON "user_tour_challenges"."user_tour_id" = "user_tours"."id" INNER JOIN "surveys"
- ON "surveys"."user_id" = "users"."id" WHERE (users.created_at between '2016-04-09
- 00:00:00' AND '2016-04-27 00:00:00') AND (users.id <> 185) AND (user_tour_challe
-nges.state IN (1,2,3)) => 15
-\end_layout
-
-\begin_layout Subsubsection*
-Tour angefangen (34) bzw.
- absolviert (26)
-\end_layout
-
-\begin_layout Standard
-User.joins(:user_tour_challenges, user_tours: :user_tour_places).where("users.creat
-ed_at between ? AND ?", Time.parse("09.04.2016"), Time.parse("27.04.2016")).where("user
-s.id <> 185").where(user_tour_places: { visited: true }).distinct.count (23.3ms)
- SELECT DISTINCT COUNT(DISTINCT "users"."id") FROM "users" INNER JOIN "user_tours
-" ON "user_tours"."user_id" = "users"."id" INNER JOIN "user_tour_challenges"
- ON "user_tour_challenges"."user_tour_id" = "user_tours"."id" INNER JOIN "user_tou
-rs" "user_tours_users" ON "user_tours_users"."user_id" = "users"."id" INNER
- JOIN "user_tour_places" ON "user_tour_places"."user_tour_id" = "user_tours_users
-"."id" WHERE (users.created_at between '2016-04-09 00:00:00' AND '2016-04-27
- 00:00:00') AND (users.id <> 185) AND "user_tour_places"."visited" = $1 [["visited
-", true]] => 34 irb(main):118:0> User.joins(:user_tour_challenges, user_tours:
- :user_tour_places).where("users.created_at between ? AND ?", Time.parse("09.04.2016"
-), Time.parse("27.04.2016")).where("users.id <> 185").where(user_tours: { completed:
- true }).distinct.count (6.6ms) SELECT DISTINCT COUNT(DISTINCT "users"."id")
- FROM "users" INNER JOIN "user_tours" ON "user_tours"."user_id" = "users"."id"
- INNER JOIN "user_tour_challenges" ON "user_tour_challenges"."user_tour_id"
- = "user_tours"."id" INNER JOIN "user_tours" "user_tours_users" ON "user_tours_us
-ers"."user_id" = "users"."id" INNER JOIN "user_tour_places" ON "user_tour_places"."
-user_tour_id" = "user_tours_users"."id" WHERE (users.created_at between '2016-04-0
-9 00:00:00' AND '2016-04-27 00:00:00') AND (users.id <> 185) AND "user_tours"."com
-pleted" = $1 [["completed", true]] => 26 irb(main):119:0> 
-\end_layout
-
-\begin_layout Subsubsection*
-17 der Umfrageleute fingen eine Tour an.
-\end_layout
-
-\begin_layout Standard
-User.joins(:user_tour_challenges, :surveys, user_tours: :user_tour_places).where("
-users.created_at between ? AND ?", Time.parse("09.04.2016"), Time.parse("27.04.2016")).w
-here("users.id <> 185").where(user_tours: { completed: true }).distinct.count
- (4.4ms) SELECT DISTINCT COUNT(DISTINCT "users"."id") FROM "users" INNER JOIN
- "user_tours" ON "user_tours"."user_id" = "users"."id" INNER JOIN "user_tour_chall
-enges" ON "user_tour_challenges"."user_tour_id" = "user_tours"."id" INNER
- JOIN "surveys" ON "surveys"."user_id" = "users"."id" INNER JOIN "user_tours"
- "user_tours_users" ON "user_tours_users"."user_id" = "users"."id" INNER JOIN
- "user_tour_places" ON "user_tour_places"."user_tour_id" = "user_tours_users"."id"
- WHERE (users.created_at between '2016-04-09 00:00:00' AND '2016-04-27 00:00:00')
- AND (users.id <> 185) AND "user_tours"."completed" = $1 [["completed", true]]
- => 17
-\end_layout
-
-\begin_layout Subsubsection*
-15 der Umfrageleute machten eine Aufgabe, 28 von insgesamt 120
-\end_layout
-
-\begin_layout Standard
-User.joins(:user_tour_challenges).where("users.created_at between ? AND ?",
- Time.parse("09.04.2016"), Time.parse("27.04.2016")).where("users.id <> 185").where("user
-_tour_challenges.state IN (1,2,3) AND users.id IN (SELECT user_id FROM surveys)").d
-istinct.count (3.1ms) SELECT DISTINCT COUNT(DISTINCT "users"."id") FROM "users"
- INNER JOIN "user_tours" ON "user_tours"."user_id" = "users"."id" INNER JOIN
- "user_tour_challenges" ON "user_tour_challenges"."user_tour_id" = "user_tours"."i
-d" WHERE (users.created_at between '2016-04-09 00:00:00' AND '2016-04-27
- 00:00:00') AND (users.id <> 185) AND (user_tour_challenges.state IN (1,2,3)
- AND users.id IN (SELECT user_id FROM surveys)) => 15 irb(main):140:0> User.joins(
-:user_tour_challenges).where("users.created_at between ? AND ?", Time.parse("09.04.20
-16"), Time.parse("27.04.2016")).where("users.id <> 185").where("user_tour_challenges.st
-ate IN (1,2,3)").distinct.count (3.9ms) SELECT DISTINCT COUNT(DISTINCT "users"."id")
- FROM "users" INNER JOIN "user_tours" ON "user_tours"."user_id" = "users"."id"
- INNER JOIN "user_tour_challenges" ON "user_tour_challenges"."user_tour_id"
- = "user_tours"."id" WHERE (users.created_at between '2016-04-09 00:00:00'
- AND '2016-04-27 00:00:00') AND (users.id <> 185) AND (user_tour_challenges.state
- IN (1,2,3)) => 28
-\end_layout
-
-\begin_layout Subparagraph*
-Wer hat wieviel gemacht
-\end_layout
-
-\begin_layout Standard
-User.joins(:user_tour_challenges).where("users.created_at between ? AND ?",
- Time.parse("09.04.2016"), Time.parse("27.04.2016")).where("users.id <> 185").where("user
-_tour_challenges.state IN (1,2,3)").distinct.each do |u| irb(main):277:1* puts
- u.user_tour_challenges.where("state IN (1,2,3)").count irb(main):278:1> end
-\end_layout
-
 \begin_layout Section
-Ergebnisse und Diskussion
+Evaluierung der Ergebnisse
 \end_layout
 
 \begin_layout Standard
@@ -622,23 +391,8 @@ t haben.
 
 \begin_layout Standard
 Die Fragebögen wurden von insgesamt 37 Probanden (30,8 %) ausgefüllt.
- Das Geschlecht gaben in der Umfrage 19 Probanden mit 
-\begin_inset Quotes eld
-\end_inset
-
-Männlich
-\begin_inset Quotes erd
-\end_inset
-
- an und 16 mit 
-\begin_inset Quotes eld
-\end_inset
-
-Weiblich
-\begin_inset Quotes erd
-\end_inset
-
- (Frage 
+ Das Geschlecht gaben in der Umfrage 19 Probanden mit männlich an und 16
+ mit weiblich (Frage 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Geschlecht-(Antwortmöglichkeiten"
@@ -1461,7 +1215,7 @@ reference "enu:Wähltest-du-beim"
 \end_layout
 
 \begin_layout Standard
-Was die Durchführung des einführenden Tutorials (Erklärung zu Funktionsweise)
+Was die Durchführung des einführenden Tutorials (Erklärung zu Vorgehensweise)
  und die daran anschließende Aufforderung zur Personalisierung durch Angabe
  der Vorlieben angeht, gaben dreiviertel der Probanden an dies getan zu
  haben (78,4% u.
@@ -1512,14 +1266,14 @@ reference "fig:Tracking-1b"
 placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1560,7 +1314,7 @@ name "fig:Tracking-1a"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2695,7 +2449,7 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2736,7 +2490,7 @@ name "fig:tracking-2a"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2829,10 +2583,6 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Bilder/Ergebnisse/Spielertypen mit Aufgaben.png
@@ -2868,29 +2618,220 @@ name "fig:Bearbeitete-Aufaben-nach-Spielertypen"
 
 \end_layout
 
-\begin_layout Subsubsection*
-Hindernisse in der Anwendung?
-\end_layout
-
-\begin_layout Standard
-Nutzer präferieren unterschiedliche Spielelemente.
- -> Aus Evaluation herauslesbar?
-\end_layout
-
-\begin_layout Itemize
-Strukturaufbau
+\begin_layout Subsection
+Optimierungsvorschläge
 \end_layout
 
 \begin_layout Itemize
 Kartenfunktion/ Geographische Ortung
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-Fragestellungen zu schwer?
+Navigation mit Hilfe der app möglich machen (Routen von A nach B an der
+ Karte klar sichtbar machen)
 \end_layout
 
 \begin_layout Itemize
+Mir ist Nicht klar wie ich mit der App von Ort A nach Ort B komme.
+\end_layout
+
+\begin_layout Itemize
+Es wäre ganz cool, wenn der aktuelle Standort noch miteingebunden wird.
+ :)
+\end_layout
+
+\begin_layout Itemize
+Full-Screen Karte
+\end_layout
+
+\begin_layout Itemize
+Eigener Standort als Punkt
+\end_layout
+
+\begin_layout Itemize
+Folge der Karte.
+ Wegbeschreibung
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
 Entdeckungsoption nicht als Menüpunkt erkennbar
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Hab den roten los button nicht als button erkannt
+\end_layout
+
+\begin_layout Itemize
+Ohh erst im Fragebogen hinterher hab ich gecheckt dass man auf den roten
+ wackelnden los button drücken kann um das Quiz zu starten!
+\end_layout
+
+\begin_layout Itemize
+Los Button intuitiv nicht unten leider
+\end_layout
+
+\begin_layout Itemize
+Buttons mit "Entdeckung zeigen
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Antworten mit Vor- oder Nachname schwierig.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Geringe Fehler Toleranz bei Text Antworten wäre gut (z.b Kasper statt Kaspar)
+\end_layout
+
+\begin_layout Itemize
+Würde eher nur multiple Choice antworten statt Freitextfelder anbieten.
+ Hab z.B.
+ weinstadel statt weinstadl geschrieben
+\end_layout
+
+\begin_layout Itemize
+Verlangt wir Weinstadl, auf der Tafel am Haus steht aber Weinstadel.
+ Vielleicht einfach beide Möglichkeiten akzeptieren.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Text zu den infos Und Fragen ein bischen strukturieren und so leichter lesbar
+ machen
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Was die App noch deutlich verbessern wuerde, waere ein Audio-Guide fuer
+ die geschichtlichen Hintergrundinfos zu den Orten.
+\end_layout
+
+\begin_layout Itemize
+Teilweise war der Text so lang, dass ich keine Lust hatte, es zu lesen,
+ vor Allem nicht unterwegs, wenn ich mir den Ort ansehen will.
+ Hier waere ein Audio-Guide viel besser!
+\end_layout
+
+\begin_layout Itemize
+Links zu Wiki oder weitere Infos.
+ Z.B.
+ zu Dürer, etc.
+\end_layout
+
+\begin_layout Itemize
+Bilder zu den Fragen?
+\end_layout
+
+\begin_layout Itemize
+Die richtigen Antworten nach dem Lösen der Aufgaben anzeigen.
+ Da ich viele Antworten durch Ausprobieren erraten habe, habe ich kaum einen
+ Mehrwert, wenn ich sie nicht noch mal sehe.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ein bunteres, einladenderes Layout
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Alternative Belohnungen fuer Entdeckungen waeren z.B.
+ andere Designs/Farben freizuschalten, oder Fotos der besuchten Orte als
+ Erinnerung
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Ich will eigene Touren erstellen können :)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Eigene Reihenfolge der Stationen wäre gut (musste die Strecke 3 mal laufen)
+\end_layout
+
+\begin_layout Itemize
+Ich finde, die Freiheit eine eigene Tour zu erstellen, sollte von Anfang
+ an gegeben sein, ohne sie freischalten zu muessen.
+ 
+\end_layout
+
+\begin_layout Itemize
+Wäre gut, wenn man abgeschlossene Touren auch so nochmal durchgehen könnte,
+ ohne sie neu beginnen zu müssen.
+ Quasi als Nachschlagewerk für später/zuhause.
+\end_layout
+
+\begin_layout Itemize
+Es ist ja bestimmt auch geplant dann eine Städteauswahl zu machen oder?
+ Man könnte ja auch noch Auswahlmöglichkeiten geben im Bezug auf Feier-sightseei
+ng, Bauwerk-Touren, oder ausgefallene andere Vorlieben der Leute!
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+"Ich denke diese App könnte das Erkunden der Stadt auf jeden Fall wieder
+ interessanter machen, vorallem da man auch informationen erhält die man
+ sonst Googlen müsste, aber meistens nicht macht.
+ Eine super Idee! Ich hoffe eine Vollversion (am besten kostenfrei) wird
+ erscheinen! Auch falls man Besuch aus dem Ausland hat ist es eine super
+ Hilfe einfach mal zu zeigen und dazu auch etwas sagen zu können! Daher
+ weiter so!
+\end_layout
+
+\begin_layout Itemize
+", Die Hilfestellung: Frage Leute in der Umgebung ist nicht sonderlich hilfreich
+\end_layout
+
+\begin_layout Itemize
+"Mir gefällt die APP gut und ich würde sie nutzen.
+ Ich finde sie sehr praktisch, wenn man an einem Ort unterwegs ist, an dem
+ man sich noch nicht gut auskennt."
+\end_layout
+
+\begin_layout Itemize
+"Für mich persönlich wären Touren mit Fokus Natur zB.
+ im Nürnberger Umland am interessantesten.
+ Nach einamliger Bentzung ist mir bis jetzt aufgefallen, dass bei der Tour
+ an der Pegnitz entlang die Antwort auf die dritte Bonusfrage unglücklich
+ gewählt ist.
+ Außerdem ist in der Appbeschreibung im Android-Store ein Tippfehler.
+ Spielersich statt spielerisch wenn ich mich richtig erinnere.
+\end_layout
+
+\begin_layout Itemize
+Usern immer Feedback geben, wenn etwas beispielsweise lädt
+\end_layout
+
+\begin_layout Itemize
+Ich finde die App top
+\end_layout
+
+\begin_layout Itemize
+Ich finde die Idee echt interessant, weil man interaktiv Ecken der Stadt
+ kennen lernt, die man vorher nicht kannte.
+ Bzw interessant Details.
+ Auch die Fragen finde ich interessant, weil sie einen Entdeckergeist wecken.
+\end_layout
+
+\begin_layout Itemize
+Chrissi: Tutorial nicht gemacht, weil angelerntes Verhalten
+\end_layout
+
+\begin_layout Itemize
+Pause-pausieren besser mit Umrandung.
+\end_layout
+
+\begin_layout Itemize
+"Beenden" -> automatisch
+\end_layout
+
+\begin_layout Itemize
+App nutzen wenn funktionale Fehler behoben
 \end_layout
 
 \end_body

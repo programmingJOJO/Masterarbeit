@@ -1646,9 +1646,9 @@ name "tab:Formen-des-Spiels"
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="3">
-<features rotate="0" tabularvalignment="middle" tabularwidth="110text%">
-<column alignment="left" valignment="top" width="18text%">
-<column alignment="left" valignment="top" width="43text%">
+<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="left" valignment="top" width="16text%">
+<column alignment="left" valignment="top" width="35text%">
 <column alignment="left" valignment="top" width="40text%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
@@ -1703,7 +1703,7 @@ Spielende treten gegeneinander an.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Schach, Risiko; Fußball, Volleyball, Tennis
+Schach, Risiko, Fußball, Volleyball, Tennis
 \end_layout
 
 \end_inset
@@ -1724,8 +1724,8 @@ Wettkampf
 
 \begin_layout Plain Layout
 Spielende treten gegeneinander an.
- Es gilt besser zu sein als alle Mitspielende.
- Allerdings ist keine negative Einflussnahme möglich.
+ Es gilt besser zu sein als andere.
+ Negative Einflussnahme ist nicht möglich.
 \end_layout
 
 \end_inset
@@ -1734,7 +1734,7 @@ Spielende treten gegeneinander an.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Spiele mit Highscore, Autowettrennen; Leichtathletik oder andere Wettkampfsporta
+Spiele mit Highscore, Autowettrennen, Leichtathletik oder andere Wettkampfsporta
 rten
 \end_layout
 
@@ -1746,7 +1746,11 @@ rten
 \begin_inset Text
 
 \begin_layout Plain Layout
-Selbsterfahrung
+Selbst-
+\end_layout
+
+\begin_layout Plain Layout
+erfahrung
 \end_layout
 
 \end_inset
@@ -1765,8 +1769,8 @@ Spielende spielen ohne jeglichen Kontakt zu anderen Spielenden aus intrinsischer
 \begin_inset Text
 
 \begin_layout Plain Layout
-Action-Adventures oder andere Single-Player Spiele; Einzeltraining im Sport,
- Laufen, Bouldern;
+Action-Adventures oder andere Single-Player Spiele, Einzeltraining im Sport,
+ Laufen, Bouldern
 \end_layout
 
 \end_inset
@@ -1804,7 +1808,7 @@ description "Massively Multiplayer Online Role-Playing Game"
 
 \end_inset
 
-); Fitnesstraining mit Freunden, Runtastic mit Cheering
+), Fitnesstraining mit Freunden
 \end_layout
 
 \end_inset
@@ -1833,8 +1837,7 @@ Spielende sind motiviert, sich gegenseitig zu unterstützen.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Pandemie, Scotland Yard; Meisterschaften mit dem Sportteam oder dem Clan
- (Games)
+Pandemie, Scotland Yard, Meisterschaften mit dem Sportteam oder dem Clan
 \end_layout
 
 \end_inset
@@ -5557,46 +5560,9 @@ reference "tab:Gegenüberstellung-der-Anwendungs"
 
  stellt die Kriterien Anwendungsziel und Zielverhalten in einer Übersicht
  gegenüber.
- Der Spalte Anwendungsziel ist entnehmbar, dass die überwiegende Mehrheit
- ihre Nutzer in reisespezifischen Tätigkeiten unterstützen oder Funktionen
- bereitstellen, die erfahrungsbereicherende Reiseerlebnisse ermöglichen.
- Einzig 
-\emph on
-Streetspotr
-\emph default
- besitzt ein anderes Primärziel.
- Jenes Anwendungsziel - die Absolvierung von Aufgaben - sind hingegen bei
- Anwendungen wie 
-\emph on
-SeeSight
-\emph default
-, 
-\emph on
-Quarterquest
-\emph default
- und 
-\emph on
-The Travel Machine
-\emph default
- das beabsichtigte Zielverhalten der Nutzer.
- Andere Anwendungen wie 
-\emph on
-Tripwolf
-\emph default
-, 
-\emph on
-Trip Journal
-\emph default
- und 
-\emph on
-City Maps and Walks
-\emph default
- sind bestrebt darin, dass ihre Zielgruppe Touren bzw.
- Reisen auswählen oder sogar selbst erstellen und diese antreten.
-\end_layout
-
-\begin_layout Standard
+ 
 \begin_inset Float table
+placement h
 wide false
 sideways false
 status collapsed
@@ -5918,13 +5884,44 @@ Erfüllen verschiedener Aufgaben während der Reise
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
-
+ Der Spalte Anwendungsziel ist entnehmbar, dass die überwiegende Mehrheit
+ ihre Nutzer in reisespezifischen Tätigkeiten unterstützen oder Funktionen
+ bereitstellen, die erfahrungsbereicherende Reiseerlebnisse ermöglichen.
+ Einzig 
+\emph on
+Streetspotr
+\emph default
+ besitzt ein anderes Primärziel.
+ Jenes Anwendungsziel - die Absolvierung von Aufgaben - sind hingegen bei
+ Anwendungen wie 
+\emph on
+SeeSight
+\emph default
+, 
+\emph on
+Quarterquest
+\emph default
+ und 
+\emph on
+The Travel Machine
+\emph default
+ das beabsichtigte Zielverhalten der Nutzer.
+ Andere Anwendungen wie 
+\emph on
+Tripwolf
+\emph default
+, 
+\emph on
+Trip Journal
+\emph default
+ und 
+\emph on
+City Maps and Walks
+\emph default
+ sind bestrebt darin, dass ihre Zielgruppe Touren bzw.
+ Reisen auswählen oder sogar selbst erstellen und diese antreten.
 \end_layout
 
 \begin_layout Standard
@@ -5980,7 +5977,7 @@ den Domäne Reisen nachvollziehbar, denn Reisen vermittelt den Charakter
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status collapsed
