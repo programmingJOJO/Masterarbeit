@@ -1,0 +1,16 @@
+/* Añadir en "Layout" */
+.text-center { text-align: center; }
+
+/* 3D slider */
+.slider-3d { display: none; }
+
+/* Media slider - Generalización de "customers slider" para reutilizar */
+.media-slider { display: none; }
+
+/* Multiple rows slider */
+.multiplerows-slider { display: none; }
+
+/* Contact us */
+.contact-us { margin-bottom: 2em; }
+.contact-us h2 { font-size: 1.3em; }
+.contact-us .btn-big { display: none; }

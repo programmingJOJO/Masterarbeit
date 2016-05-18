@@ -1,0 +1,348 @@
+.projekktor {background-color:#000; font-size:10px; font-weight:bold; text-align:center; text-transform:uppercase; padding:0; margin:0; display:block; position:relative; font-family: Verdana,sans-serif;}
+.projekktor * {border:none !important;}
+.projekktor button span {
+ width:1px;
+ height:1px;
+ position:absolute;
+ top:-1000px;
+ overflow:hidden;
+}
+.ppdisplay {position:relative !important; height:100%; width:100%;}
+.ppfullscreen .ppdisplay {width:100% !important; height:100% !important;} 
+.ppcontrols {position:absolute; bottom:0; right:0; display:block; overflow:hidden; width:100%; height:39px; background:url("init_player.png") repeat-x right top; border-style:solid; border-color:#413e3e; border-width:1px 0; padding:0; margin:0;}
+
+.livestream .pptimeleft,
+.livestream .ppscrubber {display: none !important;}
+.livestream .ppcontrols {height: 29px !important;}
+
+#main { position:relative; }
+.ppfullscreen #main { position:static; }
+
+.portletCoverflowFull .bx-viewport .mediaList .projekktor { width:297px!important; height:167px!important; }
+.ppfullscreen .portletCoverflowFull .bx-viewport .mediaList .projekktor { width:100%!important; height:100%!important; }
+
+.pplogo.inactive,
+.ppstart.inactive,
+.ppbuffering.inactive,
+.ppcontrols.inactive,
+.ppplay.inactive,
+.pppause.inactive,
+.ppfsenter.inactive,
+.ppfsexit.inactive,
+.ppprev.inactive,
+.ppnext.inactive,
+.ppscrubbertip {display:none!important;}
+
+/* temp for styling 
+.ppcontrols.inactive { display:block!important; }
+*/
+
+.pplogo.active,
+.ppstart.active,
+.ppbuffering.active,
+.ppcontrols.active,
+.ppplay.active,
+.pppause.active,
+.ppfsenter.active,
+.ppfsexit.active,
+.ppprev.active,
+.ppnext.active {display:block;}
+
+.ppcontrols ul,
+.ppcontrols li {list-style:none !important;}
+
+.ppplay,
+.pppause  {display:block; position:absolute; top:0; left:0; background:url("init.png") no-repeat left top transparent; width:32px; height:29px; cursor:pointer; border-right:1px solid #000;}
+.ppplay:hover {background:url("init.png") no-repeat left -35px transparent;}
+.ppplay:active {background:url("init.png") no-repeat left -36px transparent;}
+.pppause {background:url("init.png") no-repeat left -70px transparent;}
+.pppause:hover {background:url("init.png") no-repeat left -105px transparent;}
+.pppause:active {background:url("init.png") no-repeat left -106px transparent;}
+
+.ppfsenter,
+.ppfsexit  {display:block; position:absolute; top:0; right:32px; width:32px; height:29px; background:url("init.png") no-repeat right top transparent; cursor:pointer; border-left:1px solid #413e3e;}
+.ppfsenter:hover {background:url("init.png") no-repeat right -35px transparent;}
+.ppfsenter:active {background:url("init.png") no-repeat right -36px transparent;}
+.ppfsexit {background:url("init.png") no-repeat right -70px transparent;}
+.ppfsexit:hover {background:url("init.png") no-repeat right -105px transparent;}
+.ppfsexit:active {background:url("init.png") no-repeat right -106x transparent;}
+
+.ppscrubber {background-color:#333; border-bottom:0 solid #333; bottom:0; display:block; height:10px; left:0; margin:auto; padding:0; position:absolute; width:100%; opacity:1}
+.ppscrubberdrag {background:none transparent; cursor:pointer; height:10px; left:0; position:absolute; top:0; width:100%; z-index:302; opacity:0.7}
+.ppplayhead, .pploaded {position:absolute; display:block; left:0; bottom:0; height:10px; width:1px; background-color:#ffffff; cursor:pointer; z-index:301;opacity:1}
+.pploaded {background-color:rgba(255,255,255,0.4); z-index:10;}
+
+.ppplayhead {background:url(playhead.png) right top; min-width:11px; margin-top:0px;}
+
+/*.pptitle {position:absolute; left:31px; padding:0 10px; color:#fff; overflow:hidden; text-align:left; line-height:30px; height:30px; border-left:1px solid #413e3e; font-size:11px;}*/
+.pptitle {display:none;}
+
+.pptimeleft {position:absolute; top:0; left:44px; height:15px; color:#fff; width:130px; line-height:30px; height:29px; overflow:hidden;}
+#aside .pptimeleft, .topTeaser .pptimeleft, .infoBoxContent .pptimeleft { right:auto; left:30px; width:80px; }
+#aside .pptimeleft .elapsedTime, .topTeaser .pptimeleft .elapsedTime, .infoBoxContent .pptimeleft .elapsedTime { display:none; }
+
+
+.ppvmax,
+.ppmute, .ppunmute {display:none !important;}
+
+/* special for single */
+/*.pptimeleft {background:url("init.png") no-repeat -91px top transparent;}*/
+.ppvmax  {position:absolute; top:0; right:31px; width:32px; border-left:none; background:url("init.png") no-repeat -842px top transparent;}
+.ppvmax:hover  {background:url("init.png") no-repeat -842px -35px transparent;}
+.ppvmax:active  {background:url("init.png") no-repeat -842px -36px transparent;}
+
+.ppmute  {position:absolute; top:0; width:32px; right:122px; border-left:1px solid #413e3e; border-right:none; background:url("init.png") no-repeat -750px top transparent;}
+.ppmute:hover  {background:url("init.png") no-repeat -750px -35px transparent;}
+.ppmute:active  {background:url("init.png") no-repeat -750px -36px transparent;}
+
+.ppvslider {position:absolute; right:100px; top:13px; height:6px; width:60px; background:url("init.png") no-repeat -781px -13px transparent;}
+.ppvmarker {position:absolute; right:0; left:0; height:6px; width:100%; background:url("init.png") no-repeat -634px -13px transparent;}
+
+.ppvknob  {cursor:pointer; z-index:201; position:absolute; background:url("init.png") no-repeat -699px -5px transparent; top:-7px; left:0px; width:6px; height:20px;}
+
+.ppnext,
+.ppprev {display:block; position:absolute; top:0; right:255px; background:url("init.png") no-repeat -59px top transparent; width:32px; height:29px; cursor:pointer; border-left:1px solid #413e3e; border-right:1px solid #000;}
+.ppnext { border-right:none;}
+.ppnext:hover {background:url("init.png") no-repeat -59px -35px transparent;}
+.ppnext:active {background:url("init.png") no-repeat -59px -36px transparent;}
+
+.ppprev {right:284px; background:url("init.png") no-repeat -32px top transparent;}
+.ppprev:hover {background:url("init.png") no-repeat -32px -35px transparent;}
+.ppprev:active {background:url("init.png") no-repeat -32px -36px transparent;}
+
+.pptestcard {background:url("noise.gif") center center repeat; width:100%; height:100%; color:#fff; font-size:18px; overflow:hidden;}
+.pptestcard p {background-color:#3b393e; width:60%; margin:auto; line-height:25px; position:relative; top:25%; padding:10px; border:5px solid #000; text-align:center; display:none;}
+
+.ppbuffering {position:absolute; left:50%; bottom:50%; margin-left:-45px; margin-bottom:-38px; display:block; z-index:9010; padding:0px; background:url("buffering.gif") no-repeat center center #000; height:84px; width:84px; -moz-border-radius:15px; -webkit-border-radius:15px; display:none;}
+
+.pphiquality, .pploquality,
+.pphiquality.inactive, .pploquality.inactive { display:none!important;}
+
+
+/*Allgemein fuer Videos in der Vollansicht**/
+.ppstart {position:absolute; left:50%; bottom:53%; margin-left:-25px; margin-bottom:-25px; cursor:pointer; height:53px; width:52px; display:block; z-index:8000; padding:0px; background:url("start_m.png") no-repeat left -1px transparent;}
+.ppstart:hover {background:url("start_m.png") no-repeat left -55px transparent;}
+.ppstart:active{background:url("start_m.png") no-repeat left -55px transparent;}
+
+
+/**fuer Videos in der Marginalspalte**/
+
+#aside .ppstart {position:absolute; left:74%; bottom:50%; margin-left:-94px; margin-bottom:-30px; cursor:pointer; height:53px; width:51px; display:block; z-index:8000; padding:0px; background:url("start_m.png") no-repeat left -1px transparent;}
+#aside .ppstart:hover {background:url("start_m.png") no-repeat left -55px transparent;}
+#aside .ppstart:active{background:url("start_m.png") no-repeat left -55px transparent;}
+
+/**fuer Videos im Topteaser Modul**/
+.topTeaser .ppstart {position:absolute; left:74%; bottom:50%; margin-left:-89px; margin-bottom:-30px; cursor:pointer; height:53px; width:51px; display:block; z-index:8000; padding:0px; background:url("start_m.png") no-repeat left -1px transparent;}
+.topTeaser .ppstart:hover {background:url("start_m.png") no-repeat left -55px transparent;}
+.topTeaser .ppstart:active{background:url("start_m.png") no-repeat left -55px transparent;}
+
+
+/**fuer Videos im Teaser Modul der mediathek**/
+.businessCardItem .ppstart {position:absolute; left:66%; bottom:50%; margin-left:-89px; margin-bottom:-30px; cursor:pointer; height:53px; width:51px; display:block; z-index:8000; padding:0px; background:url("start_m.png") no-repeat left -1px transparent;}
+.businessCardItem .ppstart:hover {background:url("start_m.png") no-repeat left -55px transparent;}
+.businessCardItem .ppstart:active{background:url("start_m.png") no-repeat left -55px transparent;}
+
+/**fuer Videos unter der Einzelansicht**/
+.singleView #section .containerMarginal .projekktor .ppstart {position:absolute; left:74%; bottom:50%; margin-left:-89px; margin-bottom:-30px; cursor:pointer; height:53px; width:51px; display:block; z-index:8000; padding:0px; background:url("start_m.png") no-repeat left -1px transparent;}
+.singleView #section .containerMarginal .projekktor .ppstart:hover {background:url("start_m.png") no-repeat left -55px transparent;}
+.singleView #section .containerMarginal .projekktor .ppstart:active{background:url("start_m.png") no-repeat left -55px transparent;}
+
+.ppstart.no-js {text-indent:-9999px;}
+
+/** Social Buttons **/
+	.ppbasicshare.fullscreen {display:none !important;}
+	.ppbasicshare {display:block; position:absolute; top:10px; width:32px; left:3%;}
+	.ppbasicshare a {display:inline-block; float:left; height:32px; margin:5px 0; width:32px; position:relative; background:#000; opacity:0.55; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=55)"; filter:alpha(opacity=55);}
+	.ppbasicshare.active a {opacity:1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter:alpha(opacity=100);}
+	.ppbasicshare a span {text-indent:-9999px; display:block;}
+	.ppbasicshare a.bstwitter {background:url("twitter.png") no-repeat left top transparent;}
+	.ppbasicshare a.bsfacebook {background:url("facebook.png") no-repeat left top transparent;}
+	.ppbasicshare a:hover,
+	.ppbasicshare a:active,
+	.ppbasicshare a:focus {background-position:left bottom; opacity:1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter:alpha(opacity=100);}
+
+/** Accessibility Player Control **/
+	.ppapc {position:absolute; zoom:1; bottom:40px; left:15px; opacity:0.55;}
+	.ppapc a,
+	.ppapc button {position:absolute; background-color:#000; left:-9999px; top:-9999px; color:#fff !important; font-size:13px; display:block; padding:5px 8px 5px 5px;  white-space:nowrap;}
+	.ppapc a:focus,
+	.ppapc a:active,
+	.ppapc button:focus,
+	.ppapc button:active {text-decoration:none; left:0; top:0; zoom:1; z-index:1000;}
+	
+	
+	/* temp for styling */
+	.ppacc.inactive {left:-9999px; right:auto;}
+	
+	
+	.ppacc.active, .ppacc.focus {left:auto; right:0;}
+	
+	.ppacc.fullscreen {display:none !important;}
+	.ppacc {display:block; position:absolute; top:0px; width:32px; right:0;}
+	.ppacc a,
+	.ppacc button {opacity:1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=55)"; filter:alpha(opacity=55);display:block !important; float:left; height:32px; margin-top:4px; width:32px; position:relative; background:#000;cursor:pointer;  position:relative; right:10px;}
+	.ppacc a span,
+	.ppacc button span {text-indent:-9999px; display:block;	}
+	.ppacc a.apcsignLanguage,
+	.ppacc button.apcsignLanguage {background:url("sign_language.png") no-repeat left top transparent;}
+	.ppacc a.apcaudioDescription,
+	.ppacc button.apcaudioDescription {background:url("audio_description.png") no-repeat left top transparent;}
+	.ppacc a.apcmediaAlternative,
+	.ppacc button.apcmediaAlternative {background:url("fulltext.png") no-repeat left top transparent;}
+	/*
+	.ppacc a.apcsubtitles,
+	.ppacc button.apcsubtitles {background:url("subtitles-2-controlbar.png") no-repeat left top transparent;}
+	*/
+	.ppacc a.apcsubtitles,
+	.ppacc button.apcsubtitles {display:none!important;}
+	
+	
+	.ppacc a.focus,
+	.ppacc a.activate,
+	.ppacc a.hover,
+	.ppacc button.focus,
+	.ppacc button.activate,
+	.ppacc button.hover {background-position:left bottom; opacity:1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter:alpha(opacity=100);}
+
+	.ppacc.active a,
+	.ppacc.active button {opacity:1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter:alpha(opacity=100);}
+	
+	.ppacc .inactive {display:none!important;}
+	
+/** Subtitles **/
+	.ppsrt {bottom:39px; left:0; overflow:hidden; position:absolute; width:100%; z-index:900; text-transform:none; font-weight:normal;}
+	.ppsrt p {background:url(bgDark-80.png) transparent; color:#FFFFFF; display:inline-block; padding:3px 20px; font-size:1.3em;}
+
+	
+	
+
+
+/* new styles for social stuff */
+.sptogglePopup { display:none; }
+
+.ppcontrols .triggerShare button {
+ position:absolute;
+ bottom:10px;
+ display:block;
+ right:62px;
+ width:32px;
+ height:29px;
+ background:url(share.png) no-repeat;
+ cursor:pointer;
+ z-index:200;
+}
+
+.inactive .spsocialPopupBG, .inactive .spsocialPopup {display: none;}
+
+
+.spsocialPopupBG {
+ position:absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ background:url(bgDark-80.png) transparent;
+ z-index:8001;
+}
+
+.spsocialPopup {
+ position:absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ z-index:8002;
+ color:#fff;
+ text-transform:none;
+}
+
+.spsocialPopup .spclose {
+ position:absolute;
+ top:10px;
+ right:10px;
+ display:block;
+ width:17px;
+ height:16px;
+ background:url(popup_close.png) no-repeat;
+ cursor:pointer;
+}
+
+.spsocialPopup p {
+ margin:0!important;
+ padding:0!important;
+}
+
+.spsocialPopup p.title {
+ margin:10px 0 !important;
+ font-size:1.2em;
+}
+
+#aside .spsocialPopup p.title {}
+
+.spsocialPopup .copyBox {
+ margin-bottom:10px;
+}
+
+#aside .spsocialPopup .copyBox p, .topTeaser .spsocialPopup .copyBox p {
+ font-size:0.8em;
+ line-height:1em;
+}
+
+.spsocialPopup .copyBox input {
+ width:40%;
+ min-width:200px;
+ padding:2px 4px;
+ border-radius:4px;
+ font-family:Courier, "Courier New", monospace;
+}
+
+.spsocialPopup .socialLinks {
+ margin:18px 0;
+}
+
+#aside .spsocialPopup .socialLinks, .topTeaser .spsocialPopup .socialLinks, .infoBoxContent .spsocialPopup .socialLinks {
+  margin:6px 0;
+}
+
+.spsocialPopup .socialLinks a {
+ display:inline-block;
+ width:30px;
+ height:30px;
+ margin-right:5px;
+ background-color:#fff;
+}
+
+.spsocialPopup .socialLinks a:hover, .spsocialPopup .socialLinks a:active, .spsocialPopup .socialLinks a:focus {
+ box-shadow:0 0 4px rgba(255,255,255, 0.8);
+}
+
+.spsocialPopup .socialLinks a.twitter { background:url(share_twitter.png) no-repeat #fff; }
+.spsocialPopup .socialLinks a.studivz { background:url(share_svz.png) no-repeat #fff; }
+.spsocialPopup .socialLinks a.facebook { background:url(share_fb.png) no-repeat #fff; }
+.spsocialPopup .socialLinks a.xing { background:url(share_xing.png) no-repeat #fff; }
+.spsocialPopup .socialLinks a.send2friend { background:url(share_send2friend.png) no-repeat #fff; }
+.spsocialPopup .socialLinks a.googleplus { background:url(share_gplus.png) no-repeat #fff; }
+
+
+.triggerSubs button {
+ position:absolute;
+ bottom:10px;
+ display:block;
+ right:0px;
+ width:32px;
+ height:29px;
+ background:url("subtitles-2-controlbar.png") no-repeat left top transparent;
+ cursor:pointer;
+ z-index:200;
+}
+
+.embed-iframe .ppdisplay {
+ width:auto!important;
+ height:100%!important;
+}
+
+.embed-iframe .ppdisplay img { width:100%; height:100%; }
+
+.noSub .triggerSubs {display: none !important;}
+
+.pploquality {display: none;}

@@ -1,0 +1,6006 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrreprt
+\begin_preamble
+% Anpassung des Seitenlayouts --------------------------------------------------
+
+% Anpassung an Landessprache --------------------------------------------------
+\usepackage[ngerman]{babel}
+
+% Schrift 
+% ----------------------------------------------------------------------
+\usepackage{lmodern} % bessere Fonts
+\usepackage{relsize} % Schriftgröße relativ festlegen
+
+% Grafiken 
+% ---------------------------------------------------------------------
+% Einbinden von JPG-Grafiken ermöglichen
+\usepackage{graphicx}
+% hier liegen die Bilder des Dokuments
+\graphicspath{{Bilder/}}
+
+% URL verlinken, lange URLs umbrechen etc. 
+% --------------------------------------------------------------------
+\usepackage[hyphens]{url}
+%\usepackage{hyperref}
+%\usepackage{url,hyperref}
+
+%URL im Literaturverzeichnis
+%\usepackage{url}
+%\addcontentsline{toc}{section}{References}
+
+% Formatierung von Listen ändern 
+% -------------------------------------------------------------------
+\usepackage{paralist}
+
+%Abkürzungsverzeichnis
+% --------------------------------------------------------------------
+\setlength{\nomlabelwidth}{.20\hsize}
+\renewcommand{\nomlabel}[1]{#1 \dotfill}
+\setlength{\nomitemsep}{-\parsep}
+\renewcommand{\nomname}{Abkürzungsverzeichnis}
+\def\nompreamble{\addcontentsline{toc}{section}{\nomname}\markboth{\nomname}{\nomname}}
+\end_preamble
+\options liststotoc
+\use_default_options true
+\master Abschlussarbeit - Johannes Koelbl.lyx
+\maintain_unincluded_children false
+\language ngerman
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style chicago
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Gamification und verhaltenstheoretische Grundlagen 
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Gamification und verhaltenstheoretische Grundlagen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dieses Kapitel vermittelt das für den weiteren Verlauf der Arbeit vorausgesetzte
+ Wissen bezüglich Gamification und verhaltenstheoretische Grundlagen.
+ Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Gamification"
+
+\end_inset
+
+ zeigt auf, wodurch der Begriff Gamification geprägt wurde und was ihn heute
+ definiert.
+ Zudem gilt es vor der Marktanalyse zu differenzieren, was keine Gamification
+ ist.
+ Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Definition-und-psychologische-Grundlagen"
+
+\end_inset
+
+ erklärt die hervorgerufene Motivation, die durch Gamification verursacht
+ wird und Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Spielformen,-Spielertypen-und"
+
+\end_inset
+
+ führt alle weiteren wichtigen Begriffe ein für das Verständnis der korrekten
+ Gamifizierung von spielfremden Domänen.
+ Der abschließende Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Chronologische-Vorgehensmodelle-"
+
+\end_inset
+
+ umfasst zwei aktuelle chronologische Vorgehensmodelle zur Gamifizierung
+ von Anwendungen.
+ Eines der beiden Vorgehensmodelle wird für die zwei Ziele, der Konzeption
+ und anschließenden Ausarbeitung des Prototyps, herangezogen.
+\end_layout
+
+\begin_layout Section
+Begriffserklärung Gamification
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Gamification"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Eine breite Popularität gewann Gamification erstmals mit einem Vortrag von
+ Jane McGonigal im Jahr 2010.
+ In ihrer Rede sprach sie sich für spielerische Ansätze zur Problembewältigung
+ im realen Leben aus 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "McGonigal.2010"
+
+\end_inset
+
+.
+ Obwohl der Begriff selbst nicht in ihrer Rede Erwähnung fand, so lässt
+ sich dieser Moment aus medialer Sicht als Startzeitpunkt von Gamification
+ betrachten.
+\end_layout
+
+\begin_layout Standard
+Deterding et al.
+ prägten den Begriff Gamification als 
+\end_layout
+
+\begin_layout Quote
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ the use of game design elements in non-game contexts
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~11]{Deterding.2011}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Das heißt Spielmechanismen (oder auch Spielelemente genannt) werden in einem
+ Kontext bzw.
+ einer Domäne eingesetzt, in denen sie für gewöhnlich nicht Verwendung finden.
+ Was dieser bisher prägenden Definition fehlt ist der Sinn und Zweck von
+ Gamification.
+ Huotari und Hamari bestimmten Gamification als 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ a process of enhancing a service with affordances for gameful experiences
+ in order to support user's overall value creation
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~20]{Huotari.2012}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Anders als die vorherige Definition von Deterding et al.
+ liegt der Schwerpunkt ihrer Definition darin, mit ihrer Begriffserklärung
+ das Ziel von Gamification zu unterstreichen, nämlich die Anwender in ihrer
+ gesamtheitlichen Wertschöpfung zu unterstützen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~20]{Huotari.2012}
+\end_layout
+
+\end_inset
+
+.
+ Huotari und Hamari sehen mit ihrer Aussage die gamifizierte Tätigkeit als
+ eine 
+\begin_inset Quotes eld
+\end_inset
+
+wertvolle
+\begin_inset Quotes erd
+\end_inset
+
+ Tätigkeit an.
+ Momentan ist die Aussage allgemein verbreitet, das Ziel von Gamification
+ sei eine gezielte Verhaltensbeeinflussung.
+ Diese Interpretation wird in wissenschaftlichen Kreisen in Kombination
+ mit der Definition von Deterding et al.
+ verwendet.
+\end_layout
+
+\begin_layout Subsection
+Abgrenzung zu anderen Systemen
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Abgrenzung-zu-anderen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die Abgrenzung gamifizierter Anwendungen oder Prozesse zu anderen Systemen
+ ist unter Umständen nicht immer eindeutig.
+ Um in der Marktanalyse korrekt unterscheiden zu können welche Situation
+ vorliegt werden hier nachfolgend alle relevanten Systeme bzw.
+ Situationen erörtert:
+\end_layout
+
+\begin_layout Description
+Games: Spiele dienen primär der Unterhaltung, ausgenommen davon ist jedoch
+ die Sparte Serious Games (Spiele mit einem lehrenden Charakter).
+ Nutzer empfinden die Tätigkeit des Spielens als Selbstzweck und nicht als
+ Arbeit.
+\end_layout
+
+\begin_layout Description
+Reward-Programme: Reward-Programme bieten ausschließlich Belohnungen in
+ Form von Rabatten als Leistungs- oder Kaufanreiz.
+ Das bekannteste Reward-Programm innerhalb Deutschlands ist Payback 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Albert.2012"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+Gamification: Wie bereits erläutert, ist die Grundidee von Gamification
+ die Verhaltensbeeinflussung durch Zuhilfenahme motivierender Spielmechanismen.
+ Das Arbeitsumfeld wird dadurch so umfunktioniert, dass die Tätigkeit nicht
+ mehr als Arbeit empfunden wird.
+\end_layout
+
+\begin_layout Description
+Nudging: Die Grundidee von Nudging (engl.
+ für Schups) ist wie bei Gamification ebenfalls die Verhaltensänderung,
+ jedoch mit dem Unterschied des gänzlichen Verzichts auf Spielmechanismen.
+ Für die Verhaltensbeeinflussung werden Änderungen an der Entscheidungsebene
+ vorgenommen, d.
+ h.
+ in Momenten an denen es Entscheidungen zu treffen gilt.
+ Die unhandliche Form eines Hotelschlüssels beispielsweise, bewegt den Hotelgast
+ eher dazu den Schlüssel an der Rezeption abzugeben, anstatt ihn bei sich
+ zu tragen 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Friebe.2015"
+
+\end_inset
+
+.
+ Im Vorgehensmodell Designprozess zur Verhaltensänderung wird Nugding anhand
+ vier Methoden erklärt, ohne das der Begriff selbst erwähnt wird.
+ Diese Methoden umfassen Verhalten als voreingestellte Default-Option, als
+ praktischen Nebeneffekt anderer Tätigkeiten, als sich wiederholende Vorlage
+ und als Automatismus 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~49--55]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Gamification und Nudging können dazu genutzt werden, das Verhalten von Personen
+ zielgerichtet zu beeinflussen.
+ 
+\end_layout
+
+\begin_layout Subsection
+Ausprägungen der Verhaltensbeeinflussung
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Behavioral-Grid"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Verhaltensbeeinflussung besitzt verschiedene Ausprägungen in ihrer Intensität
+ und einem zeitlichen Rahmen.
+ Zur Überprüfung einer gelungenen Anwendung muss deshalb vor dem Gamifizierungsp
+rozess das Zielverhalten bereits klar definiert sein.
+ Denn so lässt sich beispielsweise herausfinden, ob das Zielverhalten im
+ festgelegten Zeitfenster durchgeführt wird oder nicht.
+ Bei Hinzunahme des Behavioral Grid von Fogg aus Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Behavioral-Grid-in"
+
+\end_inset
+
+ lässt sich das angestrebte Verhalten einem von insgesamt 15 verschiedenen
+ Ausprägungen zuordnen 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Fogg.2012"
+
+\end_inset
+
+.
+ 
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Behavioral Grid in Anlehnung an 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Fogg.2012"
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Behavioral-Grid-in"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="center" valignment="top" width="20text%">
+<column alignment="center" valignment="top" width="23text%">
+<column alignment="center" valignment="top" width="23text%">
+<column alignment="center" valignment="top" width="23text%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Einmalig
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zeitraum
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kontinuierlich
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Neues Verhalten erzeugen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Installierung einer Photovoltaikanlage auf dem Dach
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fahrgemeinschaften für ein paar Wochen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Eigenes Gemüse und Kräuter anpflanzen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Steigerung des Verhaltens nach Intensität oder Dauer 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mehrwegflaschen kaufen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nutzung öffentlicher Verkehrsmittel für einen Monat
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vermehrt lokale Produkte kaufen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vertrautes Verhalten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Monitor ausschalten, wenn nicht benötigt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vermehrt mit dem Rad zur Arbeit fahren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lichter bei Verlassen des Wohnung ausschalten
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reduzierung des Verhaltens nach Intensität oder Dauer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Heizung für eine Nacht runterstellen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kürzere Duschzeiten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dauerhaft seltener baden
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verhalten stoppen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verzicht einer Plastiktüte im Supermarkt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Während des Sommers Wäsche lufttrocknen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nie wieder Verzehr von Fleisch
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ Fogg unterteilt Verhalten in drei zeitliche Größen und in fünf Verhaltensweisen.
+ Zeitlich geht er von einem einmaligen Verhalten aus, einem Verhalten über
+ einen definiertes Zeitfenster sowie eine kontinuierliche Beibehaltung des
+ Verhaltens.
+ Diese können entweder neu erzeugt werden, in ihrer Intensität oder Zeitdauer
+ verstärkt bzw.
+ reduziert, oder komplett gestoppt werden.
+ Der fünfte Punkt umfasst vertrautes Verhalten, welches aber bei der zu
+ beeinflussenden Person bisher nicht zielgerichtet ausgelöst wurde.
+ Zusammen ergeben sich aus diesen Punkten insgesamt 15 unterschiedliche
+ Verhaltensweisen.
+ 
+\end_layout
+
+\begin_layout Standard
+Auch ist die Zeitdauer des Zielverhaltens zu berücksichtigen.
+ Damit ist die Zeit ab dem ersten Gedanken bis zum tatsächlichen Abschluss
+ des Zielverhaltens gemeint.
+ Vertraute Situationen erfordern laut Wendel eine kürzere Reaktionszeit
+ als fremde Situationen.
+ Es erfordere beispielsweise mehr Zeit sich Gedanken zu einem Essenplan
+ zu machen als die Tüte Chips aus der Hand zu legen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~21--23]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ In Bezug auf den Gamifizierungsprozess sollte das angestrebte Zielverhalten
+ möglichst eine vertrautes Situation darstellen.
+\end_layout
+
+\begin_layout Section
+Verhaltenstheoretische Grundlagen
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Definition-und-psychologische-Grundlagen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gemessen an dem Gartner Hype Cycle von 2014 befindet sich sowohl die Forschung
+ als auch die Wirtschaft, was Gamification angeht momentan in einer Phase
+ der Ernüchterung (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Die-fünf-Hauptphasen"
+
+\end_inset
+
+, Phase 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ Trough of Disillusionment
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Auch wenn diese Abbildung eine pauschaule Entwicklung des Gesamtmarktes
+ vieler Technologien beschreibt, zeigt sie die bereits vergangene anfängliche
+ Euphorie zu Gamification.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Hype Cycle 2014.PNG
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Gartner Hype Cycle 2014 nach 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "GartnerInc..2014"
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Die-fünf-Hauptphasen"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zu unkonkrete Motivationshintergründe bezüglich der Thematik zu Trendzeiten
+ könnten ein Auslöser der jetzigen Ernüchterung sein.
+ Denn schnell war klar, dass es mehr braucht als nur ein paar Punkte, Abzeichen
+ und Ranglisten um Nutzer zu motivieren 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Scott.2012"
+
+\end_inset
+
+.
+ Motivation ist jedoch ein essentieller Faktor in Bereich Gamification,
+ denn sie ist letztendlich der Beweggrund, welche zu bestimmten Handlungen
+ anregt oder diese beeinflusst.
+\end_layout
+
+\begin_layout Standard
+Aus der allgemeinen Motivationsforschung gehen verschiedene Theorien hervor,
+ die Erklärungsmodelle zu den Beweggründen des menschlichen Verhaltens liefern.
+ Diese befassen sich unter anderem mit situativen Reizen sowie individuellen
+ Bedürfnissen.
+ Die Motivationstheorien zu diesen Themen sind für Gamification entscheidend
+ und deshalb Gegenstand dieses Abschnitts.
+ Ferner ist für die Grundlage dieser Arbeit eine Differenzierung zwischen
+ der extrinsischen, sowie der intrinsischen Motivation von Nöten, die zuvor
+ erfolgt.
+\end_layout
+
+\begin_layout Standard
+Zuletzt beschreibt der 
+\emph on
+Action Funnel
+\emph default
+ aus dem Vorgehensmodell Designprozess zur Verhaltensänderung von Wendel
+ fünf Bedingungen in sequenzieller Reihenfolge, welche für die Enstehung
+ des Verhaltens erfüllt sein müssen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~25--39]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Intrinsische und extrinsische Motivation
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Intrinsische-und-extrinsische"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Extrinsische Motivation entsteht durch äußere Anreize, sind also fremdbestimmt.
+ Sie wird dabei erzeugt durch das zu erwartende Ergebnis, z.
+ B.
+ Geld, bessere Prüfungsnoten während oder nach einem Verhalten 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~71]{Ryan.2000}
+\end_layout
+
+\end_inset
+
+.
+ Dieses Verhalten kann jedoch ebenso wieder stoppen, wenn das zu erwartende
+ Ergebnis eingestellt wird oder nicht mehr zu erwarten ist, ausgenommen
+ es wird durch ein von seiner Bedeutung gleichberechtigtes Ergebnis ersetzt
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~1]{Reiners.2015}
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Intrinsische Motivation hingegen bezieht sich auf die Tätigkeit als auf
+ das erwartende Ergebnis.
+ Sie entsteht durch das bestehende Interesse an der Tätigkeit und dem dadurch
+ generierten Hochgefühl.
+ Diese Freude an der Sache, so behauptet McGonigal, lässt sich durch 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ positiven Stress
+\begin_inset Quotes erd
+\end_inset
+
+ erklären, einer Kombination der Gefühle des Wohlseins und des Stresses
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~47]{McGonigal.2012}
+\end_layout
+
+\end_inset
+
+.
+ Anders als die extrinsische Motivation ist dieser positive Stress zudem
+ durch eigenes Zutun herbeigeführt, also selbstbestimmt.
+\end_layout
+
+\begin_layout Standard
+Bezüglich Gamification sind beide Arten von Bedeutung, sodass sie gleichermaßen
+ genutzt werden sollten 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~2426]{Deterding.2011b}
+\end_layout
+
+\end_inset
+
+.
+ Vorsicht ist allerdings dadurch geboten, dass extrinsische Motivation intrinsis
+che untergraben könne (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citealt[S.~627]{Deci.1999}
+\end_layout
+
+\end_inset
+
+; 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citealt[S.~431]{Deci.2004}
+\end_layout
+
+\end_inset
+
+).
+ In einem Beispiel könnte zuvor überwiegend intrinsische Motivation wird
+ mit gelegentlich extrinsischen Anreizen kombiniert werden, welche aber
+ viel stärker wirken.
+ Die Intrinsische Motivation kann durch sie an Stellenwert verlieren oder
+ ganz ersetzt werden.
+ Konsequenz könnte sein, dass weiterhin stetig extrinsische Motivation erzeugt
+ werden muss, um das Verhalten beizubehalten.
+\end_layout
+
+\begin_layout Subsection
+Behavioristische Theorie
+\end_layout
+
+\begin_layout Standard
+Der Behaviorismus ist eine Bewegung aus der Psychologie und wurde von John
+ Waston geprägt.
+ Er entwickelte sicht aus dem Grundgedanken dass die Psychologie sich auf
+ die Beobachtung des Verhalten von Lebenwesen konzentrieren soll und erklärt
+ wie Mensch und Tier auf externe Reize reagieren 
+\begin_inset CommandInset citation
+LatexCommand Citep
+key "Graham.2015,Hauser.o.J."
+
+\end_inset
+
+.
+ Aus dieser Theorie lässt sich ableiten, dass eine Situation (Reiz) aufgrund
+ von Lernerfahrung in Bezug auf das Ergebnis (Reaktion) die Handlung auslösen
+ kann.
+ Die klassische und die operante Konditionierung beschäftigen sich mit diesen
+ Reiz-Reaktions-Zusammenhängen und werden im folgenden näher erläutert.
+\end_layout
+
+\begin_layout Subsubsection*
+Klassische Konditionierung
+\end_layout
+
+\begin_layout Standard
+Die klassische Konditionierung ist ein Paradigma der behavioristischen Lerntheor
+ie und beschreibt das Erlernen von Reiz-Reaktions-Zusammenhängen (TODO:
+ Quelle in bib mit vpn suchen).
+ Das bekannteste Beispiel für dieses Prinzip ist der Pawlowsche Hundeversuch
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bruhlmeier.2013,Hauser.o.J."
+
+\end_inset
+
+: ein Reiz (z.
+ B.
+ Essensduft) ruft eine natürliche Reaktion hervor (z.
+ B.
+ Hungergefühl).
+ Wird der Reiz mit einem weiteren irrelevanten Reiz kombiniert (z.
+ B.
+ Glockenläuten), lässt sich die Reaktion durch mehrmaliges Wiederholen ebenfalls
+ hervorrufen, wenn der erste Reiz vom zweiten Reiz abgelöst wird.
+\end_layout
+
+\begin_layout Standard
+Dieses Prinzip lässt sich theoretisch auch auf menschliche Gefühle und Verhalten
+sweisen übertragen und ist somit ebenfalls für Gamification von Relevanz.
+ Indem Spielmechanismen, welche Gefühle der Freude auslösen, auf spielfremde
+ Tätigkeiten übertragen werden, könnte die Tätigkeit ebenfalls mit diesen
+ Gefühlen assoziiert werden.
+\end_layout
+
+\begin_layout Subsubsection*
+Operante Konditionierung
+\end_layout
+
+\begin_layout Standard
+Ein weiteres Paradigma der behavioristischen Lernpsychologie stellt die
+ operante Konditionierung dar.
+ Der Unterschied zur klassischen Konditionierung liegt in der Herangehensweise
+ des Reiz-Reaktions-Musters.
+ Während sich die klassische Konditionierung mit dem Anlernen von Reiz-Reaktions
+-Mustern beschäftigt, beschreibt die operante Konditionierung das Verstehen
+ von Zusammenhängen zwischen Ereignissen 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Graham.2015"
+
+\end_inset
+
+.
+ Auf dieses Reizverhalten folgen entweder positive oder negative Reaktionen
+ (z.
+ B.
+ angenehme Raumausleuchtung/ Stromschlag), welche wiederum die Häufigkeit
+ des Zielverhaltens beeinflussen.
+\end_layout
+
+\begin_layout Standard
+Wie in Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Gamification"
+
+\end_inset
+
+ bereits beschrieben, ist Gamification ein Mittel, zur Beeinflussung des
+ menschlichen Verhaltens.
+ Operante Konditionierung kann als extrinsischer Verstärker insofern genutzt
+ werden, dass ein belohnendes Ergebnis das gewünschte Zielverhalten verstärkt
+ bzw.
+ eine Strafe dasselbige reduziert oder auch ganz unterbindet.
+ Bleibt das Ergebnis aus, kann aber auch das Zielverhalten stoppen (s.
+ Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Intrinsische-und-extrinsische"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Bedürfnistheorie
+\end_layout
+
+\begin_layout Standard
+Motivation kann auch durch Bedürfnisse entstehen, welche Ausgangsbasis für
+ Verhalten sind.
+ Sie können dabei je nach Persönlichkeitsentwicklung von unterschiedlicher
+ Bedeutung sein.
+ Eine der bekanntesten Bedürfnistheorien die den Grad der Persönlichkeitsentwick
+lung mit einbezieht ist die Maslow'sche Bedürfnishierarchie 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citet[S.~1--9]{Maslow.1971}
+\end_layout
+
+\end_inset
+
+.
+ Maslow stellt in seinem Modell acht Kategorien von Bedürfnissen hierachisch
+ dar, von denen fünf in Bezug auf Gamification von größerer Bedeutung sind:
+ soziale Bedürfnisse, Bedürfnis nach Wertschätzung und Anerkennung, kognitive
+ und ästhetische Bedürfnisse sowie das Bedürfnis nach Selbstverwirklichung
+ (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Maslow'sche-Bedürfnispyramide"
+
+\end_inset
+
+, grau markiert).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/1024px-Erweiterte_Bedürfnishierarchie_(1970)_nach_Maslow.png
+	width 70text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Erweiterte Bedürfnishierarchie nach 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citet[S.~1--9]{Maslow.1971}
+\end_layout
+
+\end_inset
+
+ in Anlehnung an 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Hutt.2015"
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Maslow'sche-Bedürfnispyramide"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Anders als die Pyramidenform es suggeriert, müssen nicht erst die unterliegenden
+ Bedürfnisse voll befriedigt sein, sodass ein darüber liegendes wirken kann.
+ Vielmehr existiert zwischen ihnen ein dynamischer Übergang, womit auch
+ mehrere Bedürfnisse zum selben Zeitpunkt aktiv sein können 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~20]{Boden.2014}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Selbstbestimmungstheorie
+\end_layout
+
+\begin_layout Standard
+Im Gegensatz zu Maslow gehen Deci und Ryan in ihrer Selbstbestimmungstheorie
+ (SDT
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "SDT"
+description "Self-Determination Theory"
+
+\end_inset
+
+, engl.
+ für Self-Determination Theory) von nur drei Grundbedürfnissen aus, welche
+ für das Wohlbefinden essentiell sind: Kompetenz, Autonomie und Verbundenheit
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~68]{Ryan.2000}
+\end_layout
+
+\end_inset
+
+.
+ Die SDT ist somit ebenfalls eine bedürfnisorientierte Theorie.
+ Die der SDT zugrundeliegende Motivation wird von Deci und Ryan als eine
+ mehrdimensionale Größe bezeichnet, welche sich durch den Grad ihrer Autonomie
+ definiert sowie regulierender Stile, entlang eines Kontinuums der Selbstbestimm
+ung (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Kontinuum-der-Selbstbestimmung"
+
+\end_inset
+
+).
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Selbstbestimmungskontinuum.PNG
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Kontinuum der Selbstbestimmung nach 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citet[S.~32]{Reiners.2015}
+\end_layout
+
+\end_inset
+
+ in Anlehnung an 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ryan.2000"
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Kontinuum-der-Selbstbestimmung"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Der höchste Grad der Selbstbestimmung ist geprägt von intrinsischer Motivation,
+ während totale Fremdbestimmung praktisch keine Motivation erzeugt.
+ Dazwischen existiert das Spektrum extrinsischer Motivation, unterteilt
+ in vier Regulierungsklassen, welche sich erstrecken von externer Regulierung
+ (z.
+ B.
+ durch Belohnungen oder Bestrafungen) bis identifizierender und integrierender
+ Regulierung 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~72]{Ryan.2000}
+\end_layout
+
+\end_inset
+
+.
+ Werden die drei Grundbedürfnisse Kompetenz, Autonomie und Verbundenheit
+ befriedigt, so resultiert dies nach Wang in steigender intrinsischer Motivation
+ (
+\begin_inset CommandInset citation
+LatexCommand citealp
+after "S. 33 zitiert nach"
+key "Reiners.2015"
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "Wang.2008"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Fünf Stufen zur Entstehung von Verhalten
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Fünf-Stufen-zur"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wendel beschreibt in seinem Designprozess die Methode 
+\emph on
+Action Funnel
+\emph default
+ in denen Nutzer für die angestrebte Verhaltensänderung sequenziell verschiedene
+ Bedingungen erfüllen müssen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~39--46]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Das Prinzip enthält insgesamt fünf Stufen und beginnt mit einem Auslösereiz.
+ Entfällt dieser oder ist nicht korrekt gewählt, wird der Nutzer nicht weiter
+ reagieren.
+ Diese Reaktion ist bereits die zweite Stufe des 
+\emph on
+Action Funnels
+\emph default
+.
+ Darunter lässt sich beispielsweise die automatische, visuelle Fixierung
+ einer blinkenden Schaltfläche verstehen.
+ Es folgt eine Kosten-Nutzen-Abwägung.
+ Der Nutzer wiegt das womögliche Ergebnis bei Durchführung des Verhaltens
+ mit dem zu erwartenden Aufwand ab.
+ Entscheidet sich der Nutzer dafür, prüft er nachfolgend, ob die eigene
+ mentale und physische Verfassung die Durchführung des Verhaltens erlaubt.
+ Schlaf- oder Arbeitszeiten beispielsweise, bieten kaum Möglichkeiten außerplanm
+äßige Unternehmungen durchzuführen.
+ Zuletzt muss der Nutzer das Gefühl haben, das Verhalten sei dringlich.
+ Ist dies nicht der Fall, lässt es sich aufschieben und eventuell vergessen.
+ Jede dieser Stufen kann zu einer negativen Entscheidung gegen das angestrebte
+ Verhalten führen.
+ Sind allerdings alle fünf Bedingungen erfüllt, wird auch das Verhalten
+ ausgeführt.
+ Wendel empfiehlt den 
+\emph on
+Action Funnel
+\emph default
+ zur Überprüfung nach Umstimmigkeiten beim angestrebten Verhaltens zu verwenden
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~172--173]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Formen des Spiels, Spielertypenmodell und Gamification-Patterns
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Spielformen,-Spielertypen-und"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Trotz der sehr gut ergründeten Verhaltensforschung ist es schwer, geeignete
+ Ansätze zwischen der Gamifizierung einer Anwendung bzw.
+ eines Prozesses und dem Motivationspotential der dafür vorgesehenen Zielgruppe
+ zu finden.
+ Das Wissen zu Formen des Spiels, den verschiedenen Spielertypen und dem
+ Prinzip der Gamification-Patterns helfen bei als Ausgangsbasis und sind
+ zugleich späterer Bestandteil der Marktanalyse in Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Marktanalyse"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Formen des Spiels
+\end_layout
+
+\begin_layout Standard
+Spiele unterscheiden sich in ihrer Form wie Spielende miteinander interagieren.
+ Beispielsweise müssen Spielende in einem kooperativen Spiel gemeinsam gegen
+ das System bestehen, während in konfliktbasierenden Szenarien Spielende
+ für den Sieg negativ auf Mitspieler einwirken müssen.
+ Bezogen auf diese Formen der Konkurrenzfähigkeit kategorisieren Crumlish
+ und Malone ein Spektrum innerhalb einer spielfremden Domäne und zeigen
+ somit auf, dass Formen des Spiels auch in spielfremdem Kontext möglich
+ sind 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~156]{Crumlish.2015}
+\end_layout
+
+\end_inset
+
+.
+ Fittnesssport ist ein solcher Kontext.
+ Das Training mit Freunden weist beispielsweise eine koordinierende Spielform
+ auf, in der die Trainierenden auf ein gemeinsames, höheres Ziel hinarbeiten,
+ nämlich der körperlichen Gesundheit.
+ Fußball und andere Ballsportarten hingegen besitzen starkes Konfliktpotenzial.
+ Die Parteien müssen negativ auf die Gegenpartei einwirken um zu gewinnen.
+ 
+\end_layout
+
+\begin_layout Standard
+Crumlish & Malone geben aber zu verstehen, dass mit Konkurrenzfähigkeit
+ ein weiter Begriff gewählt wurde und ihr Ansatz lediglich als Einstieg
+ geeignet ist 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~155--156]{Crumlish.2015}
+\end_layout
+
+\end_inset
+
+.
+ Aus dieser Analyse lassen sich die Spielformen Konflikt, Wettbewerb, Selbsterfa
+hrung, Koordination und Kooperation identifizieren (s.
+ Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Formen-des-Spiels"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Spielformen können bei der Gamifizierung einer Anwendung bzw.
+ eines Prozesses dahingehend genutzt werden geeignete Spielmechanismen zu
+ wählen.
+ Ist das Ziel z.
+ B.
+ ein Forum zu gamifizieren, so sind Spielmechanismen aus kooperieren Spielen
+ besser geeignet als Spiele basierend auf Wettbewerb und Konflikt.
+ 
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Formen des Spiels nach 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Voit.2014"
+
+\end_inset
+
+ in Anlehnung an 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citet[S.~156]{Crumlish.2015}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Formen-des-Spiels"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features rotate="0" tabularvalignment="middle" tabularwidth="110text%">
+<column alignment="left" valignment="top" width="18text%">
+<column alignment="left" valignment="top" width="43text%">
+<column alignment="left" valignment="top" width="40text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spielform
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ziel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Beispiele aus den Bereichen Spiel und Sport
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Konflikt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spielende treten gegeneinander an.
+ Es geht darum, negativ auf Mitspielende einzuwirken.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Schach, Risiko; Fußball, Volleyball, Tennis
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wettkampf
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spielende treten gegeneinander an.
+ Es gilt besser zu sein als alle Mitspielende.
+ Allerdings ist keine negative Einflussnahme möglich.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spiele mit Highscore, Autowettrennen; Leichtathletik oder andere Wettkampfsporta
+rten
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Selbsterfahrung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spielende spielen ohne jeglichen Kontakt zu anderen Spielenden aus intrinsischer
+ Motivation heraus ein Spiel.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Action-Adventures oder andere Single-Player Spiele; Einzeltraining im Sport,
+ Laufen, Bouldern;
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Koordination
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spielende haben ein gemeinsamen Ziel und arbeiten dafür zusammen.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spiele, welche temporäre Zusammenarbeit anbieten oder erfordern (Bosskämpfe
+ in MMORPGs
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "MMORPG"
+description "Massively Multiplayer Online Role-Playing Game"
+
+\end_inset
+
+); Fitnesstraining mit Freunden, Runtastic mit Cheering
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kooperation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spielende sind motiviert, sich gegenseitig zu unterstützen.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pandemie, Scotland Yard; Meisterschaften mit dem Sportteam oder dem Clan
+ (Games)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+So wie sich Spiele in Spielformen einteilen lassen, so können analog dazu
+ die Spielenden verschiedenen Typen zugeordnet werden.
+ Ein Modell der Spielertypen wird nachfolgend erläutert.
+\end_layout
+
+\begin_layout Subsection
+Spielertypenmodell 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Spielertypenmodell"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gamification befasst sich mit der Motivierung einer Anwenderzielgruppe.
+ Heterogene Zielgruppen sind jedoch schwer zufrieden zu stellen, da Nutzer
+ unterschiedliche Spielmechanismen bevorzugen.
+ Ein Ansatz zur Lösung dieses Problems bietet ein Modell von Spielertypen.
+ Es bezeichnet die Methodik, vor der Einführung von Gamification zu analysieren,
+ welche Spielertypen angesprochen werden sollen.
+ Dadurch ist eine zielgerichtete Entwicklung gewährleistet.
+\end_layout
+
+\begin_layout Standard
+Das grundlegenste Spielertypenmodell wurde von 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Bartle.1996"
+
+\end_inset
+
+ entwickelt.
+ Er differenziert vier Persönlichkeitstypen von Spielern: Socializer, Achiever,
+ Explorer und Killer 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bartle.1996"
+
+\end_inset
+
+.
+ Obwohl diese vier Typen nur sehr rudimentär die komplexen Persönlichkeiten
+ von Spielenden zuordnet, sind sie für diese Arbeit ausreichend um eine
+ Verbindung zwischen den tätigkeitsorientieren Vorlieben von Zielgruppne
+ und der gewählten Spielform herzustellen.
+ Das gleichzeitige Interesse an Tätigkeiten verschiedener Spielertypen schließt
+ sich zudem nicht aus.
+ Spielende mit der Motivation zu erkunden, möchten dies unter Umstäden mit
+ Freunden.
+ Daraus ergeben sich Explorer mit dem Bedürfnis sozialer Interaktion.
+ 
+\end_layout
+
+\begin_layout Standard
+Socializer pflegen vermehrt soziale Beziehungen, sind also kommunikativen
+ Formen des Spiels aufgeschlossener (z.
+ B.
+ Kooperation).
+ Spieler des Typs Achiever hingegen agieren primär mit der Spielumgebung.
+ Ihr Interesse lässt sich nicht ganz auf eine bestimmte Spielform abbilden,
+ kann aber in allen Spielformen ausreichend stark angesprochen werden.
+ Spieler mit der Persönlichkeit eines Explorers beschäftigen sich ebenso
+ stark mit der Spielumgebung, aber mehr auf einer interagierender Weise.
+ Die Spielform Selbsterfahrung kann deshalb eine höhere Bedeutung für Explorer
+ darstellen.
+ Killer präferieren den Wettbewerb mit Mitspielern und sind deshalb Spielformen
+ mit Konfliktpotential zugeneigt.
+ Das Interesse der jeweiligen Spielertypen an einem Spiel ist abhängig von
+ der gewählten Spielform.
+\end_layout
+
+\begin_layout Subsection
+Gamification-Patterns
+\end_layout
+
+\begin_layout Standard
+Gamification verwendet Spielmechanismen aus dem Bereich der Spiele und setzt
+ sie mit dem Ziel der Verhaltensbeeinflussung in spielfremde Kontexte ein.
+ Viele gamifizierte Anwendungen nutzen ähnliche Vorlagen bezüglich Spielmechanis
+men.
+ Sie gleichen sich in ihrer Funktionsweise oder dem Grund ihrer Existenz
+ (z.
+ B.
+ zur Motivierung oder Problemlösung).
+ Die logisch strukturierten Zusammenfassungen dieser Mechanismen werden
+ Gamification-Design-Patterns oder auch - wie in dieser Arbeit - nur Gamificatio
+n-Patters genannt.
+ Ašeriškis und Damaševičius bezeichen Gamification-Patterns als 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ semi-formal description of game rules for gamification
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~84]{Aseriskis.2014}
+\end_layout
+
+\end_inset
+
+.
+ Sie sehen in ihnen also der Form nach Beschreibungen von Spielregeln für
+ Gamification.
+\end_layout
+
+\begin_layout Standard
+Gamification-Patterns folgen Regeln und sind somit Musterbeispiele mit denen
+ konkrete Spielmechanismen auf der Implementierungsebene möglich sind.
+ Das Prinzip der Gamification-Patterns hat ihren Ursprung in Christopher
+ Alexanders Werk 
+\begin_inset Quotes eld
+\end_inset
+
+A Pattern Language
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Alexander.1977"
+
+\end_inset
+
+.
+ In seinem Werk fasst er ähnliche architektonische Strukturen zusammen und
+ beschreibt sie als kombinierbare Muster.
+ Alexanders Vorgehensweise zur Mustersprache fand nachträglich Verwendung
+ in anderen Bereichen außerhalb der Architektur.
+ 
+\end_layout
+
+\begin_layout Standard
+In Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Identifikation-geeigneter-Vergleichskriterien"
+
+\end_inset
+
+ werden in der Marktstudie existierende Spielmechanismen aufgelistet, um
+ anhand der Ergebnisse aus den weiteren Vergleichskriterien geeignete Patterns
+ für den Prototyp wählen zu können.
+ Ašeriškis und Damaševičius struktuieren Gamification-Pattern nach insgesamt
+ 11 Merkmalen aus der 
+\emph on
+Unified Modeling Language
+\emph default
+ (UML
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "UML"
+description "Unified Modeling Language"
+
+\end_inset
+
+), einer Modellierungsprache aus der Softwarearchitektur 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~85]{Aseriskis.2014}
+\end_layout
+
+\end_inset
+
+.
+ Im Rahmen dieser Arbeit werden Patterns ausschließlich mit bereits allgemein
+ anerkanntem Namen oder einem selbst gewählten Namen aufgelistet und mit
+ einer Beschreibung zum Anwendungszweck versehen.
+ Erstmalig erwähnte Patterns werden zudem um ihren motivationalen Hintergrund
+ ergänzt.
+\end_layout
+
+\begin_layout Section
+Chronologisches Vorgehensmodell zur Gamifizierung
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Chronologische-Vorgehensmodelle-"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es existieren Verfahren welche die bisher erörterten Elemente zu einem Vorgehens
+modell zusammenführen um so ein Verhalten beginnen, abstellen, steigern
+ oder abschwächen zu lassen.
+ Eines dieser Modelle wird in dieser Arbeit dazu genutzt um 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Ziel-1:-Konzeption"
+
+\end_inset
+
+ - Konzeption einer gamifizierten Anwendung - umzusetzen.
+ Die Grundstruktur eines solchen Vorgehensmodells lässt sich anhand existierende
+r Modelle in vier grundlegende Schritte gliedern 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Burke.2014b,Wendel.2013"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+Gewünschtes Zielverhalten bestimmen bzw.
+ motivationale Defizite identifizieren
+\end_layout
+
+\begin_layout Enumerate
+Konzeption mithilfe verhaltensbeeinflussender Mechanismen
+\end_layout
+
+\begin_layout Enumerate
+Implementierung der Mechanismen in bestehendes Softwareprodukt
+\end_layout
+
+\begin_layout Enumerate
+Testen und ggf.
+ Refactoring
+\end_layout
+
+\begin_layout Standard
+Zuerst ist es erforderlich, sich mit der Zielgruppe des Produkts auseinander
+ zu setzen.
+ D.
+ h.
+ herauszufinden, welche motivationalen Defizite in Verbindung mit dem bestehende
+n Produkt bestehen.
+ Soll dagegen ein neues Produkt gamifiziert werden, ist zuerst das gewünschte
+ Zielverhalten zu bestimmen.
+ Der zweite Schritt ist die Konzeptionsphase.
+ Hierbei werden verhaltensbeeinflussende Elemente (z.
+ B.
+ Spielmechanismen in Form von Gamification-Patterns oder Nudges) gezielt
+ für den gewünschten Effekt ausgewählt oder kombiniert.
+ Nachfolgend werden die Mechanismen in das bestehende Produkt implementiert,
+ bzw.
+ das neue Produkt wird der Konzeption entsprechend umgesetzt.
+ Als letzter Punkt ist noch eine Testphase und ggf.
+ eine Überarbeitung des Produktion zu erwähnen.
+ Denn es ist nicht auszuschließen, dass die Zielgruppe das gamifizierte
+ Produkt im ersten Anlauf annimmt.
+\end_layout
+
+\begin_layout Standard
+Zwei Vorgehensmodelle, welche diese vorgestellten Schritte verfolgen, wurden
+ für die Konzeptionsphase vorausgewählt: der Player Centric Design-Prozess
+ von Brian Burke und der Designprozess zur Verhaltensveränderung von Stephen
+ Wendel 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Burke.2014b,Wendel.2013"
+
+\end_inset
+
+.
+ Burke spricht in seinem Modell klar von Gamifizierung, während Wendel den
+ Begriff nur am Rande als Behilfsmittel für die Verhaltensänderung erwähnt
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~162]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Dieser Unterschied ist jedoch nicht elementar für die Ausgangsfrage aus
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Frage:-Wie-können"
+
+\end_inset
+
+, denn beide Modelle orientieren sich in ihren Designprozessen am Nutzer
+ und wie dessen Verhalten gezielt beeinflusst werden kann.
+ Die dafür vorgesehenen Hilfsmittel sind von sekundärer Bedeutung.
+ Ein weiterer Unterschied liegt in der Erfassung der zu ändernden Produktbereich
+e.
+ Burke empfiehlt Ziele, Wünsche oder Erwartungen derjenigen zu sammeln,
+ welche das Produkt nutzen und diese mit den Geschäftszielen nach Überschneidung
+en zu untersuchen.
+ Falls Ziele in beiden Parteien existieren, sind diese Bereiche nach Burke
+ diejenigen die gamifiziert werden sollen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~105--107]{Burke.2014b}
+\end_layout
+
+\end_inset
+
+.
+ Wendel hingegen regt an, sich auf ein bestimmtes Zielverhalten festzulegen,
+ welches den Ausgangspunkt des weiteren Vorgehens bildet 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~75]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Diese Fokussierung lässt allerdings die Befürchtung eines Tunnelblicks
+ auf eine bestimmte Aktion zu.
+ Vor allem neue Produkte könnte dies in ihrer Funktionsweise einengen.
+\end_layout
+
+\begin_layout Standard
+Hauptunterschied welcher auch ausschlaggebend für die finale Wahl auf das
+ Modell von Wendel war, ist der Detailgrad des beschriebenen Vorgehens.
+ Burke verwendet in seinem Modell ein fiktives Unternehmen.
+ Dieser Ansatz ist geeignet, um den Gamifizierungsprozess nachvollziehbarer
+ für die Leser zu modellieren.
+ Darüber hinaus aber besitzen seine erläuterten Einzelschritte nicht denselben
+ hohen Detailgrad wie Wendels ausführliches Vorgehensmodell.
+ Die entscheidende Wahl des für diese Arbeit nutzenden Modells liegt somit
+ auf Wendels Designprozess zur Verhaltensänderung.
+\end_layout
+
+\begin_layout Chapter
+Marktanalyse
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Marktanalyse"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vor der Entwicklung zu einem Prototyp in Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Entwicklung-eines-Prototypen"
+
+\end_inset
+
+, wird in diesem Kapitel Vergleichskriterien zu den aufgelisteten Smartphone-Anw
+endungen und Arbeiten zu identifiziert.
+ Anhand dieser Kriterien soll ermittelt werden, ob und in welchem Ausmaß
+ ausgewählte Anwendungen und Arbeiten zusätzlich zu ihrem inhaltlichen Angebot
+ versuchen ihre Zielgruppe zu einem bestimmten Verhalten motivieren.
+ Anschließend lassen sich die erhobenen Ergebnisse dieser Marktanalyse für
+ die Weiterentwicklung einer gamifizierten Anwendung auf Basis der existierenden
+ Konzeptstudie 
+\emph on
+SeeSight
+\emph default
+ verwenden.
+\end_layout
+
+\begin_layout Section
+Identifikation geeigneter Vergleichskriterien 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Identifikation-geeigneter-Vergleichskriterien"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die bisherige Auswahl der Anwendungen und Arbeiten beruht auf der Tatsache,
+ dass sie ein ähnlichen Anwendungsziel oder ähnliche Funktionen besitzen.
+ Allerdings befinden sich zum wesentlichen Teil alle verwandten Produkte
+ in der spielfremden Domäne Reisen.
+ Einzelne Teilschritte des verwendeten Vorgehensmodells von Wendel können
+ hierbei als Grundlage dienen.
+ Des Weiteren lassen sich gegebenenfalls Kernpunkte aus dem vorherigen Abschnitt
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Spielformen,-Spielertypen-und"
+
+\end_inset
+
+ als weitere Merkmale verwenden.
+ Folgende Punkte sind als Grundlage von Interesse:
+\end_layout
+
+\begin_layout Description
+Anwendungsziel: Dieser Punkt ist neben den Hauptkriterien Domäne und Smartphone-
+Anwendung der dritte Aspekt für die Zusammenstellung der verwandten Anwendungen
+ und Arbeiten unter Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Überblick-zu-verwandten-Anwendungen-und-Arbeiten"
+
+\end_inset
+
+.
+ Unter diesem Punkt wurde im Vorfeld analysiert, ob die Produkte über das
+ inhaltliche Angebot hinaus ihre Nutzer zu einem bestimmten Verhalten motivieren.
+\end_layout
+
+\begin_layout Description
+Zielgruppe
+\begin_inset space ~
+\end_inset
+
+&
+\begin_inset space ~
+\end_inset
+
+Spielertyp: Die meisten Hersteller möchten eine bestimmte Zielgruppe mit
+ ihren Produkten ansprechen.
+ Jede Zielgruppe hat unterschiedliche demographische Merkmale, Wünsche und
+ Bedürfnisse.
+ Besäße eine Anwendung dieselbe Zielgruppe wie die Konzeptstudie, so ließe
+ sich darauf schließen, dass sich dessen Eigenschaften eignen.
+ Jedoch ist dieses Kriterium in Korrelation mit dem Anwendungsziel zu bewerten.
+ Ein interessanter Aspekt wäre es z.
+ B., wenn sie sich ähneln, nicht jedoch die jeweilige Zielgruppe.
+ Die Recherchierbarkeit durch eine Adressierung der jeweiligen Unternehmen
+ ist bezüglich des erheblichen Aufwands und eines nicht gesicherten Erfolgs
+ auf Antwort als schwierig einzustufen.
+ Es gibt jedoch alternative Möglichkeiten diese Gruppen zu recherchieren.
+ Ein Ansatz wäre das Heranziehen von wissenschaftlichen Artikeln, welche
+ Interviews oder Marktstudien beinhalten.
+ Ist die Zielgruppe nicht zu ermitteln, kann auch die Identifikation der
+ Spielertypen durch das Produkt behilflich sein.
+ Aus der Anwendung oder der Arbeit heraus lässt sich erkennen, welche Spielertyp
+en angesprochen werden sollen.
+ Die Spielform und die Spielmechanismen bestimmen dies primär (s.
+ Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Spielformen,-Spielertypen-und"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Zielverhalten: Um das Anwendungsziel zu erreichen, muss ein bestimmtes Verhalten
+ vom Nutzer erbracht werden.
+ Dieses Zielverhalten kann ebenfalls als Vergleichskriterium genutzt werden.
+ Wäre das Anwendungsziel beispielsweise das Kennenlernen des neuen Wohnortes,
+ so könnte ein passendes Zielverhalten ein täglicher Wechsel des Weges zur
+ Arbeit sein.
+ Das Zielverhalten kann weiterhin auch eine Aussage darüber machen, welche
+ Spielform im Produkt angewendet wird.
+ Umfasst das Verhalten beispielsweise das Wettstreiten mit Mitnutzern, so
+ könnte der Fokus auf Wettkampf oder sogar Konflikt liegen.
+\end_layout
+
+\begin_layout Description
+Spielmechanismen: Mechanismen zur Erhöhung der extrinsischen oder intrinsischen
+ Motivation sind Teil der Zielverhalten unterstützenden Methoden im Vorgehensmod
+ell von Wendel 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~127--133]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Auch die Konzeptstudie, sowie die verwandten Anwendungen und Arbeiten gebrauche
+n spielerische Funktionen um ihre Nutzer zu ihrem Zielverhalten zu motivieren.
+ Zum großen Teil basieren diese Mechanismen auf Mustern - den Gamification-Patte
+rns (s.
+ Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Spielformen,-Spielertypen-und"
+
+\end_inset
+
+).
+ Falls es Schnittpunkte in den Anwendungen hinsichtlich der Gamification-Pattern
+s gibt, lässt sich hieraus ableiten, welche konkrete Umsetzung besser funktionie
+rt.
+ Zudem sind Spielmechanismen ein Indikator von Spielformen die im Produkt
+ bewusst oder unbewusst eingesetzt werden.
+\end_layout
+
+\begin_layout Subsection
+Vergleichskriterien
+\end_layout
+
+\begin_layout Standard
+Aus den genannten Punkten aus Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Identifikation-geeigneter-Vergleichskriterien"
+
+\end_inset
+
+ lassen sich folgende Vergleichskriterien ableiten: 
+\end_layout
+
+\begin_layout Itemize
+Anwendungsziel 
+\end_layout
+
+\begin_layout Itemize
+Zielgruppe/Spielertyp
+\end_layout
+
+\begin_layout Itemize
+Zielverhalten
+\end_layout
+
+\begin_layout Itemize
+Spielmechanismen
+\end_layout
+
+\begin_layout Itemize
+Spielform (aus Zielverhalten und Spielmechanismen)
+\end_layout
+
+\begin_layout Standard
+Spielform wurde als gesondertes Vergleichskriterium festgelegt, da es ein
+ nicht unwesentliches Merkmal darstellt.
+ Alle in den nächsten Abschnitten vorgestellten Anwendungen und Arbeiten
+ werden nun mithilfe der Vergleichsmerkmale strukturiert analysiert.
+ Spielmechanismen in Form von Gamification-Patterns werden bei erstmaliger
+ Erwähnung kurz in ihrer Funktionsweise erläutert.
+ Dabei wird zuerst das Gamification-Pattern genannt und nachfolgend die
+ Beschreibung und der Einsatzort.
+ Anwendungsfunktionen, an welchen z.
+ B.
+ eine bestimmte Eigenschaft besonders deutlich sichtbar ist, werden zudem
+ illustriert.
+\end_layout
+
+\begin_layout Subsection
+Ausschlusskriterien
+\end_layout
+
+\begin_layout Standard
+Es gibt neben den aufgelisteten Anwendungen und Arbeiten auch eine Reihe
+ weiterer Produkte, welche aber anhand folgender Ausschlusskriterien nicht
+ für eine nähere Analyse infrage kommen.
+ Es sind auschließlich kostenfreie Anwendungen ausgewählt worden.
+ Dazu wurde zwischen Anwendungen unterschieden, bei denen bereits der Download
+ kostenpflichtig ist und Anwendungen die In-App-Käufe anbieten.
+ Letzteres ist vertretbar, solange sie nicht Zugriff zu Hauptfunktionen
+ der Anwendungen versperren.
+\end_layout
+
+\begin_layout Standard
+Bietet eine Anwendung überwiegend Inhalte wie Buchungen zu Unterkünften
+ oder Flügen an, so ist dies ein Ausschlussargument für die Aufnahme, wie
+ es bei TripAdvisor der Fall ist (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ausschluss-a"
+
+\end_inset
+
+).
+ Die professionelle Plattform unterstützt zwar die Planung von Aktivitäten,
+ jedoch nur auf gleicher Hierarchieebene mit Hotels, Flügen oder Gastronomien.
+\end_layout
+
+\begin_layout Standard
+Ein weiteres Ausschlusskriterium ist die Nichtbenutzbarkeit zum Zeitpunkt
+ der Analyse.
+ In der Anwendung Tripme konnte die Erstellung eines Trips durch eine Fehlermeld
+ung nicht mehr fortgesetzt werden (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ausschluss-b"
+
+\end_inset
+
+).
+ Trotz funktionierenden Internetzugangs verlangte die Anwendung eine Prüfung
+ der Netzwerkeinstellungen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Tripadvisor/IMG_0911.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ausschluss-a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Tripme/thumb_IMG_1287_1024.jpg
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ausschluss-b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ausschlusskriterien wegen unkonkretem Anwendungsziel (a) und Behinderung
+ des Analysefortschritts durch Anwendungsfehler (b)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ausschlusskriterien"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Bestehende Konzeptstudie SeeSight 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Bestehende-Konzeptstudie--SeeSight"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die Konzeptstudie 
+\emph on
+SeeSight
+\emph default
+ entstand im Rahmen eines Leistungsnachweises in der Lehrveranstaltung 
+\begin_inset Quotes eld
+\end_inset
+
+Gamification von Informations- und Anwendungssystemen
+\begin_inset Quotes erd
+\end_inset
+
+ von Prof.
+ Dr.
+ Thomas Voit TODO: Qelle.
+ Vorgabe der praktischen Arbeit war die Gamifizierung einer spielfremden
+ Domäne mithilfe des in der Lehrveranstaltung gewonnenen Wissens.
+ Als zu gamifzierende Domäne wurde der Bereich Reisen im engeren Sinne von
+ Städtetouren gewählt.
+ Der Name wurde dem englischen Begriff Sightseeing (engl.
+ für Besichtigung von Sehenswürdigkeiten) entlehnt.
+ Motivationale Defizite in Teilen der Planungsphase und der eigentlichen
+ Tour sollten durch die Gamifizierung behoben werden und Reisenden ein intensive
+res und somit besseres Erlebnis bieten.
+ Nach der Konzeptphase wurde das Projekt als Demonstrationsprototyp aufgesetzt
+ und den Kunden innerhalb einer Testphase zum Erproben überreicht.
+\end_layout
+
+\begin_layout Standard
+Das Zielverhalten der Nutzer soll mithilfe der Konzeptstudie dahingehend
+ motiviert werden, dass diese ihre favorisierten Touren auswählen und beginnen.
+ Eine Auswahl von themenbasierenden Touren soll einen möglichst großen Bereich
+ von Interessensgebieten abdecken (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:seesight-a"
+
+\end_inset
+
+) .
+ Beim Start einer Tour kann man alle Orte der Reihe nach besuchen, oder
+ einzelne auch überspringen.
+ Gelangt man zu einem Zielort, lassen sich zusätzliche Informationen dazu
+ abrufen.
+ Zudem gibt es kleine Aufgaben auf freiwilliger Basis an den Orten zu bewältigen
+, welche zum weiteren Erkunden einladen (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:seesight-b"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:seesight-c"
+
+\end_inset
+
+).
+ Für das Aufsuchen der Sehenswürdigkeiten und das Erledigen der Aufgaben
+ sammelt der Nutzer automatisch Punkte (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:seesight-d"
+
+\end_inset
+
+), welche innerhalb der Anwendung weitere Optionen freischalten sollten.
+ Es sollte damit möglich sein, eigene Touren zu erstellen und mit der Community
+ zu teilen.
+\end_layout
+
+\begin_layout Paragraph*
+Anwendungsziel
+\end_layout
+
+\begin_layout Standard
+Ziel der Arbeit ist die Entwicklung eines interaktiven Touren-Guide, der
+ seinen Nutzern ein intensiveres Ausflugserlebnis garantiert.
+ Die Anwendung sollte gewöhnliche angebotene Reiseführer vor Ort und entsprechen
+de Reisegruppen ersetzen, in denen motivationalie Defizite auftreten.
+ Beispielsweise kann eine gebuchte Tour nicht das gesamte Interessengebiet
+ abdecken, oder ist zu oberflächlich bzw.
+ zu speziell.
+ Ebenso kann die Anzahl der Teilnehmer oder festgelegte Zeiten nicht den
+ eigenen Erwartungen entsprechen.
+ Reiseführungen bzw.
+ ninteressante Sehenswürdigkeiten lassen sich schwer pausieren, abkürzen
+ oder gar abbrechen.
+ Zuletzt kann das soziales Gefüge der Reisegruppe nicht den eigenen Erwartungen
+ entsprechen.
+\end_layout
+
+\begin_layout Paragraph
+Zielgruppe/Spielertyp
+\end_layout
+
+\begin_layout Standard
+Das Ermitteln der Zielgruppe mit ihren Erwartungen an die Konzeptstudie
+ erfolgte durch die Befragung der teilnehmenden Kunden.
+ Den Resultaten entsprechend, galt es anschließend Personas zu definieren.
+ Personas sind keinen realen Menschen nachempfunden, sondern repräsentieren
+ charakteristische Vertreter einer gewünschten Zielgruppe.
+ Durch aus ihren Wünschen und Erwartungen gefolgerte Individualität, sind
+ sie beispielsweise für Entwickler wichtige Hilfsmittel in der Entwurfsphase
+ der UI (User Interface)
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "UI"
+description "User Interface"
+
+\end_inset
+
+.
+ Sie helfen dabei, sich vorzustellen, wie sich Nutzer in bestimmten Situationen
+ während der Anwendung verhalten könnten.
+ In Verbindung mit den Sielertypen nach Bartle wurde anschließend die Zielgruppe
+ den Bereichen Socializer und Explorer zugeordnet.
+\end_layout
+
+\begin_layout Paragraph*
+Zielverhalten
+\end_layout
+
+\begin_layout Standard
+Im Idealfall sind die Nutzer bereits an Reisen und Ausflügen interessiert.
+ Ihnen fehlt jedoch die Motivation für die Planung der Reise, oder ihnen
+ widerfahren negative Eindrücke in anderen Bereichen.
+ Das primäre Zielverhalten der potenziellen Nutzer soll so aussehen, dass
+ sie eine nach eigenen Vorlieben gewählte Tour unternehmen und - falls gewünscht
+ - kleine Aufgaben an manchen Orten absolvieren.
+ Anspruchsvolle Vorkehrungen sollen um dieses Zielverhalten herum so gering
+ wie möglich gehalten werden:
+\end_layout
+
+\begin_layout Itemize
+Auswahl zu besuchender Sehenswürdigkeiten und Berücksichtigung eventueller
+ Öffnungszeiten.
+\end_layout
+
+\begin_layout Itemize
+Planung der Route entlang der Sehenswürdigkeiten.
+\end_layout
+
+\begin_layout Itemize
+Beschaffung von Informationen über Sehenswürdigkeiten vor Ort.
+\end_layout
+
+\begin_layout Subsubsection
+Spielmechanismen
+\end_layout
+
+\begin_layout Standard
+Folgende Gamification-Patterns sind in der Konzeptstudie umgesetzt oder
+ geplant:
+\end_layout
+
+\begin_layout Itemize
+Easy Getting Started: Ein unkomplizierter Einstieg soll den Nutzer gleich
+ zu Beginn animieren, eine erste Städtetour in seiner Nähe zu starten.
+ Dieser Spielmechanismus ist für die Konzeptstudie geplant, ist jedoch aus
+ Zeitgründen nicht für den Demonstrationsprototyp umgesetzt.
+\end_layout
+
+\begin_layout Itemize
+Match Making Rating (MMR
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "MMR"
+description "Match Making Rating"
+
+\end_inset
+
+): Es soll dem Nutzer nach Auswahl einer Tour ein Teilnehmervorschlag mit
+ Gleichgesinnten angeboten werden.
+ Der Zeitpunkt der Tour und die Präferenzen der Teilnehmer sind hierfür
+ ausschlaggebend.
+ In der Konzeptphase wird dem Proband die gleichzeitige Teilnahme mit weiteren
+ Probanden vorgeschlagen.
+ Dieses Pattern ist eigens für Nutzer des Spielertyps Socializer gewählt.
+ 
+\end_layout
+
+\begin_layout Itemize
+User Generated Content: Nutzern digitaler Spiele kann es schnell an Reizelemente
+n fehlen, wenn sie alle Funktionen und Inhalte entdecken und somit nur Bekanntes
+ wieder erlebbar ist.
+ Oft können auch nur kleine Mängel in Spielen oder Levels den Gesamteindruck
+ nachhaltig negativ beeinflussen; ähnliche Szenarien gelten auch in spielfremden
+ Domänen.
+ Ein Editor für die Bearbeitung vorhandener Touren, bzw.
+ der Schaffung eigener neuer Touren kann die Motivation erneut steigern.
+ Dieser Spielmechanismus ist innerhalb der Konzeptstudie geplant gewesen.
+ Durch die Gegebenheit einer späteren möglichen Aktivierung dieser Funktionalitä
+t innerhalb des Anwendungszyklus und des kurzen Testzeitraums mit den Kunden
+ wurde der Spielmechanismus nicht implementiert.
+\end_layout
+
+\begin_layout Itemize
+Feedback: Positive Kommentare auf eigene mit der Community geteilte Touren
+ sollen die Anwender motivieren, weitere Touren zu erstellen.
+ Gleichzeitig dient Feedback als Indikator für gelungene oder weniger gelungene
+ Touren.
+ Dies lässt sich entweder wieder durch Kommentare oder durch einem Scoringsystem
+ ermitteln.
+\end_layout
+
+\begin_layout Itemize
+Punktesystem: Das Pattern des Sammelns von Punkten solle zum einen den Nutzern
+ ihren aktuellen Gegenwert in der Community widerspiegeln, zum anderen sind
+ Punkte in der Studie dazu gedacht weitere Funktionen für die Nutzerschaft
+ freizuschalten.
+\end_layout
+
+\begin_layout Itemize
+Challenge: Challenges sind kleinere, schnell zu erledigende Aufgaben innerhalb
+ einer übergeordneten Herausforderung.
+ Ortsabhängige Challenges sollen Explorer motivieren, die jeweiligen Touren
+ noch intensiver zu erleben.
+ Dieser Mechanismus ist darüber hinaus gewählt, um etwas Auflockerung in
+ den Touren zu schaffen.
+ Ein Wesensmerkmal von Challenges ist ihre Optionalität.
+\end_layout
+
+\begin_layout Itemize
+Badge: Nach bestimmten Ereignissen sollen die Nutzer mit Auszeichnungen
+ in Form von Badges belohnt werden.
+ Im Test der Konzeptstudie ist beispielsweise der Badge 
+\begin_inset Quotes eld
+\end_inset
+
+Newbie
+\begin_inset Quotes erd
+\end_inset
+
+ für die erstmalige Absolvierung einer Tour verliehen worden.
+ Dieses Pattern spricht mehrheitlich den Spielertyp Achiever an.
+\end_layout
+
+\begin_layout Itemize
+Persönliches Hauptziel: Ein Spiel kann mehrere Stunden oder gar Tage andauern.
+ Damit der Spieler nicht währenddessen aufgrund eines fehlenden, sich lohnenden
+ Ziels aufgibt, wird ein besonders erstrebenswertes, persönliches Hauptziel
+ am Ende des Spiels definiert.
+ Das Hauptziel ist beispielsweise eine Story-Handlung zu einem für die Nutzer
+ befriedigenden Abschluss bringen zu wollen.
+ Es kann aber auch ein individuelles Persönlichkeitsmerkmal sein.
+ Im Falle der Konzeptstudie ist es eine Städtetour mit Schwerpunkt auf rubrikens
+pezifischen Eigenschaften.
+\end_layout
+
+\begin_layout Subsubsection
+Spielform
+\end_layout
+
+\begin_layout Standard
+Als Spielform liegt der Fokus primär auf Selbsterfahrung.
+ Bei Ausflügen soll es um das Erkunden und Entdecken von großen sowie kleinen
+ Sehenswürdigkeiten gehen.
+ Diese auf den Reisenden einwirkenden Erfahrungen lassen sich am Besten
+ ohne Wettkampf oder anderen künstlich herbeigeführten Abhängigkeiten mit
+ Spielern (Koordination und Kooperation) erleben.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Konzeptstudie SeeSight/Start/5_Routenliste.PNG
+	width 24text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:seesight-a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Konzeptstudie SeeSight/Punkt 1 - Kaiserburg.PNG
+	width 24text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:seesight-b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Konzeptstudie SeeSight/Punkt 1 - Kaiserburg Challenge.PNG
+	width 24text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:seesight-c"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Konzeptstudie SeeSight/Innenstadt-Tour-Beendet.png
+	width 24text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:seesight-d"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+SeeSight
+\emph default
+ Demonstrationsprototyp - Tourauswahl (a), Zielortübersicht (b), Aufgabenübersic
+ht (c) und Tourabschluss (d)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Screenshots-aus-der-SeeSight-App"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Überblick zu verwandten Anwendungen und Arbeiten 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Überblick-zu-verwandten-Anwendungen-und-Arbeiten"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dieser Abschnitt analysiert sieben ausgewählte verwandte Anwendungen und
+ Arbeiten, welche sich in den in Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Identifikation-geeigneter-Vergleichskriterien"
+
+\end_inset
+
+ erarbeiteten Vergleichskriterien ähneln.
+ Die Analyse durchläuft denselben Prozess wie es bei der Konzeptstudie unter
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Bestehende-Konzeptstudie--SeeSight"
+
+\end_inset
+
+ der Fall ist.
+ Eine Zusammenfassung vergleicht abschließend komprimiert die verschiedenen
+ Merkmale aller Produkte in Bezug auf die vorausgehende Konzeptstudie 
+\emph on
+SeeSight
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Das wesentliche Thema der Anwendungen soll den Kontext Reisen umfassen.
+ Diese Domäne wird dahingehend weiter eingegrenzt, dass die zu untersuchenden
+ Anwendungen sich möglichst mit dem Thema Städtereisen befassen sollen.
+ 36 Prozent der in Deutschland getätigten Kurzurlaube mit einer Reisedauer
+ von zwei bis vier Tage sind Städtereisen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~31]{DeutscherReiseverband.2016}
+\end_layout
+
+\end_inset
+
+.
+ Da sich die Konzeptstudie aus dieser signifikanten Subdomäne heraus entstand,
+ wird auch die jetzige Marktstudie dies als engeren Bezugspunkt nehmen.
+\end_layout
+
+\begin_layout Standard
+Einige der folgenden Anwendungen besitzen neben Anwendungszielen auch Geschäftsz
+iele wie der Steigerung des finanziellen Umsatzes.
+ Dieses Ziele stehen teilweise in Korrelation mit ihren Anwendungszielen,
+ werden jedoch nicht mit in die Marktanalyse mit einfließen.
+\end_layout
+
+\begin_layout Subsection
+Tripwolf
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Tripwolf"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tripwolf
+\emph default
+ ist eine Reiseführer-Plattform mit mobilen Ablegern als Reisebegleiter.
+ Die Entwickler heben neben den Reiseberichten ihrer Community auch die
+ Einbindung von professionellen Reiseberichten wie beispielsweise von Marco
+ Polo hervor.
+ Reisende können sich ihre eigene Tour individuell aus einer Vielzahl von
+ Städten und dessen lokalen Sehenswürdigkeiten konfigurieren (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tripwolf-a"
+
+\end_inset
+
+) und sie mit ihrer App synchronisieren oder gleich darauf erstellen 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "tripwolfGmbH.2015"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Für die Durchführung des Zielverhaltens muss zuerst eine präferierte Stadt
+ aus einer Guide-Liste gewählt werden.
+ Danach steht es dem Nutzer frei, aus welchen Themen zu Nachtleben, Gastronomie,
+ Sehenswürdigkeiten, Hotellerie, Touren und anderen Aktivitäten er sich
+ seine Städtetour organisieren möchte.
+ Die freie Auswahl aller zur Verfügung stehender Städte und Sehenswürdigkeiten
+ ist jedoch eingeschränkt, bedingt durch eine präsente Bewerbung von In-App-Käuf
+en.
+ Die in Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tripwolf-a"
+
+\end_inset
+
+ als Premium Guide gekennzeichneten Städte stehen beispielsweise erst nach
+ deren Kauf zur Verfügung.
+\end_layout
+
+\begin_layout Subsubsection
+Anwendungsziel
+\end_layout
+
+\begin_layout Standard
+Die Anwendung möchte ihren Nutzern mit ihrer Auswahl die bestmögliche Reiseplanu
+ng bieten.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+Zielgruppe/Spielertyp
+\end_layout
+
+\begin_layout Standard
+Die Anwendung richtig sich primär an Städtereisende, gemessen an dem Guide-Angeb
+ot, welches sich fast ausschließlich aus namhaften Städten zusammenfassen
+ lässt.
+ Die Zielgruppe lässt sich hauptsächlich auf den Spielertyp Explorer eingrenzen.
+ Die Nutzer können aus dem vielfältigen Angebot von Sehenswürdigkeiten,
+ Touren und Übernachtungsmöglichkeiten in Ruhe fremde Städte besichtigen
+ (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tripwolf-c"
+
+\end_inset
+
+).
+ Achiever, Socializer und Killer werden deshalb nicht angesprochen.
+\end_layout
+
+\begin_layout Subsubsection
+Zielverhalten
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tripwolf
+\emph default
+ lässt seinen Nutzer die Freiheit, persönliche Touren in einer Art Baukastensyst
+em aus Sehenswürdigkeiten und Orten zu planen (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tripwolf-b"
+
+\end_inset
+
+).
+ Diese sind mit genügend Hintergrundinformationen für eine effektive Auswahl
+ versehen.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Spielmechanismen
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tripwolf
+\emph default
+ nutzt neben dem Gamification Pattern User Generated Content für die Erstellung
+ eigener Touren keine weiteren nennenswerten Spielmechanismen.
+\end_layout
+
+\begin_layout Subsubsection
+Spielform
+\end_layout
+
+\begin_layout Standard
+Selbsterfahrung lässt sich für 
+\emph on
+Tripwolf
+\emph default
+ als einzige Spielform bestimmen.
+ Spielerische Abhängigkeiten zu anderen Nutzern wurden nicht in die Anwendung
+ implementiert.
+ Der Entwickler konzentriert sich auf eine unterstützende, mobile Lösung
+ für die Reiseplanungen seiner Nutzer.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Tripwolf/IMG_1293.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tripwolf-a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Tripwolf/IMG_1168.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tripwolf-b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Tripwolf/IMG_1290.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tripwolf-c"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screenshots aus der Smartphone-App 
+\emph on
+Tripwolf
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Screenshots-von-der-Tripwolf-App"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Trip Journal
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Trip-Journal"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die Anwendung 
+\emph on
+Trip Journal
+\emph default
+ versteht sich weniger als Reiseführer sondern vielmehr als ein Reisetagebuch.
+ Der Fokus richtet sich auf die Dokumentation und das Teilen bzw.
+ Verfolgen der Reiseerlebnisse mit Freunden.
+ Einen weiteren Community-Aspekt über das Teilen hinaus besitzt die Anwendung
+ jedoch nicht.
+ Ansonsten lässt sie dem Nutzer völlige Freiheit in der Konfiguration eigener
+ Touren und gewährt Einblick in Reisestatistiken 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "iQapps.2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Anwendungsziel
+\end_layout
+
+\begin_layout Standard
+Primäres Ziel dieser Anwendung ist es, Reisenden eine Möglichkeit des Festhalten
+s von Erfahrungen und Erlebnissen mit auf den Weg zu geben, sowie deren
+ Teilens mit Freunden.
+\end_layout
+
+\begin_layout Paragraph*
+Zielgruppe/Spielertyp
+\end_layout
+
+\begin_layout Standard
+Die Zielgruppe lässt sich nicht auf einen einzelnen Spielertyp festlegen.
+ Durch die umfangreiche Auswahl an Austauschmöglichkeit mit Freunden (z.
+ B.
+ Teilen von Fotos, Videos, Geokoordinaten oder ganzen Reisen) und der Voraussetz
+ung auf Reiselust lassen sich als Spielertypen Socializer und Explorer identifiz
+ieren.
+\end_layout
+
+\begin_layout Subsubsection
+Zielverhalten
+\end_layout
+
+\begin_layout Standard
+Nutzer erstellen ihre eigenen Reiserouten und bereisen diese aus eigenem
+ Antrieb heraus.
+ Aus ihrer Motivation heraus erstellen sie selbst Inhalte wie Notizen oder
+ Fotos und teilen diese mit ihrem Freundeskreis.
+\end_layout
+
+\begin_layout Subsubsection
+Spielmechanismen
+\end_layout
+
+\begin_layout Standard
+Die Anwendung bleibt sachlich und setzt auf die Empathie der Nutzerschaft.
+ Das Gamification-Pattern User Generated Content in Form von Erstellen eigener
+ Reisen ist zwar möglich, darüber hinaus stehen jedoch keine von der Anwendung
+ angebotenen Reisen zur Auswahl.
+ Somit ist dieses Pattern weniger ein Spielmechanismus, sondern viel mehr
+ ein Grundbaustein von 
+\emph on
+Trip Journal
+\emph default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Spielform
+\end_layout
+
+\begin_layout Standard
+Innerhalb der Anwendung existieren keinerlei Abhängigkeiten, die zu Interaktione
+n mit anderen Nutzer führen, weshalb die sich Spielform auf Selbsterfahrung
+ eingrenzen lässt.
+ Sie ist somit dieselbe wie von 
+\emph on
+SeeSight
+\emph default
+ und 
+\emph on
+Tripwolf
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Quarterquest
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Quarterquest"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die 
+\emph on
+Quarterquest
+\emph default
+-Reihe sind auf unterschiedliche Städte und Regionen zugeschnittene Anwendungen
+ welche das Erkunden eben dieser Orte für Touristen interessanter machen
+ sollen.
+ Der Hersteller 
+\emph on
+Linkwerk
+\noun on
+ 
+\noun default
+GmbH
+\emph default
+ setzt dabei auf individuelle Erkundungstouren mit interaktiven Aufgaben
+ an den Orten - ähnlich wie in 
+\emph on
+SeeSight
+\emph default
+.
+ Für zusätzliche Unterhaltung soll die spielerische Komponente eines integrierte
+n Punktesystems dienen.
+ Als Vorteile werden u.
+ a.
+ die Unabhängigkeit zu zeitlichen Vorgaben und Touristengruppen propagiert.
+\end_layout
+
+\begin_layout Standard
+Die Anwendungsfunktionen sind denen von 
+\emph on
+SeeSight
+\emph default
+ sehr ähnlich.
+ Es werden mehrere Touren angeboten, jedoch nur eine Tour pro Anwendung.
+ Genauso existieren auch Aufgaben an den einzelnen Orten.
+ Der Unterschied ist der, dass sie in der 
+\emph on
+Quarterquest
+\emph default
+-Reihe zwingend gelöst werden müssen, um mit der Tour fortzufahren.
+ Zusätzlich werden Tipps für die Lösung der Aufgaben vorgeschlagen.
+ Bei erfolgreicher Absolvierung der Aufgaben wird am Ende der Tour ein persönlic
+her Highscore errechnet.
+\end_layout
+
+\begin_layout Subsubsection
+Anwendungsziel
+\end_layout
+
+\begin_layout Standard
+Der Besuch von Orten und Plätzen soll intensiver und aufregender werden.
+ Dieses Ziel soll mithilfe der interaktiven Aufgaben erreicht werden.
+\end_layout
+
+\begin_layout Paragraph*
+Zielgruppe/Spielertyp
+\end_layout
+
+\begin_layout Standard
+Die 
+\emph on
+Quarterquest
+\emph default
+-Reihe richtet sich laut dem Hersteller sowohl an Touristen als auch an
+ Einheimische.
+ Nutzer des Spielertyps Explorer können sich von der Anwendung angesprochen
+ fühlen, weil die Anwendung mit 
+\begin_inset Quotes eld
+\end_inset
+
+geheimnisvolle(n) Plätze(n)
+\begin_inset Quotes erd
+\end_inset
+
+ wirbt, die es zu erkunden gilt.
+ Achiever können zudem an der Idee des Sammelns von Punkten und Auszeichnungen
+ interessiert sein 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mintert.o.J.b"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Zielverhalten
+\end_layout
+
+\begin_layout Standard
+Um das Anwendungsziel zu erreichen, beantworten Nutzer ortsbezogene Quiz-Fragen
+ zu den besuchten Schauplätzen.
+ Für den erfolgreichen Abschluss einer Tour, ist eine genauere Erkundung
+ der Sehenswürdigkeiten nötig.
+\end_layout
+
+\begin_layout Subsubsection
+Spielmechanismen
+\end_layout
+
+\begin_layout Itemize
+Quests: Die Anwendung trägt es bereits im Namen.
+ Quests sind größere Aufgaben, die sich über mehrere Etappen hinweg erstrecken
+ können.
+ Das Ziel von Quests ist es, die Aktionen bis zum Hauptziel unterhaltsamer
+ zu gestalten.
+ Das schaffen sie u.
+ a.
+ dadurch, dass sie meist einen geschichtlichen Hintergrund besitzen, der
+ einen Spannungsbogen aufbaut.
+ 
+\emph on
+Quarterquest
+\emph default
+ versteht seine angebotenen Touren als Quests (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Quarterquest-a"
+
+\end_inset
+
+), bei denen man auf noch unentdeckte Orte oder aufregende Plätze stoßen
+ kann.
+ 
+\end_layout
+
+\begin_layout Itemize
+Challenges: 
+\emph on
+Quarterquest
+\emph default
+ bietet an jedem Hotspot in seiner Tour kleine Aufgaben (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Quarterquest-b"
+
+\end_inset
+
+).
+ Diese müssen richtig beantwortet werden, damit die Reise fortgesetzt werden
+ kann.
+ Challenges sind für gewöhnlich in Quests vereinzelt eingebunden.
+\end_layout
+
+\begin_layout Itemize
+Tipps: Tipps werden dem Nutzer optional angeboten, um schwierige Problemstellung
+en ohne Frustration überwinden zu können.
+ Oft ist die Annahme von Tipps mit einem Defizit von Reputation oder Punkten
+ verbunden.
+ Dies soll eine mehrmalige Zuhilfenahme von Tipps einschränken.
+ In 
+\emph on
+Quarterquest
+\emph default
+ finden Tipps an den Aufgaben Verwendung.
+ 
+\end_layout
+
+\begin_layout Itemize
+Badge: Auszeichnungen für besondere Verdienste werden oft in Form von Badges
+ vergeben.
+ Häufig geschieht eine Verleihung auch in unangebrachten Situationen und
+ die eigentliche Besonderheit wird somit zur Nebensache.
+ In 
+\emph on
+Quarterquest
+\emph default
+ bekommt man beispielsweise einen Badge, indem man seinen ersten Tipp annimmt
+ (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Quarterquest-c"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Highscore: Highscores sind Motivationsanreize, bestimmte Aktionen zu wiederholen
+, um im Nachhinein ein besseres Ergebnis - einen neuen Highscore - zu erhalten.
+ Genauso kann es Motivation sein, den direkten Vergleich mit anderen Mitspielern
+ zu suchen, beispielsweise mithilfe eines Leaderboards (s.
+ nächster Punkt).
+ 
+\emph on
+Quarterquest
+\emph default
+ wirbt mit dieser Art der Punktejagd in seinen Quests.
+ 
+\end_layout
+
+\begin_layout Itemize
+Rangliste/Leaderboard: Das Leaderboard ist in Verbindung des übergeordneten
+ Musters Highscore eine Anzeige der Rangbesten Spieler eines Spiels.
+ Die Motivation liegt hier im direkten Leistungsvergleich mit Mitspielern.
+ Das Leaderboard bietet der Hersteller nicht in seinen Anwendungen, sondern
+ auf seiner Webseite anwendungsübergreifend.
+\end_layout
+
+\begin_layout Subsubsection
+Spielform
+\end_layout
+
+\begin_layout Standard
+Die Spielform ist eine Mischung aus Selbsterfahrung und Wettkampf.
+ Jeder Spieler spielt zwar sein eigenes Spiel, allerdings können sie ihre
+ Ergebnisse und die der Mitspieler am Ende einsehen.
+ Wettkampf mit aktiver Einwirkung auf Mitspieler existiert jedoch nicht.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Quarterquest/IMG_0925.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Quarterquest-a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Quarterquest/IMG_1232.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Quarterquest-b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Quarterquest/IMG_1234.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Quarterquest-c"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screenshots aus der Smartphone-App 
+\emph on
+Quarterquest
+\emph default
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Screenshots-von-der-Quarterquest-App"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Streetspotr
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Streetspotr"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die Anwendung 
+\emph on
+Streetspotr
+\emph default
+ des gleichnamigen Unternehmens ist eine Mobile Crowdsourcing-Plattform.
+ TODO: Business Plan
+\end_layout
+
+\begin_layout Standard
+Nutzer nehmen Mikro-Tätigkeiten (im Folgenden Spots genannt) in ihrer Umgebung
+ an und verdienen mit der Erledigung ebenjener Geld.
+ Zusätzlich zu unternehmensfinanzierten Spots (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:street-a"
+
+\end_inset
+
+, blaue Markierungen), existieren Sehenswürdigkeiten-Spots, die interessante
+ Orte in der Umgebung aufzeigen (in Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:street-a"
+
+\end_inset
+
+, grüne Markierungen).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Anwendungsziel
+\end_layout
+
+\begin_layout Standard
+Ziel dieser Plattform ist es, Unternehmen mit Micro-Jobs und Kunden zusammenzubr
+ingen, indem extrinsisch motivierende Nutzer kleinere Aufgaben von Unternehmen
+ in der näheren Umgebung abschließen.
+ Dieses Anwendungsziel ist nicht vergleichbar mit dem von 
+\emph on
+SeeSight
+\emph default
+ und den anderen Anwendungen.
+ Jedoch bietet 
+\emph on
+Streetspotr
+\emph default
+ als weiteres Anwendungsziel die Möglichkeit des Besuchs von Sehenswürdigkeiten.
+\end_layout
+
+\begin_layout Paragraph*
+Zielgruppe/Spielertyp
+\end_layout
+
+\begin_layout Standard
+Als Spielertyp kommen überwiegend Achiever infrage.
+ Achiever können sich durch das Punktesystem und der daraus resultieren
+ Rangliste und den Badges angesprochen fühlen.
+ Socializer und Explorer sind die zwei weiteren Hauptgruppen.
+ Obwohl die Spielform auch zum Teil Konflikt beinhaltet (s.
+ u.), sollten konfliktorientiere Personen sich nicht angesprochen fühlen.
+ Die Anwendung ist daraufhin nicht explizit konzipiert.
+\end_layout
+
+\begin_layout Subsubsection
+Zielverhalten
+\end_layout
+
+\begin_layout Standard
+Das Zielverhalten für die Absolvierung von Spots beinhaltet die Annahme
+ eines solchen Spots, die physische Lokalisierung und die Durchführung der
+ Aufgabe am Zielort innerhalb der Anwendung.
+ Das Zielverhalten variiert je nach Spot-Typ und geforderter Aufgabe.
+\end_layout
+
+\begin_layout Subsubsection
+Spielmechanismen
+\end_layout
+
+\begin_layout Itemize
+Easy Getting Started: 
+\emph on
+Streetspotr
+\emph default
+ lässt neu registrierte Nutzer ihre Erstanmeldung in Form eines Spots erledigen
+ (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:street-b"
+
+\end_inset
+
+).
+ Diese Funktion lässt die Hemmschwelle senken, direkt nach der Anmeldung
+ einen weiteren, offiziellen Spot anzunehmen.
+\end_layout
+
+\begin_layout Itemize
+Punktesystem: Bei Erledigung von Sehenswürdigkeiten-Spots steigt der eigene
+ Punktestand und somit das Ansehen in der Community.
+ Als weiterführender Verwendungszweck dient das Punktesystem dem Freischalten
+ finanziell attraktiverer Spots.
+\end_layout
+
+\begin_layout Itemize
+Rangliste/Leaderboard: Mit den gesammelten Punkten errechnet sich im Profil
+ eines Nutzers ein Rang, der die Position des Nutzers in einer Rangliste
+ nach seiner geleisteten Aktivität feststellt (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:street-c"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Badge: Badges werden in 
+\emph on
+Streetspotr
+\emph default
+ für verschiedene Verdienste vergeben.
+ Einen so genannten Newbie-Badge kann man beispielsweise durch Erfüllung
+ des ersten Spots erhalten.
+ Des Weiteren gibt es Corporate-Badges bei Annahme und Erledigung von Spots
+ namhafter Unternehmen.
+\end_layout
+
+\begin_layout Itemize
+Fortschrittsanzeige: In Spielen wird häufig das Geschehen von Fortschrittsanzeig
+en begleitet.
+ Sie hat den Vorteil, dass der Bezug zum gegenwärtigen Fortschritt des Spiels
+ oder der Aufgabe gewährleistet ist.
+ Motivationale Defizite wie Ziellosigkeit können somit abgeschwächt oder
+ gar ganz entfernt werden.
+ 
+\emph on
+Streetspotr
+\emph default
+ kennzeichnet farblich geschickt die bereits erledigten Teilaufgaben eines
+ Spots.
+ Der Nutzer erkennt somit sofort seinen Tätigkeitsfortschritt.
+\end_layout
+
+\begin_layout Subsubsection
+Spielform
+\end_layout
+
+\begin_layout Standard
+Als Spielform lässt sich primär der Wettkampf ermitteln.
+ Spots werden regulär zwar im Alleingang durchgeführt.
+ Der Wettbewerb erschließt sich jedoch durch Spielmechanismen wie dem Punktesyst
+em und der Rangliste.
+ Neben der dominierenden Spielform Wettkampf sind auch Konflikt und Selbsterfahr
+ung zu identifizieren.
+ Diese sind aber nicht relevant genug, um sie auf eine gleiche Ebene zu
+ stellen.
+ Konflikt entsteht durch lukrative Spots, welche nur limitiert angeboten
+ werden.
+ In diesem Fall bekommt Derjenige den Spot bzw.
+ eine Reservierung, der schneller ist.
+ Langsamen Nutzern wird durch das aktive Eingreifen von schnelleren Nutzern
+ der Zugang zu solchen Spots verwehrt.
+ Die Mechanismus fließt aber deshalb nicht wertend in die Analyse, da diesbezügl
+ich ein Austausch zwischen den Nutzern fehlt.
+ Selbsterfahrung hingegen ist nicht gegeben, da bei Abschluss eines jeden
+ Spots, ob bezahlt oder als sehenswürdig deklariert, Punkte verdient werden.
+ Aus dieser für die Rangliste bestimmende Kriterium, lässt sich erneut die
+ Spielform Wettkampf ableiten und nicht Selbsterfahrung.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Streetspotr/IMG_1237.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:street-a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Streetspotr/IMG_1208.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:street-b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Streetspotr/IMG_1236.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:street-c"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screenshots aus der Smartphone-App 
+\emph on
+Streetspotr
+\emph default
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Screenshots-von-der-Streetspotr-App"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+City Maps and Walks
+\end_layout
+
+\begin_layout Standard
+Der Herausgeber 
+\emph on
+GPSmyCity
+\emph default
+ bietet mit seiner Anwendung 
+\emph on
+City Maps and Walks
+\emph default
+ internationale Städtetouren an.
+ Laut dem Herausgeber sind sie das größte Portal zu dieser Subdomäne.
+ Ihre Nutzer können auf über 5000 Städtetouren in mehr als 470 Städten und
+ Metropolen zugreifen, wobei auch verschiedene Touren pro Ort möglich sind
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "GPSMYCITYInc.2016"
+
+\end_inset
+
+.
+ Zudem sind Touren auch selbst erstellbar.
+\end_layout
+
+\begin_layout Standard
+Hauptmerkmale der Anwendung sind die Auswahl von Städtetouren, die Erstellung
+ eigener Touren und der Reiseroutenassistent.
+ Letzteres ist allerdings nur als In-App-Kauf verfügbar.
+ Die Benutzeroberfläche ist rudimentär gehalten, weißt jedoch einige Besonderhei
+ten auf.
+ Sehenswürdigkeiten sind beispielsweise in der Auswahlübersicht farblich
+ in Kategorien gegliedert.
+ Rot markierte Orte gelten als besonders sehenswert, während grüne Markierungen
+ Basis-Attraktionen kennzeichnen (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:city-b"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsubsection
+Anwendungsziel
+\end_layout
+
+\begin_layout Standard
+Die Anwendung möchte ihren Nutzern das Gefühl einer individuellen Stadtbesichtig
+ung bieten, in welcher die Nutzer die Rolle des Reiseführers selbst in die
+ Hand nehmen.
+ 
+\emph on
+GPSmyCity
+\emph default
+ verweist hierbei auf den Wegfall etwaiger unbeliebter Faktoren, wie beispielswe
+ise den Beitritt in Reisegruppen, oder zeitlichen Einschränkungen 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "GPSMYCITYInc.2016"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph*
+Zielgruppe/Spielertyp
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+City Maps and Walks
+\emph default
+ möchte ihrer Zielgruppe abwechslungsreiche Touren präsentieren abseits
+ der sonst vom Pauschalurlauber besuchten Tourismuspfade 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "GPSMYCITYInc.2016"
+
+\end_inset
+
+.
+ Das Anwendungsziel sowie die Routen abseits des Mainstream-Tourismus macht
+ die App besonders für Explorer ansprechend.
+\end_layout
+
+\begin_layout Subsubsection
+Zielverhalten
+\end_layout
+
+\begin_layout Standard
+Das Zielverhalten ist ähnlich dem von 
+\emph on
+Tripwolf
+\emph default
+.
+ Aus einer Auswahl von Städten können verschiedene Touren mit vorkonfigurierten
+ Sehenswürdigkeiten unternommen werden.
+ Gibt es keine passende Tour, lässt sich optional eine eigene Tour aus den
+ verschiedenen Sehenswürdigkeiten organisieren (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:city-a"
+
+\end_inset
+
+).
+ Während der Tour werden sowohl die erkundeten Ziele, als auch der eigene
+ Standort durch eine automatisch erstellte Reiseroute auf einer laufend
+ aktualisierten Karte visualisiert.
+ Den Nutzern soll während der gesamten Zeit das Gefühl gegeben werden, Kontrolle
+ über ihre Tour zu besitzen.
+\end_layout
+
+\begin_layout Subsubsection
+Spielmechanismen
+\end_layout
+
+\begin_layout Itemize
+User Generated Content: Nutzer können ihre eigenen Touren organisieren und
+ mit Freunden teilen.
+\end_layout
+
+\begin_layout Itemize
+Punktesystem: Das System vergibt an registrierte Nutzer Punkte, wenn sie
+ besuchte Orte als solche markieren oder Fotos zu den Sehenswürdigkeiten
+ vor Ort hochladen.
+ Für genügend Punkte erhält man Auszeichnungen in Form von Badges und bald
+ erhältlicher Belohnungen durch Vollversionen.
+\end_layout
+
+\begin_layout Itemize
+Badge: Badges werden an Nutzer mit bestimmter ausreichend hoher Punktezahl
+ vergeben.
+\end_layout
+
+\begin_layout Standard
+Neben der präsenten Möglichkeit zur Planung eigener Städtetouren (User Generated
+ Content), werden die anderen Spielmechanismen nur beiläufig vor der Registrieru
+ng (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:city-c"
+
+\end_inset
+
+) und im Info-Menü erwähnt.
+ Ein Wettkampf mit weiteren Nutzern bezüglich der Auszeichnungen ist zwar
+ im Text angedeutet, es sind aber innerhalb der Anwendung keinerlei Handlungsmög
+lichkeiten mit der Community erkennbar.
+\end_layout
+
+\begin_layout Subsubsection
+Spielform
+\end_layout
+
+\begin_layout Standard
+Die Spielform der Anwendung lässt sich als Selbsterfahrung deklarieren.
+ Nutzer begehen für sich alleine oder zusammen mit Freunden Städtetouren,
+ ohne weitere Abhängigkeiten in Form von Interaktionen mit weiteren Nutzern.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/GPSmyCity/thumb_IMG_1320_1024.jpg
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:city-a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/GPSmyCity/thumb_IMG_1316_1024.jpg
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:city-b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/GPSmyCity/thumb_IMG_1298_1024.jpg
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:city-c"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screenshots aus der Smartphone-App 
+\emph on
+City Maps and Walks
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Screenshots-aus-der-City-Maps-and-Walks-App"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Foursquare & Swarm
+\end_layout
+
+\begin_layout Standard
+2009 startete das standortbezogene Netzwerk 
+\emph on
+Foursquare
+\emph default
+, mit der an verschiedenen Orten Check-Ins getätigt werden konnten um so
+ Freunden den derzeitigen Standort mitzuteilen.
+ Besonderen Stellenwert besitzt die spielerische Komponente des Check-Ins,
+ mit der Nutzer Prestige über Orte und Lokale erlangen.
+ 2014 übernahm diese Komponente die neue Anwendung namens 
+\emph on
+Swarm
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Foursquare.2016"
+
+\end_inset
+
+.
+ Beide Anwendungen existieren nun in Symbiose miteinander.
+ Während 
+\emph on
+Foursquare
+\emph default
+ weiterhin Informationen und Tipps zu Standorten bereithält, lässt 
+\emph on
+Swarm
+\emph default
+ mit den Aufenthaltsorten seiner Nutzer sie um Auszeichnungen konkurrieren.
+ 
+\emph on
+Foursquare
+\emph default
+ entspricht hinsichtlich seiner Domäne nicht exakt dem des Reisens, es existiere
+n zumindest aber Schnittpunkte in Bereich Aufsuchen erstrebenswerter Orte.
+ Interessant und ausschlaggebend für die Einbeziehung in diese Marktstudie,
+ ist seine markante Gamifizierung.
+\end_layout
+
+\begin_layout Subsubsection
+Anwendungsziel
+\end_layout
+
+\begin_layout Standard
+Die Aufteilung einer Anwendung in zwei autonome Anwendungen erhöht die Komplexit
+ät zur Identifizierung des Anwendungsziels.
+ Denn hieraus stellt sich die grundlegende Frage, ob jede Anwendung separat
+ betrachtet werden soll, oder nicht.
+ Im Rahmen dieser Arbeit, wird die Ansichtsweise verfolgt, dass 
+\emph on
+Foursquare
+\emph default
+ weiterhin die primäre Anwendung ist und 
+\emph on
+Swarm
+\emph default
+ ein Teil von ihr.
+ Eine separate Untersuchung des Anwendungsziels zu 
+\emph on
+Swarm
+\emph default
+ ist nicht praktikabel, da in 
+\emph on
+Swarm
+\emph default
+ keine erkennbare Arbeitssituation gefunden wurde, die es als spielfremde
+ Domäne ausweist.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Foursquare's
+\emph default
+ Anwendungsziel lässt sich als Unterstützung im Suchen und Finden neuer
+ Orte definieren.
+ Dieser Auffassung ist auch Frith in seiner Analyse zu 
+\emph on
+Foursquare
+\emph default
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~249]{Frith.2013}
+\end_layout
+
+\end_inset
+
+.
+ 
+\emph on
+Swarm's
+\emph default
+ integrierte und eigenständige Funktionen sind Mittel zum Zweck.
+\end_layout
+
+\begin_layout Paragraph*
+Zielgruppe/Spielertyp
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Swarm
+\emph default
+ konzentriert sich stark auf eine wettstreitende Zielgruppe.
+ Das ständige Messen mit Gleichgesinnten sollte vor allem Nutzer mit der
+ Persönlichkeit eines Killers ansprechen.
+ Das Sammeln verschiedener Belohnungen (z.
+ B.
+ Sticker) sind zudem lohnend für Achiever.
+ 
+\emph on
+Foursquare
+\emph default
+ verliert hingegen durch die starke Abtrennung der Check-Ins an charakteristisch
+e Spielertyp-Merkmale.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Zielverhalten
+\end_layout
+
+\begin_layout Standard
+Das Zielverhalten der Nutzer lässt sich in die folgenden Schritte unterteilen:
+ das Suchen und Finden eines Ortes oder Lokals sowie den tatsächlichen Besuch.
+ Das Vorgehen der Nutzer wird hierbei durch Anwendungsfunktionen wie beispielswe
+ise einstellbaren Präferenzen, Filtermöglichkeiten und der Standortbestimmung
+ unterstützt.
+ Die Möglichkeit des Check-Ins und der sich dadurch eröffnenden Spielmechanismen
+ sind standortbezogen.
+ Dies soll die darauf ansprechende Zielgruppe zusätzlich zu einem Besuch
+ des Ortes motivieren.
+\end_layout
+
+\begin_layout Subsubsection
+Spielmechanismen
+\end_layout
+
+\begin_layout Standard
+Folgende Spielmechanismen sind ausschließlich der Anwendung 
+\emph on
+Swarm
+\emph default
+ entnommen:
+\end_layout
+
+\begin_layout Itemize
+Punkte: 
+\emph on
+Swarm
+\emph default
+ verwendet Punkte in Form von Coins, mit denen sich u.
+ a.
+ Preise gewinnen lassen.
+ Darüber hinaus werden sie auch für die Ranglistenbestimmung verwendet.
+ Verdient werden Coins, indem Check-Ins getätigt werden.
+ Der Begriff suggeriert eine virtuellen Währung innerhalb der Anwendung,
+ allerdings lassen sich damit keine Käufe tätigen.
+ Hauptmerkmal einer virtuellen Währung - welches ebenfalls ein Gamification-Patt
+erns darstellt - ist die Möglichkeit zum Kauf virtueller Zusatzinhalte.
+\end_layout
+
+\begin_layout Itemize
+Rangliste/Leaderboard: Die Rangliste in 
+\emph on
+Swarm
+\emph default
+ basiert auf verdienten Coins der Nutzer.
+ Ihre Besonderheit ist ihre wöchentliche Aktualisierung.
+ Sehr häufig frequentierter Ranglistenwechsel wird somit nur zu bestimmten
+ Zeiten vollzogen.
+ Zudem sind nur Freunde auf der Rangliste sichtbar.
+\end_layout
+
+\begin_layout Itemize
+Assistent: In 
+\emph on
+Swarm
+\emph default
+ assistiert ein virtuelle Person den Nutzer in neuen Einstellungen und Funktione
+n (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:swarm-a"
+
+\end_inset
+
+).
+ Das Aufgabengebiet eines Assistenten beinhaltet die schnelle Hilfe in häufigen
+ Fragen, das Geben von Tipps und Tricks, sowie die Funktion eines Tutorialratgeb
+ers.
+ Die Darstellung eines Assistenten variiert und kann von der Seriosität
+ der UI ab abhängen
+\end_layout
+
+\begin_layout Itemize
+Badge: Badges werden in der Anwendung Sticker genannt, welche durch Check-Ins
+ bestimmter Orte erhältlich sind (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:swarm-a"
+
+\end_inset
+
+).
+ Das Sammeln dieser Badges spricht vor allem Achiever an.
+ Im Falle von 
+\emph on
+Foursquare
+\emph default
+ & 
+\emph on
+Swarm
+\emph default
+ gehen manche Nutzer auch soweit, dass gezielt Badges gesammelt werden und
+ der Besuch der Orte zur Nebensache deklariert wird 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~255--256]{Frith.2013}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Titel: In 
+\emph on
+Swarm
+\emph default
+ bekommen Nutzer für Orte die sie mit den meisten Check-Ins dominieren,
+ den Titel des Mayors (engl.
+ für Bürgermeister) verliehen (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:swarm-b"
+
+\end_inset
+
+).
+ Der Verlust eines Titels ist ebenso möglich, indem andere Nutzer die Anzahl
+ der eigenen Check-Ins übertrifft.
+ Eine Ernennung zum Mayor oder zumindest die Aussicht darauf besitzt hohes
+ Motivationspotential lässt wie Frith herausfindet.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~253--255]{Frith.2013}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Spielform
+\end_layout
+
+\begin_layout Standard
+Die Spielform 
+\emph on
+Swarm
+\emph default
+ ist eine Kombination aus den Formen Konflikt und Wettkampf.
+ Wie bereits unter Punkt Zielgruppe/Spielertyp erwähnt, ist die Anwendung
+ 
+\emph on
+Swarm
+\emph default
+ bestrebt darin Nutzer vom Spielertyp Killer und Achiever zu motivieren.
+ Dies propagiert die Anwendung ausreichend oft in ihren Inhalten mit der
+ Frage nach mehr Wettbewerb (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:swarm-c"
+
+\end_inset
+
+).
+ Zudem existiert mit den Check-Ins ein Mechanismsu, der die negative Beeinflussu
+ng auf andere Nutzer erlaubt.
+ Die in Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Formen-des-Spiels"
+
+\end_inset
+
+ beschriebenen Eigenschaften des Wettkampfes sind hingegen durch die Rangliste
+ gegeben, welche nicht direkt negativ beeinflussbar ist.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Foursqure & Swarm/IMG_1179.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:swarm-a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Foursqure & Swarm/IMG_1458.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:swarm-b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Foursqure & Swarm/IMG_1182.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:swarm-c"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screenshots aus der Smartphone-App 
+\emph on
+Swarm
+\emph default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Screenshots-aus-der-Smartphone-App-Swarm"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The Travel Machine
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:The-Travel-Machine"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+The Travel Machine
+\emph default
+ ist keine veröffentlichte Anwendung wie es bei den bisherigen Produkten
+ der Fall ist, sondern eine von Aaron Marcus beschriebenes Produktkonzept
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Marcus.2013b"
+
+\end_inset
+
+.
+ Grundgedanke von 
+\emph on
+The Travel Machine
+\emph default
+ ist der, das Reiseverhalten von Nutzern weg von gewohnten Pfaden, hin zu
+ mehr kulturellen und erfahrungsreicheren Handlungsweisen zu verändern 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~262]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+.
+ TODO: direktes Zitat nutzen
+\end_layout
+
+\begin_layout Subsubsection
+Anwendungsziel
+\end_layout
+
+\begin_layout Standard
+Laut Marcus soll die Anwendung Reisenden beim Erforschen von Zielorten assistier
+en und Sie beim Lernprozess - das Verstehen fremder Kulturen - begleiten
+ .
+ Als führendes Beispiel erwähnt Marcus die Grand Tour aus dem 17.
+ und 18.
+ Jahrhundert 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~261]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+.
+ Eine solche Reise diente meist jungen Adeligen als Abschluss ihrer Ausbildung.
+ Die Reisen beinhalteten kulturelle Stätten und Sehenswürdigkeiten im mitteleuro
+päischen Raum.
+ Ziel der Reise war es, den Horizont der jungen Erwachsenen durch neue Erfahrung
+en und Eindrücke zu erweitern, und so ihrer bisherigen Ausbildung den 
+\begin_inset Quotes eld
+\end_inset
+
+Feinschliff
+\begin_inset Quotes erd
+\end_inset
+
+ zu verleihen 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Faller.2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph*
+Zielgruppe/Spielertyp
+\end_layout
+
+\begin_layout Standard
+TODO: Fokus-Gruppe S.302
+\end_layout
+
+\begin_layout Standard
+Explorer, Achiever
+\end_layout
+
+\begin_layout Subsubsection
+Zielverhalten
+\end_layout
+
+\begin_layout Standard
+Die Nutzer sollen während ihrer Reise von gezielten Vorschlägen eines virtuellen
+ Assistenten innerhalb der Anwendung zu individuellen und besonderen Aufgaben
+ verleitet werden.
+ Durch Erfüllung dieser Aufgaben bekommen die Nutzer einen intensiveren
+ Eindruck von den Kulturgepflogenheiten der jeweiligen Gegenden.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Spielmechanismen
+\end_layout
+
+\begin_layout Itemize
+Challenges: In 
+\emph on
+The Travel Machine
+\emph default
+ stehen Aufgaben in Form von kleineren Spielen oder Quizze unter dem Tab
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Challenges
+\begin_inset Quotes erd
+\end_inset
+
+ zur Wissensprüfung bereit.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~264]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+.
+ Anders als in 
+\emph on
+SeeSight
+\emph default
+ sind sie nicht in die Tour integriert, sondern sind getrennt davon, gesammelt
+ abrufbar.
+ Trotzdem behandeln beide Versionen dasselbe Thema, nämlich Inhalte zu einzelnen
+ kulturellen Orten, oder Ländern dem Nutzer begreifbar zu machen.
+ Als Belohnung zu erfolgreich abgeschlossenen Challenges erwarten den Nutzer
+ höhere Status oder Titel.
+ Ab einem gewissen Level können auch Gutscheine oder Preisnachlässe von
+ kooperierenden Firmen gewährt werden.
+\end_layout
+
+\begin_layout Itemize
+Skill-Tree: Spiele bieten manchmal die Möglichkeit der Weiterentwicklung
+ seiner Spielfigur in verschiedenen Fertigkeiten oder Richtungen.
+ Durch die individuellen Weiterentwicklungsmöglichkeiten der eigenen Spielfigur
+ kann sich der Nutzer durch sein virtuelles Ich besser selbst darstellen.
+ Dadurch kann er sich mit der Spielfigur identifizieren und wird langfristig
+ persönlich und auf emotionaler Ebene an die Anwendung gebunden.
+ Nutzer können in 
+\emph on
+The Travel Machine
+\emph default
+ virtuelle Status und Titel als Belohnung für abgeschlossene Challenges
+ erhalten und diese mit der Community teilen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~264]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+.
+ Während ein höherer Status der Person generell mehr Kompetenzen zuspricht,
+ können verliehene Titel eine Richtung ihrer Erfolge vermitteln.
+\end_layout
+
+\begin_layout Itemize
+Assistent: Der Travel Advisor ist ein interaktiver Assistent.
+ Er weist auf interessante Orte hin und schlägt besondere Aufgaben während
+ der Reise vor 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~272--275]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Aufeinanderfolgende Informationen: Es besteht ein Risiko, den Reisenden
+ mit der angebotenen Anwendung zu viele Informationen auf einmal, bzw.
+ ohne klaren Zusammenhang in die Hand zu geben.
+ Solche Aktionen können den Spannungsbogen einer Tour verringern.
+ Die Aufgabe des Travel Advisors, eine Hauptkomponente der Travel Machine,
+ ist es, dem Nutzer ausgewogen zu bestimmten Ereignissen oder Orten Informatione
+n oder Ideen vorzuschlagen, Rückmeldung zu erreichten Zielen zu geben, oder
+ Challenges anzubieten 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~264]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Match-Making-Rating: Es gibt ein System mit dessen Hilfe Nutzer mit anderen
+ Reisenden in Kontakt treten können.
+ In 
+\emph on
+The Travel Machine
+\emph default
+ lassen sich Tagebucheinträge verfassen.
+ Aus ihnen TODO.
+ Die Standortfreigabe des Tagebuchschreibenden ermöglicht zudem eine Lokalisieru
+ng von Nutzern mit ähnlichen Interessen in der unmittelbaren eigenen Umgebung.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~278]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Spielform
+\end_layout
+
+\begin_layout Standard
+Marcus erwähnt, wie sehr er mit diesem Konzept an den Selbstfindungs-Charakter
+ der damaligen Grand Tour anknüpfen möchte (TODO: Quelle).
+ Damit steht klar die Selbsterfahrung im Vordergrund.
+ Für die Spielform Achiever wäre lediglich die Belohnung für erfolgreich
+ abgeschlossene Challenges von Interesse.
+\end_layout
+
+\begin_layout Section
+Zusammenfassung 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Zusammenfassung-Anwendungen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nach der Untersuchung der verwandten Anwendungen und Arbeiten zu den Kriterien
+ Anwendungsziel, Zielgruppe/Spielertyp, Zielverhalten, Spielmechanismen
+ und Spielform, bedarf es einer Zusammentragung der Ergebnisse.
+ Diese Zusammenfassung dient als Basis für den Prototyp der in Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Entwicklung-eines-Prototypen"
+
+\end_inset
+
+ folgt.
+ 
+\end_layout
+
+\begin_layout Standard
+Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Gegenüberstellung-der-Anwendungs"
+
+\end_inset
+
+ stellt die Kriterien Anwendungsziel und Zielverhalten in einer Übersicht
+ gegenüber.
+ Der Spalte Anwendungsziel ist entnehmbar, dass die überwiegende Mehrheit
+ ihre Nutzer in reisespezifischen Tätigkeiten unterstützen oder Funktionen
+ bereitstellen, die erfahrungsbereicherende Reiseerlebnisse ermöglichen.
+ Einzig 
+\emph on
+Streetspotr
+\emph default
+ besitzt ein anderes Primärziel.
+ Jenes Anwendungsziel - die Absolvierung von Aufgaben - sind hingegen bei
+ Anwendungen wie 
+\emph on
+SeeSight
+\emph default
+, 
+\emph on
+Quarterquest
+\emph default
+ und 
+\emph on
+The Travel Machine
+\emph default
+ das beabsichtigte Zielverhalten der Nutzer.
+ Andere Anwendungen wie 
+\emph on
+Tripwolf
+\emph default
+, 
+\emph on
+Trip Journal
+\emph default
+ und 
+\emph on
+City Maps and Walks
+\emph default
+ sind bestrebt darin, dass ihre Zielgruppe Touren bzw.
+ Reisen auswählen oder sogar selbst erstellen und diese antreten.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Gegenüberstellung der Marktstudie nach Anwendungsziel und Zielverhalten
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Gegenüberstellung-der-Anwendungs"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="3">
+<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="left" valignment="top" width="18text%">
+<column alignment="left" valignment="top" width="38text%">
+<column alignment="left" valignment="top" width="35text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anwendung/ Arbeit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anwendungsziel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zielverhalten
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+SeeSight
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unterstützung bei Reiseplanungen und Aufwertung des Tourerlebnisses
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Auswahl präferierter Touren und währenddessen stetige Durchführung von Aufgaben
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Tripwolf
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hilfestellung bei Reiseplanungen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Auswahl oder Erstellung sowie Beginn einer Städtereise
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Trip Journal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unterstützung bei reise relevanten Tätigkeiten.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Erstellung eigener Reisepläne und kontinuierliche Verwendung reiseunterstützende
+r Funktionen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Quarterquest
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Erlebnisaufwertung während der Touren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Durchführung der Tour und Beantwortung standortbezogener Fragen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Streetspotr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Absolvierung verschiedener Aufgaben in näherer Umgebung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Annahme und Durchführung der Aufgabe
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+City Maps and Walks
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Besichtigung individueller, auf die eigenen Bedürfnisse abgestimmte Städtereisen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Auswahl oder Erstellung sowie Beginn einer Städtereise
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Foursquare
+\emph default
+ & 
+\emph on
+Swarm
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unterstützung im Suchen und Finden neuer Orte
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Suchen und Finden präferierter Orte sowie Besuch ebendieser
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+The Travel Machine
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aufwertung der Reise durch Förderung des Verstehensprozesses bezüglich fremder
+ Kulturen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Erfüllen verschiedener Aufgaben während der Reise
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Eine Verteilung der Marktstudie nach dem Kriterium Spielertyp ist aus Abbildung
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Verteilung-der-Marktstudie"
+
+\end_inset
+
+ entnehmbar.
+ Allen Anwendungen bis auf 
+\emph on
+Foursquare
+\emph default
+ & 
+\emph on
+Swarm
+\emph default
+ kann der explorative Spielertyp zugeordnet werden.
+ Achiever und Socializer sind zusätzlich den Anwendungen 
+\emph on
+Trip Journal
+\emph default
+, 
+\emph on
+Streetspotr
+\emph default
+ sowie 
+\emph on
+Quarterquest
+\emph default
+ und 
+\emph on
+The Travel Machine
+\emph default
+ zugewiesen.
+ Lediglich 
+\emph on
+Foursquare
+\emph default
+ & 
+\emph on
+Swarm
+\emph default
+ verfolgt mit der Kombination des Killer und Achiever einen alternativen
+ Ansatz.
+ Die Fokussierung auf die explorative Persönlichkeit ist innerhalb der spielfrem
+den Domäne Reisen nachvollziehbar, denn Reisen vermittelt den Charakter
+ des Erkundens neuer Gegenden.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Venn Spielertyp.png
+	width 80text%
+	BoundingBox 0bp 10bp 700bp 400bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Verteilung der Marktstudie nach Spielertypen 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Verteilung-der-Marktstudie"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die Marktstudie lässt sich ebenso nach dem Kriterium Spielform gruppieren
+ (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Verteilung-der-Marktstudie-nach-Formen-des-Spiels"
+
+\end_inset
+
+).
+ Auch hier zeichnet sich eine Tendenz ab.
+ Sechs der acht analysierten Anwendungen und Arbeiten sind ganz oder teilweise
+ der Spielform Selbsterfahrung zugeordnet.
+ Nur bei zwei Anwendungen liegt der Fokus ausschließlich auf Wettstreit
+ und Konflikt.
+ Die weiteren Formen des Spiels Koordination und Kooperation ließen sich
+ in den Anwendungen und Arbeiten nicht identifizieren.
+ Ein Beispiel für Kooperation wäre beispielsweise die permanente, gegenseitige
+ Unterstützung von Nutzern bei Quiz-Fragen gewesen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement tbh
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Venn Spielform.png
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Verteilung der Marktstudie nach Formen des Spiels
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Verteilung-der-Marktstudie-nach-Formen-des-Spiels"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Auch dieses Ergebnis bezüglich der mehrheitlichen Anwendung der Spielform
+ Selbsterfahrung ist für die Domäne Reisen plausibel.
+ Meist sind Touren und Reisen gleichgesetzt mit Erholung von der täglichen
+ Arbeit.
+\end_layout
+
+\end_body
+\end_document

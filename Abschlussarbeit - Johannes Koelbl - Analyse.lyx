@@ -1,0 +1,6550 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrreprt
+\begin_preamble
+% Anpassung des Seitenlayouts --------------------------------------------------
+
+% Anpassung an Landessprache --------------------------------------------------
+\usepackage[ngerman]{babel}
+
+% Schrift 
+% ----------------------------------------------------------------------
+\usepackage{lmodern} % bessere Fonts
+\usepackage{relsize} % Schriftgröße relativ festlegen
+
+% Grafiken 
+% ---------------------------------------------------------------------
+% Einbinden von JPG-Grafiken ermöglichen
+\usepackage{graphicx}
+% hier liegen die Bilder des Dokuments
+\graphicspath{{Bilder/}}
+
+% URL verlinken, lange URLs umbrechen etc. 
+% --------------------------------------------------------------------
+\usepackage[hyphens]{url}
+%\usepackage{hyperref}
+%\usepackage{url,hyperref}
+
+%URL im Literaturverzeichnis
+%\usepackage{url}
+%\addcontentsline{toc}{section}{References}
+
+% Formatierung von Listen ändern 
+% -------------------------------------------------------------------
+%\usepackage{paralist}
+
+%Abkürzungsverzeichnis
+% --------------------------------------------------------------------
+\setlength{\nomlabelwidth}{.20\hsize}
+\renewcommand{\nomlabel}[1]{#1 \dotfill}
+\setlength{\nomitemsep}{-\parsep}
+\renewcommand{\nomname}{Abkürzungsverzeichnis}
+\def\nompreamble{\addcontentsline{toc}{section}{\nomname}\markboth{\nomname}{\nomname}}
+\end_preamble
+\options liststotoc
+\use_default_options true
+\master Abschlussarbeit - Johannes Koelbl.lyx
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language ngerman
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Entwicklung eines Prototypen im Bezug auf die Analyse der erfassten Anwendungen
+ und der bestehenden Konzeptstudie 
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Entwicklung-eines-Prototypen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In diesem Kapitel wird die Studie mithilfe des Vorgehensmodells 
+\begin_inset Quotes eld
+\end_inset
+
+Designprozess zur Verhaltensänderung
+\begin_inset Quotes erd
+\end_inset
+
+ von Stephen Wendel kritisch reflektiert und weiterentwickelt.
+ Die soeben vorgestellten verwandten Anwendungen und Arbeiten aus Abschnitt
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Überblick-zu-verwandten-Anwendungen-und-Arbeiten"
+
+\end_inset
+
+ werden dabei mit der Konzeptstudie 
+\emph on
+SeeSight
+\emph default
+ in den herausgearbeiteten Vergleichskriterien aus Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Identifikation-geeigneter-Vergleichskriterien"
+
+\end_inset
+
+ an entsprechenden Stellen verglichen und abgewogen.
+ Spricht etwas für die Übernahme bestimmter Merkmale eines verwandten Produktes,
+ fließen diese Merkmale in die Weiterentwicklung mit ein.
+ Zuallererst wird jedoch nach den Vorschlägen von Wendel gehandelt.
+ Wenn möglich, wird der jeweilige IST-Stand der Konzeptstudie herangezogen
+ und nach seiner Aktualität sowie Relevanz geprüft.
+ Falls zusätzliche Erkenntnisse aus den verwandten Produkten vorliegen,
+ werden auch diese berücksichtigt.
+\end_layout
+
+\begin_layout Section
+Weiterentwicklung der Konzeptstudie
+\end_layout
+
+\begin_layout Standard
+In den folgenden Unterabschnitten werden zuerst die Haupteigenschaften des
+ weiterzuentwickelnden Produkts geklärt.
+ Diese sind die Klarstellung der Vision über das Produkt und eines Anwendungszie
+ls (Unterabschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Anwendungsziel-bestimmen"
+
+\end_inset
+
+).
+ Danach werden mögliche Projekteinschränkungen bestimmt und eine Reihe plausible
+r Zielverhalten der Nutzer definiert (Unterabschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Projekteinschränkungen"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Mögliche-Zielverhalten-definiere"
+
+\end_inset
+
+).
+ Nachfolgend wird in Unterabschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Festlegung-der-Zielgruppe"
+
+\end_inset
+
+ die Zielgruppe eingegrenzt und in Unterabschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Persona-Gruppen"
+
+\end_inset
+
+ Persona-Gruppen in Bezug auf die Zielverhalten erstellt.
+ Zuletzt wird in Unterabschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Festlegung-auf-Zielverhalten"
+
+\end_inset
+
+ die Festlegung auf exakt ein Zielverhalten mithilfe der bisher erlangten
+ Erkenntnisse vorgenommen.
+\end_layout
+
+\begin_layout Subsection
+Anwendungsziel bestimmen
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Anwendungsziel-bestimmen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wendel beginnt in der Phase 
+\begin_inset Quotes eld
+\end_inset
+
+Discover
+\begin_inset Quotes erd
+\end_inset
+
+ mit der Festlegung der Produktvision und dem Anwendungsziel.
+ Die Wahl zwischen einer nutzerorientierten oder unternehmensorientierten
+ Gestaltung überlässt er dabei dem Leser 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~76--85]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Da im Rahmen dieser Abschlussarbeit kein Unternehmen existiert, welches
+ im Fokus des Entwicklungsprozesses stehen könnte, konzentriert sich der
+ weitere Fortgang auf den ersten Ansatz.
+ 
+\end_layout
+
+\begin_layout Standard
+Obwohl die Konzeptstudie bereits ein Anwendungsziel besitzt, ist es unter
+ Umständen sinnvoll, das Vorgehensmodell nicht erst später im Prozess zu
+ beginnen.
+ Für den Prototyp könnte eine Schärfung des Anwendungsziels durch die gesamtheit
+liche Betrachtung von Vision und Anwendungsziel von Vorteil sein.
+ Die Produktvision ist wie folgt:
+\end_layout
+
+\begin_layout Quote
+Nutzende anregen, bewusster zu reisen.
+\end_layout
+
+\begin_layout Standard
+Aus dieser noch vagen Aussage wird das konkrete Ziel des Produkts abgeleitet.
+ Dieses Ziel soll laut Wendel deshalb konkretisiert werden, um später einen
+ Anhaltspunkt für Erfolg oder Misserfolg zu haben 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~78]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Quote
+Das Produkt hilft Nutzenden ab dem ersten Moment sie gezielt dazu anzuregen,
+ kulturelle Orte und Sehenswürdigkeiten bewusster wahrzunehmen.
+\end_layout
+
+\begin_layout Standard
+Das Messen von Gefühlen ist unter Umständen schwierig.
+ Diese können zwar mithilfe von Umfragen evaluiert werden, eine Auswertung
+ solcher Ergebnisse kann allerdings je nach Interpretation unterschiedlich
+ ausfallen.
+ Wendel führt diesen Gedanken damit fort, dass man sich trotz nicht messbarem
+ Anwendungsziel beispielsweise Gedanken darüber machen kann, ob Nutzer ihr
+ neu hinzugewonnenes Wissen bzw.
+ ihre erlebten Erfahrungen nach dem Anwendungsziel zu Handlungen verleiten
+ könnten 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~79]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Die Messung von derartigen Ereignissen unmittelbar nach dem Anwendungsziel
+ wäre dahingehend vielversprechender.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Assoziation zu vergleichenden Produkten
+\end_layout
+
+\begin_layout Standard
+Die verwandten Anwendungen und Arbeiten aus Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Überblick-zu-verwandten-Anwendungen-und-Arbeiten"
+
+\end_inset
+
+ sind überwiegend wegen diesem Punkt für diese Abschlussarbeit herangezogen
+ worden.
+ Anwendungen wie 
+\emph on
+Quarterquest
+\emph default
+, 
+\emph on
+Tripwolf
+\emph default
+, 
+\emph on
+Trip Journal
+\emph default
+, 
+\emph on
+City Maps and Walks
+\emph default
+ oder 
+\emph on
+The Travel Machine
+\emph default
+ besitzen ein ähnliches oder sogar dasselbe Anwendungsziel.
+\end_layout
+
+\begin_layout Subsection
+Projekteinschränkungen
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Projekteinschränkungen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Für den weiteren Designprozess empfiehlt Wendel an diesem Punkt sonstige
+ mögliche Einschränkungen zu identifizieren, damit diese das weitere Vorgehen
+ nicht unerwartet negativ beeinflussen könnten 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~85--86]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Im Rahmen von Abschlussarbeiten ist unter anderem die Zeit ein nicht unbedeutsa
+mer Faktor.
+ Des Weiteren kann es vorteilhaft sein, sich Gedanken über die Erscheinungsform
+ des späteren Produkttyps zu machen.
+\end_layout
+
+\begin_layout Description
+Produkttyp: Die Konzeptstudie ist als mobile App festgelegt.
+ Diese Einschränkung wird für den Prototyp als hybride App präzisiert.
+ Mit der Entwicklung eines hybriden Prototypen lassen sich für die spätere
+ Testpahse mehr Probanden werben.
+\end_layout
+
+\begin_layout Description
+Umfang
+\begin_inset space ~
+\end_inset
+
+der
+\begin_inset space ~
+\end_inset
+
+Arbeit: Die Abschlussarbeit umfasst zeitlich sechs Monate bei ausschließlicher
+ Bearbeitung, ansonsten maximal acht Monate.
+ Diese Einschränkung kann für die spätere Abwägung der Entwicklungszeit
+ und somit der Erscheinungsform des Prototyps bedeutend sein.
+\end_layout
+
+\begin_layout Subsection
+Mögliche Zielverhalten definieren
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Mögliche-Zielverhalten-definiere"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nachdem das Anwendungsziel konkretisiert wurde, schlägt Wendel eine Liste
+ aus mindestens fünf verschiedenen Zielverhalten vor, welche unternommen
+ werden könnten, um das Anwendungsziel zu erfüllen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~86]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Die erdachten Zielverhalten sollten sich zudem in ihrer Ausführung möglichst
+ auf die wichtigsten Schritte konzentrieren 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~89--91]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Wendel führt hierfür den Begriff der am kleinsten durchführbaren Aktion
+ (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ Minimum Viable Action
+\begin_inset Quotes erd
+\end_inset
+
+) ein.
+ Diese Art des auf ein Minimum reduzierten Zielverhaltens lässt sich gemäß
+ dem Behavioral Grid (s.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Behavioral-Grid"
+
+\end_inset
+
+) als ein einmaliges Verhalten definieren.
+ Für die Testphase ist diese Zeitdauer auch geeignet.
+ Für eine fortwährende bewusstere Auseinandersetzung mit den besuchten kulturell
+en Orten ist jedoch ein kontinuierliches Zielverhalten angestrebt.
+ Das bedeutet, immer wenn die Anwendungsnutzer eine Reise oder eine Tour
+ unternehmen, sollen sie das Zielverhalten durchführen.
+\end_layout
+
+\begin_layout Standard
+Das Zielverhalten der Konzeptstudie wird in die fünf Tätigkeiten einfließen.
+ Es ist jedoch kein einzelner Punkt, da dessen komplexer Handlungsstrang
+ mit den Vorgaben von Wendel kollidieren würde.
+ Genauso werden diejenigen verwandten Anwendungen und Arbeiten mit denselben
+ Anwendungsziel berücksichtigt - dazu mehr im Unterabschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Assoziation-zu-vergleichenden"
+
+\end_inset
+
+.
+ Vorstellbare Verhaltensweisen für das bewusstere Wahrnehmen von kulturellen
+ Orten und Sehenswürdigkeiten sind wie folgt:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=ZV-
+\backslash
+arabic{enumi}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Einige weitere Hintergrundinformationen zu den zu besuchenden Orten abrufen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Zielverhalten-Hintergrundinformationen-zu-den"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Mindestens eine Unterhaltung mit Einheimischen zu den besuchten Orten führen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Zielverhalten-Mindestens-eine-Unterhaltung"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Mindestens eine kulturelle Besonderheit während einer Reise ausprobieren.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Eine Tour nach eigener Präferenz gestalten oder auswählen und diese durchführen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Zielverhalten-Eine-Reise-nach"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Einige ortsbezogene Fragen zu den besuchten Schauplätzen beantworten.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bei genauerer Betrachtung lassen sich manche Gamification-Patterns in den
+ Zielverhalten wiederkennen.
+ Beispielsweise ist das Erstellen von Inhalten wie beispielsweise eigener
+ Touren ein Spielmechanismus, welche dem Pattern User Generated Content
+ nachempfunden ist.
+ Die Präsenz von Spielmechanismen in Zielverhalten könnten als zweckmäßig
+ angesehen werden.
+\end_layout
+
+\begin_layout Subsubsection
+Assoziation zu vergleichenden Produkten
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Assoziation-zu-vergleichenden"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Das Zielverhalten 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
+
+\end_inset
+
+ (Abruf von Hintergrundinformationen) findet bereits in mehreren verwandten
+ Produkten während einer Tour Verwendung, wie beispielsweise in 
+\emph on
+Tripwolf
+\emph default
+, 
+\emph on
+City Maps and Walks
+\emph default
+, 
+\emph on
+Foursquare
+\emph default
+ oder 
+\emph on
+Quarterquest
+\emph default
+.
+ Die Zielverhalten 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-Unterhaltung"
+
+\end_inset
+
+ (Unterhaltung führen mit Einheimischen) und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+ (Kulturelle Besonderheiten) sind hingegen nur in 
+\emph on
+The Travel Machine
+\emph default
+ durchführbar 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~272--275]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+.
+ Die Gestaltung einer Tour nach eigenen Vorlieben (Zielverhalten 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Eine-Reise-nach"
+
+\end_inset
+
+) bieten die Anwendungen 
+\emph on
+Tripwolf
+\emph default
+, 
+\emph on
+City Maps and Walks
+\emph default
+ und 
+\emph on
+Trip Journal
+\emph default
+.
+ 
+\emph on
+The Travel Machine
+\emph default
+ schlägt sogar automatisch nach den Präferenzen der Nutzer interessante
+ Orte vor 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~272]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+.
+ In 
+\emph on
+Quarterquest
+\emph default
+ und der Konzeptstudie 
+\emph on
+SeeSight
+\emph default
+ ist man angehalten, Quizfragen an den zu besuchenden Orten einer Tour zu
+ beantworten (Zielverhalten 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
+
+\end_inset
+
+) und auch 
+\emph on
+The Travel Machine
+\emph default
+ bietet Quiz-Spiele in seinem Konzept an 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~262]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+.
+ Die Spots von 
+\emph on
+Streetspotr
+\emph default
+ beinhalten angepasste Fragestellungen oder Aufgaben.
+ Die Struktur dieser Aufgaben unterliegt jedoch wirtschaftlichen Interessen
+ der jeweiligen Unternehmen und besitzen keinen spielerischen Charakter.
+\end_layout
+
+\begin_layout Subsection
+Festlegung der Zielgruppe
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Festlegung-der-Zielgruppe"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nachdem eine Liste aus mindestens fünf Zielverhalten definiert wurde, empfiehlt
+ Wendel, diese Liste mit der noch zu definierenden Zielgruppe zu konfrontieren.
+ Zuerst sollte man die demographischen Merkmale der gewünschten Zielgruppe
+ festlegen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~95--96]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Wendel besitzt keinerlei Referenz zu Spielertypen in seinem Vorgehensmodell,
+ weshalb dieses Vergleichsmerkmal zusätzlich in den Prozess integriert wird.
+ Die Konzeptstudie wurde auf Basis von zugeteilten Studierenden aus der
+ Lehrveranstaltung geplant.
+ Folgende Merkmale lassen sich daraus übertragen:
+\end_layout
+
+\begin_layout Itemize
+Alter: Ab 18 Jahren
+\end_layout
+
+\begin_layout Itemize
+Geschlecht: Sowohl männlich als auch weiblich
+\end_layout
+
+\begin_layout Itemize
+Sprache: Deutschsprachiger Raum
+\end_layout
+
+\begin_layout Itemize
+Interesse an: Ausflüge, Reisen, Kurztrips, Entdeckungstouren
+\end_layout
+
+\begin_layout Itemize
+Weitere Merkmale: Technikaffinität, Smartphone-Besitz
+\end_layout
+
+\begin_layout Itemize
+Spielertyp: Kombination aus Explorer und Socializer
+\end_layout
+
+\begin_layout Subsubsection
+Assoziation zu vergleichenden Produkten
+\end_layout
+
+\begin_layout Standard
+Während 
+\emph on
+Foursquare
+\emph default
+ und 
+\emph on
+Streetspotr
+\emph default
+, gegeben durch ihre bereits abweichenden Spielformen, auch durchweg verschieden
+e Spielertypen anzieht, lassen sich alle weiteren Produkte durch den gemeinsamen
+ Spielertyp Explorer in dieselbe Zielgruppe wie die Konzeptstudie einsortieren.
+ 
+\emph on
+Quarterquest
+\emph default
+ und 
+\emph on
+The Travel Machine
+\emph default
+ bieten mit ihren Spielmechanismen zusätzlich noch Achievern genügend Anreiz.
+ Ob sich der Prototyp nur auf den Explorer konzentrieren sollte, oder aber
+ weiterhin Socializer und eventuell Achiever berücksichtigt werden sollten,
+ hängt von der späteren Festlegung des Zielverhaltens und den gewählten
+ Spielmechanismen ab.
+\end_layout
+
+\begin_layout Subsection
+Persona-Gruppen
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Persona-Gruppen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nach der Festlegung der demographischen Merkmale und der vorsorglichen Abwägung
+ des Spielertyps, werden Persona-Verhaltensgruppen gebildet, welche wahrscheinli
+ch das Produkt in Zukunft nutzen werden.
+ Diese Gruppen werden schließlich auf die verschiedenen Zielverhalten (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
+
+\end_inset
+
+ bis 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
+
+\end_inset
+
+) abgebildet.
+ Ziel ist es, eine Menge an Persona-Gruppen zu erstellen, die unterschiedlich
+ auf die Versuche der Verhaltensänderung des Produkts reagieren.
+ Für die Persona-Erstellung werden zudem von Wendel folgende fünf Verhaltensfrag
+estellungen herangezogen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~98]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+Bisherige Erfahrung mit ähnlichen Zielverhalten?
+\end_layout
+
+\begin_layout Itemize
+Bisherige Erfahrung mit ähnlichen Produkten?
+\end_layout
+
+\begin_layout Itemize
+Bisherige Erfahrung zum Unternehmen?
+\end_layout
+
+\begin_layout Itemize
+Existierende Motivation?
+\end_layout
+
+\begin_layout Itemize
+Physische, psychische oder ökonomische Barrieren zu diesem Zielverhalten?
+\end_layout
+
+\begin_layout Standard
+Der präferierte Ansatz von Wendel für die Erstellung möglichst unterschiedlicher
+ Persona-Gruppen, ist eine Ja-Nein-Iteration über die vorgestellten fünf
+ Verhaltensfragestellungen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~102--103]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Zur besseren Übersicht ist in Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:JA-NEIN-Ansatz-zu-den"
+
+\end_inset
+
+ dargestellt, wie sich diese Ja-Nein-Iteration vorzustellen ist.
+ Es beginnt mit einer beliebigen Verhaltensfragestellung und wägt ab, ob
+ die zu erstellende Persona-Gruppe die Frage mit ja oder nein beantworten
+ würde.
+ Danach folgen der Reihe nach alle weiteren Fragestellungen bis man an den
+ Blättern des abgebildeten Baumes angelangt ist.
+ Entlang den für diese Persona-Gruppe gewählten Merkmalen entwirft man eine
+ einzelne Persona.
+ Personas lassen sich unbestimmbar detailliert entwerfen.
+ Für diese Abschlussarbeit wird jedoch ein knapper Ansatz aus Name, Alter,
+ Beruf und Kontext zum Zielverhalten gewählt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Verhaltensbasierende Fragestellungen 02.PNG
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+JA-NEIN-Ansatz zu den verhaltensbasierenden Fragestellungen
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:JA-NEIN-Ansatz-zu-den"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dieser Prozess wird laut Wendel so lange wiederholt, bis jedes Zielverhalten
+ ausreichend verhaltensbasierte Persona-Gruppen aufweist.
+ Darüber hinaus lassen sich im Vorfeld Zielverhalten aussortieren, welche
+ aufgrund der Projekteinschränkungen aus Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Projekteinschränkungen"
+
+\end_inset
+
+ nicht funktionieren werden 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~102]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Das Zielverhalten wonach man sich mit Einheimischen unterhält, wird diesbezügli
+ch nicht weiter verfolgt.
+ Es gäbe sicherlich spannende Themengebiete zu denen der Prototyp anregen
+ könnte, dennoch überwiegen gravierende Aspekte wie eine wahrscheinliche
+ Hemmschwelle der Nutzer und die möglicherweise von Ansässigen als belästigend
+ wahrgenommene Gesprächsgesuche von Nutzern.
+ Da der Prototyp im Rahmen einer Abschlussarbeit entwickelt wird, ist diese
+ Frage nach existierender Erfahrung mit dem Unternehmen vernachlässigbar
+ und lässt sich aus der Iteration ebenso ausschließen.
+\end_layout
+
+\begin_layout Standard
+Für die Bezeichnungen der Persona-Gruppen für das Zielverhalten des Ausprobieren
+s von kulturellen Besonderheiten wurde u.
+ a.
+ eine Studie zukünftiger Reisetypen herangezogen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~30]{FutureFoundation.2015}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Persona-Gruppen nach Zielverhalten 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
+
+\end_inset
+
+: Hintergrundinformationen zu den zu besuchenden Orten abrufen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="left" valignment="top" width="14text%">
+<column alignment="left" valignment="top" width="38text%">
+<column alignment="left" valignment="top" width="38text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reiseplaner
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spontanreisende
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Erfahrung mit ähnlichen Zielverhalten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sie planen vor Ausflügen sehr genau, wo es hingeht.
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spontane Ausflüge oder Urlaubsreisen, ohne viel Wert darauf zu legen, was
+ sie dort erwartet.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Erfahrung mit ähnlichen Produkten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sie kennen einige mobile Reiseführer, die nützliche Informationen zu Orten
+ oder Gebäuden bereitstellen.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nur mit Anwendungen die einen besonderen Urlaub suggerieren.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Motivation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diese Gruppe ist interessiert in historische und denkwürdige Urlaubs- oder
+ Ausflugsziele.
+ Sie plant deshalb vorausschauend, um viel in kurzer Zeit besuchen zu können.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diese Persona-Gruppe macht sich nichts daraus, viel im Vornherein zu recherchier
+en.
+ Meist bieten ihre Ausflüge einige spannende Orte.
+ Das könnte Motivation sein, um mehr über diese Orte oder angrenzende Gegenden
+ zu erfahren.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Barrieren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N/A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Machen sich nicht viel aus Hintergrundinformationen.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Beispiel einer Persona aus der Gruppe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Melanie ist 23 Jahre alt und studiert Kunstgeschichte.
+ Sie macht oft dort Urlaub wo sich Geschichte zugetragen hat.
+ Gerne lässt sie sich auch von ihrem Studium zu neuen Orten inspirieren.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Thomas ist 18 Jahre alt und fährt gerne mit Freunden spontan in den Urlaub.
+ Meist wissen sie nicht, was sie dort erwartet.
+ Oft sind es ausgefallene und spannende Orte oder Länder.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Persona-Gruppen nach Zielverhalten 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+: Kulturelle Besonderheit ausprobieren
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="left" valignment="top" width="14text%">
+<column alignment="left" valignment="top" width="38text%">
+<column alignment="left" valignment="top" width="38text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cultural Purist
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Simplicity Searchers
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Erfahrung mit ähnlichen Zielverhalten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Probieren während Urlaubsaufenthalten in fremden Gegenden oft kulturelle
+ Besonderheiten aus.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Buchen lieber den Pauschal-Urlaub oder einen gewöhnlichen Reiseführer.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Erfahrung mit ähnlichen Produkten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aufgrund ihres Arbeitsumfelds oder eines anderen Kontextes kennt sich diese
+ Gruppe mit gängigen Reise-Apps auf dem Markt aus.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Benutzen Reise-Apps zum Buchen von Hotels, für mehr bisher aber nicht.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Existierende Motivation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diese Gruppe besteht aus neugierigen und offenen Personen.
+ Sie möchten sich während ihrer Reise intensiv mit der jeweiligen Kultur
+ auseinandersetzen und scheuen nicht etwaige Risiken.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lieber bewegt sich diese Gruppe auf bereits bekanntem Terrain.
+ Weshalb eine unbekannte Veranstaltung besuchen, wenn man auch entspannt
+ am Strand liegen kann?
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Barrieren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N/A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bleiben lieber bei Gewohntem.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Beispiel einer Persona aus der Gruppe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sandra ist 20 Jahre alt und arbeitet aus Neugier für fremde Orte in einer
+ Reiseagentur.
+ Besonders angetan ist sie von Erlebnisreisen.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stefan ist 27 und Bankkaufmann wie sein Vater.
+ Er fährt gerne an den Strand, weil seine Familie schon früher Ausflüge
+ mit ihm dorthin unternahm.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Persona-Gruppen nach Zielverhalten 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Eine-Reise-nach"
+
+\end_inset
+
+: Personalisierte Touren
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="left" valignment="top" width="14text%">
+<column alignment="left" valignment="top" width="38text%">
+<column alignment="left" valignment="top" width="38text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Individualist
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Indifferentist
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Erfahrung mit ähnlichen Zielverhalten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Achten auf barierrefreie oder günstige Ausflugmöglichkeiten, suchen sich
+ Orte die noch kaum touristisch erschlossen sind, oder buchen lieber selbst
+ Hotels und Flüge anstatt es anderen zu überlassen.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keine Erfahrungen mit selbst geplanten Reisen.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Erfahrung mit ähnlichen Produkten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reise-Apps mit der Option personalisierter Touren und mit der Community
+ zu teilen.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keine Erfahrung mit ähnlichen Produkten.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Existierende Motivation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diese Gruppe möchte oder muss verschiedene Aspekte bei Ausflügen bzw.
+ des Urlaubs beachten.
+ Hauptmotivation ist eine mögliche Verbesserung des Komforts oder der Kosten.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dieser Gruppe verhält sich Reise-Entscheidungsfragen gegenüber gleichgültig.
+ Ihnen sind andere Aspekte wichtiger, beispielsweise mit wem sie auf Reisen
+ gehen.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Barrieren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Körperliche oder ökonomische Einschränkungen.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N/A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Beispiel einer Persona aus der Gruppe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hans ist 35 Jahre alt, verheiratet und hat zwei Kinder.
+ Er war von Beruf Dachdecker und seine Fortbewegungsmöglichkeiten sind seit
+ einem Unfall eingeschränkt.
+ Um mit seiner Familie auch weiterhin Ausflüge machen zu können, achtet
+ er dabei besonders auf Barierrefreiheit.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Isabell ist 43 Jahre alt und Hausfrau.
+ Sie fährt gerne mit ihren Ehemann über das Wochenende fort.
+ Die Wahl des Zielortes überlässt sie immer ihren Mann, weil sie überrascht
+ werden möchte.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Persona-Gruppen nach Zielverhalten 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
+
+\end_inset
+
+: Ortsbezogene Quiz-Fragen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="left" valignment="top" width="14text%">
+<column alignment="left" valignment="top" width="38text%">
+<column alignment="left" valignment="top" width="38text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entdecker
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Herausforderungs-Skeptiker
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Erfahrung mit ähnlichen Zielverhalten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spielabende und durch Quiz-Sendungen im Fernsehen, sowie Geocaching.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Durch Spielabende.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Erfahrung mit ähnlichen Produkten?
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Geocaching-Apps
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keine Erfahrung mit ähnlichen Produkten.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Existierende Motivation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diese Gruppe ist von kleinen Herausforderungen während Ausflügen oder Reisen
+ begeistert.
+ Ungern halten sie sich länger an einem Ort auf.
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diese Gruppe ist Herausforderungen eher abgeneigt.
+ Herausforderungen besitzen immer die Möglichkeit des Versagens und das
+ möchte diese Gruppe in ihrer Freizeit vermeiden.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Barrieren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N/A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sind nicht von Herausforderungen überzeugt.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Beispiel einer Persona aus der Gruppe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Georg ist 19 Jahre alt und studiert Informatik.
+ Er liebt es sich mit Kommilitonen mithilfe eines Quiz-Spiels zu messen.
+ In seiner neuen Stadt kennt er sich noch nicht sehr gut aus, weshalb er
+ sich oft von seinen neuen Freunden alles zeigen lässt.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Maria ist 24 Jahre alt und ist Fotografin.
+ Ihre Freunde sind leidenschaftliche Geocacher.
+ Sie selber jedoch hat kaum Interesse am Hobby ihrer Freunde.
+ Sie kommt öfter auf Touren mit, weil ihr der gemeinschaftliche Aspekt Freude
+ macht, ihr Handeln bleibt aber passiv.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Die vorgestellten acht Persona-Gruppen können sich auch für jeweils andere
+ Zielverhalten interessieren (s.
+ Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Relevante-Persona-Gruppen-der-Zielverhalten"
+
+\end_inset
+
+).
+ Das Zielverhalten 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
+
+\end_inset
+
+ kann theoretisch alle Persona-Gruppn außer den Herausforderungs-Skeptikern
+ ansprechen.
+ Personalisierte Touren (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Eine-Reise-nach"
+
+\end_inset
+
+) können hingegen Simplicity Searchers und Indifferentisten ablehnen.
+ Kulturelle Besonderheiten (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+) sollten weder Indifferentisten, Herausforderungs-Skeptikern noch Simplicity
+ Searchers präferieren und das Zielverhalten 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+ sollte ebenfalls von allen Gruppen außer Indifferentisten gefallen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Relevante Persona-Gruppen der Zielverhalten
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Relevante-Persona-Gruppen-der-Zielverhalten"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="left" valignment="top" width="25text%">
+<column alignment="left" valignment="top" width="65text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zielverhalten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Persona-Gruppen
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
+
+\end_inset
+
+: Quiz-Fragen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entdecker, Individualist, Indifferentist, Cultural Purist, Reiseplaner,
+ Spontanreisende, Simplicity Searchers
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Eine-Reise-nach"
+
+\end_inset
+
+: Personalisierte Touren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entdecker, Herausforderungs-Skeptiker, Individualist, Cultural Purist, Reiseplan
+er, Spontanreisende
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+: Kulturelle Besonderheiten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entdecker, Individualist, Cultural Purist, Reiseplaner, Spontanreisende
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+: Zusätzliche Informationen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entdecker, Herausforderungs-Skeptiker, Individualist, Cultural Purist, Simplicit
+y Searchers, Reiseplaner, Spontanreisende
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Festlegung auf Zielverhalten
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Festlegung-auf-Zielverhalten"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nach der Erstellung der Persona-Gruppe soll sich der Leser laut Wendel nun
+ auf eines der Zielverhalten festlegen.
+ Hierfür werden alle Zielverhalten anhand folgender von Wendel vorgegebener
+ Kriterien gewichtet 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~103--104]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Description
+Effektivität: Wie hoch ist die Effektivität des Zielverhaltens das Anwendungszie
+l zu erreichen?
+\end_layout
+
+\begin_layout Description
+Motivation: Welche Anreize können vorliegen, um das Zielverhalten durchzuführen?
+\end_layout
+
+\begin_layout Description
+Machbarkeit: Wie leicht ist es für den Nutzer, das Zielverhalten durchzuführen?
+ Ähnelt sich das Zielverhalten bereits potenziellen Gewohnheiten oder werden
+ Gewohnheiten dadurch gestoppt?
+\end_layout
+
+\begin_layout Description
+Kosten: Wie aufwendig wäre eine Implementierung, welche die Durchführung
+ des Zielverhaltens erlaubt? Hier ist auch der Faktor Zeit ein wichtiges
+ Thema (s.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Projekteinschränkungen"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Als Gewichtungsinstrument dient eine numerische Skala mit den Werten 1,
+ 2 und 3 Punkten.
+ Die höchst zu erreichende Punktezahl wären somit 12 Punkte.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Gewichtung der Zielverhalten 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Gewichtung-der-Zielverhalten"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="left" valignment="top" width="11text%">
+<column alignment="left" valignment="top" width="29text%">
+<column alignment="left" valignment="top" width="27text%">
+<column alignment="left" valignment="top" width="25text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3 Punkte
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 Punkte
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 Punkt
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Effektivität
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kulturelle Besonderheiten (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+): Durch das Ausprobieren fremder Verhaltensweisen, wird das Eintauchen
+ in die jeweilige Kultur automatisch intensiviert.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quiz-Fragen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
+
+\end_inset
+
+): Ein ortsbezogenes Quiz während der Tour kann dazu führen, dass Nutzer
+ intensiver mit ihrer Umgebung interagieren.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zusätzl.
+ Informationen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
+
+\end_inset
+
+): Informationen in bloßer Textform wären kaum effektiv.
+ Eine multimediale Auswahl wäre wirksamer.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Personalisierte Touren (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Eine-Reise-nach"
+
+\end_inset
+
+): Touren, zu denen man mehr neigt wird man viel bewusster erleben.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Motivation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Personalisierte Touren (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Eine-Reise-nach"
+
+\end_inset
+
+): Touren, zu denen man mehr neigt, beginnt man mit wesentlich mehr Motivation.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zusätzl.
+ Informationen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
+
+\end_inset
+
+): Falls bereits Interesse besteht, möchte man noch mehr darüber erfahren.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quiz-Fragen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
+
+\end_inset
+
+): Fragestellungen, welche man kooperativ, im Wettstreit oder alleine löst,
+ können bestimmte Gruppen stark ansprechen.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kulturelle Besonderheiten (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+): Hier können sich zwei große Lager - weltoffene Gruppen und eher zurückhaltend
+e Gruppen - herausbilden.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Machbarkeit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quiz-Fragen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
+
+\end_inset
+
+): Frage-Antwort-Spiele sind von Kreuzworträtseln bis Quiz-Sendungen allgemein
+ bekannt.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Personalisierte Touren (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Eine-Reise-nach"
+
+\end_inset
+
+): Die Auswahl oder Zusammenstellung von Touren ließe sich in der Bedienbarkeit
+ intuitiv gestalten.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kulturelle Besonderheiten (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+): Entsprechen keiner Gewohnheit und müssen erst erlernt werden.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zusätzl.
+ Informationen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
+
+\end_inset
+
+): Sich zu informieren ist eine tägliche Gewohnheit.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kosten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quiz-Fragen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
+
+\end_inset
+
+): Geeignete Fragestellungen müssen überlegt werden.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Personalisierte Touren (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Eine-Reise-nach"
+
+\end_inset
+
+): Die Vorauswahl ausreichend vieler Touren und Zielorten ist zwingend notwendig.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zusätzl.
+ Informationen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
+
+\end_inset
+
+): Die Generierung multimedialer Inhalte ist aufwändig und langwierig.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kulturelle Besonderheiten (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+): Aufgaben müssen individuell für den jeweilen Kulturkreis bzw.
+ Region gewählt werden.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aus diesem Vergleich wird nun ein Zielverhalten ermittelt, welches in allen
+ Bereichen durchschnittlich am Besten abschneidet.
+ Nur dieses Zielverhalten wird für den weiteren Designprozess weiter verarbeitet.
+ Allerdings können die restlichen Ideen in anderer Form oder als Untermenge
+ des ausgewählten Zielverhaltens verwendet werden.
+ Diese Zielverhalten besitzen ihre Daseinsberechtigung und sollten für den
+ weiteren Gamifizierungsprozess zur Verhaltensänderung nicht völlig ignoriert
+ werden.
+ Das Ergebnis aus Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Gewichtung-der-Zielverhalten"
+
+\end_inset
+
+ nach aufsummierten Punkten ist in Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ergebnis-der-Zielverhalten-Gewichtung"
+
+\end_inset
+
+ veranschaulicht.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ergebnis der Zielverhalten-Gewichtung
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ergebnis-der-Zielverhalten-Gewichtung"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zielverhalten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Punktezahl
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quiz-Fragen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Personalisierte Touren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kulturelle Besonderheiten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zusätzliche Informationen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es ist deutlich erkennbar, dass die Zielverhalten 
+\begin_inset Quotes eld
+\end_inset
+
+Quiz-Fragen
+\begin_inset Quotes erd
+\end_inset
+
+ und 
+\begin_inset Quotes eld
+\end_inset
+
+Präferierte Touren
+\begin_inset Quotes erd
+\end_inset
+
+ etwas weiter vor den anderen beiden Möglichkeiten liegen.
+ Legt man den Fokus nun auf diese beiden Zielverhalten, ist ein eindeutiger
+ Favorit wegen des Unterschiedes von nur einem Punkt schwer zu ermitteln.
+ In den Bereichen Kosten und Machbarkeit wurde das Zielverhalten mit den
+ Quiz-Fragen höher bewertet und in ihrer Motivation liegen sie beide gleich
+ auf.
+ Präferierte Touren werden nur in ihrer Effektivität höher eingestuft.
+ Wendel schlägt in Fällen schwieriger Entscheidungsfindung vor, in letzter
+ Instanz dasjenige Zielverhalten mit dem geringeren Kosten zu wählen.
+ Dennoch könnte es im Rahmen dieser Abschlussarbeit helfen, sich beide Zielverha
+lten in den Beispielen der verwandten Anwendungen und Arbeiten näher anzusehen.
+ 
+\end_layout
+
+\begin_layout Standard
+Die Quiz-Fragen werden in den Produkten 
+\emph on
+Quarterquest
+\emph default
+ und 
+\emph on
+The Travel Machine
+\emph default
+ eingesetzt (s.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Quarterquest"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:The-Travel-Machine"
+
+\end_inset
+
+, Abschnitt Zielverhalten).
+ In 
+\emph on
+Quarterquest
+\emph default
+ ist der Prozess des Beantwortens von Fragen ein zentraler Bestandteil.
+ Dies ist dadurch erkennbar, dass das System keinen Fortgang der Tour ohne
+ korrekte Antwort erlaubt.
+ Die Quiz-Mechanik ist somit eng mit der Tour gekoppelt.
+ Darüber hinaus sind alle sonstigen Spielmechaniken auf dieses Zielverhalten
+ begründet.
+ In 
+\emph on
+The Travel Machine
+\emph default
+ ist dieses Zielverhalten nicht so extrem ausgeprägt, dennoch wurde hierfür
+ ein eigener Bereich in der Konzeption geschaffen.
+ Touren oder ganze Reisen lassen sich hingegen in den Anwendungen 
+\emph on
+Tripwolf
+\emph default
+, 
+\emph on
+City Maps and Walks
+\emph default
+ und 
+\emph on
+Trip Journal
+\emph default
+ (s.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Tripwolf"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Trip-Journal"
+
+\end_inset
+
+) auswählen oder sogar selbst erstellen.
+ In Trip-Journal wird der Nutzer angehalten, seine eigene Reise komplett
+ selbst zu planen.
+ Eine Möglichkeit zur Auswahl vordefinierter Reisen gibt es nicht.
+ In 
+\emph on
+Tripwolf
+\emph default
+ und 
+\emph on
+City Maps and Walks
+\emph default
+ kann man individuell Sehenswürdigkeiten innerhalb eines Ortes zusammentragen,
+ oder aber passende Touren auswählen.
+ Eine Filtermöglichkeit speziell nach Vorlieben ist allerdings nicht verfügbar.
+ Dieses Zielverhalten ist zwar ausgeprägt in beiden Anwendungen, gleichwohl
+ nicht essenziell wie in 
+\emph on
+Trip Journal
+\emph default
+.
+ Für beide Zielverhalten existieren also vorgestellte verwandte Anwendungen
+ oder Arbeiten, die diese Mechaniken sowohl als Kernelement ansehen, als
+ auch optional in ihrer Anwendungsumgebung integriert haben.
+\end_layout
+
+\begin_layout Standard
+Ein Rückblick auf die frühere Konzeptstudie hinsichtlich des Zielverhaltens
+ zeigt, dass beide Mechaniken in Verwendung waren (s.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Bestehende-Konzeptstudie--SeeSight"
+
+\end_inset
+
+, Zielverhalten).
+ Somit lässt auch mithilfe dieser Anhaltspunkte kein bedeutsamer Aspekt
+ finden, der für eines der beiden Zielverhalten spricht.
+ In diesem Fall würde es sich anbieten, zweitplatziertes Zielverhalten als
+ unterstützendes Subverhalten bzw.
+ Spielmechanismus zu verwenden.
+ Die Wahl von präferierten Touren oder eine Zusammenstellung von auswählbaren
+ Sehenswürdigkeiten und die Quiz-Fragen während einer Tour sind nicht konträr
+ zueinander.
+ Beide Zielverhalten sind überdies ihn ihrer Technik auch Gamification-Patterns
+ nachempfunden, was eine Integration in ein übergeordnetes Zielverhalten
+ vereinfacht.
+ Der einzige Aspekt der für die eben vorgestellte Reihenfolge spricht ist
+ der, dass Quiz-Fragen in ihrem Wesen besser zu propagierende Merkmale besitzen.
+\end_layout
+
+\begin_layout Standard
+Nachdem zuletzt das primäre Zielverhalten bestimmt wurde, schlägt Wendel
+ vor, die bisherigen Ergebnisse in einer Aussage festzuhalten, welches überdies
+ Auskunft über Erfolg und Misserfolg des Produkts informiert 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~105--106]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Das Anwendungsziel ist, Nutzer ab dem ersten Moment gezielt dazu anzuregen,
+ kulturelle Plätze und Sehenswürdigkeiten bewusster wahrzunehmen.
+ Die ermittelten Persona-Gruppen sind in Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Relevante-Persona-Gruppen-der-Zielverhalten"
+
+\end_inset
+
+ ersichtlich und das Zielverhalten ist die Beantwortung ortsbezogener Fragen
+ zu den besuchten Schauplätzen.
+\end_layout
+
+\begin_layout Quote
+Das Produkt soll mithilfe ortsbezogener Fragen erwachsene Reisende und Ausflügle
+r mit Interesse an Rätseln unterstützen, intensiver sehenswerte Orte und
+ Touristenattraktion zu erleben.
+\end_layout
+
+\begin_layout Section
+Systementwurf
+\end_layout
+
+\begin_layout Standard
+Nachdem zuletzt das Zielverhalten definiert wurde, behandelt dieser Abschnitt
+ die detailierte Ausarbeitung zu einem funktionsfähigen Prototyp - dem Systement
+wurf.
+ Zuerst wird das Zielverhalten logisch strukturiert 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "sub:Verhaltensplan"
+
+\end_inset
+
+ und mit dem Verhalten unterstützdenen Mechanismen versehen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Unterstützende-Mechanismen"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Zielgruppe-vorbereiten"
+
+\end_inset
+
+).
+ Aus dem optimierten Plan zur Verhaltensänderung werden User Stories extrahiert
+ 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "sub:User-Stories"
+
+\end_inset
+
+, welche sodann für die Interface Designs genutzt werden 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "sub:Interface-Designs"
+
+\end_inset
+
+.
+ Nach der Festlegung des Interface Designs wird sofort der Prototyp entwickelt.
+ Eine nähere Erwähnug der Werkzeuge für die Implementierung findet an dieser
+ Stelle jedoch nicht statt.
+ Allerdings wird im abschließenden Punkt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Zurückgestellte-Funktionen"
+
+\end_inset
+
+ erläutert, weshalb manche Funktionen für den Prototyp zurückgestellt wurden.
+\end_layout
+
+\begin_layout Subsubsection
+Assoziation zu vergleichenden Produkten
+\end_layout
+
+\begin_layout Standard
+Die Entscheidung der Spielform des Prototyps sollte spätestens jetzt im
+ Systementwurf festgesetzt werden.
+ Denn je nach Wahl wird das Zielverhalten anders strukturiert und mit unterstütz
+enden Mechanismen ausgestattet.
+\end_layout
+
+\begin_layout Standard
+Aus der Marktstudie geht hervor, dass die verwandten Anwendungen überwiegend
+ die Spielform Selbsterfahrung aufweisen (s.
+ Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Zusammenfassung-Anwendungen"
+
+\end_inset
+
+).
+ Diesem Beispiel folgt auch der Prototyp.
+ D.
+ h., es werden beispielsweise keine Funktionen mit starkem Konflikt-, Wettbewerbs
+, Koordinations- oder Kooperationscharakter im weiteren Verlauf der Entwicklung
+ genutzt.
+ Aktionen mit weiteren Nutzern der Anwendung sind diesbezüglich nicht komplett
+ versperrt, jedoch dürfen sie nicht dazu führen in Konkurrenz zueinander
+ zu stehen.
+\end_layout
+
+\begin_layout Subsection
+Verhaltensplan
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Verhaltensplan"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nach Bestimmung des Zielverhaltens muss für die weitere Vorgehensweise das
+ Verhalten logisch strukturiert in einen Plan übersetzt werden.
+ Wendel definiert in seinem Designprozess den Begriff des 
+\begin_inset Quotes eld
+\end_inset
+
+Behavioral Plan
+\begin_inset Quotes erd
+\end_inset
+
+ (engl.
+ für Verhaltensplan).
+ Ein Verhaltensplan ist eine strukturierte Abfolge aller erforderlichen
+ Teilschritte, die der Nutzer für die Erfüllung des Zielverhaltens absolvieren
+ muss 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~114--118]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Wendel orientiert sich in der Gestaltung an Customer Experience Maps aus
+ der User-Experience-Domäne (UX
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "UX"
+description "User Experience"
+
+\end_inset
+
+) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~116--117]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Begonnen wird das Zielverhalten mit der Beschaffung der App, bzw.
+ dem Seitenaufruf der Webseite (Schritt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Download,-Installierung-und"
+
+\end_inset
+
+).
+ Ist dies geschafft, kann der Nutzer im zweiten Schritt in der Anwendung
+ eine Tour auswählen und starten.
+ Innerhalb der Tour existieren Orte oder Attraktionen - im Folgenden Zielorte
+ genannt.
+ Der Nutzer ist beim Start einer Tour angehalten den ersten Zielort zu lokalisie
+ren und sich dorthin zu begeben (Schritte 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Identifizierung-und-Lokalisierun"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Aufsuchen-des-Zielortes"
+
+\end_inset
+
+).
+ Im darauffolgenden Schritt wird die Aufgabe aktiviert und der Nutzer kann
+ sie einsehen (Schritte 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Aktivierung-der-Frage-Aufgabe"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Erfassen-der-angezeigten"
+
+\end_inset
+
+).
+ Nachdem die Lösung zur Bewältigung der Aufgabe entdeckt wurde, sollte es
+ möglich sein, sie in die Anwendung eintippen zu können.
+ Danach sollte eine Bestätigung über Erfolg oder Misserfolg erscheinen,
+ weitere Zielorte können zudem in der Tour enthalten sein (Schritte 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Quittierung-der-Bestätigungsinfo"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Wiederholen-der-Schritte"
+
+\end_inset
+
+).
+ Die Beendigung der Tour wird als letzter Schritt in den Verhaltensplan
+ aufgenommen, auch wenn das eigentliche Zielverhalten schon davor abgearbeitet
+ wird (Schritt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Quittierung-der-Tour-Abschlussin"
+
+\end_inset
+
+).
+ Ein in sich abgeschlossenes Konzept trägt dazu bei, die Spielform des Prototyps
+ zu formen.
+\end_layout
+
+\begin_layout Enumerate
+Download, Installierung und Öffnen bzw.
+ Seitenaufruf der Anwendung.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Download,-Installierung-und"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Auswählen einer Tour und Betätigung der Schaltfläche zum Starten der Tour
+ (Anwendung).
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Auswählen-einer-Tour"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Identifizierung und Lokalisierung des am Display angezeigten Zielortes.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Identifizierung-und-Lokalisierun"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Aufsuchen des Zielortes (physische Welt).
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Aufsuchen-des-Zielortes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Aktivierung der Frage-Aufgabe am Display (Anwendung).
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Aktivierung-der-Frage-Aufgabe"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Erfassen der angezeigten Fragestellung (Anwendung).
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Erfassen-der-angezeigten"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Erforderliche Maßnahmen zur Bewältigung der Fragestellung am Zielort unternehmen
+ (physische Welt).
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Erforderliche-Maßnahmen-zur"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Korrekte Antwort in das Antwortfeld der Aufgabe eintippen (Anwendung).
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Korrekte-Anwort-in"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Quittierung der Bestätigungsinformation (Anwendung).
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Quittierung-der-Bestätigungsinfo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Wiederholen der Schritte 2 bis 8 für eventuell nachfolgende Zielorte.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Wiederholen-der-Schritte"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Quittierung der Tour-Abschlussinformation (Anwendung).
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Quittierung-der-Tour-Abschlussin"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nach der Aufzählung der Teilschritte beschreibt Wendel den grundlegenden
+ Aufbau des Vehaltensplans.
+ Die Teilschritte werden als Oberpunkte in einer von links nach rechts laufenden
+ Sequenz visuell dargestellt.
+ Darunter werden die relevanten Persona-Gruppen aus Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Festlegung-der-Zielgruppe"
+
+\end_inset
+
+ mit ihren Eindrücken und ihren Befürchtungen platziert.
+ Zudem werden Handlungen entsprechend ihres Umgebungskontextes (Anwendung
+ oder reale Welt) markiert.
+ Die Teilschritte werden danach nochmals überarbeitet.
+ Logisch zusammengehörige Teilschritte können zu einem größeren Teilschritt
+ vereint werden.
+ Schleifen werden laut Wendel zudem im Verhaltensplan ebenfalls vermieden
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~117]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Verhaltensplan 1"
+
+\end_inset
+
+ zeigt den aus diesen Vorgaben resultierenden Verhaltensplan.
+ Teilschritte 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Download,-Installierung-und"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Auswählen-einer-Tour"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Identifizierung-und-Lokalisierun"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Aufsuchen-des-Zielortes"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Aktivierung-der-Frage-Aufgabe"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Erfassen-der-angezeigten"
+
+\end_inset
+
+, sowie 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Erforderliche-Maßnahmen-zur"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Korrekte-Anwort-in"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Quittierung-der-Bestätigungsinfo"
+
+\end_inset
+
+ wurden jeweils im Verhaltensplan zusammengefasst (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Verhaltensplan 1"
+
+\end_inset
+
+, Teilschritte 1 bis 4).
+ Die in Teilschritt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Wiederholen-der-Schritte"
+
+\end_inset
+
+ beschriebene weitere Fortführung der Tour wurde ebenfalls entfernt.
+ Unerlässliche Handlungen wurden mit Bulletpoints aufgelistet.
+ Des Weiteren befindet sich als graue Markierung über den Handlungen der
+ Umgebungskontext.
+ Unter den Handlungen werden verschiedene Persona-Gruppen mit womöglich
+ relevanten Bemerkungen aufgereiht.
+ Zu den bereits bekannten Persona-Gruppen kamen noch unerfahrene Nutzergruppen
+ hinzu, sowie Bemerkungen, die alle Persona-Gruppen tangieren können (
+\begin_inset Quotes eld
+\end_inset
+
+Alle
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Blau markiert sind darunter die jeweiligen Stimmungslagen der Gruppen angelegt.
+ Wie an den Bemerkungen erkennbar ist, können manche Persona-Gruppen Teilschritt
+e hinterfragen und sich somit selbst am weiteren Fortgang hindern.
+ Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Unterstützende-Mechanismen"
+
+\end_inset
+
+ wird auf diese Defizite weiter eingehen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Verhaltensplan.png
+	width 100text%
+	BoundingBox 20bp 35bp 928bp 757bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Verhaltensplan mit dem als Teilschritten zerlegten Zielverhalten
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Verhaltensplan 1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Der Verhaltensplan wird in Bezug auf unterstützende Mechanismen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Unterstützende-Mechanismen"
+
+\end_inset
+
+) und der Zielgruppe (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Zielgruppe-vorbereiten"
+
+\end_inset
+
+) von Neuem betrachtet und gegebenenfalls überarbeitet.
+\end_layout
+
+\begin_layout Subsection
+Unterstützende Mechanismen
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Unterstützende-Mechanismen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Während der Verhaltensplan das Zielverhalten greifbarer, verständlicher
+ macht, werden in diesem Abschnitt Mechanismen bestimmt, die den Nutzern
+ unterstützen das Zielverhalten zu beginnen.
+ Hierbei wird zuerst davon ausgegangen, dass sich am Zielverhalten nichts
+ mehr ändert.
+ Um nun den Nutzern dabei zu helfen das Zielverhalten zu beginnen, schlägt
+ Wendel vor, das Umfeld des Nutzers so zu gestalten, sodass es dem Zielverhalten
+ förderlich ist 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~126]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Das Resultat am Ende dieses Abschnittes wird ein detaillierterer Verhaltensplan
+ sein, welcher entscheidungsunterstützende Elemente für das Umfeld der Nutzer
+ beinhaltet.
+\end_layout
+
+\begin_layout Standard
+Wendel führt in seinem Vorgehensmodell einige Verbesserungsvorschläge auf
+ mit denen sich der Verhaltensplan optimieren lässt 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~127--138]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+Welche Motivation hat der Nutzer um diesen Schritt zu absolvieren? Was kann
+ die Anwendung zu dieser Motivation beitragen? Kann bereits bestehende Motivatio
+n nochmals hervorgehoben werden?
+\end_layout
+
+\begin_layout Itemize
+Existiert ein Auslösereiz, um das Zielverhalten jetzt zu beginnen?
+\end_layout
+
+\begin_layout Itemize
+Wird der Nutzer mit ausreichend Rückmeldung versorgt? Wenn ja, kann er anhand
+ der Art der Rückmeldung mit der Aktion erneut agieren?
+\end_layout
+
+\begin_layout Itemize
+Welche Elemente lenken den Nutzer ab, oder verwirren ihn? Gibt es sonstige
+ Hindernisse die es zu entfernen gilt?
+\end_layout
+
+\begin_layout Standard
+Diese sollten nun für jeden Schritt im Verhaltensplan hinterfragt werden.
+ Zu Beginn sollte nochmals klar sein, dass die Zielgruppe bereits über intrinsis
+che Motivation verfügt, Ausflüge oder Reisen zu unternehmen.
+ Die Anwendung soll ihnen - neben dem Anwendungsziel - dabei helfen, einen
+ bequemeren Einstieg zu ermöglichen, falls motivationale Defizite existieren.
+ Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Aktionsplan-2"
+
+\end_inset
+
+ zeigt einen überarbeiteten Verhaltensplan.
+ Alle eventuell auftretende Gedanken und Stimmungslagen aus dem vorherigen
+ Verhaltensplan (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Verhaltensplan 1"
+
+\end_inset
+
+) wurden eine der Fragestellungen (Motivation, Auslösereiz, Rückmeldung
+ und Hindernisse) zugeordnet und - falls möglich - konzeptuell ausgearbeitet.
+ Die orangen Markierungen entsprechen Gamification-Patterns die an dieser
+ Stelle zum Einsatz kommen können.
+ Diese entsprechen überwiegend den darüber stehenden Überlegungen zur Beseitigun
+g von Hindernissen, oder der Erhöhung der Motivation und könnten somit als
+ Mustervorlage dienen.
+ Des Weiteren lassen sich auch Nudges zur Veränderung der Verhaltensarchitektur
+ an manchen Stellen verwenden.
+ Automatisiert man z.
+ B.
+ die Einbeziehung von Präferenzen bei der Tourauswahl oder nutzt sie für
+ einen schnellen Einstieg in eine Tour, führt dies zu einem abkürzenden
+ Auswahlverhalten des Nutzers.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Verhaltensplan02.png
+	width 100text%
+	BoundingBox 20bp 55bp 1070bp 757bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Überarbeiteter Verhaltensplan mit unterstützenden Mechanismen
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Aktionsplan-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Assoziation zu vergleichenden Produkten
+\end_layout
+
+\begin_layout Standard
+Einige unterstützende Mechanismen aus Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Aktionsplan-2"
+
+\end_inset
+
+ sind den verwandten Anwendungen und Arbeiten entlehnt.
+ 
+\emph on
+Streetspotr 
+\emph default
+lässt beispielsweise neu registrierte Nutzer ein Tutorial absolvieren, welches
+ einem Spot gleicht.
+ Somit wird ein einfacher und schneller Einstieg in die Funktionsweise von
+ Spots gewährleistet.
+ Dieser Mechanismus lässt sich dem Pattern Easy Getting Started zuordnen,
+ welches im Verhaltensplan ebenfalls Erwähnung findet.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Foursquare
+\emph default
+ fordert seine Nutzer gleich zu Beginn auf, Vorlieben zu Essen oder Lokalen
+ anzugeben.
+ Diese Art der persönlichen Konfiguration nimmt nachträglich das Filtern
+ von Gastronomiebetrieben ab und ermöglicht auf die Vorlieben der Nutzer
+ abgestimmte Empfehlungen per Push-Benachrichtigung (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:verhalten-a"
+
+\end_inset
+
+).
+ Push-Benachrichtigungen auf Smartphones sind eine vertraute Situation und
+ werden von vielen Anwendungen als Auslösereiz zu einem bestimmten Verhalten
+ genutzt.
+ Auch 
+\emph on
+Swarm
+\emph default
+ und 
+\emph on
+Tripwolf
+\emph default
+ nutzen diese Funktion (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:verhalten-b"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Foursqure & Swarm/IMG_1169.PNG
+	width 32text%
+	BoundingBox 0bp 100bp 640bp 1106bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:verhalten-a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Foursqure & Swarm/IMG_1186.PNG
+	width 32text%
+	BoundingBox 0bp 500bp 640bp 800bp
+	clip
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename Bilder/Tripwolf/IMG_0906.PNG
+	width 32text%
+	BoundingBox 0bp 500bp 640bp 800bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:verhalten-b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Automatisiertes Verhalten durch Personalisierung in 
+\emph on
+Foursquare
+\emph default
+ (a) und Push-Benachrichtigungen als Entwurfsmuster und Auslösereiz in 
+\emph on
+Swarm
+\emph default
+ und 
+\emph on
+Tripwolf
+\emph default
+ (b);
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Automatisiertes-Verhalten-wird"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Streetspotr
+\emph default
+ nutzt einen Mechanismus, um den eigenen Fortschritt über alle Teilaufgaben
+ eines Spots hinweg nachzuvollziehen (s.
+ Unterabschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Streetspotr"
+
+\end_inset
+
+).
+ Absolvierte Spots sind mit einem grünen Hintergrund gekennzeichnet (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:fortschritt-a"
+
+\end_inset
+
+).
+ Der Spielmechanismus Tipps wurde der verwandten Anwendung 
+\emph on
+Quarterquest
+\emph default
+ entlehnt (s.
+ Unterabschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Quarterquest"
+
+\end_inset
+
+).
+ 
+\emph on
+Quarterquest
+\emph default
+ zeigt allerdings erst nach unzutreffender Antworteingabe die Option für
+ Tipps (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:fortschritt-b"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Streetspotr/IMG_1369.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:fortschritt-a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bilder/Quarterquest/IMG_0926.PNG
+	width 32text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:fortschritt-b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Farblich eingebetteter Fortschrittsanzeige in
+\emph on
+ Streetspotr
+\emph default
+ (a) und offerieren von Tipps nach Eingabe unzutreffender Antworten in 
+\emph on
+Quarterquest
+\emph default
+ (b);
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fortschrittsbalken-und-Tipps"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Zielgruppe vorbereiten
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Zielgruppe-vorbereiten"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In diesem letzten Abschnitt vor dem Wechsel der konzeptuellen Phase zum
+ Systemdesign, steht nochmals die Zielgruppe im Mittelpunkt von Wendel.
+ Er empfiehlt eine Vergegenwärtigung der möglichen Stimmungslagen und Selbstwahr
+nehmungen des Nutzers in Verbindung mit dem Produkt.
+ Es sei wichtig den Nutzer auf das Zielverhalten vorzubereiten, so Wendel.
+ Anders als wie in Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Unterstützende-Mechanismen"
+
+\end_inset
+
+, in denen der Nutzer mithilfe motivationaler Hilfestellung zum Zeitpunkt
+ der Handlung vorbereitet wird, fokussiert sich Wendel hier auf den Teil
+ vor der Handlung, sowie einer Verhaltensänderung auf längere Sicht 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~142--143]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Das Ziel dieses Abschnitts ist auch diesmal eine weitere Verbesserung des
+ Verhaltensplans, indem folgende von Wendel vorgeschlagene Gesichtspunkte
+ angewendet werden 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~148--149]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+Die Selbstwahrnehmung der Nutzer zum Produkt sollte so optimiert sein, sodass
+ der Eindruck besteht, das Zielverhalten sei für sie eine natürliche Erweiterung
+ ihres Lebens.
+\end_layout
+
+\begin_layout Itemize
+Herstellung einer mentalen Verknüpfung früherer ähnlicher Erfahrungen mit
+ dem jetzigen Zielverhalten.
+\end_layout
+
+\begin_layout Itemize
+Bereitstellung der zwingend erforderlichsten Informationen vor Beginn des
+ Zielverhaltens.
+\end_layout
+
+\begin_layout Itemize
+Rechtzeitige und ausreichende Vorbereitung der Nutzer für anspruchsvolle
+ Aktionen.
+\end_layout
+
+\begin_layout Standard
+Die blau markierten Stellen in Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Überarbeiteter-Verhaltensplan-mit-Vorbereitung der Zielgruppe"
+
+\end_inset
+
+ zeigen die überarbeiteten Stellen.
+ Ganz zu Anfang des ersten Teilschritts bietet sich die Möglichkeit eines
+ Überblicks zu den Hauptfunktionen des Produkts für den Nutzer.
+ Reiseinteressierten ließe sich an dieser Stelle die mentale Verknüpfung
+ zu ihren bisherigen Unternehmungen und dem jetzigen Produkt darstellen.
+ Des Weiteren könnte man durch entsprechende Formulierungen die Selbstwahrnehmun
+g der Nutzer zum Zielverhalten des Produkt verbessern.
+ Die Kombination aus einem schnellen und bequemen Einstieg mittels eines
+ Schnelleinstieg-Menüpunkts und die zuvor erläuterte Bedienung zu dieser
+ Hauptfunktion gestalten das Gamification-Pattern Easy-Getting-Started.
+ 
+\end_layout
+
+\begin_layout Standard
+Die zweite Markierung im selbem Teilschritt ergänzt Touren oder Zielorte
+ um die wichtigsten Informationen, bevor der Nutzer eine Entscheidung trifft.
+ Die dritte Markierung (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Überarbeiteter-Verhaltensplan-mit-Vorbereitung der Zielgruppe"
+
+\end_inset
+
+), käme einer Vorbereitung zur generellen Aktionsbewältigung gleich, falls
+ man zum ersten Mal damit konfrontiert werden sollte.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Verhaltensplan03.png
+	width 100text%
+	BoundingBox 20bp 30bp 1074bp 757bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Überarbeiteter Verhaltensplan mit ausreichender Vorbereitung der Zielgruppe
+ (blaue Markierungen)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Überarbeiteter-Verhaltensplan-mit-Vorbereitung der Zielgruppe"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mit Abschluss dieses Abschnitts endet die Konzeptphase des Produkts.
+ Nachfolgend beginnt die Designphase mit Überleitung zum Prototyp.
+\end_layout
+
+\begin_layout Subsection
+User Stories
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:User-Stories"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Im weiteren Verlauf der Designprozesses zur Verhaltensänderung wird der
+ Verhaltensplan keiner weiteren Änderung unterzogen.
+ Stattdessen wird der Plan auf Anforderungen heruntergebrochen, mit welchen
+ adäquater in der Designphase umgegangen werden kann.
+ Wendel überlässt es an dieser Stelle den Anwendern, ob diese sich für die
+ aus der agilen Entwicklung stammenden User Stories oder den Anforderungsspezifi
+kationen linearer Vorgehensmodelle entscheidet, weshalb aus persönlichem
+ Interesse Ersteres gewählt wird 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~156]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+User Stories sind Wünsche bzw.
+ Anforderungen aus der Nutzersicht und sind im Allgemeinen nicht länger
+ als zwei Sätze.
+ Sie sind deshalb für die Designphase praktisch, weil man mit ihnen die
+ Anwendung aus einer anderen Perspektive sieht.
+ User Stories lassen sich aus dem Verhaltensplan für jede Aktion exportieren:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=UST-
+\backslash
+Alph{enumi}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Anwendung aufrufen und Tour auswählen:
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-A"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=UST-
+\backslash
+Alph{enumi}
+\backslash
+arabic{enumii}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Als Nutzer möchte ich die Hauptfunktionen kennenlernen, damit ich schnell
+ zurecht komme.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-A1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich schnell einen Ausflug beginnen können, um unkompliziert
+ Voreinstellungen zu überspringen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-A2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich passende Tage für Ausflüge empfohlen bekommen, um
+ die Zeit besser zu nutzen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-A3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich nach meinen Präferenzen Touren auswählen und konfigurieren
+ können, um den Ausflug mehr zu genießen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-A4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich mit Gleichgesinnten Ausflüge machen, um nicht alleine
+ reisen zu müssen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-A5"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Identifizierung und Lokalisierung des Zielortes:
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-B"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=UST-
+\backslash
+Alph{enumi}
+\backslash
+arabic{enumii}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Als Nutzer möchte ich den Zielort identifizieren können, um zu wissen, um
+ was es sich dabei handelt.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-B1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich den Zielort lokalisieren können, um mich dorthin begeben
+ zu können.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-B2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich über die Entfernung des Zielortes Bescheid wissen,
+ damit ich die Zeitdauer einschätzen kann.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-B3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich informiert werden, wenn Zielorte geschlossen oder
+ gesperrt sind, damit ich diese Zielorte ggf.
+ einsparen kann.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-B4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich über meinen Tour-Fortschritt informiert werden, damit
+ ich den Zeitpunkt für das Ende abschätzen kann.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-B5"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Aktivierung und Erfassung der Aufgabe:
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-C"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=UST-
+\backslash
+Alph{enumi}
+\backslash
+arabic{enumii}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Als Nutzer möchte ich erfahren wie eine Aufgabe funktioniert, um keine Probleme
+ damit zu bekommen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-C1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich Aufgaben aktivieren, der Herausforderung wegen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-C2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich den Schwierigkeitsgrad der Aufgabe wissen, um mich
+ auf den nötigen Aufwand zur Lösung einzustellen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-C3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich Hinweise zu schwierigen Fragestellungen erhalten,
+ um nicht frustriert zu sein.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-C4"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Erforderliche Maßnahmen durchführen:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=UST-
+\backslash
+Alph{enumi}
+\backslash
+arabic{enumii}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Als Nutzer möchte ich Aufgaben abbrechen können, um mit der Tour fortfahren
+ zu können.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-D1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich abgebrochene Aufgaben gesammelt erneut aufrufen dürfen,
+ um sie doch noch lösen zu können.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-D2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich die Antwort für eine Aufgabe eintippen können, um
+ die Aufgabe abzuschließen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-D3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich erfahren, ob die Antwort korrekt war, um die Aufgabe
+ zum Abschluss zu bringen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-D4"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Tour abschließen:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=UST-
+\backslash
+Alph{enumi}
+\backslash
+arabic{enumii}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Als Nutzer möchte ich die Tour abschließen können, um mich etwas anderem
+ zu widmen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-E1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich nach der Tour über meine Erfolge informiert werden,
+ um mental mit der Tour abschließen zu können.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-E2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich über ähnliche Touren informiert werden, für den Fall
+ dass mir die Tour gefiel.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-E3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Als Nutzer möchte ich die Tour bewerten können, um meine Freude oder meinen
+ Unmut Ausdruck zu verleihen.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:UST-E4"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Nach der Auflistung der Anforderungen in Form von User Stories ist nun die
+ Vorbereitung abgeschlossen um sich dem Mock-Up für den Prototyp zu widmen.
+\end_layout
+
+\begin_layout Subsection
+Interface Designs 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Interface-Designs"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dieser Abschnitt behandelt die Wahl geeigneter Designentscheidungen für
+ das Produkt bzw.
+ dem Prototyp.
+ Die Festlegung auf ein finales interface Design wird hier gleich durch
+ mehrere Faktoren aus dem Designprozess zur Verhaltensänderung und den Vergleich
+skriterien beeinflusst.
+ Um nicht die Übersicht darüber zu verlieren, welcher der Faktoren wann
+ welche Designentscheidung bestimmt, ist zuallererst ein strukturierter
+ Überblick dieser Faktoren unumgänglich.
+ Zunächst werden alle Faktoren benannt und - wenn noch nicht an andere Stelle
+ geschehen - auch in ihrer Bedeutsamkeit erläutert.
+ Danach folgt eine Sortierung dieser Faktoren, um anschließend die erstellten
+ Mock-Ups jeweils in ihrem Aufbau zu rechtfertigen.
+ Die Mock-Ups zum Prototyp sind schlussendlich das Ergebnis dieses Abschnitts.
+\end_layout
+
+\begin_layout Subsubsection
+Überblick zu designentscheidenden Faktoren
+\end_layout
+
+\begin_layout Standard
+Wendel gibt im Rahmen seines Vorgehensmodells Vorgaben und Vorschläge vor,
+ wie der Designprozess fortgeführt werden sollte.
+ Darüber hinaus wurden in Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Identifikation-geeigneter-Vergleichskriterien"
+
+\end_inset
+
+ Vergleichskriterien festgelegt, welche ebenso für die Konzeption des Interface
+ Designs relevant sind.
+ Beide Aspekte wurden seit Beginn dieses Kapitels so behandelt, dass schwerpunkt
+mäßig der Designprozess von Wendel die Weiterentwicklung der Konzeptstudie
+ bestimmt und die Ergebnisse der Marktanalyse nachrangig in diesen Prozess
+ eingearbeitet sind.
+ Die Fortführung des bisherigen Vorgehens wird jedoch nun umstrukturiert,
+ da sonst die Übersicht durch die Menge der folgenden Faktoren darunter
+ leiden wird.
+\end_layout
+
+\begin_layout Standard
+Wendel führt drei Zielvorgaben für die Bewältigung der geeigneten Wahl von
+ Designentscheidungen auf 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~159--160]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Description
+Funktionale
+\begin_inset space ~
+\end_inset
+
+Anforderungen
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Funktionale-Vorgaben"
+
+\end_inset
+
+: Funktionale Anforderungen beschreiben nach Wendel, was das Produkt erreichen
+ soll 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~160]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Diese Anforderungen wurden bereits im Verhaltensplan und davon abgeleitet
+ in den User Stories herausgearbeitet.
+\end_layout
+
+\begin_layout Description
+Vorstellung
+\begin_inset space ~
+\end_inset
+
+zur
+\begin_inset space ~
+\end_inset
+
+Entscheidungsfindung: Eine Vorstellung zur Entscheidungsfindung wurde bereits
+ mit dem Kapitel zu den verhaltenstheoretischen Grundlagen erarbeitet und
+ wird ebenso in den Designentscheidungen berücksichtigt.
+ Hierbei sind die Strategien zur Entscheidungsfindung 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "sub:Abgrenzung-zu-anderen"
+
+\end_inset
+
+, sowie der 
+\emph on
+Action Funnel
+\emph default
+ 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "sub:Fünf-Stufen-zur"
+
+\end_inset
+
+ von Wendel zu erwähnen.
+ Er empfiehlt unter anderem eine Überprüfung der erstmalig erstellten Mock-Ups
+ nach etwaigen Unstimmigkeiten gemäßt dem 
+\emph on
+Action Funnel
+\emph default
+.
+\end_layout
+
+\begin_layout Description
+Design
+\begin_inset space ~
+\end_inset
+
+Patterns: Bei den Design Patterns (engl.
+ für Entwurfsmuster) gibt Wendel Hilfestellung, indem er in ihrer Wirksamkeit
+ aufgeteilte, der Verhaltensänderung zuträglicher Entwurfsmuster empfiehlt.
+ Ein Entwurfsmuster muss nicht für die gesamte Anwendung ausgewählt werden.
+ Es können auch unterschiedliche Muster an verschiedenen Stellen angewandt
+ werden 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~162--164]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Wendel benennt ein Entwurfsmuster aus seiner Liste als Gamification und
+ bezeichnet es als ein Verfahren, welches Aspekte aus dem Game Design in
+ spielfremde Domänen einbettet 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~163]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Die konkrete Anwendung dieses Verfahrens mit Zuhilfenahme von Gamification-Patt
+erns wurde bereits in Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Identifikation-geeigneter-Vergleichskriterien"
+
+\end_inset
+
+ insofern diskutiert, sodass aus dem Verfahren entstandene Spielmechanismen
+ in den verwandten Produkten identifiziert werden konnten.
+ Die dort identifizierten Gamification-Patterns wurden überdies in Unterabschnit
+t 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Unterstützende-Mechanismen"
+
+\end_inset
+
+ punktuell eingeführt, und dienten im überarbeiteten Verhaltensplan (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Aktionsplan-2"
+
+\end_inset
+
+) als Gedankenstütze für eventuell geeignete Stellen für Spielmechanismen
+ im Prototyp.
+ Da also die Spielmechanismen im Verhaltensplan integriert sind, gelten
+ diese ebenfalls als funktionale Anforderungen.
+\end_layout
+
+\begin_layout Standard
+Zusammenfassend ergeben sich folgende Faktoren die in der Erörterung der
+ Mock-Ups Anwendung finden:
+\end_layout
+
+\begin_layout Itemize
+User Stories als funktionale Anforderungen
+\end_layout
+
+\begin_layout Itemize
+Spielmechanismen (im Verhaltensplan) als funktionale Anforderungen
+\end_layout
+
+\begin_layout Itemize
+Strategien zur Entscheidungsfindung (Änderung der Entscheidungsarchitektur
+ durch Nudges)
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Action Funnel
+\emph default
+: Überprüfung der einzelnen Mock-Ups, ob diese den Nutzer zum erwünschten
+ Verhalten führen
+\end_layout
+
+\begin_layout Standard
+Die Mock-Ups werden so entwickelt, dass diese die User Stories erfüllen.
+ Spielmechanismen und weitere Anwendungsfunktionen werden entsprechend auf
+ dem Verhaltensplan entnommen (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Überarbeiteter-Verhaltensplan-mit-Vorbereitung der Zielgruppe"
+
+\end_inset
+
+, orangene und blaue Markierungen) .
+ Ebenso wird Wert auf die Strategien zur Entscheidungsfindung gelegt, indem
+ Vorgänge automatisiert werden, wo es als geeignet erscheint.
+ Default-Optionen welche das Zielverhalten fördern, können des Weiteren
+ in den Benutzereinstellungen voreingestellt sein.
+ Zuletzt wird jedes Mock-Up mithilfe des 
+\emph on
+Action Funnel
+\emph default
+ auf Unstimmigkeiten bezüglich eines reibungslosen Ablaufs geprüft.
+\end_layout
+
+\begin_layout Subsubsection
+Mock-Ups zum Prototyp
+\end_layout
+
+\begin_layout Standard
+Die folgenden Mock-Ups in Abbildungen 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mock-Ups-zum-Prototypen-1a"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mock-Ups-zum-Prototypen-1b"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mock-Ups-zum-Prototypen-2"
+
+\end_inset
+
+ folgen grob der Reihenfolge der User Stories.
+ In Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mock-1a"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mock-1b"
+
+\end_inset
+
+ sind der Home-Screen und die benutzerdefinierten Einstellungen des Prototyps
+ dargestellt.
+ Diese umfassen die User Stories aus 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-A"
+
+\end_inset
+
+ und vereinzelt weitere aus den anderen Gruppen.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-A1"
+
+\end_inset
+
+ wird in Splash Pages bei erstmaligem Aufruf der Anwendung zu sehen sein.
+ Danach kann die Erklärung zu den Hauptfunktionen im Einstellungsmenü erneut
+ aufgerufen werden (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mock-1b"
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ Tour durch die Anwendung
+\begin_inset Quotes erd
+\end_inset
+
+).
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-A2"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-A4"
+
+\end_inset
+
+ besitzen Hauptfunktion-Charakter und sind deshalb in Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mock-1a"
+
+\end_inset
+
+ als Hauptmenüpunkte deklariert.
+ Einzig das Erstellen von Touren ist noch deaktiviert.
+ Dies hat zweierlei Gründe.
+ Zum einem soll verhindert werden, dass der Nutzer mit Funktionen anfangs
+ überfordert wird, zum anderen lassen sich Funktionen oder Abschnitte einer
+ Anwendung als Teil eines Belohnungssystems nutzen.
+ Ein Belohnungssystem lässt sich als unterstützenden Mechanismus für die
+ Durchführung des Zielverhaltens definieren (s.
+ Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Unterstützende-Mechanismen"
+
+\end_inset
+
+) und kann in Verbindung mit einem Punktesystem angewendet werden (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Aktionsplan-2"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Überarbeiteter-Verhaltensplan-mit-Vorbereitung der Zielgruppe"
+
+\end_inset
+
+, jeweils letzter Teilschritt unter Rückmeldung).
+ Weiterhin ist 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-A4"
+
+\end_inset
+
+ noch in zwei weitere Bereiche unterteilt.
+ Der Nutzer kann zum einen frei nach seinen Vorlieben unter allen Touren
+ auswählen, darüber hinaus soll ein Automatismus ihm nach seinen zuvor einmalig
+ angegeben Präferenzen angemessenere Touren in der Liste vorsortieren.
+ Dieser Nugde ist dem Schema des automatisierten Verhaltens aus dem Bereich
+ zur Veränderung der Entscheidungsarchitektur nachempfunden.
+ Nachdem der Nutzer seine Vorlieben angegeben hat, wird die Option 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ Nach Vorlieben vorsortieren
+\begin_inset Quotes erd
+\end_inset
+
+ im rechten Ausschnitt in Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mock-2a"
+
+\end_inset
+
+ standardmäßig aktiviert.
+ 
+\end_layout
+
+\begin_layout Standard
+User Story 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-A5"
+
+\end_inset
+
+ ist ebenfalls in den Benutzereinstellungen (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ Gleichgesinnte für geplante Tour finden
+\begin_inset Quotes erd
+\end_inset
+
+) als Standardannahme vorausgewählt.
+ Wie sich diese Option auf das Auswählen einer Tour auswirkt ist allerdings
+ in den Mock-Ups bisher nicht näher beschrieben.
+ Das Matching von Nutzern über geplante Tourzeiträume würde überdies eine
+ Art von Registrierung der Nutzer voraussetzen, was hinsichtlich der Beseitigung
+ von Hindernissen (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Überarbeiteter-Verhaltensplan-mit-Vorbereitung der Zielgruppe"
+
+\end_inset
+
+, erster Teilschritt unter Hindernisse entfernen) nicht näher in den Mock-Ups
+ forciert wurde.
+ Ebenfalls in den Einstellungen abgebildet ist 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-A3"
+
+\end_inset
+
+, die Aktivierung von Push-Benachrichtigungen zwecks Vorschlägen zu Ausflugszeit
+en (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ Passende Tage für Touren empfohlen bekommen
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Wendel führt diesen Mechanismus in der Liste der weniger wirkungsvolleren
+ Entwurfsmuster als 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ Status reports
+\begin_inset Quotes erd
+\end_inset
+
+ bzw.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ Simple reminders and planning prompts
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~164]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Prototyp 4/Mockup Hauptmenü.png
+	width 32text%
+	BoundingBox 0bp 0bp 375bp 647bp
+	clip
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mock-1a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Prototyp 4/Mockup Einstellungen.png
+	width 32text%
+	BoundingBox 0bp 0bp 375bp 647bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mock-1b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mock-Ups zu Hauptmenü (a) und Benutzereinstellungen (b)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Mock-Ups-zum-Prototypen-1a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Weitere in Abbildung
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mock-Ups-zum-Prototypen-1b"
+
+\end_inset
+
+ enthaltene User Stories sind 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-B4"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-D2"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-E2"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-B4"
+
+\end_inset
+
+ umschreibt die ausreichende Signalisierung von geschlossenen Zielorten
+ wie beispielsweise Museen.
+ Solche Informationen können in der Tourvorschau je Zielort dynamisch angezeigt
+ werden (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mock-2b"
+
+\end_inset
+
+).
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-D2"
+
+\end_inset
+
+ befasst sich mit der verbleibenden Verfügbarkeit nicht gelöster Aufgaben
+ über alle Touren hinweg.
+ Eine geeignete Stelle zum wiederholten Aufruf sind auch hier wieder die
+ Benutzereinstellungen.
+ Unter dem Menüpunkt 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ Mein Fortschritt
+\begin_inset Quotes erd
+\end_inset
+
+ lassen sich alle ungelösten Aufgaben von Neuem beginnen.
+ Gleich darunter werden Information über den aktuellen Fortschritt des Nutzers
+ zusammenfassend festgehalten.
+ Diese Anzeige ist Teil der weiteren, bereits erwähnten User Story 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-E2"
+
+\end_inset
+
+ zum Anzeigen des aktuellen Fortschritts nach einer abgeschlossenen Tour.
+ Tourspezifische Informationen werden zunächst direkt nach der Tour angezeigt,
+ und dann auf die Informationen in den Einstellungen hinzugerechnet.
+\end_layout
+
+\begin_layout Standard
+Nach dem Nachweis der umgesetzten User Stories und einer Argumentation zu
+ den eingesetzten Strategien, Spielmechanismen und Entwurfsmustern, fehlt
+ zuletzt noch die Überprüfung nach Plausibilität anhand der einzelnen Stufen
+ des 
+\emph on
+Action Funnels
+\emph default
+.
+ Mit ihm wird belegt, dass alle Mock-Ups in Abbildungen 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mock-Ups-zum-Prototypen-1b"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mock-Ups-zum-Prototypen-1b"
+
+\end_inset
+
+ das angestrebte Verhalten im Nutzer hervorrufen.
+\end_layout
+
+\begin_layout Standard
+Zu Beginn der Anwendung, d.
+ h.
+ bei erstmaligem Aufruf, begrüßen den Nutzer Splash Pages.
+ Diese werden in einer kurzen, überspringbaren Diashow auf die Kernfunktionen
+ des Prototyps hinweisen, sowie dem Nutzer Tour-Vorlieben auswählen lassen.
+ Der Auslösereiz ist der Hinweis eines aufregenden Ausflugerlebnisses auf
+ eines dieser Splash Pages.
+ Die unmittelbare Reaktion soll durch das schlichte und übersichtliche Layout
+ des Prototyps unterstützt werden.
+ Es soll zudem vertrauenserweckend wirken und so den Nutzer nicht vom eigentlich
+en Verhalten ablenken.
+ Nun folgt die Kosten-Nutzen-Abschätzung.
+ Der Nutzer wird sich überlegen, ob die Arbeit die in die Konfiguration
+ investiert werden muss, dem Nutzen entspricht.
+ Diese Abschätzung ist individuell abhängig, d.
+ h.
+ es können unterschiedlich viele Schritte ausreichen um den Vorgang abzubrechen.
+ Im Falle des Prototyps existiert neben der regulären Tourauswahl ein Schnellein
+stieg, der den Aufwand minimiert.
+ Die als Schnellstart gekennzeichnete Aktion überspringt die Tourübersicht
+ und zeigt sofort die bestmögliche Tour an.
+ Die darauf folgende Stufe klärt, ob der Nutzer das Potential für die Durchführu
+ng des Verhaltens sieht.
+ Diese Möglichkeit kann zum Beispiel dann nicht bestehen, wenn unklar ist,
+ was als nächstes zu tun ist.
+ Die gewählte Zielgruppe besitzt eine Affinität bezüglich Smartphones (s.
+ Unterabschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Festlegung-der-Zielgruppe"
+
+\end_inset
+
+) und sollte mit den allgemein gültigen Gegebenheiten von Anwendungsarchitekture
+n zurecht kommen.
+ Des Weiteren sind wichtige Schaltflächen ihrer Funktion betreffend ausreichend
+ beschrieben, sodass ihre Intention erkennbar ist.
+ Die letzte Stufe untersucht die Dringlichkeit für das Verhalten.
+ Der Nutzer muss das Gefühl haben, dass das Zielverhalten jetzt wichtiger
+ ist als andere Tätigkeiten.
+ Diese Dringlichkeit wird innerhalb der Anwendung in den ersten zwei Schritten
+ durch kurze, dynamisch wechselnde Aufforderungstexte verursacht (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mock-1a"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mock-2a"
+
+\end_inset
+
+).
+ Im Mock-Up zur Tourvorschau ist der Nutzer angehalten, die auffordernde
+ Schaltfläche mit der 
+\begin_inset Quotes eld
+\end_inset
+
+Los
+\begin_inset Quotes erd
+\end_inset
+
+-Beschriftung zu bestätigen.
+ Ist die Anwendung geschlossen, werden zu günstigen Zeitpunkten Push-Benachricht
+igungen den Nutzer zu spontanen Ausflügen auffordern.
+ Die Mock-Ups aus Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mock-Ups-zum-Prototypen-1a"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mock-Ups-zum-Prototypen-1b"
+
+\end_inset
+
+ sind mit erfolgreichem Abschluss dieser letzten Stufe des 
+\emph on
+Action Funnels
+\emph default
+ für das weitere Vorgehen ohne Konflikt durchführbar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Prototyp 4/Mockup Tour.png
+	width 32text%
+	BoundingBox 0bp 0bp 375bp 647bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mock-2a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Prototyp 4/Mockup Tour Vorschau.png
+	width 32text%
+	BoundingBox 0bp 0bp 375bp 647bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mock-2b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mock-Ups zu Tourenübersicht (a) und Tourvorschau (b) 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Mock-Ups-zum-Prototypen-1b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In den weiteren Mock-Ups in Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mock-Ups-zum-Prototypen-2"
+
+\end_inset
+
+ sind die Teilschritte ausgearbeitet, in denen man am Zielort angelangt
+ ist und eine Aufgabe beginnen kann.
+ Das letzte Mock-Up zeigt den Tourabschluss.
+\end_layout
+
+\begin_layout Standard
+Im Mock-Up für den Zielort (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mock-3a"
+
+\end_inset
+
+) werden die restlichen User Stories aus 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-B"
+
+\end_inset
+
+ verarbeitet, sowie 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-C1"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-C2"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-B1"
+
+\end_inset
+
+ bis 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-B3"
+
+\end_inset
+
+ werden durch die anklickbare Karte und die geographischen Informationen
+ wie Entfernung die Zeitdauer realisiert.
+ Die letzte User Story im B-Teil (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-B5"
+
+\end_inset
+
+) wird im unteren Bildabschnitt durch einen horizontalen Fortschrittsanzeige
+ visualisiert.
+ Eine zusätzliche Fortschrittskennzeichnung wie sie in der verwandten Anwendung
+ 
+\emph on
+Streetspotr
+\emph default
+ praktiziert wird (s.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Unterstützende-Mechanismen"
+
+\end_inset
+
+, Assoziation zu verwandten Produkten) ließe sich ebenfalls noch in der
+ Übersicht aller Zielorte integrieren.
+ Der Nutzer müsste dann nicht nach vorzeitigem Abbruch einer Tour diese
+ mental von Neuem beginnen, sondern erkennt sofort den zuletzt erreichten
+ Zielort.
+ Eine Umbenennung der Schaltflächen für den Tourabbruch von 
+\begin_inset Quotes eld
+\end_inset
+
+Tour abbrechen
+\begin_inset Quotes erd
+\end_inset
+
+ zu 
+\begin_inset Quotes eld
+\end_inset
+
+Tour später fortsetzen
+\begin_inset Quotes erd
+\end_inset
+
+ wäre dahingehend ebenfalls präziser.
+ 
+\end_layout
+
+\begin_layout Standard
+Die Aufgabenvorschau bzw.
+ -aktivierung (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-C1"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-C2"
+
+\end_inset
+
+) geschieht durch Betätigung der rechts hereinragenden 
+\begin_inset Quotes eld
+\end_inset
+
+Rätsel
+\begin_inset Quotes erd
+\end_inset
+
+-Schaltfläche.
+ Das Mock-Up mit der aktivierten Aufgabe (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mock-3b"
+
+\end_inset
+
+) befasst sich mit den User Stories 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-C3"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-C4"
+
+\end_inset
+
+ und den noch unbearbeiteten User Stories mit Kennzeichnung D.
+ Der Schwierigkeitsgrad und mögliche Tipps (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-C3"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-C4"
+
+\end_inset
+
+) sind in der oberen Hälfte der Aufgabe platziert.
+ Der Nutzer kann die Aufgabe jederzeit auf 
+\begin_inset Quotes eld
+\end_inset
+
+Später
+\begin_inset Quotes erd
+\end_inset
+
+ verschieben (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-D1"
+
+\end_inset
+
+), oder eine Antwort in das Antwortfeld eintippen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-D3"
+
+\end_inset
+
+).
+ Multiple-Choice Antworten anstatt einem Eingabefeld wären ebenso vorstellbar,
+ und könnten zudem das Frustrationslevel weiter minimieren.
+ Aus Sicht der Gamification stellt sich hier die Frage, ob das Annehmen
+ von Tipps und die Eingabe falscher Antworten mit einem Malus bestraft werden
+ sollte - also eine Schmälerung der Belohnung.
+ Jedoch ist ein Spielmechanismus der das Gamification-Pattern Punktesystem
+ aufgreift noch nicht an dieser Stelle bis ins Detail ausgearbeitet.
+ Die letzte User Story 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-D4"
+
+\end_inset
+
+ wird nach der Bestätigung deutlich sichtbar unterhalb der Antwort eingeblendet.
+\end_layout
+
+\begin_layout Standard
+Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mock-3c"
+
+\end_inset
+
+ zeigt den Tourabschluss.
+ Diese verarbeitet alle User Stories mit Kennzeichnung E.
+ Der Nutzer kann die Tour sofort abschließen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-E1"
+
+\end_inset
+
+), oder zuvor noch eine persönliche Bewertung zur Tour abgeben (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-E4"
+
+\end_inset
+
+).
+ Auch hier wird per Default bereits ein Wert angegeben.
+ Der Nutzer kann diese Angabe entweder ohne weiteres Zutun akzeptieren,
+ oder manuell eingreifen und einen anderen Wert angeben.
+ Mit Bestätigung der Tourabschlussschaltfläche wird sodann auch die Bewertung
+ übermittelt.
+ Der Mittelwert der Bewertung kann später in der Tourenübersicht wiedergegeben
+ werden.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-E2"
+
+\end_inset
+
+ wurde bereits in den Benutzereinstellungen erwähnt.
+ Außerdem ist diese User Story ein elementarer Bestandteil zur Rekapitulation
+ am Ende einer jeden Tour.
+ Der Nutzer wird diesbezüglich mit einer auffälligen Information auf seine
+ Erfolge hingewiesen.
+ In User Story 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-E3"
+
+\end_inset
+
+ möchte der Nutzer weiterhin Touren empfohlen bekommen, welche ähnlich der
+ durchgeführten Tour sind.
+ Allerdings gilt dies nur, wenn ihm diese Tour gefiel.
+ Schließt der Nutzer beispielsweise diese Tour mit einer positiven Bewertung
+ ab, lassen sich über diesen Indikator und den an der Tour festgemachten
+ Vorlieben-Eigenschaften weitere Touren empfehlen.
+ Diese Funktion könnte ein weiteres Mal als Push-Benachrichtigung denkbar
+ sein.
+\end_layout
+
+\begin_layout Standard
+Die Mock-Ups aus Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mock-Ups-zum-Prototypen-2"
+
+\end_inset
+
+ werden ebenfalls anhand der Stufen des 
+\emph on
+Action Funnels
+\emph default
+ überprüft, ob sie das angestrebte Verhalten im Nutzer hervorrufen.
+ Es beginnt erneut mit dem Auslösereiz.
+ Dieser liegt mit dem nachträglichen Erscheinen der Aufgabenschaltfläche
+ in der Zielortübersicht vor.
+ Es folgt eine automatische Fixierung auf die Schaltfläche, was bereits
+ die zweite Stufe kennzeichnet.
+ Die restliche Oberfläche rückt dadurch in den Hintergrund und der Nutzer
+ wechselt über zur Kosten-Nutzen-Abschätzung.
+ Nutzer des Spielertyps Explorer sollten den gegebenen Umstand als Gewohnheit
+ betrachten und werden sich wie gewünscht verhalten.
+ Andere Spielertypen, wie Achiever können sich ebenfalls in der Hoffnung
+ nach Belohnungen zugunsten des Nutzens entscheiden.
+ Die Möglichkeit zum Verhalten sollte ebenfalls gegeben sein.
+ Ein Pulsieren der Schaltfläche soll zu Verstehen geben, dass sich dahinter
+ ein noch unbekannter Inhalt befindet oder etwas bei Berührung geschehen
+ muss.
+ Auch die Dringlichkeit wird durch die pulsierende Dynamik verstärkt.
+\end_layout
+
+\begin_layout Standard
+Im Mock-Up mit der eigentlichen Aufgabe ist die Fragestellung der Auslösereiz.
+ Der Nutzer wird darin aufgefordert die Frage zu beantworten.
+ Die folgende Reaktion muss durch interessante Aufgaben positiv ausfallen.
+ Auch die Kosten-Nutzen-Abschätzung ist von der Art der Aufgabe ausschlaggebend.
+ Es sollten Fragestellungen sein, mit dessen Antworten der Nutzer einen
+ Mehrwert erhält, beispielsweise sinnvolle Zusatzinformationen.
+ Für die Möglichkeit zum Verhalten muss sich der Nutzer auf die Beantwortung
+ der Fragestellung konzentrieren.
+ Die Aufgabe wird hierfür mit einem neuem Dialogfenster vollständig von
+ der Zielortinformationsseite isoliert.
+ Somit gibt es nur wenige andere Interaktionsmöglichkeiten und das Potential
+ für Ablenkungen wird minimiert.
+ Zuletzt ist der Zeitpunkt noch ein wichtiges Kriterium.
+ Es kann an dieser Stelle davon ausgegangen werden, dass sich der Nutzer
+ an besagten Zielort befindet.
+ Eventuell müsste dies technisch validiert werden.
+ Die Analyse mit dem 
+\emph on
+Action Funnel
+\emph default
+ für das letzte Mock-Up zur Beendigung der Tour ist nicht elementar, da
+ das eigentliche Zielverhalten mit der Durchführung der Aufgabe erfüllt
+ ist.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Prototyp 4/Mockup Aufgabe.png
+	width 32text%
+	BoundingBox 0bp 0bp 375bp 647bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mock-3a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Prototyp 4/Mockup Aufgabe aktiviert.png
+	width 32text%
+	BoundingBox 0bp 0bp 375bp 647bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mock-3b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Prototyp 4/Mockup Tourabschluss.png
+	width 32text%
+	BoundingBox 0bp 0bp 375bp 647bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mock-3c"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mock-Ups zu Zielortübersicht (a), Aufgabenanzeige (b) und Tourende (c)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Mock-Ups-zum-Prototypen-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Zurückgestellte Funktionen
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Zurückgestellte-Funktionen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bezüglich des fertig umgesetzten Prototyps wurden alle Mechanismen umgesetzt
+ welche für das Zielverhalten essentiell sind.
+ In Anbetracht der zeitlichen Begrenzung der Implementierungsphase und den
+ Gegebenheiten der Testphase, sind manche erörterte Funktionen und Spielelemente
+ nicht realisiert worden.
+\end_layout
+
+\begin_layout Standard
+Durch diese zeitliche Einschränkung der Testphase (s.
+ Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Evaluation"
+
+\end_inset
+
+) beschänkte sich das zu testende Zielverhaltens auf eine einamlige Durchführung.
+ Der Einsatz von Push-Benachrichtigungen (s.
+ User Story 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-A3"
+
+\end_inset
+
+), welche einen erneuten Auslösereiz darstellen sollten, wurde deshalb nicht
+ berücksichtig.
+ Des weiteren wurde die Implementierung von User Story 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-A5"
+
+\end_inset
+
+, der Vermittlung von Gleichgesinnten für Touren, aus Gründen der begrenzten
+ Probantenanzahl nicht begonnen.
+\end_layout
+
+\begin_layout Standard
+Ein weiterer Anlass zur Verringerung nicht essentieller Funktionen war der
+ zu kurz bemessene Implementierungszeitraum.
+ Wegfallende Funktionen betreffen hier die Geolocation.
+ Der Nutzer sollte ursprünglich geortet werden und relativ zum Ziel angezeigt
+ werden (s.
+ User Story 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-B3"
+
+\end_inset
+
+).
+ Zielorte mit Öffnungszeiten wurden überdies ohne Hinweis auf ihren momentanen
+ Stand in den entsprechenden Touren aufgeführt (s.
+ User Story 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-B4"
+
+\end_inset
+
+).
+ Ein Menüpunkt für ungelöste Entdeckungen (s.
+ User Story 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-D2"
+
+\end_inset
+
+) wurde zwar im Prototyp eingebaut, die fortführende Implementierung wurde
+ allerdings ebenfalls aus Zeitgründen gestoppt.
+\end_layout
+
+\begin_layout Standard
+Das limitierte Angebot von testbaren Inhalten ist ein drittes zusätzliches
+ Kriterium für die Aussparung einer weiteren User Story.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-E3"
+
+\end_inset
+
+ beschreibt Vorschläge zu weiteren Touren mittels Push-Benachrichtigungen.
+ Doch durch die zeitintensive Aufbereitung von Inhalten und dem zusätzlichen
+ Wegfall der Push-Funktion, wurde auch diese Funktion für den Prototyp ausgelass
+en.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

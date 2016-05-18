@@ -1,0 +1,29 @@
+dl#HypeCycleMap { margin: 0 auto; padding: 0; background: transparent url(http://na1.www.gartner.com/imagesrv/research/methodologies/img/dl_hypeCycle.gif;wab0dfd8881918b79a) top left no-repeat; height: 255px; width: 363px; position: relative; }
+dt { margin: 0; padding: 0; position: absolute; font-size: 10px; display: none; }
+dd { margin: 0; padding: 0; position: absolute; font-size: 10px; font-family: Arial, Helvetica, sans-serif; }
+/* ---------- Hotspot Declarations ---------- */
+dd#triggerDef { top: 199px; left: 15px; }
+dd#triggerDef a { position: absolute; width: 84px; height: 33px; text-decoration: none; left: -1px; }
+dd#triggerDef a span { display: none; }
+dd#triggerDef a:hover { position: absolute; background:  transparent url(http://na2.www.gartner.com/imagesrv/research/methodologies/img/dl_hypeCycles_active.gif;wa3c282e1fbda3f185) -14px -199px no-repeat; }
+dd#triggerDef a:hover span { display: block; text-indent: 0; vertical-align: top; color: #000; background-color: #F4F4F4; font-weight: normal; position: absolute; border: 1px solid #f60; bottom: 100%; margin: 0; padding: 10px; width: 250%; line-height: 14px; }
+dd#peakDef { top: 83px; left: 73px; }
+dd#peakDef a { position: absolute; width: 73px; height: 34px; text-decoration: none; }
+dd#peakDef a span { display: none; }
+dd#peakDef a:hover { background:  transparent url(http://na2.www.gartner.com/imagesrv/research/methodologies/img/dl_hypeCycles_active.gif;wa3c282e1fbda3f185) -73px -83px no-repeat; }
+dd#peakDef a:hover span { display: block; text-indent: 0; vertical-align: bottom; color: #000; background-color: #F4F4F4; font-weight: normal; position: absolute; border: 1px solid #f60; bottom: 100%; margin: 0; padding: 10px; width: 250%; line-height: 14px; }
+dd#troughDef { top: 171px; left: 136px; }
+dd#troughDef a { position: absolute; width: 91px; height: 29px; text-decoration: none; left: -2px; }
+dd#troughDef a span { display: none; }
+dd#troughDef a:hover { background:  transparent url(http://na2.www.gartner.com/imagesrv/research/methodologies/img/dl_hypeCycles_active.gif;wa3c282e1fbda3f185) -134px -171px no-repeat; }
+dd#troughDef a:hover span { display: block; text-indent: 0; vertical-align: top; color: #000; background-color: #F4F4F4; font-weight: normal; position: absolute; border: 1px solid #f60; top: 100%; margin: 0; padding:10px; width: 250%; line-height: 14px; }
+dd#slopeDef { top: 134px; left: 214px; }
+dd#slopeDef a { position: absolute; width: 77px; height: 28px; text-decoration: none; }
+dd#slopeDef a span { display: none; }
+dd#slopeDef a:hover { background:  transparent url(http://na2.www.gartner.com/imagesrv/research/methodologies/img/dl_hypeCycles_active.gif;wa3c282e1fbda3f185) -214px -134px no-repeat; */ }
+dd#slopeDef a:hover span { display: block; text-indent: 0; vertical-align: top; color: #000; background-color: #F4F4F4; font-weight: normal; position: absolute; border: 1px solid #f60; top: 100%; margin: 0; padding: 10px; width: 150%; line-height: 14px; }
+dd#plateauDef { top: 108px; left: 276px; }
+dd#plateauDef a { position: absolute; width: 70px; height: 26px; text-decoration: none; }
+dd#plateauDef a span { display: none; }
+dd#plateauDef a:hover { background:  transparent url(/technology/research/methodologies/img/dl_hypeCycles_active.gif) -276px -108px no-repeat; }
+dd#plateauDef a:hover span { display: block; text-indent: 0; vertical-align: top; color: #000; background-color: #F4F4F4; font-weight: normal; position: absolute; border: 1px solid #f60; top: 100%; left: 1px; margin: 0; padding: 10px; width: 150%; }

@@ -1,0 +1,102 @@
+.spriteflags {
+	background: url('../img/flags/30x20/spriteflags.png') no-repeat 1px 1px #FFF;
+	width: 30px;
+	height: 20px;
+	float: left;
+	border: 1px solid #fff;
+} 
+.borderflags {
+	border: 1px solid #ccc;
+	width: 32px;
+	height: 22px;
+	float: left;
+	margin: 2px 10px 0 0;
+}
+.local-web-items ul li a:hover > .borderflags {
+border: 1px solid #00A9E0;
+}
+.spriteflags.SN { background-position: 0px -2820px;  } 
+.spriteflags.DZ { background-position: 0px -120px;  } 
+.spriteflags.AR { background-position: 0px -360px;  } 
+.spriteflags.AU { background-position: 0px -450px;  } 
+.spriteflags.AT { background-position: 0px -480px;  } 
+.spriteflags.BE { background-position: 0px -2820px;  } 
+.spriteflags.BO { background-position: 0px -870px;  } 
+.spriteflags.BA { background-position: 0px -900px;  } 
+.spriteflags.BR { background-position: 0px -960px;  }   
+.spriteflags.BG { background-position: 0px -1080px;  } 
+.spriteflags.CC { background-position: 0px -2820px;  } 
+.spriteflags.CL { background-position: 0px -1410px;  } 
+.spriteflags.CN { background-position: 0px -1440px;  } 
+.spriteflags.CO { background-position: 0px -1530px;  } 
+.spriteflags.KZ { background-position: 0px -2820px;  } 
+.spriteflags.corporate { background-position: 0px -150px;  } 
+.spriteflags.HR { background-position: 0px -1710px;  } 
+.spriteflags.CZ { background-position: 0px -1830px;  } 
+.spriteflags.EA { background-position: 0px -2820px;  } 
+.spriteflags.EC { background-position: 0px -2040px;  } 
+.spriteflags.EG { background-position: 0px -2070px;  } 
+.spriteflags.EE { background-position: 0px -2220px;  } 
+.spriteflags.FI { background-position: 0px -2400px;  } 
+.spriteflags.FR { background-position: 0px -2430px;  } 
+.spriteflags.DE { background-position: 0px -2610px;  } 
+.spriteflags.GH { background-position: 0px -2640px;  } 
+.spriteflags.GR { background-position: 0px -2730px;  }
+.spriteflags.AE { background-position: 0px -2820px;  }  
+.spriteflags.HK { background-position: 0px -3090px;  } 
+.spriteflags.HU { background-position: 0px -3120px;  } 
+.spriteflags.IS { background-position: 0px -3150px;  } 
+.spriteflags.IN { background-position: 0px -3180px;  } 
+.spriteflags.ID { background-position: 0px -3210px;  } 
+.spriteflags.IR { background-position: 0px -3240px;  } 
+.spriteflags.IE { background-position: 0px -3300px;  } 
+.spriteflags.IL { background-position: 0px -3360px;  } 
+.spriteflags.IT { background-position: 0px -3390px;  } 
+.spriteflags.JP { background-position: 0px -3450px;  }  
+.spriteflags.JO { background-position: 0px -3510px;  } 
+.spriteflags.KW { background-position: 0px -3660px;  } 
+.spriteflags.LV { background-position: 0px -3750px;  } 
+.spriteflags.LB { background-position: 0px -3780px;  }
+.spriteflags.LY { background-position: 0px -3870px;  } 
+.spriteflags.LT { background-position: 0px -3930px;  } 
+.spriteflags.MG { background-position: 0px -4050px;  } 
+.spriteflags.MY { background-position: 0px -4110px;  } 
+.spriteflags.MT { background-position: 0px -4200px;  }
+.spriteflags.MU { background-position: 0px -4350px;  } 
+.spriteflags.MX { background-position: 0px -4410px;  } 
+.spriteflags.MN { background-position: 0px -4530px;  } 
+.spriteflags.MA { background-position: 0px -4620px;  } 
+.spriteflags.NG { background-position: 0px -5040px;  } 
+.spriteflags.PK { background-position: 0px -5310px;  } 
+.spriteflags.PS { background-position: 0px -5370px;  } 
+.spriteflags.PY { background-position: 0px -5460px;  } 
+.spriteflags.PE { background-position: 0px -5490px;  } 
+.spriteflags.PH { background-position: 0px -5520px;  } 
+.spriteflags.PL { background-position: 0px -5580px;  } 
+.spriteflags.PT { background-position: 0px -5610px;  } 
+.spriteflags.QA { background-position: 0px -5670px;  } 
+.spriteflags.RO { background-position: 0px -5760px;  } 
+.spriteflags.RU { background-position: 0px -5790px;  } 
+.spriteflags.SA { background-position: 0px -6120px;  } 
+.spriteflags.RS { background-position: 0px -6210px;  }  
+.spriteflags.SG { background-position: 0px -6300px;  } 
+.spriteflags.SK { background-position: 0px -6330px;  } 
+.spriteflags.SI { background-position: 0px -6360px;  } 
+.spriteflags.ZA { background-position: 0px -6480px;  } 
+.spriteflags.ES { background-position: 0px -6630px;  } 
+.spriteflags.SD { background-position: 0px -6690px;  } 
+.spriteflags.SE { background-position: 0px -2820px;  } 
+.spriteflags.CH { background-position: 0px -6810px;  } 
+.spriteflags.SY { background-position: 0px -6840px;  } 
+.spriteflags.TW { background-position: 0px -6870px;  } 
+.spriteflags.TH { background-position: 0px -6960px;  } 
+.spriteflags.TN { background-position: 0px -7110px;  } 
+.spriteflags.TR { background-position: 0px -7140px;  } 
+.spriteflags.UA { background-position: 0px -7290px;  } 
+.spriteflags.GB { background-position: 0px -7350px;  } 
+.spriteflags.US { background-position: 0px -7410px;  } 
+.spriteflags.UY { background-position: 0px -7470px;  } 
+.spriteflags.VE { background-position: 0px -7620px;  } 
+.spriteflags.VN { background-position: 0px -7650px;  } 
+.spriteflags.YE { background-position: 0px -7770px;  } 
+.spriteflags.KR { background-position: 0px -6540px;  } 

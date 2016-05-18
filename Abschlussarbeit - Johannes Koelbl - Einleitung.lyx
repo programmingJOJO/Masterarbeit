@@ -1,0 +1,345 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrreprt
+\begin_preamble
+% Anpassung des Seitenlayouts --------------------------------------------------
+
+% Anpassung an Landessprache --------------------------------------------------
+\usepackage[ngerman]{babel}
+
+% Schrift 
+% ----------------------------------------------------------------------
+\usepackage{lmodern} % bessere Fonts
+\usepackage{relsize} % Schriftgröße relativ festlegen
+
+% Grafiken 
+% ---------------------------------------------------------------------
+% Einbinden von JPG-Grafiken ermöglichen
+\usepackage{graphicx}
+% hier liegen die Bilder des Dokuments
+\graphicspath{{Bilder/}}
+
+% URL verlinken, lange URLs umbrechen etc. 
+% --------------------------------------------------------------------
+\usepackage[hyphens]{url}
+%\usepackage{hyperref}
+%\usepackage{url,hyperref}
+
+%URL im Literaturverzeichnis
+%\usepackage{url}
+%\addcontentsline{toc}{section}{References}
+
+% Formatierung von Listen ändern 
+% -------------------------------------------------------------------
+\usepackage{paralist}
+
+%Abkürzungsverzeichnis
+% --------------------------------------------------------------------
+\end_preamble
+\options liststotoc
+\use_default_options true
+\master Abschlussarbeit - Johannes Koelbl.lyx
+\maintain_unincluded_children false
+\language ngerman
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Einleitung
+\end_layout
+
+\begin_layout Section
+Motivation
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Motivation"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Der Tourismus ist ein enormer Wirtschaftsfaktor weltweit.
+ Von 1950 bis heute wuchs die Zahl der internationalen Auslandsankünfte
+ von ehemals 25 Millionen auf über eine Milliarde um das Vierzigfache.
+ Die Welttourismusorganisation (UNWTO
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "UNWTO"
+description "Welttourismusorganisation"
+
+\end_inset
+
+) schätzt, dass diese Zahl bis zum Jahr 2030 auf 1,8 Milliarden Auslandstouriste
+n weiter ansteigt 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "UNWTO.2011"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Auch Deutschland profitiert von der wachsenden Zahl der Reisenden.
+ Laut deutschem Reiseverband übersteigt ihre Wertschöpfung sogar die der
+ Automobilindustrie 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~5]{DeutscherReiseverband.2016}
+\end_layout
+
+\end_inset
+
+ und eine kürzlich veröffentlichte Pressemitteilung des Bundesministeriums
+ für Wirtschaft und Energie bestätigt den anhaltenden Boom von Deutschland
+ als attraktives Reiseland 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "BundesministeriumfurWirtschaftundEnergie.2016b"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Gleichzeitig nehmen mobile Technologien wie z.
+ B.
+ das Smartphone in der Reise- und Tourismusbranche an Bedeutung zu.
+ Die Herausforderungen und Trends der fortschreitenden mobilen Digitalisierung
+ im Tourismus waren Thema der kürzlich stattfandenen Jahrestagung der Deutschen
+ Gesellschaft für Tourismuswissenschaft (DGT
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "DGT"
+description "Deutsche Gesellschaft für Tourismuswissenschaft"
+
+\end_inset
+
+) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Landvogt.2015"
+
+\end_inset
+
+.
+ Besonderen Stellenwert nahm hierbei Gamification ein.
+ Bei korrekter Anwendung vermag Gamification Reisende signifikant in ihrer
+ Tätigkeit zu motivieren, sei es beispielsweise mit Push-Benachrichtigungen
+ zu umliegenden Geheimtipps am Urlaubsort oder mit kreativen Vorschlägen
+ bereits während der Planung.
+ Nichtsdestotrotz ist die Forschung zu Gamification in diesem Kontext erst
+ noch am Anfang und es ist noch unklar, wie sich welche Gamificationansätze
+ auf das Verhalten der Reisenden auswirkt (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citealp[S.~531-534]{Xu.2013}; 
+\backslash
+citealp[S.~189]{Sigala.2015}
+\end_layout
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Gamification im Kontext Reisen - sowohl als Trend als auch Herausforderung
+ - wird führendes Thema dieser Abschlussarbeit sein.
+ Touristische internetbasierte Mobilanwendungen werden zudem eine tragende
+ Rolle einnehmen.
+ Konkret wird untersucht, wie bereits erhältliche, gamifizierte Smartphone-Apps
+ motivationale Defizite ihrer Nutzer bewältigen und Einfluss auf das Verhalten
+ der Reisenden nehmen möchten.
+\end_layout
+
+\begin_layout Section
+Ziel der Arbeit 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Ziel-der-Arbeit"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Folgende Fragestellung lässt sich aus dem Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Motivation"
+
+\end_inset
+
+ ableiten, die es in der Arbeit zu bearbeiten gilt: 
+\end_layout
+
+\begin_layout Itemize
+Wie können motivationale Defizite innerhalb der spielfremden Domäne Reisen
+ durch Anwendung von Gamification bewältigt werden und zu einem bestimmten
+ Verhalten anregen?
+\begin_inset CommandInset label
+LatexCommand label
+name "Frage:-Wie-können"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Diese Frage lässt sich nicht ohne weiteres beantworten, da sie ein weites
+ Feld an möglichen Subdomänen und Anwendungen abdeckt.
+ Eine Marktanalyse soll deshalb das Gebiet entsprechend eingrenzen und mithilfe
+ der Konzeptstudie 
+\emph on
+SeeSight
+\emph default
+ gleichzeitig Basis schaffen für ein Proof-of-Concept.
+ Ziele, um die Ausgangsfrage beantworten zu können, sind somit: 
+\end_layout
+
+\begin_layout Itemize
+Ziel 1: Konzeption einer gamifizierten Anwendung auf Basis der existierenden
+ Konzeptstudie 
+\emph on
+SeeSight
+\emph default
+ und unter Einbeziehung einer zuvor erstellten Marktanalyse.
+\begin_inset CommandInset label
+LatexCommand label
+name "Ziel-1:-Konzeption"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ziel 2: Realisierung eines Prototyps als Proof-of-Concept mit anschließender
+ Nutzerstudie.
+\begin_inset CommandInset label
+LatexCommand label
+name "Ziel-2:-Realisierung"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aufbau der Arbeit
+\end_layout
+
+\begin_layout Standard
+Im folgenden Kapitel 2 wird zunächst auf den Begriff Gamification sowie
+ dessen verhaltenstheoretische Grundlagen eingegangen.
+ Ferner werden auch die in dieser Arbeit wichtigen Begriffe der Spielertypen
+ und der Gamification-Patterns erläutert, sowie verschiedene Spielformen
+ näher betrachtet, die ebenfalls als Vorwissen relevant sind.
+ Anschließend wird in Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Marktanalyse"
+
+\end_inset
+
+ die bestehende Konzeptstudie 
+\emph on
+SeeSight
+\emph default
+ vorgestellt, die initial zu der Idee dieser Arbeit beitrug.
+ Mit den im Vornhinein identifizierten Vergleichskriterien folgt eine Marktstudi
+e zu verwandten Anwendungen und Arbeiten.
+ In Kapitel 4 wird mit Hilfe eines Vorgehensmodells zur Verhaltensveränderung
+ und den Ergebnissen der Studie ein Prototyp entwickelt.
+ Anschließend mit Kapitel 5 erfolgt eine Evaluierung durch Tracking der
+ Probanten und einer Umfrage.
+ Es soll geprüft werden, ob der Einsatz der verhaltensverändernden Mechanismen
+ die erwartete Wirkung erzielt.
+ Kapitel 6 schließt mit einem persönlichem Fazit zu den Ergebnissen ab.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1085 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrreprt
+\begin_preamble
+% Anpassung des Seitenlayouts --------------------------------------------------
+
+% Anpassung an Landessprache --------------------------------------------------
+\usepackage[ngerman]{babel}
+
+% Schrift 
+% ----------------------------------------------------------------------
+\usepackage{lmodern} % bessere Fonts
+\usepackage{relsize} % Schriftgröße relativ festlegen
+
+% erzeugt ein wenig mehr Platz hinter einem Punkt
+\frenchspacing 
+
+% Schusterjungen und Hurenkinder vermeiden
+\clubpenalty = 10000
+\widowpenalty = 10000 
+\displaywidowpenalty = 10000
+
+% Grafiken 
+% ---------------------------------------------------------------------
+% Einbinden von JPG-Grafiken ermöglichen
+\usepackage{graphicx}
+% hier liegen die Bilder des Dokuments
+\graphicspath{{C:/Users/Johannes/Documents/GitHub/Masterarbeit/Bilder/}{Bilder/}}
+
+% URL verlinken, lange URLs umbrechen etc. 
+% --------------------------------------------------------------------
+\usepackage[hyphens]{url}
+%\usepackage{hyperref}
+%\usepackage{url,hyperref}
+
+%URL im Literaturverzeichnis
+%\usepackage{url}
+%\addcontentsline{toc}{section}{References}
+
+% Formatierung von Listen ändern
+% Verträgt sich aber nicht mit enumitem-Modul
+% -------------------------------------------------------------------
+%\usepackage{paralist}
+
+%Abkürzungsverzeichnis
+% --------------------------------------------------------------------
+\addto\captionsngerman{
+\setlength{\nomlabelwidth}{.20\hsize}
+\renewcommand{\nomlabel}[1]{#1 \dotfill}
+\setlength{\nomitemsep}{-\parsep}
+\renewcommand{\nomname}{Abkürzungsverzeichnis}
+}
+\end_preamble
+\options liststotoc, pointlessnumbers
+\use_default_options true
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language ngerman
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge{
+\backslash
+textbf{Entwurf und Entwicklung einer mobilen Gamification-Lösung für Städtetoure
+n}}
+\backslash
+
+\backslash
+[4ex]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+LARGE{
+\backslash
+textbf{Masterarbeit}}
+\backslash
+
+\backslash
+[1ex]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Large{im Fachgebiet Informatik}
+\backslash
+
+\backslash
+[15ex]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.3]{TH_Nuernberg_CMYK.jpg}
+\backslash
+
+\backslash
+[6ex]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+normalsize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{p{5.4cm}p{6cm}}
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedleft vorgelegt von:  & 
+\backslash
+quad Johannes Kölbl
+\backslash
+
+\backslash
+[1.2ex] 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedleft Studienbereich: & 
+\backslash
+quad Informatik
+\backslash
+
+\backslash
+[1.2ex] 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedleft Matrikelnummer: & 
+\backslash
+quad 2235485
+\backslash
+
+\backslash
+[1.2ex] 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedleft Erstgutachter:  & 
+\backslash
+quad Prof.
+ Dr.
+ Thomas Voit
+\backslash
+
+\backslash
+[1.2ex] 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedleft Zweitgutachter: & 
+\backslash
+quad Prof.
+ Dr.-Ing.
+ Florian Gallwitz
+\backslash
+
+\backslash
+[3ex] 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Juni 2016
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+let
+\backslash
+raggedsection
+\backslash
+centering 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section*{
+\backslash
+abstractname}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Während des Urlaubs schalten viele Menschen das Smartphone aus, um „abschalten“
+ zu können.
+ Dabei erweisen sich gerade bei Reisen oder Ausflügen bestimmte Smartphone-Anwen
+dungen als hilfreich - sei es, um Empfehlungen einzuholen oder als Reiseführer.
+ Diese Arbeit vergleicht verschiedene Smartphone-Anwendungen aus dem Bereich
+ Reisen und untersucht, inwiefern diese über das inhaltliche Angebot hinaus
+ ihre Nutzer zu einem bestimmten Verhalten motivieren wollen und ob hierzu
+ spezifische Gamification-Patterns eingesetzt werden.
+ An diese Marktanalyse anknüpfend wird auf Basis der bereits existierenden
+ Konzeptstudie 
+\emph on
+SeeSight
+\emph default
+ ein eigener Prototyp implementiert und eine Nutzerstudie durchgeführt.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+let
+\backslash
+raggedsection
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%Seitennummerierung 
+\end_layout
+
+\begin_layout Plain Layout
+
+%Vor dem Hauptteil werden die Seiten in großen römischen Ziffern nummeriert.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{Roman}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+nomname}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+set_width "none"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%Arabische Seitenzahlen im Hauptteil 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+clearpage 
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Abschlussarbeit - Johannes Koelbl - Einleitung.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Abschlussarbeit - Johannes Koelbl - Grundlagen.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Abschlussarbeit - Johannes Koelbl - Analyse.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Abschlussarbeit - Johannes Koelbl - Evaluation.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Abschlussarbeit - Johannes Koelbl - Zusammenfassung.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+refname{Literaturverzeichnis} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "Abschlussarbeit"
+options "bibtotoc,apalike"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+appendix
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+thefigure}{A
+\backslash
+arabic{figure}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Anhang
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{Roman}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+thesection}{
+\backslash
+Roman{section}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Fragebogen zur Evaluierung des Prototyp
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Fragebogen-zur-Evaluierung"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Geschlecht (Antwortmöglichkeiten: Männlich, Weiblich, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Geschlecht-(Antwortmöglichkeiten"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Alter (Antwortmöglichkeiten: 10 bis 79, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Alter-(Antwortmöglichkeiten:-10"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Wie oft machst du Ausflüge oder gehst spazieren? (Antwortmöglichkeiten:
+ Nie ...
+ Oft, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Wie-oft-machst"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Erkundest du dabei bewusst deine Umgebung? (Antwortmöglichkeiten: Nie ...
+ Oft, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Erkundest-du-dabei"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Welche der folgenden Aussagen passen zu dir? Lege dich bitte maximal auf
+ zwei Aussagen fest.
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Welche-der-folgenden"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Ich profiliere mich gerne in Wettkämpfen mit anderen Spielern
+\end_layout
+
+\begin_layout Enumerate
+Ich versuche mich oft in Spielen zu perfektionieren oder alles zu erreichene
+\end_layout
+
+\begin_layout Enumerate
+Ich erkunde gerne noch unentdeckte Spielewelten oder -abschnitte
+\end_layout
+
+\begin_layout Enumerate
+Ich interagiere in Spielen am Liebsten mit meinen Freunden.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Welche der folgenden Sportarten oder Spiele sagen dir zu? (Mehrfachauswahl
+ möglich)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Welche-der-folgenden-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Leichtathletik oder andere Wettkampfsportarten
+\end_layout
+
+\begin_layout Enumerate
+Brettspiele wie Schach oder Risiko, Strategiespiele
+\end_layout
+
+\begin_layout Enumerate
+Einzeltraining im Sport, Laufen, Bouldern
+\end_layout
+
+\begin_layout Enumerate
+Spiele, welche temporäre Zusammenarbeit anbieten oder erfordern (Bosskämpfe
+ in MMORPGs)
+\end_layout
+
+\begin_layout Enumerate
+Spiele mit Highscore, Autowettrennen
+\end_layout
+
+\begin_layout Enumerate
+Action-Adventures oder andere Single-Player Spiele
+\end_layout
+
+\begin_layout Enumerate
+Fitnesstraining mit Freunden, Runtastic mit Cheering
+\end_layout
+
+\begin_layout Enumerate
+Kooperative Spiele wie Pandemie oder Scotland Yard
+\end_layout
+
+\begin_layout Enumerate
+Ballsportarten wie Fußball, Volleyball oder Tennis
+\end_layout
+
+\begin_layout Enumerate
+Meisterschaften mit dem Sportteam oder dem Clan (Games)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+In der Anwendung befinden sich Spielmechanismen, welche den Prozess zur
+ Auswahl einer Tour und den Ausflug insgesamt motivierender gestallten sollen.
+ Die nun folgenden Fragen beziehen sich auf diese Spielmechanismen.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Hast du das Tutorial ganz zu Beginn durchgelesen? (Antwortmöglichkeiten:
+ Ja, Nein, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Hast-du-das"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Hast du zu Beginn ausgewählt, was deine Vorlieben sind? (Antwortmöglichkeiten:
+ Ja, Nein, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Hast-du-zu"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Wähltest du beim ersten Durchgang im Hauptmenü den Schnellstart oder manuell
+ eine Tour? (Antwortmöglichkeiten: Den Schnellstart, Manuell ausgewählt,
+ Beides ausgetestet, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Wähltest-du-beim"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Es konnten ortsbezogene Fragestellungen zu den Orten absolviert werden.
+ Findest du diesen Mechanismus ...
+ (Antwortmöglichkeiten: Unwichtig ...
+ Motivierend, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Es-konnten-ortsbezogene"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Zu den Fragen wurden Hinweise bei nicht korrekter Beantwortung angeboten.
+ Findest du diese Art der Hilfestellung ...
+ (Antwortmöglichkeiten: Unwichtig ...
+ Motivierend, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Zu-den-Fragen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Am Ende der Tour konntest du Feedback in Form einer 1 bis 5-Sterne-Bewertung
+ abgeben.
+ Findest du solches Feedback ...
+ (Antwortmöglichkeiten: Unwichtig ...
+ Motivierend, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Am-Ende-der"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Am Ende der Tour erhieltest du zusammenfassend Feedback zu deinen Entdeckungen
+ während der Tour.
+ Findest du solches Feedback ...
+ (Antwortmöglichkeiten: Unwichtig ...
+ Motivierend, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Am-Ende-der-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Es war geplant, dass deine Erfolge (erfolgreiche Antworten auf Fragestellungen,
+ Abschließen der Touren) zusätzliche Funktionen freischalten sollten, wie
+ z.
+ B.
+ die Erstellung eigener Touren.
+ Findest du solche Anreize ...
+ (Antwortmöglichkeiten: Unwichtig ...
+ Motivierend, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Es-war-geplant,"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Während des Ausflugs konnte man den aktuellen Stand der Tour an jedem Zielort
+ ablesen, sowie bei Pausierung einer Tour innerhalb der Zielortliste.
+ Findest du diese Art der Hilfestellung ...
+ (Antwortmöglichkeiten: Unwichtig ...
+ Motivierend, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Während-des-Ausflugs"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Könntest du dir vorstellen, die App zu nutzen? (Antwortmöglichkeiten: Ja,
+ Nein, Keine Angabe)
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Könntest-du-dir"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate-Resume
+Hast du noch Anregungen oder sonstige Anmerkungen?
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Hast-du-noch"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+section*{Pr"ufungsrechtliche Erkl"arung}
+\backslash
+thispagestyle{empty} 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Ich, Johannes Kölbl, Matrikel-Nr.
+ 2235485, versichere, dass ich die Arbeit selbstständig verfasst, nicht
+ andersweitig für Prüfungszwecke vorgelegt, alle benutzten Quellen und Hilfsmitt
+el angegeben sowie wörtliche und sinngemäße Zitate als solche gekennzeichnet
+ habe.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3
+\backslash
+baselineskip}% Abstand hier ggf.
+ anpassen
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rule{5cm}{0.2pt}
+\backslash
+hfill
+\backslash
+rule{5cm}{0.2pt}
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+phantom{Datum }Ort, Datum
+\backslash
+hfill Unterschrift
+\backslash
+hspace{15mm} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

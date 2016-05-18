@@ -1,0 +1,2897 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrreprt
+\begin_preamble
+% Anpassung des Seitenlayouts --------------------------------------------------
+
+% Anpassung an Landessprache --------------------------------------------------
+\usepackage[ngerman]{babel}
+
+% Schrift 
+% ----------------------------------------------------------------------
+\usepackage{lmodern} % bessere Fonts
+\usepackage{relsize} % Schriftgröße relativ festlegen
+
+% Grafiken 
+% ---------------------------------------------------------------------
+% Einbinden von JPG-Grafiken ermöglichen
+\usepackage{graphicx}
+% hier liegen die Bilder des Dokuments
+\graphicspath{{Bilder/}}
+
+% URL verlinken, lange URLs umbrechen etc. 
+% --------------------------------------------------------------------
+\usepackage[hyphens]{url}
+%\usepackage{hyperref}
+%\usepackage{url,hyperref}
+
+%URL im Literaturverzeichnis
+%\usepackage{url}
+%\addcontentsline{toc}{section}{References}
+
+% Formatierung von Listen ändern 
+% -------------------------------------------------------------------
+\usepackage{paralist}
+
+%Abkürzungsverzeichnis
+% --------------------------------------------------------------------
+\setlength{\nomlabelwidth}{.20\hsize}
+\renewcommand{\nomlabel}[1]{#1 \dotfill}
+\setlength{\nomitemsep}{-\parsep}
+\renewcommand{\nomname}{Abkürzungsverzeichnis}
+\def\nompreamble{\addcontentsline{toc}{section}{\nomname}\markboth{\nomname}{\nomname}}
+\end_preamble
+\options liststotoc
+\use_default_options true
+\master Abschlussarbeit - Johannes Koelbl.lyx
+\maintain_unincluded_children false
+\language ngerman
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Evaluation des Prototyps
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Evaluation"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Um genaue Erkenntnis darüber zu erlangen, ob die implementierten Mechanismen
+ tatsächlich Wirkung zeigen und das Verhalten beeinflussen, wurde nach der
+ Implementierungsphase ein Testzeitraum mit freiwilligen Probanten eingeplant.
+ Dieses Kapitel befasst sich mit der Durchführung der Testphase und den
+ daraus erlangten Erkenntnissen.
+\end_layout
+
+\begin_layout Section
+Nutzerstudie
+\end_layout
+
+\begin_layout Standard
+Gelungene Gamification lässt sich beispielsweise effizient mit A/B-Tests
+ ermitteln.
+ Zwei Testgruppen (Gruppe A und Gruppe B) erproben dabei über einen längeren
+ Zeitraum das Produkt.
+ Eine der Gruppe erählt dafür die gamifizierte Version, während die zweite
+ Gruppe das Produkt ohne verhaltensbeeinflussende Inhalte austestet.
+ Am Ende des Testzeitraumes lassen sich die gesammelten Daten miteinander
+ abgleichen und so daraus Erkenntnisse ableiten, ob sich die Gamification-Gruppe
+ dem Zielverhalten in signifikanter Weise annäherte.
+\end_layout
+
+\begin_layout Standard
+Ein weiterer Ansatz zur Evaluierung beschäftigt sich dagegen mit nur einer
+ Probantengruppe.
+ In diesem Beispiel erhalten alle Probanten das gamifizierte Produkt über
+ einen längeren Zeitraum.
+ Während dieser Testinvervalls werden die verhaltensbeeinflussenden Mechanismen
+ deaktiviert, sodass die Probranten über einen kurzen Zeitraum keine gamifiziert
+e Version bedienen.
+ Am Ende der Testphase lässt sich ermitteln, ob zum Zeitpunkt der Deaktivierung
+ aussagekräfitge Veränderungen in der Reaktion der Probanten stattfanden.
+\end_layout
+
+\begin_layout Subsection
+Problemstellung
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Problemstellung"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Für den zu evaluierenden Prototyp ergab für beide Ansätze Komplikationen.
+ Das Anwendungsziel - die bewusstere Wahrnehmung von Schauplätzen und Sehenswürd
+igkeiten - lässt sich nicht durch eine messbare Größe feststellen (s.
+ Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Anwendungsziel-bestimmen"
+
+\end_inset
+
+).
+ Bei Festlegung des Zielverhaltens während der Konzeptphase lag allerdings
+ der Gedanke nah, zu messen ob die Aktivierung und Beantwortung der Aufgaben
+ auch an den nachkommenden Orten von den Probanten unmittelbar fortgeführt
+ wird.
+ Diese Ereignisse gleich nach dem Zielverhalten lassen sich analog zu Wendels
+ Vorschlag zur Messung von Ereignissen unmittelbar nach dem Anwendungsziel
+ verstehen (s.
+ Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Anwendungsziel-bestimmen"
+
+\end_inset
+
+).
+ Bei einer Evaluierung mit A/B-Tests ließe sich diese Messung auf eine Gruppe
+ nicht transverieren, da bei ihr die nötigen Spielmechanismen fehlen würden.
+\end_layout
+
+\begin_layout Standard
+Dies lässt nun die Schlussfolgerung zu, dass der zweitgenannte Ansatz wegen
+ der einheitlilchen Probantengrupppe die bessere Variante sei.
+ Zwingende Voraussetzung für diese Vorgehensweise ist eine kontinuierliche
+ Verwendung des Produkts durch die Probanten über den veranschlagten Zeitraum.
+ Für den zu evaluierenden Prototyp ergibt sich daraus ein weiteres Problem.
+ Denn eine kontinuierliche Durchführung des Zielverhaltens über den Testzeitraum
+ ist nicht mit der Intention des Prototyps, der kontinuierlichen Durchführung
+ des Zielverhaltens über jede Reise bzw.
+ Tour hinweg zu vergleichen.
+ Das heißt, der Prototyp ist kein Produkt, welches wöchentlich oder gar
+ täglich angewendet wird.
+\end_layout
+
+\begin_layout Subsection
+Erfassung der Evaluierungsdaten
+\end_layout
+
+\begin_layout Standard
+Für die Evaluation wurde deshalb ein Mittelweg zwischen Erfassung der Verhalten
+ der Probanten und einer zusätzlichen Umfrage gewählt.
+ Die Erfassung stichhaltiger Daten geschah mittels Tracking (engl.
+ für Verfolgung) der Nutzerinteraktionen.
+ Die Probanten wurden zu Beginn der Anwendung auf der ersten Splash Page
+ darüber informiert.
+ Folgende Interaktionen wurden erfasst:
+\end_layout
+
+\begin_layout Itemize
+Start und Beendigung einer Tour
+\end_layout
+
+\begin_layout Itemize
+Die Art wie die Splash Pages mit dem Tutorial beendet wurden
+\end_layout
+
+\begin_layout Itemize
+Aktivierung der Aufgaben nach Tourfortschritt
+\end_layout
+
+\begin_layout Itemize
+Prüfung der eingegebenen Antworten
+\end_layout
+
+\begin_layout Itemize
+Akzeptanz der Tipps nach inkorrekten Antworten
+\end_layout
+
+\begin_layout Itemize
+TODO: was noch?
+\end_layout
+
+\begin_layout Standard
+Neben dem Tracking wurde zudem eine Umfrage in Form eines vierteiligen Frageboge
+ns innerhalb der Anwendung zur Verfügung gestellt, welchen die Probanten
+ ausfüllen sollten.
+ Auch dazu wurden die Probanten zu Beginn informiert.
+ Gefragt wurde neben demographischer Merkmale, auch nach dem Spielertyp
+ und der bevorzugten Spielform.
+ Zur Vermeidung der vier Spielertyp-Begriffe als offensichtliche Antwortmöglichk
+eiten, wurden diese entsprechend ihrer Charakteristika umschrieben.
+ Die Spielformen wurden stattdessen Beispielen aus Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Formen-des-Spiels"
+
+\end_inset
+
+ zugeordnet.
+ Des Weiteren wurden Fragestellungen nach der motivierenden Wichtigkeit
+ der verhaltensbeeinflussenden Mechanismen gestellt.
+ Diese ließen sich großteils mit einer fünfstufige Likert-Skala von 
+\begin_inset Quotes eld
+\end_inset
+
+Unwichtig
+\begin_inset Quotes erd
+\end_inset
+
+ bis 
+\begin_inset Quotes eld
+\end_inset
+
+Motivierend
+\begin_inset Quotes erd
+\end_inset
+
+ beantworten.
+ Einige Mechanismen lassen sich auch ohne der Umfrage mithilfe der Tracking-Date
+n nach ihrer Wirksamkeit evaluieren.
+ Der Vollständigkeit halber wurden allerdings alle Mechanismen im Fragebogen
+ aufgeführt.
+ Die exakten Fragestellungen sind im Anhang 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Fragebogen-zur-Evaluierung"
+
+\end_inset
+
+ angegeben.
+ Die Umfrage endete mit einem Textfeld zur freien Meinungsäußerung für Kritik
+ und Anregungen.
+\end_layout
+
+\begin_layout Standard
+Die Testphase umfasste 20 Tage und verlief vom 08.04.
+ bis einschließlich 27.04.2016.
+ Verteilt wurde der Prototyp ausschließlich auf Andoid- und iPhone-Betriebssyste
+men (iOS
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "iOS"
+description "iPhone Operating System"
+
+\end_inset
+
+).
+ Teilnehmen konnten alle Personen die von der Testphase per E-Mail oder
+ anderen Kanälen erfuhren und ein geeignetes Smartphone besitzen.
+ Interessierte Personen konnten sich den Prototyp vom Google Play Store
+ beziehen oder mithilfe einer Deploy-App mit der schnelle Auslieferungen
+ an Mitarbeiter, Kunden oder, wie in diesem Fall, auch Probanden möglich
+ sind.
+ 
+\end_layout
+
+\begin_layout Standard
+Während einer mehrstündigen Zeitspanne am ersten Tag war die Anwendung aus
+ dem Play Store nicht korrekt darstellbar.
+ Sie ließ sich zwar herunterladen und starten, eine weiße Bildfläche versperrte
+ allerdings das weitere Vorgehen.
+ Aus diesem Grund gilt für die Evaluierung der Trackingdaten der 09.04.
+ als Startzeitpunkt.
+ Die Fragebögen sind davon ausgenommen, da die Probanten darauf Zugriff
+ haben mussten, um ihn auszufüllen.
+\end_layout
+
+\begin_layout Subsection*
+Testzeit: 08.04.
+ - 27.04.
+ von 0 Uhr bis 24 Uhr
+\end_layout
+
+\begin_layout Standard
+Survey.joins(:user).where("users.created_at between ? AND ?", Time.parse("08.04.2016")
+, Time.parse("27.04.2016")).where(did_test_already: false).where("user_id <>
+ 185")
+\end_layout
+
+\begin_layout Standard
+Anzahl erstellter Nutzer: 174, PlayStore Downloads: 82 Wegen Prof je einer
+ weniger
+\end_layout
+
+\begin_layout Standard
+Ausgefüllte Umfragen: 38 Wegen Prof je einer weniger
+\end_layout
+
+\begin_layout Standard
+Alter: {nil=>2, 34=>1, 46=>1, 25=>7, 27=>1, 32=>1, 28=>2, 79=>1, 26=>3,
+ 30=>1, 33=>1, 29=>2, 23=>1, 35=>2, 20=>4, 22=>2, 24=>6} == 38
+\end_layout
+
+\begin_layout Standard
+Altersdurchschnitt: 26.571428571428573 ohne prof
+\end_layout
+
+\begin_layout Standard
+Geschlecht: m 19, w 16, keine A.
+ 2; ohne prof
+\end_layout
+
+\begin_layout Standard
+spielform selfexpression_1: 18 = 33,3%
+\end_layout
+
+\begin_layout Standard
+spielform selfexpression_1: 19
+\end_layout
+
+\begin_layout Standard
+conflict_1: 13 = 28,8%
+\end_layout
+
+\begin_layout Standard
+conflict_2: 19
+\end_layout
+
+\begin_layout Standard
+coordination_2: 13 = 19,8%
+\end_layout
+
+\begin_layout Standard
+coordination_1: 9
+\end_layout
+
+\begin_layout Standard
+competition_1: 3 = 7,2%
+\end_layout
+
+\begin_layout Standard
+competition_2: 5
+\end_layout
+
+\begin_layout Standard
+cooperative_1: 4 =10,8%
+\end_layout
+
+\begin_layout Standard
+cooperative_2: 8 = 111
+\end_layout
+
+\begin_layout Standard
+Spielertyp:
+\end_layout
+
+\begin_layout Standard
+killer: 10
+\end_layout
+
+\begin_layout Standard
+explorer: 28
+\end_layout
+
+\begin_layout Standard
+achiever: 10
+\end_layout
+
+\begin_layout Standard
+socializer: 18
+\end_layout
+
+\begin_layout Subsection*
+Ab den 09.04.
+ - 27.04.
+\end_layout
+
+\begin_layout Standard
+Anzahl erstellter Nutzer: 121, PlayStore Downloads: 53 Wegen Prof je einer
+ weniger
+\end_layout
+
+\begin_layout Standard
+106 von 120 haben Vorlieben ausgewählt.
+ User.joins(:tags).where("users.created_at between ? AND ?", Time.parse("09.04.2016"),
+ Time.parse("27.04.2016")).where("users.id <> 185").where("users.id IN (SELECT
+ user_id from tags)").count
+\end_layout
+
+\begin_layout Standard
+Ausgefüllte Umfragen: 26 Wegen Prof je einer weniger
+\end_layout
+
+\begin_layout Standard
+Alter: {nil=>2, 34=>1, 46=>1, 25=>4, 27=>1, 32=>1, 28=>1, 79=>1, 26=>2,
+ 30=>1, 33=>1, 29=>2, 23=>1, 35=>2, 22=>2, 24=>3} == 25
+\end_layout
+
+\begin_layout Standard
+Altersdurchschnitt: 28.217391304347824 ohne Prof
+\end_layout
+
+\begin_layout Standard
+Geschlecht: m 11, w 13 ohne prof
+\end_layout
+
+\begin_layout Subsubsection*
+15 Nutzer aus der Umfrage haben eine Challenge ausprobiert.
+\end_layout
+
+\begin_layout Standard
+User.joins(:user_tour_challenges, :surveys).where("users.created_at between
+ ? AND ?", Time.parse("09.04.2016"), Time.parse("27.04.2016")).where("users.id <>
+ 185").where("user_tour_challenges.state IN (1,2,3)").distinct.count (2.3ms)
+ SELECT DISTINCT COUNT(DISTINCT "users"."id") FROM "users" INNER JOIN "user_tours
+" ON "user_tours"."user_id" = "users"."id" INNER JOIN "user_tour_challenges"
+ ON "user_tour_challenges"."user_tour_id" = "user_tours"."id" INNER JOIN "surveys"
+ ON "surveys"."user_id" = "users"."id" WHERE (users.created_at between '2016-04-09
+ 00:00:00' AND '2016-04-27 00:00:00') AND (users.id <> 185) AND (user_tour_challe
+nges.state IN (1,2,3)) => 15
+\end_layout
+
+\begin_layout Subsubsection*
+Tour angefangen (34) bzw.
+ absolviert (26)
+\end_layout
+
+\begin_layout Standard
+User.joins(:user_tour_challenges, user_tours: :user_tour_places).where("users.creat
+ed_at between ? AND ?", Time.parse("09.04.2016"), Time.parse("27.04.2016")).where("user
+s.id <> 185").where(user_tour_places: { visited: true }).distinct.count (23.3ms)
+ SELECT DISTINCT COUNT(DISTINCT "users"."id") FROM "users" INNER JOIN "user_tours
+" ON "user_tours"."user_id" = "users"."id" INNER JOIN "user_tour_challenges"
+ ON "user_tour_challenges"."user_tour_id" = "user_tours"."id" INNER JOIN "user_tou
+rs" "user_tours_users" ON "user_tours_users"."user_id" = "users"."id" INNER
+ JOIN "user_tour_places" ON "user_tour_places"."user_tour_id" = "user_tours_users
+"."id" WHERE (users.created_at between '2016-04-09 00:00:00' AND '2016-04-27
+ 00:00:00') AND (users.id <> 185) AND "user_tour_places"."visited" = $1 [["visited
+", true]] => 34 irb(main):118:0> User.joins(:user_tour_challenges, user_tours:
+ :user_tour_places).where("users.created_at between ? AND ?", Time.parse("09.04.2016"
+), Time.parse("27.04.2016")).where("users.id <> 185").where(user_tours: { completed:
+ true }).distinct.count (6.6ms) SELECT DISTINCT COUNT(DISTINCT "users"."id")
+ FROM "users" INNER JOIN "user_tours" ON "user_tours"."user_id" = "users"."id"
+ INNER JOIN "user_tour_challenges" ON "user_tour_challenges"."user_tour_id"
+ = "user_tours"."id" INNER JOIN "user_tours" "user_tours_users" ON "user_tours_us
+ers"."user_id" = "users"."id" INNER JOIN "user_tour_places" ON "user_tour_places"."
+user_tour_id" = "user_tours_users"."id" WHERE (users.created_at between '2016-04-0
+9 00:00:00' AND '2016-04-27 00:00:00') AND (users.id <> 185) AND "user_tours"."com
+pleted" = $1 [["completed", true]] => 26 irb(main):119:0> 
+\end_layout
+
+\begin_layout Subsubsection*
+17 der Umfrageleute fingen eine Tour an.
+\end_layout
+
+\begin_layout Standard
+User.joins(:user_tour_challenges, :surveys, user_tours: :user_tour_places).where("
+users.created_at between ? AND ?", Time.parse("09.04.2016"), Time.parse("27.04.2016")).w
+here("users.id <> 185").where(user_tours: { completed: true }).distinct.count
+ (4.4ms) SELECT DISTINCT COUNT(DISTINCT "users"."id") FROM "users" INNER JOIN
+ "user_tours" ON "user_tours"."user_id" = "users"."id" INNER JOIN "user_tour_chall
+enges" ON "user_tour_challenges"."user_tour_id" = "user_tours"."id" INNER
+ JOIN "surveys" ON "surveys"."user_id" = "users"."id" INNER JOIN "user_tours"
+ "user_tours_users" ON "user_tours_users"."user_id" = "users"."id" INNER JOIN
+ "user_tour_places" ON "user_tour_places"."user_tour_id" = "user_tours_users"."id"
+ WHERE (users.created_at between '2016-04-09 00:00:00' AND '2016-04-27 00:00:00')
+ AND (users.id <> 185) AND "user_tours"."completed" = $1 [["completed", true]]
+ => 17
+\end_layout
+
+\begin_layout Subsubsection*
+15 der Umfrageleute machten eine Aufgabe, 28 von insgesamt 120
+\end_layout
+
+\begin_layout Standard
+User.joins(:user_tour_challenges).where("users.created_at between ? AND ?",
+ Time.parse("09.04.2016"), Time.parse("27.04.2016")).where("users.id <> 185").where("user
+_tour_challenges.state IN (1,2,3) AND users.id IN (SELECT user_id FROM surveys)").d
+istinct.count (3.1ms) SELECT DISTINCT COUNT(DISTINCT "users"."id") FROM "users"
+ INNER JOIN "user_tours" ON "user_tours"."user_id" = "users"."id" INNER JOIN
+ "user_tour_challenges" ON "user_tour_challenges"."user_tour_id" = "user_tours"."i
+d" WHERE (users.created_at between '2016-04-09 00:00:00' AND '2016-04-27
+ 00:00:00') AND (users.id <> 185) AND (user_tour_challenges.state IN (1,2,3)
+ AND users.id IN (SELECT user_id FROM surveys)) => 15 irb(main):140:0> User.joins(
+:user_tour_challenges).where("users.created_at between ? AND ?", Time.parse("09.04.20
+16"), Time.parse("27.04.2016")).where("users.id <> 185").where("user_tour_challenges.st
+ate IN (1,2,3)").distinct.count (3.9ms) SELECT DISTINCT COUNT(DISTINCT "users"."id")
+ FROM "users" INNER JOIN "user_tours" ON "user_tours"."user_id" = "users"."id"
+ INNER JOIN "user_tour_challenges" ON "user_tour_challenges"."user_tour_id"
+ = "user_tours"."id" WHERE (users.created_at between '2016-04-09 00:00:00'
+ AND '2016-04-27 00:00:00') AND (users.id <> 185) AND (user_tour_challenges.state
+ IN (1,2,3)) => 28
+\end_layout
+
+\begin_layout Subparagraph*
+Wer hat wieviel gemacht
+\end_layout
+
+\begin_layout Standard
+User.joins(:user_tour_challenges).where("users.created_at between ? AND ?",
+ Time.parse("09.04.2016"), Time.parse("27.04.2016")).where("users.id <> 185").where("user
+_tour_challenges.state IN (1,2,3)").distinct.each do |u| irb(main):277:1* puts
+ u.user_tour_challenges.where("state IN (1,2,3)").count irb(main):278:1> end
+\end_layout
+
+\begin_layout Section
+Ergebnisse und Diskussion
+\end_layout
+
+\begin_layout Standard
+Aus den erfassten Daten geht hervor, dass der Prototyp während der Testphase
+ von insgesamt 120 verschiedenen Geräten gestartet wurde.
+ Davon entfallen 52 Downloads (43,3 %) auf den Play Store.
+ Das Zustandekommen des hohen Anteils anderer Bezugsquellen ist schwer nachzuvol
+lziehen, zumal neben dem Play Store nur die Möglichkeit der Deploy-App auf
+ iOS-Geräten bestand.
+ Allerdings gab es an diesem Punkt ein Problem über die ganze Testphase
+ hinweg.
+ Ohne verbindliche Einladung zum Prototyp wurde selbiger bei der alternativen
+ Vorgehensweise über Eingabe der App-Identifier (App-ID
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "App-ID"
+description "App-Identifier"
+
+\end_inset
+
+) jedes mal automatisch bei Beendigung der Deploy-App entfernt.
+ Probanden mit iOS-Geräten mussten deshalb den Prototyp von Neuem beziehen.
+ Dies kann den höheren Anteil von Nicht-Android-Geräten erklären.
+ Zudem konnten möglicherweise inaktive Nutzer-Entitäten enstanden sein,
+ welche unter Umständen die Ergebnisse beeinflussen.
+ Dieses Problem konnte erst während der Testphase identifiziert werden und
+ eine Aussortierung ist nicht mehr möglich.
+\end_layout
+
+\begin_layout Subsection
+Statistische Merkmale
+\end_layout
+
+\begin_layout Standard
+Gemessen an den 120 Teilnehmern begannen 34 Probanden (28,3 %) mindestens
+ eine Tour, 26 Probanden (21,7 %) beendeten sie sogar.
+ Diese Werte fallen sehr gering aus.
+ Es lässt sich jedoch nicht ermitteln, ob die Prozentangabe höher ausgefallen
+ wäre, ohne inaktiver Nutzer-Entitäten.
+ Ein anderer Grund könnte aber auch die fehlende Attraktivität des Prototyps
+ für die Probanden gewesen sein.
+ Für den Prototyp konnte sich zuerst eine heterogene Probandengruppe interessier
+t haben.
+ Gemäß dem Prinzip der Spielformen und Spielertypen sollten sich aber vor
+ allem Explorer vom Prototyp angesprochen fühlen.
+ Probanden mit abweichendem Interesse wandten sich möglicherweise der Anwendung
+ gleich zu Beginn wieder ab.
+\end_layout
+
+\begin_layout Standard
+Die Fragebögen wurden von insgesamt 37 Probanden (30,8 %) ausgefüllt.
+ Das Geschlecht gaben in der Umfrage 19 Probanden mit 
+\begin_inset Quotes eld
+\end_inset
+
+Männlich
+\begin_inset Quotes erd
+\end_inset
+
+ an und 16 mit 
+\begin_inset Quotes eld
+\end_inset
+
+Weiblich
+\begin_inset Quotes erd
+\end_inset
+
+ (Frage 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Geschlecht-(Antwortmöglichkeiten"
+
+\end_inset
+
+).
+ Zwei Probanden enthielten sich.
+ Das Alter betrug im arithmetischen Mittel 27 Jahre (Frage 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Alter-(Antwortmöglichkeiten:-10"
+
+\end_inset
+
+).
+ Die Frage nach der Häufigkeit von Ausflügen oder Spaziergängen beantworteten
+ knapp 46 Prozent, dass sie manchmal dieser Tätigkeit nachgehen (s.
+ Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ergebnisse-zu-Ausflugshäufigkeit"
+
+\end_inset
+
+, Fragestellung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Wie-oft-machst"
+
+\end_inset
+
+).
+ Weitere 27 Prozent gaben hingegen an, dass sie selten Ausflüge unternehmen
+ (s.
+ Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ergebnisse-zu-Ausflugshäufigkeit"
+
+\end_inset
+
+, Fragestellung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Erkundest-du-dabei"
+
+\end_inset
+
+).
+ Somit besteht bei der Umfrage teilgenommenen Probanden ein Gleichgewicht
+ in diesem Punkt.
+ Mit einer ähnlichen Ausgewogenheit antworteten sie auch bei der Frage,
+ ob Ort und Umgebung wärend Ausflügen bewusst erkundet bzw.
+ wahrgenommen werden (Selten: 35,1 %; Manchmal: 32,4 %).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Umfragergebnisse zu Ausflugshäufigkeit und wahrnehmender Umgebung 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ergebnisse-zu-Ausflugshäufigkeit"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="7">
+<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="left" valignment="top" width="20text%">
+<column alignment="center" valignment="top" width="9text%">
+<column alignment="center" valignment="top" width="10text%">
+<column alignment="center" valignment="top" width="10text%">
+<column alignment="center" valignment="top" width="11text%">
+<column alignment="center" valignment="top" width="10text%">
+<column alignment="center" valignment="top" width="10text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fragestellung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keine Angabe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nie
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Selten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gelegent-
+\end_layout
+
+\begin_layout Plain Layout
+lich
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Manch-
+\end_layout
+
+\begin_layout Plain Layout
+mal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Oft
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Wie-oft-machst"
+
+\end_inset
+
+.
+ Ausflüge bzw.
+ Spaziergänge
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\begin_layout Plain Layout
+(5,4 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\begin_layout Plain Layout
+(10,8 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\begin_layout Plain Layout
+(27 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\begin_layout Plain Layout
+(5,4 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17
+\end_layout
+
+\begin_layout Plain Layout
+(45,9 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\begin_layout Plain Layout
+(5,4 %)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Erkundest-du-dabei"
+
+\end_inset
+
+.
+ Wahrnehmung der Umgebung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\begin_layout Plain Layout
+(8,1 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\begin_layout Plain Layout
+(2,7 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\begin_layout Plain Layout
+(35,1 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\begin_layout Plain Layout
+(16,2 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\begin_layout Plain Layout
+(32,4 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\begin_layout Plain Layout
+(5,4 %)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Der Fragebogen enthielt des Weiteren Multiple-Choice-Fragestellungen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Welche-der-folgenden"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Welche-der-folgenden-1"
+
+\end_inset
+
+) mit denen die Probanden nach ihren Neigungen bezüglich ihrer Eigenschaften
+ als Spieler und den Formen des Spiels befragt wurden.
+ 42,4 Prozent wählten die Aussage, welche sie als Explorer identifiziert.
+ Weitere 40,9 Prozent wählten zudem die Aussage mit der Zuordnung zum Spielertyp
+ Socializer.
+ Killer und Achiever wurden mit jeweils 15,2 Prozentpunkten seltener gewählt.
+ Dieses Ergebnis zeigt, dass Probanden mit tendenziell mehr explorativer
+ und sozialer Persönlichkeit über die Umfrage hinaus Interesse an dem Prototyp
+ gezeigt haben könnten.
+ Dieses Ergebnis ist auch, wie in Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Festlegung-der-Zielgruppe"
+
+\end_inset
+
+ beschrieben, so angestrebt.
+ 
+\end_layout
+
+\begin_layout Standard
+Von insgesamt 111 vergebenen Stimmen zu den Wahlmöglichkeiten der Spielformen
+ kamen 37 Stimmen auf die Selbsterfahrung (33,3 %), 32 Stimmen auf Konflikt
+ (28,8 %), 22 Stimmen auf Koordination (19, 8%), 12 Stimmen auf Kooperation
+ (10,8 %) und zuletzt acht Stimmen auf Wettkampf (7,2 %).
+ Auch in Falle der Spielformen zeigt sich ein klarer Trend hin zu Selbsterfahrun
+g als populärste Form der Probanden.
+ Andere Probanden mit Interessse an einer anderen Spieleform sind weniger
+ unter den Probanden vertreten.
+ Jedoch präferieren fast ebenso viele Probanden die Spielform Konflikt.
+ Diese Signifikanz ist nicht zu erklären, da weder im Prototyp noch im Aufruf
+ zur Testphase Texte oder Informationen eine solche Spielform suggerierten.
+\end_layout
+
+\begin_layout Subsection
+Verhaltensbeeinflussende Mechanismen
+\end_layout
+
+\begin_layout Standard
+Die Tabellen 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ergebnisse-Teil-1"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ergebnisse-Teil-2"
+
+\end_inset
+
+ spiegeln die Meinungen der Probanden inwiefern die verhaltensbeeinflussenden
+ Mechanismen von ihnen angenommen wurden.
+ In Fällen in denen auch Tracking-Daten zur Verfügung stehen, werden diese
+ auch zum direkten Vergleich herangezogen.
+ Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ergebnisse-Teil-1"
+
+\end_inset
+
+ beinhaltet die Ergebnisse der Fragestellungen 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Hast-du-das"
+
+\end_inset
+
+ bis 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Wähltest-du-beim"
+
+\end_inset
+
+.
+ Diese umfassen Nudges wie die Personalisierung und die Ermöglichung eines
+ anschließenden schnellen Starts, sowie Gamification-Patterns in Form von
+ Spielmechanismen (Persönliches Hauptziel und Easy-Getting-Started).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Umfragergebnisse zu verhaltensbeeinflussenden Mechanismen (Teil 1)
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ergebnisse-Teil-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="left" valignment="top" width="38text%">
+<column alignment="center" valignment="top" width="12text%">
+<column alignment="center" valignment="top" width="12text%">
+<column alignment="center" valignment="top" width="12text%">
+<column alignment="center" valignment="top" width="12text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fragestellung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keine Angabe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ja
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nein
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Hast-du-das"
+
+\end_inset
+
+.
+ Erklärung zu Funktionsweise
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\begin_layout Plain Layout
+(16,2 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29
+\end_layout
+
+\begin_layout Plain Layout
+(78,4 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\begin_layout Plain Layout
+(5,4 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Hast-du-zu"
+
+\end_inset
+
+.
+ Personalisierung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\begin_layout Plain Layout
+(18,9 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27
+\end_layout
+
+\begin_layout Plain Layout
+(73 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\begin_layout Plain Layout
+(8,1 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keine Angabe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bequem
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Manuell
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Beides
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Wähltest-du-beim"
+
+\end_inset
+
+.
+ Bequeme / Manuelle Auswahl
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\begin_layout Plain Layout
+(8,1 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14
+\end_layout
+
+\begin_layout Plain Layout
+(37,8 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\begin_layout Plain Layout
+(24,3 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\begin_layout Plain Layout
+(29,7 %)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Was die Durchführung des einführenden Tutorials (Erklärung zu Funktionsweise)
+ und die daran anschließende Aufforderung zur Personalisierung durch Angabe
+ der Vorlieben angeht, gaben dreiviertel der Probanden an dies getan zu
+ haben (78,4% u.
+ 73%).
+ Mit fast 87,9 Prozent übersteigt die getrackte Angabe sogar dem Wert der
+ Umfrage bezüglich dem Tutorial (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tracking-1a"
+
+\end_inset
+
+).
+ Diese Werte bedeuten aber lediglich, dass die Probanden die Splash Pages
+ mit der Übersicht zu den Funktionen lediglich vollständig durchscrollten.
+ Die Alternative wäre gewesen, die Splash Pages gleich zu Beginn zu überspringen.
+ Ganze 88,3 Prozent der getrackten Probanden wählten mindestens ein Vorlieben-Th
+ema aus dem Angebot von Vorschlägen aus.
+ Auch dieser Wert übersteigt dem der Umfrage.
+ Diese eindeutigen Ergebnisse liefern auch die Erklärung, weshalb der Schnelltst
+art mit 37,8% am Meisten gewählt wurde (Fragestellung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Wähltest-du-beim"
+
+\end_inset
+
+).
+ Das Verhältnis zwischem schnellem und manuellem Start (37,8 % zu 24,3 %)
+ durch die Befragung ist ebenso aus den Tracking-Daten in Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tracking-1b"
+
+\end_inset
+
+ erkennbar.
+ Hier wird das Verhältnis zwischen bequemer und manueller Tourauswahl mit
+ 52,6 zu 47,4 Prozent dargestellt.Zusammenfassend lässt sich zu den gennanten
+ Mechanismen sagen, dass sie das Verhalten Reisewilliger dahingehend tatsächlich
+ verändern, sich vom System geeignete Touren aussuchen zu lassen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Ergebnisse/NEU Splash Pages.png
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tracking-1a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Ergebnisse/Schnellsta.png
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tracking-1b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tracking-Ergebnisse zu verhaltensbeeinflussenden Mechanismen 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tracking-Ergebnisse-Teil-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ergebnisse-Teil-2"
+
+\end_inset
+
+ zeigt die weiteren Ergebnisse der Umfrage hinsichtlich der implementierten
+ Mechanismen.
+ Insgesamt standen den Probanden jeweils eine fünfstufige Skala von 
+\begin_inset Quotes eld
+\end_inset
+
+Unwichtig
+\begin_inset Quotes erd
+\end_inset
+
+ bis 
+\begin_inset Quotes eld
+\end_inset
+
+Motivierend
+\begin_inset Quotes erd
+\end_inset
+
+ zur Wahl.
+ Sie wurden unter anderem nach dem Zielverhalten und den dazugehörigen Hinweisen
+ befragt (Fragestellung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Es-konnten-ortsbezogene"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zu-den-Fragen"
+
+\end_inset
+
+).
+ Darin enthalten sind die Gamification-Patterns Challenges und Tipps.
+ Des Weiteren wurde nach der motivierenden Wirkung des erhaltenen Feedbacks
+ und des zu gebenen Feedbacks gefragt (Fragestellung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Am-Ende-der"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Am-Ende-der-1"
+
+\end_inset
+
+).
+ Das Gamification-Pattern User-Generated-Content wurde zwar nicht im Prototyp
+ umgesetzt aber als Belohnungsanreiz angedeutet.
+ Dieser Aspekt wurde wie auch die Fortschrittsanzeige ebenso nach ihren
+ motivierenden Potential befragt (Fragestellung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Es-war-geplant,"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Während-des-Ausflugs"
+
+\end_inset
+
+).
+ Die letzte Frage beschäftigte sich mit dem Interesse der Probanden bezüglich
+ des Prototyps bei fortschreitender Entwicklung (Fragestellung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Könntest-du-dir"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Auffällig sind die überwiegenden Antworten, die Mechanismen seien mehr motiviere
+nd denn unwichtig.
+ Ebenso befand kein Proband das Zielverhalten der ortsbezogenen Aufgaben
+ in Gänze als unwichtig.
+ Diese Signifikanz des eher motivierenden Zielverhaltens mit fast 65 Prozent
+ lässt sich im Rahmen der an der Umfrage teilgenommenen Probanden als Erfolg
+ bezeichnen.
+ 
+\end_layout
+
+\begin_layout Standard
+Auffallend ist die erhöhte Verzicht auf eine Angabe bei den Fragestellungen
+ zu den Hinweisen und der Fortschrittsanzeige.
+ Der Grund dieser hohen Werte lässt sich daraus ableiten, dass diese Spielmechan
+ismen den Probanden während der Benutzung nicht auffielen.
+ Die Fortschrittsanzeige war zwar kontinuierlich eingeblendet, aber ihre
+ dezent Darstellug könnte der Grund dafür sein, dass über ein Viertel der
+ Probanden dazu keine Angaben machten.
+ Die Hinweise hingegen wurden ausschließlich bei falschen Antworten sichtbar.
+ Probanden, welche mit der Eingabe bis zur offensichtlichen Anwort geduldeten,
+ wurden somit nie mit den Hinweisen konfrontiert.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Umfragergebnisse zu verhaltensbeeinflussenden Mechanismen (Teil 2)
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ergebnisse-Teil-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="7">
+<features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="left" valignment="top" width="18.5text%">
+<column alignment="center" valignment="top" width="10text%">
+<column alignment="center" valignment="top" width="10text%">
+<column alignment="center" valignment="top" width="10text%">
+<column alignment="center" valignment="top" width="10text%">
+<column alignment="center" valignment="top" width="12text%">
+<column alignment="center" valignment="top" width="10text%">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fragestellung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keine Angabe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un-
+\end_layout
+
+\begin_layout Plain Layout
+wichtig
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Eher unwichtig
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Neutral
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Eher motivierend
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moti-
+\end_layout
+
+\begin_layout Plain Layout
+vierend
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Es-konnten-ortsbezogene"
+
+\end_inset
+
+.
+ Ortsbez.
+ Fragestellungen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\begin_layout Plain Layout
+(10,8 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\begin_layout Plain Layout
+(0 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\begin_layout Plain Layout
+(16,2 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\begin_layout Plain Layout
+(8,1 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\begin_layout Plain Layout
+(29,7 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\begin_layout Plain Layout
+(35,1 %)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zu-den-Fragen"
+
+\end_inset
+
+.
+ Hinweise zu Fragestellungen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\begin_layout Plain Layout
+(32,4 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\begin_layout Plain Layout
+(2,7 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\begin_layout Plain Layout
+(2,7 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\begin_layout Plain Layout
+(10,8 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\begin_layout Plain Layout
+(24,3 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\begin_layout Plain Layout
+(27 %)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Am-Ende-der"
+
+\end_inset
+
+.
+ Feedback abgeben
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\begin_layout Plain Layout
+(16,2 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\begin_layout Plain Layout
+(5,4 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\begin_layout Plain Layout
+(10,8 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\begin_layout Plain Layout
+(5,4 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\begin_layout Plain Layout
+(29,7 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\begin_layout Plain Layout
+(32,4 %)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Am-Ende-der-1"
+
+\end_inset
+
+.
+ Feedback erhalten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\begin_layout Plain Layout
+(16,2 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\begin_layout Plain Layout
+(8,1 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\begin_layout Plain Layout
+(13,5 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\begin_layout Plain Layout
+(0 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\begin_layout Plain Layout
+(32,4 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\begin_layout Plain Layout
+(29,7 %)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Es-war-geplant,"
+
+\end_inset
+
+.
+ Zusätzliche Funktionen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\begin_layout Plain Layout
+(16,2 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\begin_layout Plain Layout
+(13,5 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\begin_layout Plain Layout
+(2,7 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\begin_layout Plain Layout
+(5,4 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\begin_layout Plain Layout
+(35,1 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\begin_layout Plain Layout
+(27 %)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Während-des-Ausflugs"
+
+\end_inset
+
+.
+ Fortschrittsanzeige
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\begin_layout Plain Layout
+(27 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\begin_layout Plain Layout
+(2,7 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\begin_layout Plain Layout
+(0 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\begin_layout Plain Layout
+(5,4 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\begin_layout Plain Layout
+(35,1 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\begin_layout Plain Layout
+(29,7 %)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keine Angabe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nein
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Eher nein
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Neutral
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Eher ja
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ja
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Könntest-du-dir"
+
+\end_inset
+
+.
+ Interesse an Fortentwicklung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\begin_layout Plain Layout
+(2,7 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\begin_layout Plain Layout
+(8,1 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\begin_layout Plain Layout
+(13,5 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\begin_layout Plain Layout
+(0 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\begin_layout Plain Layout
+(35,1 %)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\begin_layout Plain Layout
+(40,5 %)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Zielverhalten und Anwendungsziel
+\end_layout
+
+\begin_layout Standard
+Während in der Umfrage noch eine Mehrheit das Zielverhalten als sehr motivierend
+ empfanden, zeigen die Tracking-Daten zu den aktivierten Aufgaben gemessen
+ am Tourfortschritt ein ernüchterndes Ergebnis (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tracking-2a"
+
+\end_inset
+
+).
+ Der Unterschied zwischen erster und zweiter aktivierter Aufgabe ist in
+ einem nicht nachvollziehbarem Maße recht hoch (44,4 % zu 25 %).
+ Denn wie Fragestellung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Es-konnten-ortsbezogene"
+
+\end_inset
+
+ zeigt, werteten nur 16,2 Prozent das Zielverhalten als eher unwichtig.
+ Die Unterschiede der nachfolgenden drei Aufgaben-Aktivierungen fallen dafür
+ geringer aus.
+ 
+\end_layout
+
+\begin_layout Standard
+Für einen legitimen Erfolg des Zielverhaltens bedarf es neben der Aktivierung
+ einer Aufgabe vor allem die Durchführung.
+ Diesbezüglich ist aus den Tracking-Daten zu erkennen, dass nur 15 von 37
+ (40,5 %) der an der Umfrage teilgenommenen Gruppe tatsächlich eine Aufgabe
+ bearbeitet haben.
+ Das ist eine verhältnismäßig kleine Pronzentzahl, dafür dass sie aus der
+ Gruppe hervorgeht, die freiwillig an der Umfrage teilnahm.
+ Aus allen 120 Teilnehmenden geht hervor, dass 28 Probanden (23,3 %) mindestens
+ eine Aufgabe bearbeiteten.
+ Diese Zahl klingt ebenfalls gering, relativiert sich aber, wenn man die
+ zuvor erwähnten 34 Probanden zum Vergleich hinzu zieht, die mindestens
+ eine Tour begonnen haben.
+ 82,4 Prozent der Probanden die eine Tour begannen haben somit auch eine
+ Aufgabe bearbeitet.
+ Zudem ist nicht zu vergessen, dass die 120 registrierten Nutzer wie zu
+ Beginn dieses Abschnitt erklärt mit Vorsicht zu betrachten sind.
+\end_layout
+
+\begin_layout Standard
+Wie in Punkt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Problemstellung"
+
+\end_inset
+
+ bereits erwähnt, lässt sich ein Erfolg des Anwendungsziels messen, indem
+ die in Folge durchgeführten Zielverhalten betrachtet werden.
+ Wurden von vielen Probanden mehrere oder gar alle Aufgaben bearbeitet spricht
+ dies für einen Erfolg.
+ Wurden von den Probanden jedoch nur vereinzelt Aufgaben bearbeitet, mag
+ dies ein Zeichen eines wenig motivierenden Zielverhaltens sein.
+ Von den 28 Probanden führten exakt die Hälfte (52,8 %) mehr als eine Aufgabe
+ durch (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tracking-2b"
+
+\end_inset
+
+).
+ Von diesen 14 Probanden bearbeiteten weitere sechs (26 %) mehr als drei
+ Aufgaben und fünf Probanden (11,3 %) machten genau vier Aufgaben oder mehr
+ (9,4 %).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Ergebnisse/NEU Aktivierte Aufgaben nach Tourfortschritt.png
+	width 46text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tracking-2a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Ergebnisse/NEU Bearbeitete Aufgaben.png
+	width 51text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tracking-2b"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tracking-Ergebnisse zu aktiverten (a) und bearbeiteten Aufgaben (b)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tracking-Ergebnisse-zu-aktiverte"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aus den 40,4 Prozent der Probanden die eine Aufgabe bearbeiteten und auch
+ die Umfrage ausfüllten, lässt sich zuletzt ermitteln, welchem Spielertyp
+ sie zugeordnet sind und welche Formen des Spiels sie präferieren.
+ Jeweils acht Probanden wählten die Aussagen zu Spielertyp Explorer und
+ Socializer (53,3 %).
+ Jeweils fünf Probanden wählten zudem Aussagen zu den Spielertypen Killer
+ und Achiever (33,3 %).
+ Aus Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Bearbeitete-Aufaben-nach-Spielertypen"
+
+\end_inset
+
+ ist zu entnehmen, welcher Spielertyp wieviele Aufgaben bearbeitete.
+ Trotz der geringen Anzahl an Probanden lässt sich eine Neigung zu Explorern
+ und Socializer erkennen.
+ Daraus lässt sich schlussfolgern, dass das Zielverhalten überwiegend diese
+ Spielertypen anspricht.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Ergebnisse/Spielertypen mit Aufgaben.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Bearbeitete Aufaben nach Spielertypen
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Bearbeitete-Aufaben-nach-Spielertypen"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Hindernisse in der Anwendung?
+\end_layout
+
+\begin_layout Standard
+Nutzer präferieren unterschiedliche Spielelemente.
+ -> Aus Evaluation herauslesbar?
+\end_layout
+
+\begin_layout Itemize
+Strukturaufbau
+\end_layout
+
+\begin_layout Itemize
+Kartenfunktion/ Geographische Ortung
+\end_layout
+
+\begin_layout Itemize
+Fragestellungen zu schwer?
+\end_layout
+
+\begin_layout Itemize
+Entdeckungsoption nicht als Menüpunkt erkennbar
+\end_layout
+
+\end_body
+\end_document

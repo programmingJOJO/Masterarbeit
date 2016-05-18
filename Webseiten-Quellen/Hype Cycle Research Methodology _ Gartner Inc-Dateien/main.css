@@ -1,0 +1,106 @@
+body form#formName3 { width: none; }
+body select.formPopup { margin: 0; }
+body #menubar { width: 0; padding-right: 14px; }
+#tribanner { background: url(http://na3.www.gartner.com/imagesrv/images/tertiary_header_bkg.jpg;wa7eaaf72c2724c7a0) no-repeat; width: 990px; height:90px; }
+#tribanner h2 { margin: 0px; padding: 44px 0 0 18px; font-size: 24px; font-weight: normal; color: #fff; }
+#g1_body { background: #bbb;  /* <<< this is the final page background color */ color: #000;  /* <<< this is the final text color */ margin: 0 auto; padding: 0 auto; position: relative; width: 990px; }
+#banner { background: #fff; margin: 0 auto; padding: 2px; /*border-bottom: 2px solid #bbb;*/  /* width: 766px; for IE5/Win */  voice-family: "\"}\""; voice-family: inherit; /* width: 762px; real width for other browsers */  text-align:center; padding:1px 0 0 0; }
+#g1_table { width: 990px; background: #ffffff; padding: 0; margin: 0; display:block; float:left; }
+#g1_table ul { list-style: none; margin: 0; padding: 0; }
+#g1_table a:link, #g1_table a:active, #g1_table a:visited { color: #006DD2;  /* <<< this is the final link color */ text-decoration: none; }
+#g1_table a:hover { color: #006DD2; text-decoration: underline; }
+a:focus { outline-style: none; }
+#left_sidebar { padding: 40px 0px 0px 13px; width:215px; margin:0px; float:left; font: bold 65%/1.1em Verdana, Arial, sans-serif; background-color:#FFFFFF; }
+#right_sidebar { margin: 0; width:228px; padding:24px 14px 0px 14px; margin:0px; float:left; font: 63%/1.1em Verdana, Arial, sans-serif; background-color:#FFFFFF; }
+#right_sidebar .block { line-height:23px; }
+#blue_quote { padding-top:32px; color:#FFFFFF; background-color:#7FB5D6; padding-left:12px; padding-right:12px; }
+#blue_quote p { margin:0; padding:0; margin-bottom:10px }
+#blue_quote a:link,  #blue_quote a:active,  #blue_quote a:visited { color: #ffffff;  /* <<< this is the final link color */ text-decoration: none; font-weight:bold; }
+#blue_quote a:hover { color: #ffffff; text-decoration: underline; font-weight:bold; }
+/*RobL's  correction for links tooltip*/
+#HypeCycleMap a:link,  #HypeCycleMap a:active,  #HypeCycleMap a:visited { text-decoration: none; font-weight:normal; }
+#HypeCycleMap a:hover { font-weight:300; }
+#MagicQuadrantMap a:link,  #MagicQuadrantMap a:active,  #MagicQuadrantMap a:visited { text-decoration: none; font-weight:normal; }
+#MagicQuadrantMap a:hover { font-weight:300; }
+#MarketScopesMap a:link,  #MarketScopesMap a:active,  #MarketScopesMap a:visited { text-decoration: none; font-weight:normal; }
+#MarketScopesMap a:hover { font-weight:300; }
+#VendorRatingMap a:link,  #VendorRatingMap a:active,  #VendorRatingMap a:visited { text-decoration: none; font-weight:normal; }
+#VendorRatingMap a:hover { font-weight:300; }
+/*RobL's  correction for links tooltip*/
+
+#right_sidebar #blue_quote ul { background: url(http://na2.www.gartner.com/imagesrv/cio/images/dot_line.gif;wa184c1cfb90f1c034) top repeat-x; padding-bottom: 17px; padding-top: 17px; border:0px; }
+#right_sidebar #blue_quote ul.bulleted { background:none !important; padding-bottom: 20px; padding-top: 5px; border:0px; }
+#right_sidebar #blue_quote li.bull { line-height: 13px; background: transparent url(http://na2.www.gartner.com/imagesrv/research/methodologies/img/circle.gif;wacc1d36934c8090a4) 0 6px no-repeat; padding: 0 0 0 17px; }
+#right_sidebar ul { padding-bottom: 5px; padding-top: 5px; border:0px; }
+#right_sidebar li { line-height: 22px; padding: 0 0 0 15px; }
+#right_sidebar li.hype { line-height: 22px; background: transparent url(http://na2.www.gartner.com/imagesrv/research/methodologies/img/hype.gif;wa2d0fa7cf23e0e131) 0 6px no-repeat; padding: 0 0 0 17px; }
+#right_sidebar li.magic { line-height: 22px; background: transparent url(http://na3.www.gartner.com/imagesrv/research/methodologies/img/magic.gif;wa31a9a0ccad94020a) 0 6px no-repeat; padding: 0 0 0 17px; }
+#right_sidebar li.mforecast { line-height: 22px; background: transparent url(http://na2.www.gartner.com/imagesrv/research/methodologies/img/mforecast.gif;wae9eb50510818d59f) 0 6px no-repeat; padding: 0 0 0 17px; }
+#right_sidebar li.mscope { line-height: 22px; background: transparent url(http://na2.www.gartner.com/imagesrv/research/methodologies/img/ICO_market_guide.png;wa5afd6dbfea61a470) 0 6px no-repeat; padding: 0 0 0 17px; }
+#right_sidebar li.mshare { line-height: 22px; background: transparent url(http://na3.www.gartner.com/imagesrv/research/methodologies/img/mshare.gif;wa3863ebb3f44cb22f) 0 6px no-repeat; padding: 0 0 0 17px; }
+#right_sidebar li.vrelations { line-height: 22px; background: transparent url(http://na1.www.gartner.com/imagesrv/research/methodologies/img/vrelations.gif;wa78888ed06692632c) 0 6px no-repeat; padding: 0 0 0 17px; }
+#right_sidebar li.critcap { line-height: 22px; background: transparent url(http://na1.www.gartner.com/imagesrv/research/methodologies/img/icon_critcap_11x11.png;wa7b78da9e6e90af48) 0 6px no-repeat; padding: 0 0 0 17px; }
+#right_sidebar li.itscore { line-height: 22px; background: transparent url(http://na1.www.gartner.com/imagesrv/research/methodologies/img/icon_ITScore_11x11.png;wa5975a7dfcf811214) 0 6px no-repeat; padding: 0 0 0 17px; }
+#right_sidebar li.itmarketclock { line-height: 22px; background: transparent url(http://na2.www.gartner.com/imagesrv/research/methodologies/img/icon_mktclock_11x11.png;wa3edc9e7b4b25147d) 0 6px no-repeat; padding: 0 0 0 17px; }
+
+#right_sidebar li.not { font-weight:normal !important; background:none; line-height: 10px; padding: 0; }
+#right_sidebar .title { color:#393B3B; font-weight:bold; font-size:1.0em; text-transform:uppercase; padding:20px 0px 0px 0px; }
+.clear { clear:both; }
+#left_sidebar ul { padding-bottom: 15px; border:0px; background: url(http://na2.www.gartner.com/imagesrv/cio/images/dot_line.gif;wa184c1cfb90f1c034) bottom repeat-x; }
+#left_sidebar li { line-height: 22px; background: transparent url(http://na1.www.gartner.com/imagesrv/images/fall_cont_arrow.gif;wa92c31e2d6583f999) 3px 10px no-repeat; padding: 0 0 0 15px; }
+#left_sidebar li.active { line-height: 22px; background: transparent url(http://na3.www.gartner.com/imagesrv/research/methodologies/img/down_arrow.gif;wabadc3bdc7023f8fc) 3px 11px no-repeat; padding: 0 0 0 15px; }
+#left_sidebar li.pdf { line-height: 22px; background: transparent url(http://na1.www.gartner.com/imagesrv/cio/images/pdf_icon.jpg;wa3a1b46f5473de650) 0 5px no-repeat; padding: 0 0 0 15px; }
+#left_sidebar ul#lnk_other { padding-top:15px; border-bottom: none; font-weight:normal; background:none; }
+#left_sidebar ul.none { padding: 0px 0px 15px 0px; margin:0px; font-weight:normal; background: url(http://na2.www.gartner.com/imagesrv/cio/images/dot_line.gif;wa184c1cfb90f1c034) bottom repeat-x; }
+#left_sidebar ul.none li { padding-top:15px; border-bottom: none; font-weight:normal; background:none; line-height:14px; }
+#left_sidebar li.not { font-weight:normal !important; background:none; line-height: 22px; padding: 0 0 0 15px; }
+.selected { font-weight:bold !important; background:none; color:#000000; }
+
+#mainContent { width:468px; padding:11px 13px 0px 18px; margin:0px; float:left; font: 70%/1.3em Verdana, Arial, sans-serif; background-color:#ffffff; }
+#mainContent h1 { color:#666666; font-size:2em; font-weight:normal; line-height:1.1em; padding-top:10px; margin:0; }
+#mainContent span.orangebldtxt { color:#FB6602; font-size:11px; font-weight:bold; margin:0px; padding:0px; }
+#mainContent h4 { font: bold 11px/normal Verdana, Arial, sans-serif; }
+#mainContent li.hype { line-height: 15px; background: transparent url(http://na3.www.gartner.com/imagesrv/research/methodologies/img/icon_hypeCycle.gif;wa0e84b15650df2743) 0 3px no-repeat; padding: 0 0 0 30px; }
+#mainContent li.mq { line-height: 15px; background: transparent url(http://na3.www.gartner.com/imagesrv/research/methodologies/img/icon_MagicQuadrants.gif;wa22eba027c4eb5247) 0 3px no-repeat; padding: 0 0 0 30px; }
+#mainContent li.cc { line-height: 15px; background: transparent url(http://na1.www.gartner.com/imagesrv/research/methodologies/img/icon_critcap_21x21.jpg;waae0b882fc994481e) 0 3px no-repeat; padding: 0 10px 0 30px; }
+#mainContent li.mf { line-height: 15px; background: transparent url(http://na1.www.gartner.com/imagesrv/research/methodologies/img/icon_marketfcast.gif;wa5b39fd39c2be51f2) 0 3px no-repeat; padding: 0 0 0 30px; }
+#mainContent li.ms { line-height: 15px; background: transparent url(http://na3.www.gartner.com/imagesrv/research/methodologies/img/icon_marketguide.gif;wab8cc7d0067276290) 0 3px no-repeat; padding: 0 0 0 30px; }
+#mainContent li.its { line-height: 15px; background: transparent url(http://na2.www.gartner.com/imagesrv/research/methodologies/img/icon_itscore_21x21.gif;wa8418d13a52463c45) 0 3px no-repeat; padding: 0 0 0 30px; }
+#mainContent li.msh { line-height: 15px; background: transparent url(http://na3.www.gartner.com/imagesrv/research/methodologies/img/icon_marketshare.gif;wa613ae70b3f134439) 0 3px no-repeat; padding: 0 0 0 30px; }
+#mainContent li.itmc { line-height: 15px; background: transparent url(http://na3.www.gartner.com/imagesrv/research/methodologies/img/icon_marketClockP_21x21.gif;wa6591a5e6bada1258) 0 3px no-repeat; padding: 0 0 0 30px; }
+#mainContent li.vr { line-height: 15px; background: transparent url(http://na1.www.gartner.com/imagesrv/research/methodologies/img/icon_vendorRatings.gif;wa3d838d2fad8d81a7) 0 3px no-repeat; padding: 0 0 0 30px; }
+.orange { color:#F8832B; }
+.go { padding-right: 6px !important; line-height: 13px; padding-top: 4px; background: transparent url(http://na1.www.gartner.com/imagesrv/images/fall_cont_arrow.gif;wa92c31e2d6583f999) right 9px no-repeat; }
+.go_white { padding-right: 10px; line-height: 16px; background: transparent url(http://na2.www.gartner.com/imagesrv/research/methodologies/img/white_arrow.gif;waaaac349443c37bc5) right 5px no-repeat; }
+.dot_line { background: url(http://na2.www.gartner.com/imagesrv/cio/images/dot_line.gif;wa184c1cfb90f1c034) bottom repeat-x; }
+.block { padding-bottom:5px; }
+.line_solid { border-bottom: 1px solid #88B0C0; }
+#footContain { background-color:#bbb; }
+#footContain a:link,  #footContain a:active,  #footContain a:visited { color: #ffffff;  /* <<< this is the final link color */ text-decoration: none; }
+#footContain a:hover { color: #ffffff; text-decoration: underline; }
+/*.floatMenu { float:left; width:176px;}*/
+.floatMenu { float:left; width:430px;}
+.floatMenu ul li {margin-bottom:10px;}
+ul.black_arrow li { padding-left: 10px; margin-bottom: 10px; background: transparent url(http://na2.www.gartner.com/imagesrv/cio/images/black_arrow.gif;wa815666b6a3955f1b) left 6px no-repeat; }
+.note { color:#A3A5A5; font-style:italic; }
+#menubar { background-color: #666666; padding: 0; margin:0; position: relative; left: 0px; width:766px; border-bottom:0px solid white !important; }
+table#g1_header tbody tr td div#logoleft img { display:block; }
+#right_sidebar .ind_rail_pad { margin:0; padding:10px 10px 10px 18px; }
+#right_sidebar .ind_rail_item { font-size:11px; font-family:Verdana, Arial, sans-serif color:#000; padding: 2px 0px 4px 0px; }
+#right_sidebar .ind_contactUsBottom { padding: 0px 0px 14px 0px; margin: 0px; }
+#right_sidebar .ind_contactUsBottom ul.rail_list { padding: 0; margin: 0px 0px 4px 0px; list-style-type: none; }
+#right_sidebar .ind_contactUsBottom ul.rail_list li { list-style-type:none; margin:0px; padding:0px; }
+#right_sidebar .ind_contactUsBottom ul.rail_list li.dotted { background-image: url(http://na1.www.gartner.com/imagesrv/images/blueDot.gif;wa05382293de9e46f9); background-repeat: repeat-x; background-position: bottom; }
+#right_sidebar .ind_contactUsBottom ul.rail_list2 { list-style-type:none; margin:0px; padding:0px 0px 10px 0px; }
+#right_sidebar .ind_contactUsBottom ul.rail_list2 li { background: url(http://na2.www.gartner.com/imagesrv/cio/images/dot_line.gif;wa184c1cfb90f1c034) bottom repeat-x; list-style-type:none; margin:0px; padding:0px 0px 6px 0px; }
+#right_sidebar .ind_contactUsBottom ul.contactUsButtons { padding: 0; margin: 16px 0 0 0; list-style-type: none; }
+#right_sidebar .ind_contactUsBottom ul.contactUsButtons li { padding: 1px 0 4px 0; margin: 0; list-style-type: none; }
+#right_sidebar .ind_contactUsBottom h4.rail_hdr { font-size:11px; font-family:Verdana, Arial, sans-serif; border: none; border-bottom: solid 1px #b9d0dc; padding:25px 0px 6px 0px; margin:0px; text-transform: uppercase; }
+#right_sidebar .ind_contactUsBottom h4.rail_hdr2 { font-size:11px; font-family:Verdana, Arial, sans-serif; padding:15px 0px 0px 0px; margin:0px; }
+.research-quotes { float:left; margin:20px 0px 20px 0px; padding:0px; border:1px solid #c7c7c7; width:458px; height:158px; position:relative; background: url("http://na1.www.gartner.com/imagesrv/research/methodologies/img/bg-gradient.gif;wa10ae2eedd38917e4") repeat-x left bottom; }
+.research-quotes p { margin:0px; padding:0px 0px 8px 0px; }
+.research-quotes h5 { color:#333; font-size:11px; font-weight:bold; margin:0px; padding:0px; }
+.quote-area { font-size:11px; color:#666; line-height:15px; width:277px; margin:0px; padding:11px 0px 0px 15px; }
+.analystpic { position:absolute; top:-22px; right:0px; }
+.meth-icon {vertical-align:bottom; margin-right:5px;}
+.meth-header {text-transform: uppercase; font-size:12px; color:#f2721c; font-weight: bold;}

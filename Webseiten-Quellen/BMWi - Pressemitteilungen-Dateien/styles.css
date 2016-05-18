@@ -1,0 +1,5240 @@
+﻿@import url(colorbox-patched.css);
+@import url(colorbox.a11y.css);
+/** @import url(colorbox.print.css) print; **/
+
+/****** Webfonts ******/
+@font-face {
+    font-family: 'BundesSansWeb';
+    src: url('../../../static/webfonts/bundessansweb-regular.eot');
+    src: url('../../../static/webfonts/bundessansweb-regular.eot?#iefix') format('embedded-opentype'),
+        url('../../../static/webfonts/bundessansweb-regular.woff') format('woff'),
+        url('../../../static/webfonts/bundessansweb-regular.ttf') format('truetype'),
+        url('../../../static/webfonts/bundessansweb-regular.svgz#BundesSansWebRegular') format('svg'),
+        url('../../../static/webfonts/bundessansweb-regular.svg#BundesSansWebRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BundesSansWebBold';
+    src: url('../../../static/webfonts/bundessansweb-bold.eot');
+    src: url('../../../static/webfonts/bundessansweb-bold.eot?#iefix') format('embedded-opentype'),
+        url('../../../static/webfonts/bundessansweb-bold.woff') format('woff'),
+        url('../../../static/webfonts/bundessansweb-bold.ttf') format('truetype'),
+        url('../../../static/webfonts/bundessansweb-bold.svgz#BundesSansWebBold') format('svg'),
+        url('../../../static/webfonts/bundessansweb-bold.svg#BundesSansWebBold') format('svg');
+    font-weight: bold;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'BundesSerifWeb';
+    src: url('../../../static/webfonts/bundesserifweb-regular.eot');
+    src: url('../../../static/webfonts/bundesserifweb-regular.eot?#iefix') format('embedded-opentype'),
+        url('../../../static/webfonts/bundesserifweb-regular.woff') format('woff'),
+        url('../../../static/webfonts/bundesserifweb-regular.ttf') format('truetype'),
+        url('../../../static/webfonts/bundesserifweb-regular.svgz#BundesSerifWebRegular') format('svg'),
+        url('../../../static/webfonts/bundesserifweb-regular.svg#BundesSerifWebRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BundesSansWebItalic';
+    src: url('../../../static/webfonts/BundesSansWeb-Italic.eot');
+    src: url('../../../static/webfonts/BundesSansWeb-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../../../static/webfonts/BundesSansWeb-Italic.woff') format('woff'),
+        url('../../../static/webfonts/BundesSansWeb-Italic.ttf') format('truetype'),
+        url('../../../static/webfonts/BundesSansWeb-Italic.svgz#BundesSansWeb-Italic') format('svg'),
+        url('../../../static/webfonts/BundesSansWeb-Italic.svg#BundesSansWeb-Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**********************************************************************************************************************
+        ------------- CONTENT -----------
+        
+        RESET
+        GENERAL
+        MAIN LAYOUT      
+        JS Plugins
+        Print View
+
+        ----------------------------------		
+**********************************************************************************************************************/
+
+
+
+/**********************************************************************************************************************
+=== RESET ===
+**********************************************************************************************************************/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    color:#000;
+    margin: 0 auto;
+    padding: 0;
+    font: 79% 'BundesSansWeb',Arial,helvetica,sans-serif;	
+	background: #fff;
+}
+
+body.home {
+    background: #fff;	
+	font: 85% 'BundesSansWeb',Arial,helvetica,sans-serif;	
+}
+
+/**********************************************************************************************************************
+ === GENERAL ===
+**********************************************************************************************************************/
+
+input, select, textarea {
+    font-family: 'BundesSansWeb',Arial,helvetica,sans-serif;	
+}
+
+
+#header,#footer,
+#article,.sectionArticle,
+#hgroup,#nav,
+#figure {
+    display:block;
+}
+
+.accessibility {
+    position: absolute!important;
+    top: -9999px;
+    left: -9999px;
+}
+
+.skipLinks {
+    height: 0;
+    top: 0;
+}
+.skipLinks a {
+    left: -4000px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.skipLinks a:focus {
+    background: none repeat scroll 0 0 #EDEFF2;
+    display: block;
+    font-size: 1em;
+    left: 0px;
+    padding: 4px;
+    text-align: left;
+    text-decoration: none;
+    top: 0px;
+    width: 150px;
+    z-index: 2;
+}
+
+/* Hyperlink Styles: */
+
+
+a, a:link, a:visited, a:active, a:hover, a:focus {	
+    color:#004f80;
+    text-decoration:none;
+}
+
+a:active, a:hover, a:focus {
+    text-decoration: underline;
+}
+
+
+a img {
+    border:none;
+}
+
+/* The clearfix hack to clear the floats: */
+
+.clear:after, .clearfix:after, 
+#aside .portletCoverflowHorizontal ul.photoList li:after, 
+#aside .portletCoverflowHorizontalBreit ul.photoList li:after, 
+.accordionContent .listInputContainer span:after,
+.accordionContent .listInputContainer span label:after,
+h3 a.trigger:after,h5 a.trigger:after,
+#search .sortAction:after, .cf:after, .campaignLinkModul ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0!important;
+    height: 0!important;
+    font-size: 0em;
+}
+
+.clear, .clearfix, h3 a.trigger, h5 a.trigger, #search .sortAction, .cf , .campaignLinkModul ul{
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearer {
+    clear: both;
+}
+
+
+h1, h2, h3 {
+    font: 79% 'BundesSansWeb',Arial,helvetica,sans-serif;
+}
+h1 {
+    font-size: 3.5em;
+    padding: 0.5em 0 0;
+}
+h3 {
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0 0 1em;
+}
+h2 {
+    font-size: 2.2em;
+    font-weight: normal;
+}
+
+p {
+    line-height:1.25em;
+    padding-bottom:1em;
+}
+
+
+strong {
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    font-weight: normal;
+}
+
+.my-css-loaded-marker { 
+  font-weight: bold;
+ }
+ 
+ 
+/**********************************************************************************************************************
+ === MAIN LAYOUT ===
+**********************************************************************************************************************/
+
+#main {
+	width: 1280px;
+    padding: 0px;
+    margin: 0 auto;
+    text-align: left;	
+}
+
+
+/*Head Bereich*/
+
+#header {
+    background: #ffffff;	
+    text-align: left;
+    height: 150px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+#logo {
+    float: left;
+    height: 100px;
+	margin-top: 20px;
+    overflow: hidden;
+}
+
+#headNavi {
+    float: right;
+    text-align: right;
+    width: 705px;
+    margin: 48px 0 0 0;
+    background: #ffffff;
+}
+
+
+.home #headNavi {
+	 width: 639px;
+}
+
+
+.serviceNavi {
+    text-align: left;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+	 width: 691px;
+}
+
+
+.serviceNavi li {
+    float: left;
+    line-height: 20px;
+    vertical-align: middle;
+    margin: 0 0 0 8px;
+	 position: relative;
+}
+
+.serviceNavi li .iconYT {
+    background: #fff url(../../../images/bmwi2012/icon_yt.gif) no-repeat 0 0;	
+    width: 30px;
+    height: 30px;	
+}
+
+.serviceNavi li .iconFB {
+    background: #fff url(../../../images/bmwi2012/icon_fb.gif) no-repeat 0 0;	
+    width: 30px;
+    height: 30px;	
+	 display: block!important;
+}
+
+.serviceNavi li .iconGooglePlus {
+    background: #fff url(../../../images/bmwi2012/icon_g_plus.gif) no-repeat 0 0;	
+    width: 30px;
+    height: 30px;	
+}
+
+.serviceNavi li .iconTwitter {
+    background: #fff url(../../../images/bmwi2012/icon_twitter.gif) no-repeat 0 0;	
+    width: 30px;
+    height: 30px;	
+}
+.serviceNavi li .iconSoundcloud {
+    background: #fff url(../../../images/bmwi2012/icon_soundcloud.png) no-repeat 0 0;	
+    width: 30px;
+    height: 30px;	
+}
+
+.serviceNavi li .iconRSS {
+    background: #fff url(../../../images/bmwi2012/icon_rss.gif) no-repeat 0 0;	
+    width: 30px;
+    height: 30px;	
+}
+
+.serviceNavi li .iconSign {
+    background: #fff url(../../../images/bmwi2012/icon_dgs.gif) no-repeat 0 0;	
+    width: 30px;
+    height: 30px;	
+}
+
+.serviceNavi li .iconEasy {
+    background: #fff url(../../../images/bmwi2012/icon_leichte_sprache.gif) no-repeat 0 0;	
+    width: 30px;
+    height: 30px;	
+}
+
+
+.serviceNavi li.search {
+    margin-right: 0px;
+    position: relative;
+    width: 227px;
+    z-index: 9999;
+}
+
+.serviceNavi li.languageSwitch {
+    background: #fff url(../../../images/bmwi2012/bg_servicenavi_0.gif) no-repeat center right;	
+    padding: 0 14px 0 0;
+    position: relative;
+}
+
+.serviceNavi li a {
+    display: block;
+    padding-top: 4px;
+}
+
+.serviceNavi li ul {
+    display: none;
+    width: 10em;
+    background: #e5edf2;	
+    list-style: none;
+    position: absolute;
+}
+
+.serviceNavi li ul li {
+    display: block;
+    float: none;
+}
+
+/*Schnellsuche*/
+.inputsearch {
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-appearance: none;
+    background: #e5edf2;
+    border: 0;
+    padding: 6px 9px 5px 9px;
+    margin: 0;
+    width: 177px;
+    height: 20px;
+    font-size: 1.2em;
+    font-weight: normal;
+    display: inline-block;
+    color: #004f80;
+    top: -1px;
+    position: absolute;
+}
+
+.search .over {
+    background: #003663 url(../../../images/bmwi2012/bg_input.gif) repeat-x 0 0!important;	
+    color: #fff!important;
+}
+
+.search .sb {
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -webkit-appearance: none;
+    background:#e5edf2 url(../../../images/bmwi2012/bg_btn_quicksearch.gif) no-repeat center center;	
+    border: 0;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-indent: 50px;
+    width: 3em;
+    margin-left: -0.5em;
+    height: 31px;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    top: -1px;
+    right: 0;
+}
+
+.search .oversb {
+    background: #003663 url(../../../images/bmwi2012/bg_btn_quicksearch_1.gif) repeat-x  -11px 0;	
+}
+
+#searchResults {
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.2);
+    color: #000000;
+    xdisplay: none;
+    left: -1px;
+    position: absolute;
+    top: 68px;
+    z-index: 9999;
+}
+
+/****NAVIGATION*****/
+
+/*Hauptnavigation/DropDownnavi*/
+
+/*** ESSENTIAL STYLES ***/
+
+#nav ul ul {
+    position:		absolute;
+    top:				-999em;
+    width:			10em; /* left offset of submenus need to match (see below) */
+}
+#nav ul ul li {
+    width:			100%;
+}
+#nav ul li:hover {
+    visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+#nav ul li {
+    float:			left;
+    position:		relative;
+}
+#nav ul a {
+    display:		block;
+    position:		relative;
+}
+#nav ul li:hover ul,
+#nav ul li.sfHover ul {
+    left:			0;
+    z-index:		9999;
+}
+#nav ul li:hover li ul,
+#nav ul li.sfHover li ul {
+    top:			-999em;
+}
+#nav ul li li:hover ul,
+#nav ul li li.sfHover ul {
+    left:			10em; /* match ul width */
+    top:			0;
+}
+#nav ul li li:hover li ul,
+#nav ul li li.sfHover li ul {
+    top:			-999em;
+}
+
+#nav {
+    background: #135680 url(../../../images/bmwi2012/bg_navigation.gif) repeat-x 0 0;	
+    position: relative;
+    top: 0px;
+    clear: both;
+	margin: 0 auto;
+	padding: 0 170px;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*erste Ebene*/
+#nav ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li a, 
+#nav ul li span {
+    background: url(../../../images/bmwi2012/bg_navi_0.gif) no-repeat 90% 16px;
+    color: #FFFFFF;
+    display: block;
+	font-size: 1.6em;
+    margin: 0 61px 0 0;
+    padding: 10px 33px 6px 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#nav ul li.sfHover > a {
+    background: #01446e url(../../../images/bmwi2012/bg_navi_1.gif) no-repeat 90% 16px;
+    text-decoration: none;
+}
+
+
+/*DropDown*/
+#nav ul li ul {
+    background-color: #e5edf2;
+    display: none;
+    padding: 4px 10px 10px;
+    position: absolute;
+    top:43px;
+    width: 200px;
+    z-index: 9999;
+    -moz-box-shadow: 0px 0px 10px #5e5e5e;
+    -webkit-box-shadow: 0px 0px 10px #5e5e5e;
+    box-shadow: 0px 0px 10px #5e5e5e;
+}
+
+#nav ul li li {
+    float: none;
+    display: block;
+    padding: 0;
+    width: 180px;
+}
+
+#nav ul li li a, 
+#nav ul li li span {
+    color: #004f80;
+    background: #e5edf2!important;
+    display: block;
+    font-size: 1.0em;
+    margin: 0;
+    padding: 6px;
+    text-align: left;
+    background: none;
+    white-space: normal;
+}
+
+
+#nav ul li li a:hover,
+#nav ul li li a:focus,
+#nav ul li li a:active {
+	text-decoration: underline;
+}
+
+
+/*Navigation ab 2. Ebene*/
+.subNavi {
+    margin-bottom: 30px;
+}
+
+.subNavi ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 300px;
+}
+
+.subNavi ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #fff;
+}
+
+.subNavi ul li a {
+    display: block;
+    font-size: 1.2em;
+    color: #004f80;
+    padding: 7px 7px 7px 25px;
+    background: #e5edf2 url(../../../images/bmwi2012/navi_0_0.gif) no-repeat 12px 12px;
+}
+
+.subNavi ul li a:hover,.subNavi ul li a:active,.subNavi ul li a:focus,.subNavi ul li span {
+    display: block;
+    font-size: 1.2em;
+    padding: 7px 7px 7px 25px;
+    color: #fff;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    background: #004f80 url(../../../images/bmwi2012/navi_0_1.gif) no-repeat 12px 12px;
+    text-decoration: none;
+}
+
+.subNavi ul li.current a {
+    display: block;
+    font-size: 1.2em;
+    padding: 7px 7px 7px 25px;
+    color: #fff;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    background: #004f80 url(../../../images/bmwi2012/navi_0_2.gif) no-repeat 9px 12px;
+}
+
+
+.subNavi ul li.current li a {
+    background: #fff;
+    padding: 5px 7px 5px 25px;
+    font-size: 1em;
+    color: #004f80;
+    font-family: 'BundesSansWeb',Arial,helvetica,sans-serif;	
+}
+
+.subNavi ul li.current li a:hover,.subNavi ul li.current li a:active,.subNavi ul li.current li a:focus, .subNavi ul li.current li span {
+    display: block;
+    font-size: 1em;
+    padding: 5px 7px 5px 25px;
+    color: #fff;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    background: #004f80;
+    text-decoration: none;
+}
+
+.subNavi ul li.current li span, .subNavi ul li.current li.current a {
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    background: url(../../../images/bmwi2012/navi_1_2.gif) no-repeat 12px 7px;
+    color: #004f80;
+
+}
+
+
+/*dritte Ebene*/
+
+.subNavi ul li.current li.current li a {
+    background: #fff;
+    padding: 5px 7px 5px 45px;
+    font-size: 1.0em;
+    font-family: 'BundesSansWeb',Arial,helvetica,sans-serif;	
+}
+
+.subNavi ul li li.current li a:hover,.subNavi ul li li.current li a:active,.subNavi ul li li.current li a:focus,.subNavi ul li li.current li span {
+    display: block;
+    font-size: 1em;
+    padding: 5px 7px 5px 45px;
+    color: #fff;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    background: #004f80;
+    text-decoration: none;
+}
+
+.subNavi ul li li.current li span, .subNavi ul li li.current li.current a {
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    background: url(../../../images/bmwi2012/navi_1_2.gif) no-repeat 32px 9px;
+    color: #004f80;
+}
+
+
+
+/*Brotkrumennavigation*/
+
+.breadcrumb {
+    border-bottom: 1px solid #e1e3e6;
+	margin: 0 auto;
+    width: 940px;
+	
+}
+
+.breadcrumbWrapper {
+    padding: 10px 0;
+}
+
+.breadcrumb span {
+    color: #555;
+}
+
+.breadcrumb ol {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb ol li {
+    display: inline-block;	
+}
+
+.breadcrumb ol li a, .breadcrumb ol li span {
+    display: block;
+    background: url(../../../images/bmwi2012/icon_breadcrumb.gif) no-repeat  12px 5px;
+    padding: 0 3px 0 22px;	
+}
+
+/****INHALTSBEREICH*****/
+
+#content {
+    margin: 16px 0 28px 0;
+    clear: both;
+    width: 940px;
+	display: block;
+	padding: 0 170px;
+}
+#additionalContent {
+    clear: both;
+    width: 1280px;
+	display: block;
+}
+
+
+/**neue Homepage 04/2014**/
+/**Anpassung Sonderschriften*/
+
+.home h1, .home h2, .home h3 {
+    font: 85% 'BundesSansWeb',Arial,helvetica,sans-serif;
+}
+
+.home h1 {
+    font-size: 3.4em;
+}
+
+.home h3 {
+    font-size:1.9em;
+}
+
+
+.home h2 {
+    font-size:2.1em;
+}
+
+.home #nav ul li a, 
+.home #nav ul li span {
+    font-size: 1.45em;
+}
+
+.home #nav ul li li a, .home  #nav ul li li span {
+    font-size: 0.95em;
+}
+
+
+.home .teaser h2 {
+    font-size: 1.2em;
+}
+
+.home #aside h2, .home #aside h3 {
+    font-size: 1em;
+}
+
+.home #footer h1, .home #banner h1, 
+.home #footer h2, .home #banner h2 {
+    color: #4c5a6d;
+    font-size: 0.95em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+} 
+
+.home  #footerWrapper h2 {
+    font-size: 0.9em;
+}
+
+
+.home .aktuelles {
+    overflow: hidden;
+    width: 960px;
+}
+
+.home .aktuelles  .left{
+    float: left;
+    margin-right: 20px;
+    width: 620px;
+}
+
+.home .aktuelles .right {
+    float: left;
+    margin-top: 24px;
+    width: 300px;
+}
+
+.home .right .teaser {
+    clear: both;
+    display: block;
+    float: none;
+    margin-bottom: 20px;
+    padding: 18px 0 0;
+    position: static;
+    width: 300px;
+	border-top: 1px solid #E1E3E6;
+}
+
+.home .right .noBorderTeaser {
+	border-top: none!important;
+	clear: both;
+    display: block;
+    float: none;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 18px 0 0;
+    position: relative;
+    top: -1.88em;
+    width: 300px;
+}
+
+.home .right .noBorderTeaser.teaserMinister {
+	padding-top: 0;
+}
+
+.home .right .teaser h3 {
+    color: #4C5A6D;
+    display: block;
+    font-size: 0.95em;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.home .right .teaser .kurztext {
+    float: none;
+    margin-top: 8px;
+    width: auto;
+}
+
+.home .right .teaser  a.linkExtern {
+    background: url("../../../images/bmwi2012/icon_linkextern.gif") no-repeat scroll 0 6px;
+    margin: 3px 0;
+    padding: 3px 0 3px 20px;
+}
+
+.home .right .teaser  a.linkIntern {
+    margin: 3px 0;
+    padding: 3px 0 3px 0px;
+}
+
+.home .right .teaser  .iconPhone,
+.home .right .teaser  .iconFax, 
+.home .right .teaser  .iconMail  {
+    margin: 3px 0;
+    padding: 3px 0 3px 24px;
+	display: block;
+	background: url("../../../images/bmwi2012/icon_small_phone.gif") no-repeat 0 3px;
+
+}
+
+.home .right .teaser  .iconFax {
+	background: url("../../../images/bmwi2012/icon_small_fax.gif") no-repeat 0 3px;
+}
+.home .right .teaser  .iconMail  {
+	background: url("../../../images/bmwi2012/icon_small_mail.gif") no-repeat 0 4px;
+}
+
+.home .aktuelles  .left .teaser {
+	border-bottom: 1px solid #e1e1e1;
+	float: none;
+	width: 600px;
+	clear: both;
+	display: inline-block;
+}
+
+
+.home .aktuelles .left .teaser:last-child  {
+	border: none;
+} 
+
+.home .aktuelles  .left .teaser  .date {
+    color: #333;
+    display: block;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+	width: 370px;
+	float: right;
+}
+
+.home .aktuelles  .left .teaser .kurztext  {
+	width: 370px;
+}
+
+
+
+/*PureHTML*/
+
+.teaserMinister {
+	width: 300px;
+	background: #e5edf2;
+}
+
+.teaserMinister .zitat {
+	font-size: 1.4em;
+	line-height: 1.25em;
+	padding: 25px 18px;
+	width: 156px;
+	display: block;
+	font-family: 'BundesSansWebItalic',Arial,helvetica,sans-serif;
+}
+
+.teaserMinister .teaserProfil {
+	padding: 15px 18px;
+}
+
+
+.teaserMinister .teaserProfil .teaserType {
+    color: #333;
+    display: block;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.teaserMinister .teaserProfil h3 {
+	font-size: 1.55em;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+	margin: 0 0 0.9em;
+}
+
+.teaserMinister .teaserProfil .teasertext p{
+	padding-bottom: 0.5em;
+}
+
+.teaserMinister .teaserProfil .teasertext a {
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+	font-size: 1.13em;
+}
+
+.home div.socialMedia {
+	background: #eeeeed;
+	padding: 0 170px;
+}
+
+.home div.socialMediaContent {
+	padding: 20px 0;
+}
+
+.home div.socialMedia h2 {
+	font-size: 1.15em;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+	margin: 0 0 1.4em;
+	text-transform: uppercase;
+}
+
+.home div.socialMediaContent  .left {
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+}
+
+.home div.socialMediaContent  .right {
+	width: 50%;
+	float: left;
+}
+
+.home div.socialMedia ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.home div.socialMedia ul li {
+	display: inline-block;
+    margin: 0 0 18px 0;
+	vertical-align: top;
+}
+
+.home div.socialMedia ul li p {
+	margin: 0;
+	padding: 0;
+	font-size: 1.0em;
+}
+
+.home div.socialMedia ul li > a {
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.home div.socialMedia ul li p {
+	float: left;
+	width: 396px;
+}
+
+.home div.socialMedia ul li.twitter > a {
+    background: url(../../../images/bmwi2012/icon_twitter_0.png) no-repeat 4px 3px;
+}
+.home div.socialMedia ul li.facebook  > a {
+    background: url(../../../images/bmwi2012/icon_facebook_0.png) no-repeat 11px 1px;
+}
+.home div.socialMedia ul li.soundcloud  > a {
+    background: url(../../../images/bmwi2012/icon_soundcloud_0.png) no-repeat 0 1px;
+}
+
+.home div.socialMedia ul li.youtube  > a {
+    background: url(../../../images/bmwi2012/icon_youtube_0.png) no-repeat 0 1px;
+}
+
+.home .agenda {
+    background: url(../../../images/bmwi2012/bg_agenda.gif) 0 0;
+	padding: 0 170px;
+}
+
+.home .agenda .agendaContent {
+	padding: 32px 0;
+}
+
+
+.home .agenda  h2 {
+	color: #fff;
+	font-size: 1.15em;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+	margin: 0 0 1.9em;
+	text-transform: uppercase;
+}
+
+.home .agenda .agendaOpener {
+	background: #CCDCE6;
+	padding: 17px 17px 15px 17px;
+	width: 906px;
+}
+
+.home .agenda .agendaOpener .agendaOpenerContent {
+	float: left;
+    margin-right: 20px;
+    width: 282px;
+}
+
+.home .agenda .agendaOpener .teaserType {
+    color: #000;
+    display: block;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.home .agenda .agendaOpener h3 {
+	color: #004f80;
+	font-size: 2.2em;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+	margin: 0 0 1.4em;
+}
+
+.home .agenda .agendaOpener .teaserImg {
+	width: 300px;
+	float: left;
+}
+.home .agenda .agendaOpener .agendaLinkList {
+	width: 283px;
+	float: right;
+	margin-left: 7px;
+}
+
+.home .agenda .agendaOpener .agendaLinkList ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.home .agenda .agendaOpener .agendaLinkList ul li {
+	display: inline;
+}
+
+.home .agenda .agendaOpener .agendaLinkList ul li a {
+    background: url(../../../images/bmwi2012/bg_link_agenda_0.png) no-repeat 0 0;
+    padding: 10px 12px 11px;
+	display: block;
+	font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+	font-size: 1.05em;
+	color: #fff;
+	border-bottom: 1px solid #CCDCE6;
+	height: 18px;
+}
+
+.home .agenda .agendaOpener .agendaLinkList ul li a:hover,
+.home .agenda .agendaOpener .agendaLinkList ul li a:active, 
+.home .agenda .agendaOpener .agendaLinkList ul li a:focus{
+    background: url(../../../images/bmwi2012/bg_link_agenda_1.png) no-repeat 0 0;
+	color: #004f80;
+	text-decoration: none;
+} 
+
+.home .agenda .agendaTeaser  {
+	width: 940px;
+	margin-top: 30px;
+	padding-top: 10px;
+	border-top: 1px solid #337299;
+}
+
+.home .agenda .agendaTeaser .mediaArray {
+    left: 0;
+	top: 12px;
+    position: relative;
+	width: 940px;
+}
+
+.home .agenda .agendaTeaser .bx-prev, .home .agenda .agendaTeaser .bx-next {
+    background: url("../../../images/bmwi2012/btn_slider_next_invert.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 40px;
+    left: -56px;
+    position: absolute;
+    top: 104px;
+    width: 41px;
+    z-index: 50;
+}
+
+.home .agenda .agendaTeaser .bx-next {
+    background: url("../../../images/bmwi2012/btn_slider_prev_invert.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    left: 955px;
+}
+
+.home .agenda .agendaTeaser  .sliderDefault li {
+	float: left;
+	width: 300px!important;
+}
+
+
+.home .agenda .agendaTeaser  .sliderDefault li *{
+	color: #fff;
+}
+
+.home .agenda .agendaTeaser  .sliderDefault .agendateaserfoto {
+	display: inline-block;
+    margin: 0 8px 8px 0;
+}
+
+
+.home .agenda .agendaTeaser  .sliderDefault li  .agendateasertitle {
+    display: block;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+	display: inline-block;
+}
+
+
+.home .agenda .agendaTeaser .sliderDefault .agendateaseruntertitel {
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 8px;
+	display: inline-block;
+}
+.home .agenda .agendaTeaser .sliderDefault .imgWrapper {
+    float: none;
+}
+
+.home .agenda .agendaTeaser .sliderDefault .agendateaserkurztext {
+    float: none;
+	width: 300px;
+	display: inlien-block;
+}
+
+.home .agenda  .agendaFooter  {
+    clear: both;
+	text-align: right;
+	width: 920px;
+}
+
+.home .agenda  .agendaFooter  a.linkMoreContent{
+    background: url(../../../images/bmwi2012/bg_link_agenda_1.png) no-repeat 0 0;
+	padding: 11px 40px 11px 12px;
+	display: inline-block;
+	font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+	font-size: 1.05em;
+    text-align: left;
+    width: 230px;
+}
+
+.home .media {
+	padding: 20px 170px;
+	background: #ccdce6;
+	border-top: 1px solid #fff;
+}
+
+.js .home .media {
+	height: 22em;
+}
+
+.home .media .mediaTablist {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.home .media .mediaTablist li {
+	margin: 0 40px 0 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+.home .media .mediaTablist li a {
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+	text-transform: uppercase;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 3px solid #ccdce6;
+	color: #004f80;
+}
+
+
+.home .media .mediaTablist li.first a {
+	border-bottom: 3px solid #004f80;
+	color: #333;
+}
+
+
+.home .media .mediaTablistContent {
+  position: relative;  
+  overflow: hidden; 
+}
+
+.js .home .media .mediaTablistContent {
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
+}
+
+.js .home .media .mediaTablistContent .bx-wrapper{
+	max-width: 960px!important;
+}
+
+.home .media .mediaTablistContent.active,
+.home .media .mediaTablistContent#mediaVideos {
+  position: static!important;  
+  overflow: visible!important; 
+}
+
+.js .home .media .mediaTablistContent#mediaVideos {
+  position: absolute!important; 
+  overflow: hidden!important; 
+}
+
+.js .home .media .mediaTablistContent#mediaVideos.active {
+  position: static!important;  
+  overflow: visible!important; 
+}
+
+
+
+.js .event {
+    background: none repeat scroll 0 0 #e4e4e4;
+    padding: 0 170px;
+	border-top: 1px solid #fff;
+}
+
+.js .event .eventContent {
+	padding: 32px 0;
+}
+
+.js .event h2 {
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    font-size: 1.15em;
+    margin: 0 0 1.4em;
+    text-transform: uppercase;
+	color: #333;
+}
+
+.event .mediaArray {
+    left: 0;
+    position: relative;
+    width: 938px !important;
+	background: url(../../../images/bmwi2012/bg_slider_event.gif) repeat-x 0 137px ;
+}
+
+.event  ul.mediaList.sliderEvent {
+    list-style: none outside none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.event  ul.mediaList.sliderEvent li {
+    float: left;
+    height: 278px;
+	width: 182px!important;
+    list-style: none outside none;
+    padding: 0!important;
+	overflow: hidden;
+	position: relative;
+}
+
+.event  ul.mediaList.sliderEvent li .title {
+	display: block;
+	height: 100px;
+	position: relative;
+	text-align: center;
+	background: #014f80;
+    padding: 34px 12px 8px;
+	width: 158px;
+	position: relative;
+	top: -4px;
+}
+
+.event  ul.mediaList.sliderEvent li  .title a {
+	text-align: center;
+	color: #fff;
+	font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+	font-size: 1.2em;
+}
+
+.event  ul.mediaList.sliderEvent li  .listDate {
+	position: absolute;
+	width: 63px;
+	height: 63px;
+	left: 62px;
+    top: 100px;
+    width: 63px;
+    z-index: 100;
+	background: url(../../../images/bmwi2012/bg_slider_date.png) no-repeat right bottom;
+}
+
+.event  ul.mediaList.sliderEvent li  .listDate .shortDay {
+	color: #000;
+	font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+	display: block;
+    margin: 8px 20px 0;
+	font-size: 1.7em;
+	text-align: center;
+}
+.event  ul.mediaList.sliderEvent li  .listDate .shortmonth {
+	color: #555555;
+	display: block;
+    margin: -5px 18px;
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+
+.event .bx-prev, .event .bx-next {
+	background: url("../../../images/bmwi2012/btn_newslider_next.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 40px;
+    left: -56px;
+    position: absolute;
+    top: 104px;
+    width: 41px;
+    z-index: 50;
+} 
+
+.event .bx-next {
+    background: url("../../../images/bmwi2012/btn_newslider_prev.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    left: 955px;
+} 
+
+/*Slider neue Homepage*/
+
+/*
+        Slider/Einzelsicht
+*/
+.mediaTablistContent .mediaArray {
+    position: relative;
+    left: 0px;    
+	top: 25px;
+	width: 960px!important;
+}
+
+.js .mediaTablistContent .mediaArray {
+	height: 300px;
+    overflow: hidden;
+}
+
+
+.js .mediaTablistContent .mediaArray {
+	overflow: visible!important;
+}
+
+.mediaTablistContent .mediaArray  ul.mediaList {
+    margin: 0!important;
+    padding: 0!important;
+    list-style: none;
+} 
+
+.mediaTablistContent li {
+    height: 231px;
+    padding: 0!important;
+    list-style: none;
+	float: left;
+} 
+.mediaTablistContent#mediaVideos li {
+	width: 235px;
+} 
+.mediaTablistContent .mediaList  li {
+	width: 235px;
+} 
+
+.mediaTablistContent li a.bgVideo {
+    overflow: hidden;	
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    width: 220px;
+    height: 122px;
+} 
+.mediaTablistContent li .listDate {
+	display: block;
+	color: #333;
+	width: 90%;
+	margin-top: 5px;
+} 
+.mediaTablistContent li .title {
+	display: block;
+	width: 90%;
+	margin-top: 5px;
+} 
+
+
+.mediaTablistContent .bx-prev,
+.mediaTablistContent .bx-next {
+    background:url(../../../images/bmwi2012/btn_newslider_next.png) no-repeat 0 0;
+    width: 41px;
+    height: 40px;
+    position: absolute;
+    top: 42px;
+    left: -56px;
+    z-index: 50;
+} 
+
+.mediaTablistContent .bx-next {
+    background:url(../../../images/bmwi2012/btn_newslider_prev.png) no-repeat 0 0;
+    left: 955px;
+} 
+
+
+
+
+/*Marginalspalte*/
+#aside {
+    width: 300px;
+    float: left;
+    margin-top: 24px;
+}
+
+#aside h2, #aside h3 {
+    color: #4C5A6D;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0px 0 15px 0px;
+    text-transform: uppercase;
+}
+
+#aside .teaser {
+    width: 300px;
+    padding: 18px 0 0 0;
+    margin-bottom: 20px;
+    display: block;
+    float: none;
+    border-top: 1px solid #e1e3e6;
+	 clear: both;
+	 position: static;
+}
+
+#aside .teaser.markedTeaser .teasertext  .kurztext{
+	background: #E5EDF2;
+	padding: 16px!important;
+}
+
+#aside .teaser.markedTeaser .teasertext  .kurztext p img{
+	max-width: 268px;
+	height: auto;
+}
+
+
+#aside .teaser .kurztext {
+    float: none;
+    width: auto;
+    margin-top: 8px;
+}
+
+#aside .teaser h4 {
+    font-size: 1.1em;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    margin-bottom: 8px;
+}
+
+/*Bild mit Vergr��erungsfunktion in der Marginalspalte*/
+#aside .teaser a.lupe {
+	display: block;
+	text-align: right;
+}
+
+#aside .teaser p.bildunterschrift {
+	width: 266px;
+	margin-top: -30px;
+}
+
+
+.teaser .teasercontent .left label {
+    margin: 0 6px 8px 0!important;
+    color: #004F80;
+    display: inline-block;
+}
+
+.teaser .teasercontent .left p,
+.teaser .teasercontent .right p {
+    margin: 0 0 4px 0!important;
+    padding: 0;
+}
+
+.teaser .teasercontent .right {
+    text-align: right;
+    margin-top: -4.8em;
+    width: 100px;
+}
+
+.teaser .teasercontent .left p  input#email{
+    margin: 0 0 4px 0!important;
+    background: #e5edf2;
+    border: 0;
+    padding: 4px 3px;	
+    margin-top: 6px;
+    width: 294px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.teaser .teasercontent .sb {
+    background: #003764 url(../../../images/bmwi2012/bg_input.gif) repeat-x 0 0;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    color: #fff;
+    border: 0;
+    margin-top: 6px;
+    padding: 4px 3px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
+
+#aside .teaser ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+#aside .teaser ul.photoList li {
+    margin: 0 0 8px;
+    height: 181px;
+    width: 182px;
+    vertical-align: middle;
+    text-align: center;	
+}
+
+#aside .teaser ul.photoList li a {
+    width: 182px;
+}
+
+
+#aside .teaser ul.photoList li .title {
+    text-align: center;
+    display: block;
+    width: 166px;
+}
+
+#aside .teaser ul.photoList li .title a {
+    display: inline-block;
+    height: auto!important;
+    width: auto!important;
+    text-align: center;
+
+}
+
+#aside .teaser ul.information li {
+    margin: 0 0 8px;
+}
+
+#aside  .teaser a.linkExtern {
+    background: url(../../../images/bmwi2012/icon_linkextern.gif) no-repeat 0 6px;
+    padding: 3px 0 3px 20px;
+    margin: 3px 0;
+}
+
+
+#aside .teaser .popupForm legend {
+    display: none;
+}
+
+#aside .teaser .fotoreihe {
+    margin-bottom: 20px;
+}
+
+
+/*Social Bookmarks**/
+.socialbookmarks {
+    margin: 0;
+    padding; 0;
+    list-style: none;
+}
+
+.socialbookmarks li {
+    float: left;
+    width: 50%;
+}
+
+.quickAccess fieldset,
+.imagepicker fieldset {
+    border: 0;
+}
+
+.quickAccess fieldset legend,
+.imagepicker fieldset legend {
+    color: #4C5A6D;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0px 0 15px 4px;
+    padding: 0;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+.quickAccess label,
+.imagepicker label {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.quickAccess select,
+.imagepicker select {
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    background: #E5EDF2;
+    width: 204px;
+    font-size: 0.9em;
+    padding: 4px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.quickAccess input.button,
+.imagepicker input.button {
+    border: none;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    padding: 2px 4px 2px 4px;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    background: #003764 url(../../../images/bmwi2012/bg_btn.gif) repeat 0 0;	
+    display: inline-block;
+}
+
+
+
+/*Inhaltsbereich/Content*/
+
+#content h1 {
+    font-family: 'BundesSansWeb', Verdana, Helvetica, sans-serif;
+    font-size: 2.15em;
+    color: #6b7581;
+    font-weight: normal;
+    margin-bottom: 11px;
+    padding: 0.4em 0 0;
+}
+
+.topTeaser {
+    background: #e5edf2 url(../../../images/bmwi2012/bg_topteaser.gif) repeat-y top right;
+    padding: 22px;
+    margin-bottom: 10px;
+}
+
+
+.topTeaser h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+}
+
+.topTeaser p {
+    font-size: 1.1em;
+    line-height: 1.25em;
+}
+
+.topTeaser .imgWrapper {
+    float: left;
+    width: 280px;
+    margin: 0 20px 0px 0;
+	 position: relative;
+}
+
+.topTeaser .videoWrapper {
+    float: left;
+    width: 280px;
+    margin: 0 20px 0px 0;
+}
+
+.topTeaser .kurztext {
+    float: left;
+    width: 286px;
+
+}
+
+#section .topTeaser {
+    background: #E5EDF2;
+}
+
+#section .topTeaser .kurztext {
+    width: 276px;
+}
+
+.topTeaser .quickLinks {
+    float: left;
+    width: 268px;
+    padding: 0 16px;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.topTeaser .quickLinks h3,
+.topTeaser .quickLinks h2 {
+    color: #4C5A6D;
+    display: block;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-family: 'BundesSansWeb',Arial,helvetica,sans-serif !important;
+}
+
+.topTeaser .quickLinks .kurztext {
+    float: none;
+    width: auto;
+    margin-left: 5px;
+}
+
+.topTeaser .quickLinks ul {
+    list-style: none;
+    margin: 0 0 16px 0;
+    padding: 0;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+}
+
+.topTeaser .quickLinks ul li {
+    margin: 0 0 5px 0;
+}
+
+/*Schlaglichter*/
+
+.containerSchlaglichter {
+    width: 630px;
+    float: left;
+    height: 264px;
+    margin: -22px;
+    background: url(../../../images/bmwi2012/bg_schlaglichter.jpg) no-repeat left top;
+}
+
+.containerSchlaglichter .containerWrapper {
+    padding: 30px 22px 15px 22px;
+    margin: 45px 30px 0 0;
+    background: #fff;
+    -moz-opacity: 0.8 /* alte Versionen von Mozilla Fireox */
+        -webkit-opacity: 0.8 /* alte Versionen von Webkit-Browsern */
+        filter: alpha(opacity=80)   /* �ltere Versionen des Internet Explorers inklusive Version 7 */
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* Internet Explorer Version 8 */
+    opacity: 0.8;     
+    margin-bottom: 10px;
+}
+
+.containerSchlaglichter h2 {
+    font-family: 'BundesSerifWeb' ,Arial,helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-bottom: 5px;	
+}
+
+.containerSchlaglichter p {
+    font-family: 'BundesSerifWeb' ,Arial,helvetica,sans-serif;
+}
+
+.containerSchlaglichter h3 {
+    font-family: 'BundesSansWebBold' ,Arial,helvetica,sans-serif;
+    font-size: 1.3em;
+    margin: 0 0 5px 0;
+}
+
+ul.listSchlaglichter {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.listSchlaglichter li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    background: url(../../../images/bmwi2012/bg_input.gif) repeat-x scroll 0 0 #003764;
+}
+
+ul.listSchlaglichter li a {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    padding: 6px 5px;
+    display: block;
+    width: 144px;
+    text-align: center;
+    font-family: 'BundesSansWebBold' ,Arial,helvetica,sans-serif;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+
+ul.listSchlaglichter li.lastItem a {
+    width: 145px;
+    border-right: none;
+}
+
+.topTeaser .socialNetworkItems {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topTeaser .socialNetworkItems li {
+    display: inline-block;
+    width: 36px;
+    height: 37px;
+}
+
+.topTeaser .socialNetworkItems li a {
+    display: block;
+    width: 36px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.topTeaser .socialNetworkItems li a span {
+    position: absolute;
+    top: -999px;
+    left: -999px;
+}
+
+
+.topTeaser .socialNetworkItems li.twitter,
+.topTeaser .socialNetworkItems li.rss {
+    background: url(../../../images/bmwi2012/icon_topteaser_rss.gif) no-repeat  0 0;
+}
+
+.topTeaser .socialNetworkItems li.facebook {
+    background: url(../../../images/bmwi2012/icon_topteaser_facebook.gif) no-repeat  0 0;
+}
+
+
+
+.teaserRow {
+    background: url(../../../images/bmwi2012/bg_teaserrow.gif) no-repeat left bottom;
+    width: 960px;
+    overflow: hidden;
+}
+
+.teaser {
+    width: 460px;
+    margin-right: 20px;
+    float: left;
+    display: inline;
+    padding: 16px 0 10px 0;
+    position: relative;
+}
+
+.teaser + .teaser{
+    margin-right: 0;
+}
+
+.teaser .teaserType {
+    color: #4c5a6d;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.teaser h2 {
+    font-size: 1.3em;
+    margin-bottom: 8px;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+}
+
+.teaser .kurztext {
+    float: right;
+    width: 232px;
+    margin: 0;
+}
+
+.teaser .imgWrapper {
+    float: left;
+    width: 220px;
+    margin: 0 8px 8px 0;
+    position: relative;
+}
+
+
+.teaser .bgFoto span {
+    background: url(../../../images/bmwi2012/icon_foto.png) no-repeat 0 0;
+    display: block;
+    height: 30px;
+    margin-top: -34px;
+    position: absolute;
+    left: 187px;
+    width: 30px;
+    z-index: 100;
+}
+
+
+.teaser .bgFotoreihe span {
+    background: url(../../../images/bmwi2012/icon_fotoreihe.png) no-repeat 0 0;
+    display: block;
+    height: 30px;
+    margin-top: -34px;
+    position: absolute;
+    right: 4px;
+    bottom: 6px;
+    width: 30px;
+    z-index: 100;
+}
+
+
+.teaser .bgVideo span, .topTeaser .bgVideo span {
+    background: url(../../../images/bmwi2012/icon_video.png) no-repeat 0 0;
+    display: block;
+    height: 30px;
+    margin-top: -35px;
+    position: absolute;
+    right: 4px;
+    bottom: 6px;
+    width: 30px;
+    z-index: 100;
+}
+
+.teaser .bgAudio span, .topTeaser .bgAudio span {
+    background: url(../../../images/bmwi2012/icon_audio.png) no-repeat 0 0;
+    display: block;
+    height: 30px;
+    margin-top: -35px;
+    position: absolute;
+    right: 4px;
+    bottom: 6px;
+    width: 30px;
+    z-index: 100;
+}
+
+/*Sonderform Visitenkarte*/
+
+.businessCardRow {
+    background: url(../../../images/bmwi2012/bg_card_row.gif) repeat-y 0 0;
+    margin-top: 15px;
+}
+
+.businessCardItem {
+    padding: 0px 0 10px;
+}
+
+.businessCardItem h2 {
+    color: #6b7581;
+    font-size: 1.3em;
+}
+
+.businessCardItem h3 {
+    font-size: 1em;	 
+    height: 4em;
+}
+
+.businessCardItem .kurztext {
+    float: none;
+    margin: 0;
+    width: auto;
+
+}
+
+.businessCardItem p {
+    font-size: 1.1em;
+}
+
+.businessCardItem .kurztext table {
+    width: 100%;
+}
+
+.businessCardItem .kurztext table td {
+    width: 33%;
+    margin-bottom: 5px;
+}
+
+.businessCardItem .kurztext table td img {
+    -moz-box-shadow: 0px 0px 10px #dcdcdc;
+    -webkit-box-shadow: 0px 0px 10px #dcdcdc;
+    box-shadow: 0px 0px 10px #dcdcdc;
+    border: 1px solid #fff;
+}
+
+.businessCardItem .kurztext table td img {
+    -moz-box-shadow: 0px 0px 10px #dcdcdc;
+    -webkit-box-shadow: 0px 0px 10px #dcdcdc;
+    box-shadow: 0px 0px 10px #dcdcdc;
+    border: 1px solid #fff;
+}
+
+.businessCardItem .listView {
+    width: 445px;
+}
+
+.businessCardItem .listView ul li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    float: none;
+    width: auto;
+    min-height: 0px;
+    height: auto;
+}
+
+.businessCardItem .listView ul li .listDate {
+    font-weight: bold;
+    display: block;
+}
+
+.businessCardItem .listView ul li .listTitle {
+    font-weight: bold;
+}
+
+.businessCardItem .videoWrapper,
+.businessCardItem .imgWrapper {
+    margin-bottom: 20px;
+    float: none;
+    position: relative;
+}
+
+.businessCardItem .imgWrapper span {
+    background: url(../../../images/bmwi2012/icon_foto.png) no-repeat 0 0 transparent;
+    display: block;
+    height: 30px;
+    left: 243px;
+    margin-top: -35px;
+    position: static;
+    width: 30px;
+    z-index: 100;
+}
+
+
+
+.ppcontrols {
+    z-index: 110;
+}
+
+
+
+#section {
+    width: 620px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+#section .teaserRow {
+    background: url(../../../images/bmwi2012/bg_teaserrow_section.gif) no-repeat left bottom;
+    width: 620px;
+    overflow: hidden;
+    position: relative;
+}
+
+#section .teaser {
+    width: 300px;
+}
+
+#section .teaser.coverflowTeaserRow  {
+    width: 620px;
+}
+
+
+#section  .teaser .imgWrapper {
+    width: 140px;
+    position: relative;
+}
+
+
+#section .teaser .kurztext {
+    float: right;
+    width: 152px;
+    margin: 0;
+}
+
+#section .teaser.coverflowTeaserRow .kurztext {
+    float: none;
+    width: 100%;
+    margin: 0;
+}
+
+/**Sonderfalls Kampange Netzausbau*/
+
+.teaserRowFull {
+	border-bottom: 1px solid #e1e3e6;
+   overflow: hidden;
+   position: relative;
+   width: 620px;
+	padding: 10px 0 0 0;
+}
+
+#section .teaserRowFull .teaser {
+	width: 620px;
+	float: none;
+}
+
+#section .teaserRowFull .teaser .kurztext {
+	float: none;
+	margin: 0;
+	width: 620px;
+}
+
+#section .teaserRowFull .teaser .coverflow .photoArray .bx-next {
+	left: 548px;
+}
+
+/*****EINZELSICHTEN/INHALTSBEREICH*****/
+
+#content .containerText {
+    font-size: 1.1em;
+}
+
+#content .containerText .containerText  {
+    font-size: 1.0em;
+}
+
+
+#content .containerText .documentType {
+    color: #4C5A6D;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#content .containerText h1 {
+    font-size: 1.95em;
+    margin-bottom: 24px;
+}
+
+#content .containerText h2 {
+    font-size: 1.35em;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    color: #6B7581;
+    margin-bottom: 16px;
+}
+
+#content .containerText h3 {
+    font-size: 1.1em;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    margin-bottom: 16px;
+    color: #333333;
+}
+
+#content .containerText h4 {
+    font-size: 1.0em;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    margin-bottom: 16px;
+    color: #333333;
+}
+#content .containerMarginal h4 {
+    font-size: 1em;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    margin-bottom: 8px;
+}
+
+#content .containerText h5,
+#content .containerText h6 {
+    font-size: 1.0em;
+    font-weight: normal;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+
+.docTypFoto .containerText  .kurztext {
+    font-family: 'BundesSansWeb' ,Arial,helvetica,sans-serif!important;
+}
+
+
+#content .containerText .date {
+    font-weight: bold;
+}
+
+#content .containerText .date p {
+    display: inline;
+}
+
+#content .containerText .kurztext {
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+}
+
+#content form .containerText .kurztext, 
+#content .containerText .containerShort .kurztext,
+#content .containerText .keyVisual .kurztext {
+    font-family: 'BundesSansWeb',Arial,helvetica,sans-serif;
+}
+
+#content .containerText ul,
+#content .containerText ol {
+    margin-left: 8px;
+    overflow: hidden; 
+    padding-left:20px;
+    zoom: 1;
+}
+
+#content .containerText ul li,
+#content .containerText ol li {
+    margin-bottom: 16px;
+}
+
+#content .containerText ul li p,
+#content .containerText ol li p {
+    margin: 0;
+    padding: 0;
+}
+
+#content.singleView  #section .containerText .teaser {
+    width: 610px;
+}
+
+
+#section .form {
+	padding: 0 0 40px 0;
+}
+
+#section .form input.sb.right {
+	float: none;
+}
+
+
+#section .containerShort {
+	clear: both;
+}
+
+/* Subscription Form */
+
+.subscribe .indent {
+	margin:20px;
+}
+
+.subscribe p {
+	line-height:normal;
+}
+
+.form.subscribe label,
+.form.subscribe input {
+    display:inline;
+    vertical-align:middle;
+    margin:0;
+}
+
+
+.subscribe input.cb,
+.subscribe input.rb {
+    width:auto;
+}
+
+.subscribe label.rb {
+    margin-right:20px;
+}
+
+/* END Subscription Form */
+
+/* Auzeichnung f�r PDF Downloads im Text*/
+
+
+#content .containerText ul.attachment, #content .containerText ul.availability {
+	list-style: none;
+	margin: 10px 0;
+	padding: 0;
+}
+
+#content .containerText ul.availability li.attachment a {
+	background: url("../../../images/bmwi2012/icon_attachment.gif") no-repeat scroll left center transparent;
+	display: block;
+    padding: 0 0 0 40px;
+}
+
+#content .containerText ul.availability li.order button {
+	background: url("../../../images/bmwi2012/icon_order.gif") no-repeat scroll left center transparent;
+	display: block;
+    padding: 0 0 0 40px;
+    color: #004F80;
+    text-align: left;
+    background-color: transparent;
+    border: medium none;
+    cursor: pointer;
+    font: 13.9px 'BundesSansWeb',Arial,helvetica,sans-serif
+}
+
+#content .containerText ul.availability li.order button:hover {
+	text-decoration: underline;
+}
+
+
+#content .containerText ul.attachment li {
+    margin-bottom: 8px;
+}
+
+
+#content .containerText ul.attachment li a {
+    background: url(../../../images/bmwi2012/icon_download.gif) no-repeat 0 0 transparent;
+    display: inline-block;
+    margin: 3px 0;
+    padding: 3px 0 3px 20px;
+}
+
+
+#content .containerText table.background-color--white {
+    clear: both;
+    border-width: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+#content .containerText table.background-color--white tr td {
+    background: #e5edf2;
+    vertical-align: top;
+    padding: 4px 8px 4px 4px;
+    border-bottom: 1px solid #fff;
+}
+
+#content .containerText table.background-color--white tr td p {
+    padding: 0;
+    margin: 0 0 8px 0;
+}
+
+#content .containerText table.background-color--white tr.background-color--blue td {
+    background: #014773 url(../../../images/bmwi2012/bg_table_th.gif) repeat-x 0 0;
+    color: #fff;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    font-size: 1.1em;
+    padding: 6px 8px 6px 4px;
+}
+
+#content .containerText table.background-color--white tr.background-color--maroon td {
+    background: #cccdcf url(../../../images/bmwi2012/bg_table_td.gif) repeat-x 0 0;
+}
+
+#content .containerText table.background-color--white tr.background-color--maroon td {
+    background: #cccdcf url(../../../images/bmwi2012/bg_table_td.gif) repeat-x 0 0;
+}
+
+#content .containerText table.background-color--white tr.background-color--silver td {
+    background: #b0c9d8 url(../../../images/bmwi2012/bg_table_td_1.gif) repeat-x 0 0;
+}
+
+#content .containerText a.linkExtern {
+    background: url(../../../images/bmwi2012/icon_linkextern.gif) no-repeat 0 6px;
+    padding: 3px 0 3px 20px;
+    margin: 3px 0;
+    font-size: 1em;
+}
+
+
+#content .containerText ul {
+    list-style-image: url(../../../images/bmwi2012/list_icon.gif);
+}
+
+
+#content .containerText ol.contentLinkNavi {
+    list-style: none;
+    margin-left: 0px;
+    overflow: hidden; 
+    padding-left: 0px;
+}
+
+#content .containerText ol.contentLinkNavi li {
+    background: url(../../../images/bmwi2012/navi_1_2.gif) no-repeat scroll 7px 8px  transparent;
+    padding: 5px 0px 4px 25px;
+    margin: 0;
+}
+
+
+#content .containerText ol.contentLinkNavi li.current {
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+}
+
+#content .containerText ol.contentLinkNavi li .pfeil img {
+    display: none;
+}
+
+#content .containerText ol.contentLinkNavi li.current li {
+    font-family: 'BundesSansWeb',Arial,helvetica,sans-serif;
+}
+
+#content .containerText ol.contentLinkNavi li.current li.current {
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+}
+
+
+/*Warenkorb**/
+
+.left a img {
+	position: relative;
+	bottom: 0px;
+	margin-right: 5px;
+	 
+}
+
+.right {
+	float: right;
+}
+
+
+.rightalign {
+	text-align: right;
+}
+
+
+/*Bildergallerie*/
+
+.galerie {
+    border-top: 1px solid #e1e3e6;
+    padding: 20px 0 0px 0;
+}
+
+.galerie .back,.galerie .next  {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+	 margin-top: 7px;
+}
+
+.galerie a.back {
+    background: url(../../../images/bmwi2012/btn_prev.gif) no-repeat 0 0 transparent;	
+}
+
+.galerie a.next {
+    background: url(../../../images/bmwi2012/btn_next.gif) no-repeat 0 0 transparent;
+}
+
+.galerie .next strong, .galerie .back strong {
+    display: none;
+}
+
+.tblGalerie td {
+    width: 20px;
+}
+
+.tblGalerie td.preview {
+    -moz-box-shadow: 0px 0px 10px #dcdcdc;
+    -webkit-box-shadow: 0px 0px 10px #dcdcdc;
+    box-shadow: 0px 0px 10px #dcdcdc;
+    width: 162px;
+    border: 1px solid #fff;
+    vertical-align: center;
+    text-align: center;
+    background: #e5edf2;
+}
+
+.tblGalerie a {
+    display: block;	
+}
+
+.galerie {
+    text-align: center;
+}
+
+.galerie .head {
+    padding: 5px 0 20px;
+}
+
+.galerie .head .left {
+    width: 18%;
+    text-align: left;
+    float: left;
+    margin-left: 8px;
+}
+.galerie .head .center {
+    width: 60%;
+    text-align: center;
+    float: left;
+    margin-top: 5px;
+}
+.galerie .head .right {
+    width: 19%;
+    text-align: right;
+    float: left;
+    margin-right: 8px;
+}
+
+.galerie .foot {
+    padding: 20px 0 0 0;
+    text-align: left;
+}
+
+.galerie .date {
+    margin: 20px 0 0 0;
+}
+
+
+.galerie .bu, .galerie .bq {
+    font-size: 1em;
+    padding: 10px 0px;
+    margin: 0 1px;
+    text-align: left;
+}
+
+.galerie img {
+    -moz-box-shadow: 0px 0px 10px #dcdcdc;
+    -webkit-box-shadow: 0px 0px 10px #dcdcdc;
+    box-shadow: 0px 0px 10px #dcdcdc;
+    border: 1px solid #fff;
+}
+
+.galerie .tblGalerie img {
+    -moz-box-shadow: 0px 0px 0px #dcdcdc;
+    -webkit-box-shadow: 0px 0px 10px #dcdcdc;
+    box-shadow: 0px 0px 0px #dcdcdc;
+    border: none;
+}
+
+/*Textsammlungen**/
+
+.containerText .fragment {
+    clear: both;
+    margin: 20px 0 0 0;
+}
+.containerText .accordion .fragment {
+    margin: 0;
+}
+
+
+.containerText .fragment .fragment {
+    margin:  0;
+}
+
+.containerText .inlineImg {
+    float: left;
+    margin: 0 20px 12px 0;
+    background: #e5edf2;
+    border: 1px solid #fff;
+    clear: both;
+    position: relative;
+	 filter: progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=0, Strength=2),
+	progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=90, Strength=2),
+	progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=180, Strength=2),
+	progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=270, Strength=2);
+    -moz-box-shadow: 0px 0px 4px #777;
+    -webkit-box-shadow: 0px 0px 4px #777;
+    box-shadow: 0px 0px 8px #777;
+} 
+
+.containerText .w190{
+    width: 190px;
+} 
+
+.containerText .w164{
+    width: 164px;
+} 
+
+.containerText .w280{
+    width: 280px;
+} 
+
+.containerText .inlineImg .qu,
+.containerText .inlineImg .bu {
+    padding: 2px 4px;
+    color: #484949;
+    font-size: 0.9em;
+} 
+
+.containerText .w280 .qu,
+.containerText .w280 .bu {
+    width: 85%;
+} 
+
+.containerText .inlineImg .zoomLink { 
+    width: 31px;
+    height: 30px;
+    right: 5px;
+    position: absolute;
+    bottom: 5px;
+}
+
+
+
+.containerText img.float--left,
+#aside img.float--left {
+    float: left;
+    margin: 0 20px 12px 0;
+    position: relative;
+} 
+
+.containerText img.float--right {
+    float: left;
+    margin: 0 0px 12px 20px;
+    position: relative;
+} 
+
+/*Sitemap*/
+
+.sitemap {
+    float: left;
+    width: 300px;
+    padding: 0 30px 0 0;
+    font-size: 1.1em;
+}
+
+.sitemap.rechts {
+    clear: right;
+    width: 260px;
+}
+
+.sitemap ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sitemap li {
+    margin: 2px 0 0;
+    padding: 0;        
+    padding: 4px 2px 4px 26px;
+    font-weight: bold;
+    background: url(../../../images/bmwi2012/navi_1_2.gif) no-repeat 7px 8px transparent;
+}
+
+.sitemap li li {
+    font-weight: normal;
+}
+
+.sitemap li li li {
+    background: url(../../../images/bmwi2012/list_icon.gif) no-repeat 7px 8px transparent;
+}
+
+.sitemap li a, .sitemap li a:link, .sitemap li a:visited, .sitemap li a:active, .sitemap li a:hover, .sitemap li a:focus {
+    display: block;
+}
+
+
+
+#section .containerMarginal {
+    font-size: 1.0em;
+    margin-top: 20px;
+}
+
+#section .containerMarginal .teaser {
+    border-top: 1px solid #e1e3e6;
+    padding: 18px 0;
+    width: 100%;
+	 float: left!important;
+}
+
+#section .containerMarginal .teaser h3 {
+    color: #4C5A6D;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#section .containerMarginal .teaser .kurztext {
+    float: none;
+    width: auto;
+    margin: 0;
+}
+
+#section .containerMarginal .teaser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#section .containerMarginal .teaser ul li {
+    margin: 0 0 8px 0;
+}
+
+#section .containerMarginal .teaser ul.attachment li a, 
+#section .containerMarginal .teaser li.attachment a,
+#aside .cnavi .teaser ul.attachment a {
+    background: url(../../../images/bmwi2012/icon_download.gif) no-repeat 0 0;
+    padding: 3px 0 3px 20px;
+    margin: 3px 0;
+    display: block;
+}
+
+#section .containerMarginal .teaser a.linkExtern {
+    background: url(../../../images/bmwi2012/icon_linkextern.gif) no-repeat 0 6px;
+    padding: 3px 0 3px 20px;
+    margin: 3px 0;
+}
+
+
+/*Listen*/
+
+.searchform {
+    border-top: 1px solid #e1e3e6;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.searchform .listInputContainer, .searchform .left {
+    float: left;
+    margin-right: 16px;
+}
+
+.searchform .listInputContainer, .searchform .right {
+    float: left;
+    margin-right: 16px;
+}
+
+
+.searchform label {
+    color: #004f80;
+    font-size: 1.3em;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.searchform input,
+.searchform select {
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #e5edf2;
+    border: 0;
+    padding: 6px 8px;
+    margin: 0;
+    font-size: 1.0em;
+    color: #000;
+    position: relative;
+}
+
+.searchform .searchinput {
+    width: 300px;
+}
+
+.searchform select {
+    padding: 5px 3px;
+    line-height: 2.0em;
+}
+
+.searchform input.searchsubmit {
+    background: #003764 url(../../../images/bmwi2012/bg_input.gif) repeat-x 0 0;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 0;
+    display: inline-block;
+    margin: 1.7em 3px 0 0;
+    padding: 4px 7px;
+    cursor: pointer;
+    font-size: 1.1em;
+    position: relative;
+    bottom: 0px;
+}
+
+.searchform .right input.searchsubmit {
+    margin: 0 3px 0 10px;
+}
+
+#listFirstCharacterNavi {
+    clear: both;
+    border-top: 1px solid #e1e3e6;
+    padding: 30px 0;
+}
+
+#listFirstCharacterNavi input {
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #e5edf2;
+    border: 0;
+    padding: 4px 3px;
+    margin: 0 -1px 0 0;
+    font-size: 0.95em;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    color: #004f80;
+    position: relative;
+    cursor: pointer;
+}
+
+#listFirstCharacterNavi div {
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #004f80;
+    padding: 6px 6px 4px 6px;
+    margin: 0 -1px 0 0;
+    font-size: 1.1em;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    color: #fff;
+    position: relative;
+    top: 0px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/*Fotoreihe*/
+
+.containerList {
+    margin: 0;
+    padding: 0 0 10px 0;
+    list-style: none;
+    border-bottom: 1px solid #e1e3e6;
+}
+
+.containerList li {
+    width: 210px;
+    height: 250px;
+    overflow: visible;
+    float: left;
+}
+
+.containerList li.lastInRow {
+    clear: right;
+    width: 200px;		
+}
+
+.containerList li .listImage {
+
+}
+
+.containerList li .bgFoto, .containerList li .bgFotoreihe, .containerList li .bgVideo, .containerList li .bgAudio {
+    margin-bottom: 10px;
+    position: relative;
+    -moz-box-shadow: 0px 0px 10px #dcdcdc;
+    -webkit-box-shadow: 0px 0px 10px #dcdcdc;
+    box-shadow: 0px 0px 10px #dcdcdc;
+    border: 1px solid #fff;
+    text-align: center;
+    width: 198px;
+    height: 132px;
+    background: #e5edf2;
+}
+
+.containerList li .bgVideo,
+.containerList li .bgAudio {
+    height: 111px!important;
+}
+
+.containerList li .date {
+    font-size: 1.0em;
+    color: #4c5a6d;
+    padding: 0px 12px 3px 3px;
+}
+
+.containerList li .date p {
+    display: inline;
+}
+
+
+.containerList li h3 {
+    font-size: 1.05em;
+    padding: 0 12px 3px 3px;
+    font-family: 'BundesSansWeb',Arial,helvetica,sans-serif;	
+}
+
+
+.containerList li .bgFotoreihe span {
+    background: url(../../../images/bmwi2012/icon_fotoreihe.png) no-repeat 0 0;
+    display: block;
+    height: 30px;
+    margin-top: -34px;
+    position: absolute;
+    left: 168px;
+    width: 30px;
+    z-index: 100;
+}
+
+
+.containerList li .bgVideo span,
+.containerList li .bgAudio span {
+    background: url(../../../images/bmwi2012/icon_video.png) no-repeat 0 0;
+    display: block;
+    height: 30px;
+    margin-top: -35px;
+    position: absolute;
+    right: 4px;
+    top: 112px;
+    width: 30px;
+    z-index: 100;
+}
+
+
+.containerList li .bgAudio span {
+    background: url(../../../images/bmwi2012/icon_audio.png) no-repeat 0 0;
+}
+
+/*Suche**/
+
+#search .searchform {
+    background: #E5EDF2;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+    width: 900px;
+}
+
+#search .searchform #searchText {
+    background: #fff;
+    width: 528px;
+}
+
+#search .searchform input.searchsubmit {
+    margin: 0px 3px 0 0;
+}
+
+#search .searchform input.linkIntern {
+    color: #004f80;
+    font-weight: bold;
+	 cursor: pointer;
+}
+
+#search .searchdetail {
+    float: right;
+    width: 260px;
+    padding: 20px;
+    background: #e5edf2;
+}
+
+#search .searchdetail h3 {
+    color: #4C5A6D;
+    display: block;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+
+#search .searchdetail h4 {
+    color: #004f80;
+    font-weight: normal;
+    display: block;
+    font-size: 1.em;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+#search .searchdetail .formItem {
+    margin-bottom: 4px;
+}
+
+#search .searchdetail .formItem .checkbox {
+    margin-right: 4px;
+}
+
+.service .service .form .checkbox input,
+.service .service .form .checkbox label {
+	display:inline;
+	width:auto;
+	border:none;
+}
+
+.searchdetail div.date label {
+    display: inline-block;
+    width: 30px;
+    font-weight: bold;
+}
+
+#search .searchdetail .formItem input#searchDateTo, 
+#search .searchdetail .formItem input#searchDateFrom {
+    display: inline-block;
+    font-size: 0.8em;
+    margin-bottom: 4px;
+    margin-right: 135px;
+    padding: 2px;
+    width: 73px;
+    border: 1px solid #93b4c9;
+}
+
+
+#search .searchdetail .formItem input.searchSubmit {
+    background: url("../../../images/bmwi2012/bg_input.gif") repeat-x scroll 0 0 #003764;
+    border: 0 none;
+    border-radius: 4px 4px 4px 4px;
+    bottom: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    font-size: 1.1em;
+    margin: 0 3px 0 0;
+    padding: 4px 7px;
+    position: relative;
+}
+
+#search .searchresult {
+    float: left;
+    margin-right: 20px;
+    width: 620px;
+}
+
+#search .searchresult .tipWrapper {
+	background: #E5EDF2 url(../../../images/bmwi2012/bg_topteaser.gif) repeat-y right top;
+	width: 100%;
+	margin-bottom: 23px;
+}
+
+#search .searchresult .tips {
+    padding: 0px 16px 0 16px; 
+    margin: 0;
+	 width: 270px;
+	 float: left;
+}
+
+#search .searchresult .tips h2 {
+    font-size: 1.20em;
+    padding-top: 20px;
+	 color: #6b7582;
+	 font-family: 'BundesSansWebBold';
+	 margin-bottom: 10px;
+	 height: 2.4em;
+}
+
+
+#search .searchresult .tips ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 16px 0;
+}
+
+#search .searchresult .tips ul li {
+    margin: 0;
+    padding: 0 0 4px 0;
+    font-weight: bold;
+}
+
+#search .listView .eintragbox {
+    border-top: 1px solid #e1e3e6;
+    margin-top: -1px;
+}
+
+#search .sortAction {
+	padding: 10px 0 20px 0;
+	width: 100%;
+}
+
+#search .sortAction .label {
+	font-size: 1.1em;
+	float: left;
+}
+
+#search .sortAction ul {
+	display: inline-block;
+	list-style: none;
+	float: right;
+}
+
+#search .sortAction ul li {
+	display: inline-block;
+	list-style: none;
+	float: left;
+	margin-left: 10px;
+	margin-top: -6px;
+}
+
+#search .sortAction ul li input {
+    border: 0 none;
+    border-radius: 4px 4px 4px 4px;
+    color: #000000;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 6px 8px;
+    position: relative;
+	 background: #edeef0;
+	 cursor: pointer;
+}
+
+#search .sortAction ul li span.active {
+    border: 0 none;
+    border-radius: 4px 4px 4px 4px;
+    color: #004F80;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 7px 10px;
+    position: relative;
+	 background: #E5EDF2;
+	 display: inline-block;
+	 font-weight: bold;
+}
+
+#search .listView .searchresult table {
+    width: 620px;
+}
+
+
+
+.eintragbox {
+    clear: both;
+    padding: 20px 0;
+    width: 100%;
+}
+.eintragbox .left {
+    font-size: 1.2em;
+    float: left;
+}
+
+.eintragbox .pagination {
+    margin: 0;
+    position: static;
+    width: auto;
+    float: right;
+    text-align: right;
+    line-height: 2em;
+}
+
+
+.eintragbox .submitlinks {
+    background: #fff;
+    color: #004f80;
+    border: 0;
+    padding: 0 5px 0 2px;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    font-size: 1.05em;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+
+.listView {
+    width: 940px;
+}
+
+#section .listView {
+    width: 620px;
+}
+
+
+.listView table caption {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    height: 0;
+}
+
+
+.listView table {
+    border: 0;
+    margin: 0;
+    border-spacing: 0px;
+    padding: 0;
+    width: 946px;
+}
+
+#section .listView table {
+    width: 620px;
+}
+
+
+.listView table th {
+    background: #e5edf2 url(../../../images/bmwi2012/bg_table_head.gif) repeat-x 0 bottom;
+    padding: 8px 10px 10px 10px;
+    margin: 0;
+    font-weight: normal;
+    text-align: left;
+    vertical-align: top;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+
+.listView th .sort {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.listView th .sortTop, .listView  th .sortBottom{
+    display: inline-block;
+    width: 13px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.listView th .relevance {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 0 0 4px;
+    padding: 0;
+}
+
+
+
+.listView table tr td.seperator {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #e1e3e6;
+}
+
+.listView table tr td {
+    padding: 15px 10px;
+    margin: 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.listView table tr td .docTitle, .listView table tr td  .contentTyp {
+	text-transform: uppercase;
+}
+
+.listView table tr td div.download-links {
+    width: 180px;
+}
+
+.listView table tr td img.listImage {
+    -moz-box-shadow: 0px 0px 4px #777;
+    -webkit-box-shadow: 0px 0px 4px #777;
+    box-shadow: 0px 0px 4px #777;
+
+	margin-top: 2px;
+    border: 1px solid #fff;
+}
+
+
+.lightboxLink {
+    padding: 4px 2px;
+    width: 97px;
+}
+
+.lightboxLink a {
+    display: block;
+    font-size: 0.9em;
+    height: 13px;
+    text-align: right;
+    width: 75px;
+}
+.lightboxLink .hidden {
+    height: 0;
+    left: -9999px;
+    position: absolute;
+    top: -999px;
+    width: 0;
+}
+
+.listView table tr td h3 {
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.listView table tr td p  {
+    margin: 8px 0 0 0;
+}
+
+.listView table tr td .download a {
+    display: block;
+    background: url(../../../images/bmwi2012/icon_download.gif) no-repeat 0 0;
+    padding: 3px 0 3px 20px;
+	 white-space: nowrap;
+}
+
+
+.magazinListe table a {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/*Kontaktformular*/
+
+.form label {
+    color: #004f80;
+	 display: block;
+}
+
+.form input, .form select {
+    background: #e5edf2;
+    border: 0;
+    padding: 4px 3px;	
+    margin-top: 6px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+	 width: 360px;
+}
+
+.form input:focus, .form select:focus {
+    background: #003764 url(../../../images/bmwi2012/bg_input.gif) repeat-x 0 0;
+    color: #fff;
+}
+
+.form input#captcha, .form input#betreff {
+	 width: 455px;
+}
+
+.form textarea {
+    background: #e5edf2;
+    border: 0;
+    padding: 8px;
+    margin-top: 6px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+	 font-size: 1em;
+	 width: 446px;
+}
+
+.form textarea:focus {
+    background: #003764;
+    color: #fff;
+}
+
+.form input.cb {
+	background: none;
+}
+
+.form input[type='checkbox'] {
+	 width: auto!important;
+}
+
+.form input.sb {
+    background: #003764 url(../../../images/bmwi2012/bg_input.gif) repeat-x 0 0;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    color: #fff;
+	 cursor: pointer;
+	 width: auto;
+	 padding: 4px 6px;
+}
+
+.form .formError {
+	font-weight: bold;
+	color: red;
+	display: block;
+}
+
+/*Seiten Servicenavigation*/
+
+.pageService {
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.pageService li {
+    display: inline-block;
+	 float: left;
+    width: 90%;
+    position: relative;
+	 margin: 0 0 6px 0;
+	 padding: 0;
+	 overflow: hidden;
+}
+
+.pageService li.langenglish, .pageService li.langfrancais, .pageService li.langdeutsch {
+	width: 41%;
+}
+
+.pageService li.printview {
+
+}
+.pageService li.network {
+	width: 90%;
+}
+
+.pageService li.discuss {
+    background: url(../../../images/bmwi2012/icon_discuss.gif) no-repeat left top;
+	 width: 100%;
+	 margin: 0 0 4px 0;
+}
+
+.pageService li ul {
+    width: 220px;
+    z-index: 50;
+    top: 0px;
+    left: -3px;
+    position: relative;
+	 margin: 0;
+	 padding: 0;
+	 
+}
+
+.pageService li ul li {
+    float: left;
+    width: 33px;
+    overflow: hidden;
+	 margin: 0;
+}
+.pageService li ul li a {
+    display: block;
+    width: 30px;
+    height: 29px;
+    margin: 0px;	
+    padding: 0 0 0 40px;
+    overflow: hidden;
+    border-left: 3px solid #fff;
+	 position: relative;
+	 top: 0px;
+}
+
+.pageService li ul li.twitter a {
+    background: #e5edf2 url(../../../images/bmwi2012/icon_twitter.gif) no-repeat left center;
+}
+
+.pageService li ul li.facebook a {
+    background: #e5edf2 url(../../../images/bmwi2012/icon_facebook.gif) no-repeat left center;
+}
+
+.pageService li ul li.vz a {
+    background: #e5edf2 url(../../../images/bmwi2012/icon_studivz.gif) no-repeat left center;
+}
+
+.pageService li ul li.googleBookmarks a {
+    background: #e5edf2 url(../../../images/bmwi2012/icon_google.gif) no-repeat left center;
+}
+
+.pageService li ul li.delicious a {
+    background: #e5edf2 url(../../../images/bmwi2012/icon_delicious.gif) no-repeat left center;
+}
+
+.pageService li ul li.googlePlus a {
+    background: #e5edf2 url(../../../images/bmwi2012/icon_g_plus.gif) no-repeat left center;
+}
+
+.pageService li ul li.send2friend a {
+    background: #e5edf2 url(../../../images/bmwi2012/icon_send2friend.gif) no-repeat left center;
+}
+
+.pageService li ul li.xing a {
+    background: #e5edf2 url(../../../images/bmwi2012/icon_xing.gif) no-repeat left center;
+}
+
+
+.pageService li a {
+    display: block;
+    padding: 8px 0 8px 40px;
+    margin: 0px 5px 0 0;
+}
+
+.pageService li.discuss a {
+    display: block;
+    padding: 8px 0 8px 40px;
+}
+
+
+.pageService li.printview a {
+    background: url(../../../images/bmwi2012/icon_print.gif) no-repeat left center;
+}
+
+.pageService li.printviewfull {
+    background: url("../../../images/bmwi2012/icon_print.gif") no-repeat scroll left top transparent;
+    width: 100%;
+}
+
+.pageService li.network > span {
+    display: block;
+	 font-size: 1.0em;
+	 margin-bottom: 6px;
+}
+
+.pageService li.network > span.label {
+    color: #4C5A6D;
+}
+
+
+.pageService li.langenglish a {
+    background: url(../../../images/bmwi2012/icon_lang_en.gif) no-repeat left center;
+}
+
+.pageService li.langfrancais a {
+    background: url(../../../images/bmwi2012/icon_lang_fr.gif) no-repeat left center;
+}
+
+.pageService li.langdeutsch a {
+    background: url(../../../images/bmwi2012/icon_lang_de.gif) no-repeat left center;
+}
+
+.siteNavigation .btnPrint a img {
+	position: relative;
+	bottom: -8px;
+	margin-right: 5px;
+}
+
+
+/* Footer */
+
+#footer {
+	margin-top: 10px;
+}
+
+#footer,  #banner, #copyright {
+    clear: both;
+    background: #E5EDF2;
+	 margin: 0 auto;
+	 width: 940px;
+	 padding: 20px 170px;
+}
+
+#banner, #copyright {
+    border-top: 1px solid #fff;
+}
+
+
+#banner ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#banner ul li {
+    float: left;
+    margin-right: 40px;
+}
+
+#banner ul li.last {
+    margin-right: 0;
+}
+
+
+#footerWrapper, #bannerWrapper, #copyright p {
+    width: 940px;	
+    margin: 0 auto!important;
+    text-align: left;
+}
+
+
+
+#footer h1, #banner h1, 
+#footer h2, #banner h2 {
+    color: #4c5a6d;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+} 
+
+#footerWrapper h2 {
+    font-size: 1em;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    margin-bottom: 8px;
+} 
+
+#footerWrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 172px;
+    padding: 0 20px 0 0;
+    float: left;
+}
+
+#footerWrapper ul.last {
+    padding: 0;
+}
+
+#footerWrapper ul li {
+    margin: 0;
+    padding: 0 0 6px 0;
+    list-style: none;
+    display: block;	
+}
+
+#footerWrapper ul li * {
+    color: #484949;
+}
+
+#copyright p {
+    margin: 0;
+    padding: 0;
+    width: 
+}
+
+
+/**********************************************************************************************************************
+ === JS Plugins===
+**********************************************************************************************************************/
+
+/*SLIDES*/
+
+#slides {
+    position:relative;
+    width:940px;
+    height:420px;
+    z-index:100;
+    clear: both;
+	border-top: 1px solid #fff;
+	background: #eeeeed;
+	margin: 0 auto;
+	padding: 0 170px;
+}
+
+.slide {
+    display: none;
+	position:relative;
+}
+
+#slides .current {
+    display: block!important;
+}
+
+.anythingSlider {
+    width:940px;
+    height:420px!important;
+    list-style: none;
+    /* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/***********************
+  COMMON SLIDER STYLING
+ ***********************/
+/* Overall Wrapper: 45px right & left padding for the arrows, 28px @ bottom for navigation */
+div.anythingSlider {
+    display: block;
+    margin: 0 auto;
+    overflow: visible !important; /* needed for Opera and Safari */
+    position: relative;
+    padding: 0;
+}
+/* anythingSlider viewport window */
+div.anythingSlider .anythingWindow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/* anythingSlider base (original element) */
+.anythingBase {
+    background: transparent;
+    list-style: none;
+    position: absolute;
+    overflow: visible !important;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+/* all panels inside the slider */
+.anythingBase .panel {
+    background: transparent;
+    display: block;
+    overflow: hidden;
+    float: left;
+    padding: 0;
+    margin: 0;
+    height:420px!important;
+    position: relative;
+}
+
+/* Navigation Arrows */
+div.anythingSlider .arrow {
+    top: 455px;
+    position: absolute;
+    display: block;
+}
+div.anythingSlider .arrow a {
+    display: block;
+    height: 10px;
+    margin: -70px 0 0 0; /* half height of image */
+    width: 9px;
+    text-align: center;
+    outline: 0;
+}
+/* hide text, target the span so IE7 doesn't text-indent the link */
+div.anythingSlider .arrow a span { display: block; text-indent: -9999px; }
+/* back arrow */
+div.anythingSlider .back { left: 415px; }
+div.anythingSlider .back a { background: url(../../../images/bmwi2012/arrow-prev.png) no-repeat 0 0;}
+div.anythingSlider .back.disabled { display: none; } /* disabled arrows, hide or reduce opacity: opacity: .5; filter: alpha(opacity=50); */
+/* forward arrow */
+div.anythingSlider .forward { right: 415px; }
+div.anythingSlider .forward a { background: url(../../../images/bmwi2012/arrow-next.png) no-repeat 0 0;}
+div.anythingSlider .forward.disabled { display: none; } /* disabled arrows, hide or reduce opacity: opacity: .5; filter: alpha(opacity=50); */
+
+/* Navigation Links */
+div.anythingSlider .anythingControls { outline: 0; display: none; position: absolute; top: 384px; left: 434px;}
+div.anythingSlider .anythingControls ul { margin: 0; padding: 0; float: right; }
+div.anythingSlider .anythingControls ul li { display: inline; }
+div.anythingSlider .anythingControls ul a {
+    background-image: url("../../../images/bmwi2012/pagination.png");
+    background-position: 0 -12px;
+    display: block;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 12px;
+    width: 12px;
+}
+
+div.anythingSlider .anythingControls ul a.cur {
+    background-image: url(../../../images/bmwi2012/pagination.png) ;
+    background-position: 0 0;
+    display: block;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 12px;
+    width: 12px;
+}
+
+/* Navigation size window */
+div.anythingSlider .anythingControls .anythingNavWindow { overflow: hidden; float: left; }
+
+/* slider autoplay right-to-left, reverse order of nav links to look better */
+div.anythingSlider.rtl .anythingControls ul a { float: right; } /* reverse order of nav links */
+div.anythingSlider.rtl .anythingControls ul { float: left; }    /* move nav link group to left */
+div.anythingSlider.rtl .anythingWindow {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+/* div.anythingSlider.rtl .start-stop { float: right; } */ /* move start/stop button - in case you want to switch sides */
+
+/* Autoplay Start/Stop button */
+div.anythingSlider .start-stop {
+    background: url(../../../images/bmwi2012/pagination_start_stop.png) no-repeat 0 -9px;
+    padding: 0;
+    width: 9px;
+    height: 9px;
+    text-decoration: none;
+    float: left;
+    z-index: 100;
+    outline: 0;
+    margin: 2px 4px 0 0;
+}
+div.anythingSlider .playing {
+    background: url(../../../images/bmwi2012/pagination_start_stop.png) no-repeat 0 0px;
+}
+
+
+div.anythingSlider .start-stop span {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+
+.caption {
+    background: #FFFFFF;
+    bottom: 13px;
+    color: #000000;
+    font-size: 1.1em;
+    left: 13px;
+    min-height: 90px;
+    padding: 15px 20px 10px;
+    position: absolute;
+    text-shadow: none;
+    width: 875px;
+    z-index: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    -moz-opacity:0.90;
+    -khtml-opacity: 0.90;
+    opacity: 0.90;
+}
+
+.caption h2 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+	font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+}
+
+/*
+        Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+    position:relative;
+    top:-200px;
+    left:-45px;
+    width:48px;
+    height:49px;
+    display:block;
+    z-index:101;
+}
+
+#slides .next {
+    left:953px;
+    top:-248px;
+}
+
+/*
+        Pagination
+*/
+
+.pagination {
+    margin: 0;
+    width:100px;
+    position: relative;
+    margin-top: -129px;
+    left: 40px;
+    z-index: 200;
+}
+
+.pagination li {
+    float:left;
+    margin:0 1px;
+    list-style:none;
+}
+
+.pagination li a {
+    display:block;
+    width:12px;
+    height:0;
+    padding-top:12px;
+    background-image:url(../../../images/bmwi2012/pagination.png);
+    background-position:0 0;
+    float:left;
+    overflow:hidden;
+}
+
+.pagination li.current a {
+    background-position:0 -12px;
+}
+
+/*
+        Slider/Einzelsicht
+*/
+.photoArray {
+    position: relative;
+    left: 43px;    
+	width: 550px!important;
+}
+
+#section .bx-window {
+	width: 536px!important;
+}
+
+.photoArray ul.photoList {
+    margin: 0!important;
+    padding: 0!important;
+    list-style: none;
+} 
+
+.photoArray li {
+    height: 205px;
+    padding: 0!important;
+    list-style: none;
+	 float: left;
+} 
+
+.photoArray li > a {
+    margin: 0 4px;	
+    padding: 2px 0 4px 0;
+    background:url(../../../images/bmwi2012/bg_carusell.gif) no-repeat 0 0;
+    overflow: hidden;	
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    width: 170px;
+    height: 130px;
+} 
+
+.photoArray li  span.title a {
+	display: block;
+} 
+
+.photoArray .bx-prev,
+.photoArray .bx-next {
+    background:url(../../../images/bmwi2012/arrow-prev_l.png) no-repeat 0 0;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 60px;
+    left: -9px;
+    z-index: 50;
+} 
+
+.photoArray .bx-next {
+    background:url(../../../images/bmwi2012/arrow_next_l.png) no-repeat 0 0;
+    left: 546px;
+} 
+
+#aside .photoArray .bx-next {
+    left: 164px;
+} 
+
+.coverflow .photoArray .bx-next {
+    left: 164px;
+} 
+
+
+/*Karussell in der Einzelsicht**/
+
+.containerText .coverflowTeaserRow {
+	border-top: 1px solid #E1E3E6;
+}
+
+.containerText .coverflowTeaserRow .kurztext,
+.containerText .coverflowTeaserRow .title {
+	font-size: 0.9em;
+}
+
+#content .containerText .coverflowTeaserRow h2 {
+    color: #6B7581;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 8px;
+}
+
+.coverflowTeaserRow a, .coverflowTeaserRow a:link, .coverflowTeaserRow a:visited, .coverflowTeaserRow a:active, .coverflowTeaserRow a:hover, .coverflowTeaserRow a:focus {
+    color: #004F80!important;
+}
+
+ .coverflowTeaserRow .photoArray .bx-next {
+    left: 546px;
+} 
+
+/*Karusell im contentbereich
+/DE/Themen/Energie/Stromnetze/kampagne-energiewende.html*/
+
+.coverflowTeaserRow .photoArray {
+	 width: 536px!important;
+}
+
+.coverflowTeaserRow .photoArray  li {
+	 height: 170px;
+}
+
+.coverflowTeaserRow .photoArray  li a  {
+    background:url(../../../images/bmwi2012/bg_bxslider_2.jpg) no-repeat 0 0;
+	 height: 101px;
+	 padding: 2px 0;
+	 width: 172px;
+}
+
+.coverflowTeaserRow .photoArray li .title {
+	position: relative;
+	z-index: 200;
+	top: auto;
+	left: auto;
+   margin: -52px 0 0 5px;
+   padding: 0 0 20px;
+	width: 170px;
+	background-position: 134px 12px;
+}
+
+
+.coverflowTeaserRow .photoArray  li .title a  {
+	 background: none;
+	 height: auto;
+	 width: auto;
+	 text-align: left;
+	 display: block;	
+	 padding: 50px 0 0 0;
+}
+
+.coverflowTeaserRow .photoArray .bx-prev, .coverflowTeaserRow .photoArray .bx-next {
+    top: 40px;
+}
+
+
+/*Karusell in der Marginalspalte
+/DE/Themen/Energie/Stromnetze/kampagne-energiewende.html*/
+
+.portletCoverflowFull {
+	position: relative;
+	height: 350px;
+}
+
+
+.mediaPager {
+	position: absolute;
+	left: 17px;
+	width: 260px;
+	top: 183px;
+}
+
+.mediaPager .thumb-item {
+	float: left;
+	position: relative;
+	width: 86.6667px;
+}
+
+.mediaPager li a {
+	border: 2px solid #fff;
+	display: inline-block;
+	height: 42px;
+	width: 75px;
+	box-shadow: 0 0 2px #999999;
+	overflow: hidden;
+	margin: 3px 0 0 3px;
+}
+
+.mediaPager li .pager-active a {
+	border: 2px solid #004f80;
+}
+
+
+.mediaPager .bx-prev, .mediaPager .bx-next {
+    background:url(../../../images/bmwi2012/arrow-prev_l.png) no-repeat 0 0;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 17px;
+    left: -18px;
+    z-index: 50;
+} 
+
+.mediaPager .bx-next {
+    background:url(../../../images/bmwi2012/arrow_next_l.png) no-repeat 0 0;
+    left: 269px;
+} 
+
+
+.portletCoverflowFull .videoContainer {
+	width: 297px;
+	height: 167px;
+}
+
+.portletCoverflowFull ul li {
+	position: relative;
+}
+
+.portletCoverflowFull .bx-viewport {
+	padding-bottom: 100px;
+}
+
+.portletCoverflowFull .bx-viewport .mediaList .projekktor {
+ height:167px!important;
+}
+
+
+.portletCoverflowFull ul li a span {
+	background: url(../../../images/bmwi2012/icon_video.png) no-repeat 0 0;
+   display: block;
+   height: 30px;
+   margin-top: -35px;
+   position: absolute;
+   right: 14px;
+   top: 163px;
+   width: 30px;
+   z-index: 100;
+}
+
+.portletCoverflowFull ul li span.untertitel {
+	position: relative;
+	top: 80px;
+	height: 100px;
+	z-index: 100;
+}
+
+
+
+/*Slider 3teilige Marginal**/
+
+#aside  .fotoreihe {
+    margin-top: 16px!important;
+}
+
+#aside  .photoArray {
+    left: 0px;
+	 width: 200px!important;
+}
+
+#aside .fotoreihe.portletCoverflow .photoArray {
+	 width: 200px!important;
+	 left: 58px;
+}
+
+#aside .fotoreihe .photoArray {
+	 width: 288px!important;
+	 left: 8px;
+}
+
+
+
+
+#aside  .photoArray .bx-window {
+    -moz-box-shadow: 0px 0px 5px #5e5e5e;
+    -webkit-box-shadow: 0px 0px 5px #5e5e5e;
+    box-shadow: 0px 0px 5px #5e5e5e;
+}
+
+#aside .teaser ul.photoList li {
+    width: 94px;
+    height: 70px;
+    background: #e4eef0;
+    border: 1px solid #fff;
+}
+
+#aside .teaser ul.photoList li a {
+    width: 94px;
+    height:70px;
+    background: none;
+	 padding: 0;
+}
+
+#aside .photoArray .bx-prev, #aside .photoArray .bx-next {
+    left: -12px;  
+    background:url(../../../images/bmwi2012/arrow-prev_xs.png) no-repeat 0 0;
+    width: 31px;
+    top: 27px;
+    height: 31px;
+}
+
+#aside .photoArray .bx-next {
+    left: 292px;
+    background:url(../../../images/bmwi2012/arrow-next_xs.png) no-repeat 0 0;
+}
+
+
+/*Slider einteilig*/
+
+#aside  .portletCoverflow .photoArray {
+    left: 59px;
+}
+
+#aside  .portletCoverflow .photoArray .bx-window {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#aside .teaser .portletCoverflow ul.photoList li {
+    height: 175px;
+    margin: 0 0 8px;
+    text-align: center;
+    vertical-align: middle;
+    width: 182px;
+    background: none;
+}
+
+#aside .teaser .portletCoverflow ul.photoList li a {
+    height: 124px;
+    width: 182px;
+	padding: 4px 0;
+}
+
+#aside .portletCoverflow .photoArray li img {
+    border: 1px solid #fff;
+    -moz-box-shadow: 0px 0px 5px #5e5e5e;
+    -webkit-box-shadow: 0px 0px 5px #5e5e5e;
+    box-shadow: 0px 0px 5px #5e5e5e;
+}
+
+#aside .portletCoverflow .photoArray .bx-prev, 
+#aside .portletCoverflow  .photoArray .bx-next {
+    background:url(../../../images/bmwi2012/arrow-prev_xs.png) no-repeat 0 0;
+    height: 11px;
+    left: -7px;
+    top: 61px;
+    height: 11px;
+}
+
+#aside .portletCoverflow .photoArray .bx-next {
+    left: 198px;
+    background:url(../../../images/bmwi2012/arrow-next_xs.png) no-repeat 0 0;
+}
+
+#aside .portletCoverflow .photoArray li a {
+    background:none
+} 
+
+
+#aside .teaser .portletCoverflow ul.photoList li .title a {
+    display: inline-block;
+    height: auto!important;
+    width: auto!important;
+	 text-align: center;
+}
+
+/*Coverflow Publikationen*/
+
+#aside .portletCoverflowHorizontalBreit{
+	margin-top: 0 !important;
+}
+
+#aside .portletCoverflowHorizontal .photoArray, #aside .portletCoverflowHorizontalBreit .photoArray {
+	left: 0; 
+	width: 300px !important;
+}
+
+#aside .portletCoverflowHorizontal .bx-wrapper, #aside .portletCoverflowHorizontalBreit .bx-wrapper {
+    border: 1px solid #fff;
+    background: #fff;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+#aside .portletCoverflowHorizontal .bx-window, #aside .portletCoverflowHorizontalBreit .bx-window {
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+#aside .portletCoverflowHorizontal ul.photoList li, #aside .portletCoverflowHorizontalBreit ul.photoList li {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+
+#aside .portletCoverflowHorizontalBreit ul.photoList li {
+	height: 220px;
+}
+
+#aside .portletCoverflowHorizontal ul.photoList li a {
+    float: left;
+    width: 96px;
+    height: auto;
+    background: none;
+	 padding: 4px 0!important;
+	 margin: 0 5px 0 0!important;
+}
+
+#aside .portletCoverflowHorizontalBreit ul.photoList li a {
+    float: left;
+    width: 300px;
+    height: auto;
+    background: none;
+	 padding: 4px 4px !important;
+	 margin: 0 5px 0 0!important;
+}
+
+#aside .portletCoverflowHorizontal ul.photoList li a img, #aside .portletCoverflowHorizontalBreit ul.photoList li a img {
+    -moz-box-shadow: 0px 0px 5px #5e5e5e;
+    -webkit-box-shadow: 0px 0px 5px #5e5e5e;
+    box-shadow: 0px 0px 5px #5e5e5e;
+}
+
+#aside .portletCoverflowHorizontalBreit ul.photoList li a img {
+   float:left;
+}
+
+
+#aside .portletCoverflowHorizontal ul.photoList li .title{
+    display: block;
+    text-align: left;
+    width: 180px;
+    float: left;
+    overflow: hidden;
+}
+
+#aside .portletCoverflowHorizontalBreit ul.photoList li .title {
+    display: block;
+    text-align: left;
+    width: 290px;
+    float: left;
+    overflow: hidden;
+}
+
+#aside .portletCoverflowHorizontal ul.photoList li .title a, #aside .portletCoverflowHorizontalBreit ul.photoList li .title a {
+    width: auto;
+    float: none;
+    font-size: 1.0em;
+    margin-left: 0;
+    vertical-align: top;
+    text-align: left;
+    padding: 0;
+    overflow: none;
+    display: block;
+    width: 156px;
+}
+
+#aside .portletCoverflowHorizontal .photoArray .bx-window, #aside .portletCoverflowHorizontalBreit .photoArray .bx-window {
+	margin-bottom: 20px;
+}
+
+#aside .portletCoverflowHorizontal .photoArray .bx-prev, #aside .portletCoverflowHorizontal .photoArray .bx-next,
+#aside .portletCoverflowHorizontalBreit .photoArray .bx-prev, #aside .portletCoverflowHorizontalBreit .photoArray .bx-next {
+    background:url(../../../images/bmwi2012/arrow-prev_xs.png) no-repeat 0 0;
+    width: 11px;
+    height: 11px;
+	 position: static;
+	 display: inline-block;
+	 margin: 0 5px 0 0;
+}
+
+#aside .portletCoverflowHorizontal .photoArray .bx-next, #aside .portletCoverflowHorizontalBreit .photoArray .bx-next {
+    background:url(../../../images/bmwi2012/arrow-next_xs.png) no-repeat 0 0;
+	 margin: 0 0 0 5px;
+}
+
+#aside .portletCoverflowHorizontal .bx-pager{
+	margin-top: 20px;
+}
+
+#aside .portletCoverflowHorizontalBreit .bx-pager {
+    display: inline-block;
+	position: relative;
+    top: -2px;
+	color: #004F80;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+}
+
+#aside .portletCoverflowHorizontal .bx-wrapper .bx-pager .bx-pager-item, #aside .portletCoverflowHorizontalBreit .bx-wrapper .bx-pager .bx-pager-item, .bx-default-pager, .bx-controls-direction {
+    display: inline-block;
+}
+#aside .portletCoverflowHorizontalBreit .bx-pager-item{
+	position: relative;
+    top: 2px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: url(../../../images/bmwi2012/pagination.png) no-repeat 0 -12px;
+	padding: 0 4px;
+	text-decoration: none;
+	height: 12px;
+	width: 5px;
+	display: inline-block;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: url(../../../images/bmwi2012/pagination.png) no-repeat 0 0px;
+}
+
+/*CoverflowMediathek 3 Elemente*/
+
+.coverflowMediathek {
+    padding-bottom: 20px;
+}
+
+.coverflowMediathek .photoArray {
+    left: 11px!important;
+	 width: 440px!important;
+}
+
+.coverflowMediathek .photoArray .bx-prev, .coverflowMediathek .photoArray .bx-next {
+    left: -11px;  
+    background:url(../../../images/bmwi2012/arrow-prev_xs.png) no-repeat 0 0;
+    width: 31px;
+    top: 54px;
+    height: 31px;
+}
+
+.coverflowMediathek .photoArray .bx-next {
+    left: 440px;
+    background:url(../../../images/bmwi2012/arrow-next_xs.png) no-repeat 0 0;
+}
+
+.coverflowMediathek .photoArray li a {
+    width: 138px;
+	 height: auto;
+    background: none;
+    padding: 8px 4px 17px 4px!important;
+    margin: 0;	 
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    overflow: hidden;
+    background:url(../../../images/bmwi2012/bg_carusell_mediathek.gif) no-repeat 0 0;
+} 
+
+.coverflowMediathek .photoArray li {
+    width: 146px;
+    height: 118px;
+
+}
+
+.coverflowMediathek .photoList li.bgVideo a {
+    padding-top:21px !important;     
+}
+
+/*Success Suche*/
+#exposeMask {
+    background:#485b69!important;
+}
+
+#searchResults {
+    color:#000;
+    position:absolute;
+    top: 32px;
+    left:-1px;
+    z-index:9999;
+    display: none;		
+    margin-bottom: -10px;
+    /* CSS3 styling for latest browsers */ 
+    -moz-box-shadow:3px 3px 5px 2px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+#searchResults,
+#searchResults .listContainer {
+    width: 368px;
+}
+
+#searchResults h3 {
+    background: #004f80;
+    color: #fff;
+    font-size: 1em;
+    font-weight:bold;
+    padding: 5px 5px 5px 10px;
+    margin: 0;
+}
+
+#searchResults h3 #searchResultClose {
+    background: url(../../../images/bmwi2012/icon_close.gif) center left no-repeat!important;
+    display: block!important;
+    float: none;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+
+#searchResults .resultList {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    display: block;
+    width: auto;
+    position: static;
+}
+
+#searchResults .resultList li {
+    margin: 0;
+    padding:4px 12px;
+    display: block;
+    float: none;
+    background: #fff;
+}
+
+#searchResults .resultList li.indent {
+    padding-left:76px;
+}
+
+#searchResults a {
+    display: inline!important;
+    background: none!important;
+    color: #385885!important;    
+}
+
+#searchResults .listContainer .linkIntern {
+    display: inline-block!important;   
+    padding: 5px 10px 5px 18px!important;
+    text-align: right;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    display: block!important;
+    text-align: right;
+    background: #004f80!important;  
+    color: #fff!important;
+}
+
+#searchResults p {
+    padding: 4px 0 0 0;
+}
+
+#searchResults .listContainer {
+    margin: 0;
+    padding:8px 0 0 0;
+    list-style: none;
+    background: #fff;
+    display: inline-block;
+}
+
+#searchResults .listContainer:after {
+    display: none;
+}
+
+#searchResults p.emptyResult {
+    float:none;
+    padding:4px 12px;
+    width:auto;
+}
+
+#searchResults a.imgLink {
+    float:left;
+    margin-right: 10px;
+    border: 1px solid #e1e3e6;
+}
+
+#searchResults a.imgLink img {
+    display: inline;
+}
+
+#searchResults a.more {
+    display:block;
+    text-align:right;
+    margin:10px;
+}
+
+#searchResults a.more img {
+    margin-right:4px;
+}
+
+#searchResults li p img {
+    display:none;
+}
+
+/*Lexikon Tooltip*/
+.tp {
+	position: relative;
+	border-bottom: 1px dotted #004F80;
+}
+
+
+.tp:hover, .tp:hover:focus,  .tp:hover:active {	
+	border-bottom: 1px dotted #004F80;
+}
+
+
+.tooltip {
+    border-bottom: 1px solid #004f80;
+	 background: url(../../../images/bmwi2012/bg_tooltip.png) no-repeat left top transparent;
+    display: none;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: -2px;
+    padding: 15px 0 4px;
+    position: absolute;
+    width: 220px;
+    z-index: 100;
+	 font-size: 0.9em;
+}
+
+.tooltipLoad {
+	 width: 210px;	
+	 height: 120px;
+	 position: absolute;	
+}
+
+.tooltipMargin {
+    height: 150px;
+    margin: 0 0 0 8px;
+    overflow-x: auto;
+    position: absolute;
+    width: 210px;
+}
+
+
+.containerText .containerTextMargin p .tooltip .tooltipMargin p, .tooltip .tooltipMargin p {
+    display: block !important;
+    margin-bottom: 8px !important;
+    margin-top: 8px !important;
+}
+
+.containerText .containerTextMargin p .tooltip .tooltipMargin p, .tooltip .tooltipMargin p {
+    font-weight: normal !important;
+}
+
+
+
+.tooltip span {
+	font-weight: normal!important;
+}
+
+.tooltip .subheadline,
+.tooltip .listenhead {
+	font-weight: bold!important;
+}
+
+
+/**********************************************************************************************************************
+ === PRINT VIEW ===
+**********************************************************************************************************************/
+
+body.print {
+    background: #fff;
+    font-size: 80%;
+    padding: 20px 0 0 0;
+}
+
+body.print .containerMarginal * {
+    float: none!important
+}
+
+body.print .print {
+    width: 680px;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+body.print .print h1 {
+    color: #6B7581;
+    font-family: 'BundesSansWeb',Verdana,Helvetica,sans-serif;
+    font-size: 2.15em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding: 0.4em 0 0;
+}
+
+body.print .print h2 {
+    color: #6B7581;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 16px;
+}
+
+body.print .print h3 {
+    color: #333333;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 16px;
+}
+
+body.print .print h3 {
+    color: #333333;
+    font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif;
+    font-size: 1.0em;
+    margin-bottom: 16px;
+}
+
+body.print .print .containerText ul,
+body.print .print .containerText ol {
+    margin: 0 0 10px 20px;
+}
+
+body.print .print .containerText li{
+    margin: 0 0 8px 0;
+}
+
+body.print .print .containerMarginal .teaser  {
+    display: block;
+}
+
+body.print .print .containerMarginal .teaser h3 {
+    color: #4C5A6D;
+    display: block;
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-family: 'BundesSansWeb',Arial,helvetica,sans-serif;
+}
+
+body.print .print .containerMarginal .teaser ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+body.print .print .containerMarginal .teaser ul li {
+    margin: 0 0 8px;
+}
+
+body.print .print .containerMarginal .teaser .kurztext {
+    float: none;
+    width: auto;
+}
+
+body.print .print .containerText .coverflowTeaserRow {
+    width: 100%;
+}
+
+/**********************************************************************************************************************
+ === Video Player ===
+**********************************************************************************************************************/
+
+.topTeaser .projekktor {
+	width: 279px;
+	height: 157px;
+}
+
+.businessCardItem .projekktor {
+	width: 460px;		
+	height: 259px;
+}
+
+.singleView #section .containerText .projekktor {
+	width: 480px;
+	height: 270px;
+}
+
+
+#aside .teaser .projekktor {
+	width: 298px;
+	height: 168px;
+}
+
+.singleView #section .containerMarginal .projekktor {
+	width: 279px;
+	height: 157px;
+}
+
+/** Ausschreibungen **/
+p.basisdata{
+	line-height: 0.4em;
+	font-size: 1.07em;
+}
+
+p.error{
+	color: red;
+}
+
+/** siteNavigation **/
+#content .containerText .siteNavigation .btnBack a{
+	background: url("../../../images/bmwi2012/arrow-prev_xs.png") no-repeat scroll left center transparent;
+	padding: 0 0 2px 20px;
+}
+#content .containerText .siteNavigation .btnForward a{
+	background: url("../../../images/bmwi2012/arrow-next_xs.png") no-repeat scroll right center transparent;
+	padding: 0 20px 2px 0;
+	float: right;
+}
+
+/** LinkFarbe in Einzelansichten �ndern **/
+#section .containerText a, 
+#section .containerText a:link, 
+#section .containerText a:visited, 
+#section .containerText a:active, 
+#section .containerText a:hover, 
+#section .containerText a:focus{
+ color: #0975ba;
+}
+
+
+#section .containerText ul.availability li.attachment a,
+#section .containerText ul.availability li.attachment a:link,
+#section .containerText ul.availability li.attachment a:visited,
+#section .containerText ul.availability li.attachment a:active,
+#section .containerText ul.availability li.attachment a:hover,
+#section .containerText ul.availability li.attachment a:focus{
+ color: #004F80;
+}
+
+.accordionTrigger {
+	background-image:url(../../../images/bmwi2012/icon_arrow_0.gif);
+	background-position: 100% 0;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.accordionTrigger.accordionActive {
+	background-image:url(../../../images/bmwi2012/icon_arrow_1.gif);	
+}
+
+#content .containerText  .accordion .accordionTrigger {
+	background-image:url(../../../images/bmwi2012/navi_1_2.gif);
+	background-position: left 4px;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+#content .containerText  .accordion .accordionTrigger.accordionActive {
+	background-image:url(../../../images/bmwi2012/icon_arrow_0.gif);	
+}
+
+
+
+.docTypTextsammlung  h2.accordionTrigger,
+#content .containerText h3.accordionTrigger,
+#content .containerText .accordionTrigger h3 {
+	color: #0975BA!important;
+	font-size: 1em!important;
+	font-weight: normal!important;
+	font-family: 'BundesSansWeb',Arial,helvetica,sans-serif!important;
+	background-position: 0 5px!important;
+	padding: 0px 0px 0px 20px;
+}
+
+.docTypTextsammlung  h2.accordionTrigger.accordionActive,
+#content .containerText  h3.accordionTrigger.accordionActive ,
+#content .containerText .accordionTrigger.accordionActive h3   {
+	font-family: 'BundesSansWebBold',Arial,helvetica,sans-serif!important;
+}
+
+#content .containerText .accordionTrigger h3 {
+	margin-bottom: 8px;
+}
+
+
+#content .containerText .accordionTrigger p {
+	padding: 0px 0px 20px 0px;
+}
+
+/** Gesetzeskarte**/
+
+.accordionContent .searchform {
+	border: 0;
+} 
+
+.accordionContent .listInputContainer {
+	width: 193px;
+	margin-right: 20px; 
+}
+
+.accordionContent .listInputContainer.last{
+	margin-right: 0px!important; 
+}
+
+
+.accordionContent .listInputContainer span {
+	display: inline-block;
+	background-color: #e5edf2;
+ -webkit-border-top-left-radius: 4px;
+ -webkit-border-bottom-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+ -webkit-border-bottom-right-radius: 4px;
+ -moz-border-radius-topleft: 4px;
+ -moz-border-radius-bottomleft: 4px;
+ -moz-border-radius-topright: 4px;
+ -moz-border-radius-bottomright: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+ -webkit-appearance: none;	
+  margin: 0 0 10px 0;
+  padding: 5px 8px 5px 8px;
+  vertical-align: middle;
+  width: 177px;
+  cursor: pointer;
+}
+
+.accordionContent .listInputContainer span.enableRadio {
+	background-color: #004F80;
+}
+
+
+.accordionContent .listInputContainer span input,
+.accordionContent .listInputContainer span label {
+	float: left;
+
+}
+.accordionContent .listInputContainer span input {
+	margin: 5px 5px 0 0;
+}
+
+.accordionContent .listInputContainer span label {
+	font-size: 1.05em;	
+	margin: 3px 0;
+	cursor: pointer;
+	width: 150px;	
+}
+
+.js .accordionContent .listInputContainer span label {
+	width: 177px;	
+	height: 1.3em;
+}
+
+
+.js .accordionContent .listInputContainer span label {
+	width: 177px;
+}
+
+.accordionContent .listInputContainer span img {
+	margin: -2px 5px 0 0;
+	float: left;
+}
+.accordionContent .listInputContainer span.gkThemaUebertragung img {
+	margin-top: -4px;
+}
+
+.accordionContent .listInputContainer span.enableRadio label {
+	color: #fff;
+   text-shadow: 0.2em 0.2em 0.5em #fff;
+}
+
+.js .accordionContent .listInputContainer .gkAll {
+    position: absolute!important;
+    top: -9999px;
+    left: -9999px;
+}
+
+
+.accordionContent h2 {
+    color: #6B7581;
+    font-family: 'BundesSansWeb',Verdana,Helvetica,sans-serif;
+    font-size: 1.7em;
+    font-weight: normal;
+    margin: 5px 0 -10px 0;
+    padding: 0.4em 0 0;
+}
+
+.accordionContent h3.h {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-weight: bold;
+	background: #004f80;
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+
+.accordionContent h3.h img, .accordionContent h3.h .gkHeadline {
+	float: left;
+	margin-right: 5px;
+}
+
+.accordionContent h3.h .gkHeadline {
+	width: 450px;
+	margin-top: 3px;
+}
+
+.accordionContent h3.h span.gkIcons {
+	float: right;
+}
+
+.accordionContent h3.h .gkIconsPrint {
+	display: none;
+}
+
+
+
+
+h3 a.trigger {
+	display:inline-block!important; 
+	background: #004f80 no-repeat url(../../../images/bmwi2012/icon_gk_trigger_1.gif) 600px 10px;
+	color: #fff;
+	padding: 5px 20px 5px 4px;
+	width: 596px;
+}
+
+h3 a.trigger.open {
+	background: #004f80 no-repeat url(../../../images/bmwi2012/icon_gk_trigger_0.gif) 600px 10px;
+}
+
+
+.accordionContent h4.h {
+	font-size: 1.0em;
+	font-weight: normal;
+	margin: 10px 7px;
+	display: inline-block;
+
+}
+
+
+h4 a.trigger {
+	background: #fff;
+	color: #004f80;
+	display: inline-block;
+	padding: 5px 8px;
+	text-decoration: none!important;
+ -webkit-border-top-left-radius: 4px;
+ -webkit-border-bottom-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+ -webkit-border-bottom-right-radius: 4px;
+ -moz-border-radius-topleft: 4px;
+ -moz-border-radius-bottomleft: 4px;
+ -moz-border-radius-topright: 4px;
+ -moz-border-radius-bottomright: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+ -webkit-appearance: none;	
+}
+
+h4 a.trigger.open {
+	background: #004f80;
+	color: #fff;
+   text-shadow: 0.1em 0.1em 0.2em #fff;
+	text-decoration: none!important;
+}
+
+
+
+.accordionContent h5.h {
+	color: #6b7581;
+	font-size: 1.0em;
+	font-weight: bold;
+	background: #fff;
+	width: 100%;
+	margin: 0;
+   border-bottom: 1px solid #e5edf2;
+}
+
+.accordionContent h5.h img, .accordionContent h5.h .gkHeadline {
+	float: left;
+	margin-right: 5px;
+}
+.accordionContent h5.h .gkHeadline {
+	margin-top: 2px;
+	width: 350px
+}
+.accordionContent h5.h .gkIcons {
+	float: right;
+}
+
+h5 a.trigger {
+	display:block; 
+	background: #fff no-repeat url(../../../images/bmwi2012/icon_gk_trigger_1_1.gif) 580px 10px;
+	color: #6b7581;
+	padding: 5px 20px 5px 4px;
+}
+
+h5 a.trigger.open {
+	background: #fff no-repeat url(../../../images/bmwi2012/icon_gk_trigger_1_0.gif) 580px 10px;
+}
+
+
+.accordion li {
+	list-style-type: none; 
+	margin-bottom: 5px; 
+	padding-bottom: 5px; 
+	padding-left: 80px; 
+	text-indent: -80px
+}
+.accordion ul li  {
+	padding-left: 0px; 
+	text-indent: 0px
+}
+
+.accordion .outer {
+	background: #e5edf2;
+}
+
+.accordion .inner {
+	margin-bottom: 0; 
+	margin-top: -2px;
+	padding: 13px 10px; 
+	overflow:hidden;
+}
+
+
+.accordion .outer .outer {
+	background: #fff;
+	margin: 2px 0 0 0;
+}
+
+
+.accordion .inner .inner {
+	padding:0
+}
+
+.accordion .inner .inner .inner {
+	padding:10px;
+   border-bottom: 1px solid #e5edf2;
+}
+
+
+.pageService li.printview a.showWithJs {
+	display: none;
+}
+
+.js .pageService li.printview a.showWithJs {
+	display: block;
+}
+
+
+
+
+@media print {
+
+.gesetzeskarte #headNavi, .gesetzeskarte #nav, .gesetzeskarte #aside, .gesetzeskarte .breadcrumb, .gesetzeskarte #footer, .gesetzeskarte #banner, .gesetzeskarte #copyright a {
+	display: none;
+}
+
+.accordionContent .listInputContainer span {
+		border: 1px solid #004F80;
+		width: 180px;
+}
+	
+.accordionContent h3.h, 
+.accordionContent h5.h {
+		border-bottom: 1px solid #004F80;
+}
+
+.accordionContent h4.h {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.js .accordionContent .listInputContainer span label {
+    width: 180px;
+}
+
+.accordionContent h3.h span.gkIcons {
+	float: right;
+}
+
+.accordionContent h3.h .gkIcons {
+	display: none;
+}
+.accordionContent h3.h .gkIconsPrint {
+	display: inline-block;
+}
+
+}
+
+/*Bugfix aus Header*/
+#section .teaserRowCoverflowDoorpage .teaserType{
+    color: #4C5A6D;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 16px 0 0;
+}
+
+/* double-row-teaser-special */
+.teaser.doubleRow {         
+    margin-top:2px;
+}
+
+.teaser.doubleRow > div{  
+         background-color: #E5EDF2;   
+    padding:20px 0 18px 13px;
+    overflow-x:hidden;   
+}
+
+.teaser.doubleRow h2 {     
+         margin-top:9px;
+         margin-bottom:4px;
+         font-size:1.5em;
+}
+
+.teaser.doubleRow ul {      
+         list-style-type:none;
+         margin-bottom:11px;
+}
+
+.teaser.doubleRow ul li {    
+         margin-bottom:1px;
+}
+
+.teaser.doubleRow a.more {        
+         font-weight:bold;
+}
+/* END double-row-teaser-special */
+
+/*Kampagne Energiewende*/
+
+.campaignArtworkModul {
+	margin-bottom: 20px;
+}
+
+.campaignTextModul h2, .campaignLinkModul h2, .campaignTextModul h2 {
+	font-size: 1.85em;
+	font-family: "BundesSansWebBold",Arial,helvetica,sans-serif;
+	color: #004f80;
+}
+
+.campaignTextModul h2 {
+	margin-bottom: 10px;
+}
+
+.campaignTextModul p {
+	font-size: 1.1em;
+}
+
+.campaignLinkModul {
+	width: 100%;
+}
+
+.campaignLinkModul ul {
+	list-style: none;
+	margin: 20px 0 30px 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+.campaignLinkModul ul li.link{
+	float: left;
+}
+.campaignLinkModul ul li.link:last-child {
+	float: right;
+}
+.campaignLinkModul ul li.link  span.energieTitel {
+	display: inline-block;
+	margin-bottom: 8px;
+	color: #004f80;
+    font-size: 0.95em;
+    font-weight: normal;
+    text-transform: uppercase;
+	
+}
+
+.campaignLinkModul ul li.link  > a {
+	display: block;
+	font-family: "BundesSansWebBold",Arial,helvetica,sans-serif;
+    font-size: 1.55em;
+	color: #fff;
+	padding: 10px 10px 10px 55px;
+	width: 236px;
+	text-align: center;
+}
+
+.campaignLinkModul ul li.link  > a.lp-1{
+	background: url("../../../images/bmwi2012/icon_energie_lp_1.png") no-repeat 47px center #004f80;
+}
+.campaignLinkModul ul li.link  > a.lp-2{
+	background: url("../../../images/bmwi2012/icon_energie_lp_2.png") no-repeat 21px center #004f80;
+	padding: 10px 10px 10px 35px;
+	width: 256px;
+}
+.campaignLinkModul ul li.link  > a.dpf-1{
+	background: url("../../../images/bmwi2012/icon_energie_fortschritt_1.png") no-repeat 85px center #004f80;
+	padding: 10px 10px 10px 30px;
+	width: 261px;
+}
+.campaignLinkModul ul li.link  > a.dpf-2{
+	background: url("../../../images/bmwi2012/icon_energie_fortschritt_2.png") no-repeat 37px center #004f80;
+	padding: 10px 10px 10px 35px;
+	width: 256px;
+}
+
+
+
+.campaignLinkModul ul li.link  > a.dpn-1{
+	background: url("../../../images/bmwi2012/icon_energie_nape_1.png") no-repeat 26px center #004f80;
+	width: 155px;
+	padding: 10px 10px 10px 30px;
+	margin-right: 17px;
+}
+.campaignLinkModul ul li.link  > a.dpn-2{
+	background: url("../../../images/bmwi2012/icon_energie_nape_2.png") no-repeat 21px center #004f80;
+	width: 155px;
+	padding: 10px 10px 10px 30px;
+	margin-right: 17px;
+}
+.campaignLinkModul ul li.link  > a.dpn-3{
+	background: url("../../../images/bmwi2012/icon_energie_nape_3.png") no-repeat 23px center #004f80;
+	width: 135px;
+	padding: 10px 10px 10px 50px;
+}
+
+
+.teaserShaded  {
+	background: url("../../../images/bmwi2012/bg_energie_lp.png") repeat-y left top #e5edf2!important;
+}
+
+/*Für den Afll das es ein DropDown Menü gibt - ggf entfernen
+.campaignLinkModul ul li ul  {
+	background: #e5edf2;
+	width: 599px;
+	position: relative;
+	left: -319px;
+	display: none;
+	padding: 20px 10px;
+}
+
+.campaignLinkModul ul li ul  li {
+	display: inline;
+	width: 279px;
+	float: left;
+	margin: 0 10px;
+}
+
+.campaignLinkModul ul li ul  li a {
+   background: url("../../../images/bmwi2012/bg_link_agenda_0.png") no-repeat top right;   
+   color: #fff;
+   display: block;
+   font-family: "BundesSansWebBold",Arial,helvetica,sans-serif;
+   font-size: 1.05em;
+   height: 18px;
+   padding: 10px 12px 11px;
+   margin-bottom: 1px;
+}
+
+.campaignLinkModul ul li ul  li a:hover, 
+.campaignLinkModul ul li ul  li a:active, 
+.campaignLinkModul ul li ul  li a:focus {
+    background: url("../../../images/bmwi2012/bg_link_agenda_1.png") no-repeat top right;
+    color: #004f80;
+    text-decoration: none;
+}
+*/
