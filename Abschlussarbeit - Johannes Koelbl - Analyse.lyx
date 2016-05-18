@@ -2284,7 +2284,7 @@ Als Gewichtungsinstrument dient eine numerische Skala mit den Werten 1,
 placement h
 wide false
 sideways true
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -3033,13 +3033,13 @@ reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 
 \begin_layout Standard
 Es ist deutlich erkennbar, dass die Zielverhalten Quiz-Fragen und Personalisiert
-e Touren etwas weiter vor den anderen beiden Möglichkeiten liegen.
+e Touren einen höheren Abstand zu den restlichen beiden Zielverhalten besitzen.
  Legt man den Fokus nun auf diese beiden Zielverhalten, ist ein eindeutiger
- Favorit wegen des Unterschiedes von nur einem Punkt schwer zu ermitteln.
+ Favorit wegen des Unterschiedes von nur einem Punkt schwierig zu ermitteln.
  In den Bereichen Kosten und Machbarkeit wurde das Zielverhalten mit den
  Quiz-Fragen höher bewertet und in ihrer Motivation liegen sie beide gleich
  auf.
- Präferierte Touren werden nur in ihrer Effektivität höher eingestuft.
+ Personalisierte Touren werden nur in ihrer Effektivität höher eingestuft.
  Wendel schlägt in Fällen schwieriger Entscheidungsfindung vor, in letzter
  Instanz dasjenige Zielverhalten mit dem geringeren Kosten zu wählen.
  Dennoch könnte es im Rahmen dieser Abschlussarbeit helfen, sich beide Zielverha
@@ -3157,8 +3157,8 @@ reference "sec:Bestehende-Konzeptstudie--SeeSight"
  In diesem Fall würde es sich anbieten, zweitplatziertes Zielverhalten als
  unterstützendes Subverhalten bzw.
  Spielmechanismus zu verwenden.
- Die Wahl von präferierten Touren oder eine Zusammenstellung von auswählbaren
- Sehenswürdigkeiten und die Quiz-Fragen während einer Tour sind nicht konträr
+ Die Wahl von personalisierten Touren oder eine Zusammenstellung von auswählbare
+n Sehenswürdigkeiten und die Quiz-Fragen während einer Tour sind nicht konträr
  zueinander.
  Beide Zielverhalten sind überdies ihn ihrer Technik auch Gamification-Patterns
  nachempfunden, was eine Integration in ein übergeordnetes Zielverhalten
