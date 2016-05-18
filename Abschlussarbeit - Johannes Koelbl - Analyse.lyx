@@ -2046,7 +2046,7 @@ reference "enu:Zielverhalten-Mindestens-eine-kulture"
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2073,7 +2073,7 @@ name "tab:Relevante-Persona-Gruppen-der-Zielverhalten"
 <lyxtabular version="3" rows="5" columns="2">
 <features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
 <column alignment="left" valignment="top" width="25text%">
-<column alignment="left" valignment="top" width="65text%">
+<column alignment="left" valignment="top" width="70text%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -2181,7 +2181,7 @@ Entdecker, Individualist, Cultural Purist, Reiseplaner, Spontanreisende
 \begin_layout Plain Layout
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "enu:Zielverhalten-Mindestens-eine-kulture"
+reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 
 \end_inset
 
@@ -2284,7 +2284,7 @@ Als Gewichtungsinstrument dient eine numerische Skala mit den Werten 1,
 placement h
 wide false
 sideways true
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2310,7 +2310,7 @@ name "tab:Gewichtung-der-Zielverhalten"
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="4">
 <features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
-<column alignment="left" valignment="top" width="11text%">
+<column alignment="left" valignment="middle" width="11text%">
 <column alignment="left" valignment="top" width="29text%">
 <column alignment="left" valignment="top" width="27text%">
 <column alignment="left" valignment="top" width="25text%">
@@ -2366,15 +2366,14 @@ Effektivität
 \begin_inset Text
 
 \begin_layout Plain Layout
-Kulturelle Besonderheiten (
+Kulturelle Besonderheiten 
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand eqref
 reference "enu:Zielverhalten-Mindestens-eine-kulture"
 
 \end_inset
 
-): Durch das Ausprobieren fremder Verhaltensweisen, wird das Eintauchen
- in die jeweilige Kultur automatisch intensiviert.
+: Durch das Ausprobieren fremder Verhaltensweisen, wird das Reisen intensiviert.
 \end_layout
 
 \end_inset
@@ -2383,15 +2382,15 @@ reference "enu:Zielverhalten-Mindestens-eine-kulture"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Quiz-Fragen (
+Quiz (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
 
 \end_inset
 
-): Ein ortsbezogenes Quiz während der Tour kann dazu führen, dass Nutzer
- intensiver mit ihrer Umgebung interagieren.
+): Ortsbezogene Fragen während Touren fördern eine intensivere Interaktion
+ mit der Umgebung.
 \end_layout
 
 \end_inset
@@ -2408,8 +2407,7 @@ reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 
 \end_inset
 
-): Informationen in bloßer Textform wären kaum effektiv.
- Eine multimediale Auswahl wäre wirksamer.
+): Eine multimediale Auswahl von Inhalten spricht mehr Sinne an.
 \end_layout
 
 \end_inset
@@ -2474,19 +2472,35 @@ Motivation
 \begin_inset Text
 
 \begin_layout Plain Layout
-Personalisierte Touren (
+Quiz (
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "enu:Zielverhalten-Eine-Reise-nach"
+reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
 
 \end_inset
 
-): Touren, zu denen man mehr neigt, beginnt man mit wesentlich mehr Motivation.
+): In Teamarbeit oder Wettstreit sind Quizze sehr motivierend.
 \end_layout
 
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kulturelle Besonderheiten (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+): Aufgeschlossene sowie zurückhaltende Gruppen bilden sich heraus.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2498,16 +2512,7 @@ reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 
 \end_inset
 
-): Falls bereits Interesse besteht, möchte man noch mehr darüber erfahren.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+): Nur wenige Medienformate können zusätzlich motivieren.
 \end_layout
 
 \end_inset
@@ -2527,15 +2532,14 @@ reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Quiz-Fragen (
+Personalisierte Touren (
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
+reference "enu:Zielverhalten-Eine-Reise-nach"
 
 \end_inset
 
-): Fragestellungen, welche man kooperativ, im Wettstreit oder alleine löst,
- können bestimmte Gruppen stark ansprechen.
+): Präferierte Touren erzeugen höheren Grad der Motivation.
 \end_layout
 
 \end_inset
@@ -2544,15 +2548,7 @@ reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Kulturelle Besonderheiten (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Zielverhalten-Mindestens-eine-kulture"
 
-\end_inset
-
-): Hier können sich zwei große Lager - weltoffene Gruppen und eher zurückhaltend
-e Gruppen - herausbilden.
 \end_layout
 
 \end_inset
@@ -2581,7 +2577,7 @@ Machbarkeit
 \begin_inset Text
 
 \begin_layout Plain Layout
-Quiz-Fragen (
+Quiz (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
@@ -2605,8 +2601,7 @@ reference "enu:Zielverhalten-Eine-Reise-nach"
 
 \end_inset
 
-): Die Auswahl oder Zusammenstellung von Touren ließe sich in der Bedienbarkeit
- intuitiv gestalten.
+): Die Konfiguration von Touren ließe sich intuitiv bedienbar gestalten.
 \end_layout
 
 \end_inset
@@ -2688,14 +2683,14 @@ Kosten
 \begin_inset Text
 
 \begin_layout Plain Layout
-Quiz-Fragen (
+Quiz (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
 
 \end_inset
 
-): Geeignete Fragestellungen müssen überlegt werden.
+): Geeignete Fragen müssen erarbeitet werden.
 \end_layout
 
 \end_inset
@@ -2711,7 +2706,7 @@ reference "enu:Zielverhalten-Eine-Reise-nach"
 
 \end_inset
 
-): Die Vorauswahl ausreichend vieler Touren und Zielorten ist zwingend notwendig.
+): Die Vorauswahl ausreichend vieler Touren und Zielorte ist Voraussetzung.
 \end_layout
 
 \end_inset
@@ -2720,15 +2715,14 @@ reference "enu:Zielverhalten-Eine-Reise-nach"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Zusätzl.
- Informationen (
+Kulturelle Besonderheiten (
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
 
 \end_inset
 
-): Die Generierung multimedialer Inhalte ist aufwändig und langwierig.
+): Hoher Aufwand für Erstellung individueller Besonderheiten.
 \end_layout
 
 \end_inset
@@ -2766,15 +2760,15 @@ reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Kulturelle Besonderheiten (
+Zusätzl.
+ Informationen (
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "enu:Zielverhalten-Mindestens-eine-kulture"
+reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 
 \end_inset
 
-): Aufgaben müssen individuell für den jeweilen Kulturkreis bzw.
- Region gewählt werden.
+): Die Generierung multimedialer Inhalte ist aufwändig.
 \end_layout
 
 \end_inset
@@ -2823,7 +2817,7 @@ reference "tab:Ergebnis-der-Zielverhalten-Gewichtung"
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2847,8 +2841,9 @@ name "tab:Ergebnis-der-Zielverhalten-Gewichtung"
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="2">
+<lyxtabular version="3" rows="5" columns="3">
 <features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
@@ -2857,6 +2852,15 @@ name "tab:Ergebnis-der-Zielverhalten-Gewichtung"
 
 \begin_layout Plain Layout
 Zielverhalten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kürzel
 \end_layout
 
 \end_inset
@@ -2881,6 +2885,21 @@ Quiz-Fragen
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -2897,6 +2916,21 @@ Quiz-Fragen
 
 \begin_layout Plain Layout
 Personalisierte Touren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Eine-Reise-nach"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2921,6 +2955,21 @@ Kulturelle Besonderheiten
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Mindestens-eine-kulture"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -2941,11 +2990,26 @@ Zusätzliche Informationen
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-7
+6
 \end_layout
 
 \end_inset
@@ -2968,23 +3032,8 @@ Zusätzliche Informationen
 \end_layout
 
 \begin_layout Standard
-Es ist deutlich erkennbar, dass die Zielverhalten 
-\begin_inset Quotes eld
-\end_inset
-
-Quiz-Fragen
-\begin_inset Quotes erd
-\end_inset
-
- und 
-\begin_inset Quotes eld
-\end_inset
-
-Präferierte Touren
-\begin_inset Quotes erd
-\end_inset
-
- etwas weiter vor den anderen beiden Möglichkeiten liegen.
+Es ist deutlich erkennbar, dass die Zielverhalten Quiz-Fragen und Personalisiert
+e Touren etwas weiter vor den anderen beiden Möglichkeiten liegen.
  Legt man den Fokus nun auf diese beiden Zielverhalten, ist ein eindeutiger
  Favorit wegen des Unterschiedes von nur einem Punkt schwer zu ermitteln.
  In den Bereichen Kosten und Machbarkeit wurde das Zielverhalten mit den
