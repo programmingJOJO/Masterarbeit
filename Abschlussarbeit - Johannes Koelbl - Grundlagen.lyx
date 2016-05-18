@@ -3973,13 +3973,28 @@ Die Anwendung
 Streetspotr
 \emph default
  des gleichnamigen Unternehmens ist eine Mobile Crowdsourcing-Plattform.
- TODO: Business Plan
-\end_layout
+ Nutzer sammeln durch Annahme von Mikro-Tätigkeiten (im Folgenden Spots
+ genannt) in ihrer Umgebung Informationen für Unternehmen.
+ Als Beispiel für Spots sei das Prüfen von Produkten am Verkaufsort (Point
+ of Sale, PoS
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "PoS"
+description "Point of Sale"
 
-\begin_layout Standard
-Nutzer nehmen Mikro-Tätigkeiten (im Folgenden Spots genannt) in ihrer Umgebung
- an und verdienen mit der Erledigung ebenjener Geld.
- Zusätzlich zu unternehmensfinanzierten Spots (s.
+\end_inset
+
+) genannt 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hoier.2016"
+
+\end_inset
+
+.
+ Neben unternehmensfinanzierten Spots (blaue Markierungen) existieren zudem
+ Sehenswürdigkeiten-Spots (grüne Markierungen), die interessante Orte in
+ der Umgebung aufzeigen (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -3988,17 +4003,7 @@ reference "fig:street-a"
 
 \end_inset
 
-, blaue Markierungen), existieren Sehenswürdigkeiten-Spots, die interessante
- Orte in der Umgebung aufzeigen (in Abb.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:street-a"
-
-\end_inset
-
-, grüne Markierungen).
- 
+)
 \end_layout
 
 \begin_layout Subsubsection
@@ -4007,8 +4012,8 @@ Anwendungsziel
 
 \begin_layout Standard
 Ziel dieser Plattform ist es, Unternehmen mit Micro-Jobs und Kunden zusammenzubr
-ingen, indem extrinsisch motivierende Nutzer kleinere Aufgaben von Unternehmen
- in der näheren Umgebung abschließen.
+ingen, indem extrinsisch motivierende Nutzer mit der App kleinere Tätigkeiten
+ von Unternehmen annehmen und für sie in der näheren Umgebung abschließen.
  Dieses Anwendungsziel ist nicht vergleichbar mit dem von 
 \emph on
 SeeSight
@@ -4026,12 +4031,29 @@ Zielgruppe/Spielertyp
 \end_layout
 
 \begin_layout Standard
-Als Spielertyp kommen überwiegend Achiever infrage.
- Achiever können sich durch das Punktesystem und der daraus resultieren
- Rangliste und den Badges angesprochen fühlen.
- Socializer und Explorer sind die zwei weiteren Hauptgruppen.
- Obwohl die Spielform auch zum Teil Konflikt beinhaltet (s.
- u.), sollten konfliktorientiere Personen sich nicht angesprochen fühlen.
+
+\emph on
+Streetspotr
+\emph default
+ spricht von einer heterogenen, über alle Altersgruppen verteilten Zielgruppe.
+ Studierende wie auch berufstätige Personen nutzen die Anwendung 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hoier.2016"
+
+\end_inset
+
+.
+ Die Annahme von unternehmensfinanzierten Spots ist, bedingt durch durch
+ das Bezahlsysem, allerdings nur Erwachsenen möglich.
+ Als Haupt-Spielertyp lässt sich wegen der existierenden Gamification-Patterns
+ (s.
+ Spielmechanismen) der Achiever identifizieren.
+ Socializer und Explorer sind die zwei weitere Spielertypen, die sich durch
+ die Community und den Sehenswürdigkeiten-Spots angesprochen fühlen können.
+ Obwohl die Spielform auch teilweise Konfliktpotential beinhaltet (s.
+ Spielform), sollten sich konfliktorientiere Zielgruppen nicht angesprochen
+ fühlen.
  Die Anwendung ist daraufhin nicht explizit konzipiert.
 \end_layout
 
@@ -5166,46 +5188,17 @@ name "sub:The-Travel-Machine"
 \emph on
 The Travel Machine
 \emph default
- ist keine veröffentlichte Anwendung wie es bei den bisherigen Produkten
- der Fall ist, sondern eine von Aaron Marcus beschriebenes Produktkonzept
- 
+ ist keine veröffentlichte Anwendung wie es bei den bisherigen Anwendungen
+ der Fall ist, sondern ein von Aaron 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand citet
 key "Marcus.2013b"
 
 \end_inset
 
-.
- Grundgedanke von 
-\emph on
-The Travel Machine
-\emph default
- ist der, das Reiseverhalten von Nutzern weg von gewohnten Pfaden, hin zu
- mehr kulturellen und erfahrungsreicheren Handlungsweisen zu verändern 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cite[S.~262]{Marcus.2013b}
-\end_layout
-
-\end_inset
-
-.
- TODO: direktes Zitat nutzen
-\end_layout
-
-\begin_layout Subsubsection
-Anwendungsziel
-\end_layout
-
-\begin_layout Standard
-Laut Marcus soll die Anwendung Reisenden beim Erforschen von Zielorten assistier
-en und Sie beim Lernprozess - das Verstehen fremder Kulturen - begleiten
- .
+ beschriebenes Produktkonzept.
+ Die Anwendung soll Reisenden beim Erforschen von Zielorten assistieren
+ und Sie beim Lernprozess - das Verstehen fremder Kulturen - begleiten.
  Als führendes Beispiel erwähnt Marcus die Grand Tour aus dem 17.
  und 18.
  Jahrhundert 
@@ -5244,16 +5237,84 @@ key "Faller.2013"
 .
 \end_layout
 
+\begin_layout Subsubsection
+Anwendungsziel
+\end_layout
+
+\begin_layout Standard
+Das Hauptanwendungsziel wird von Marcus wie folgt beschrieben:
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
+\end_inset
+
+ The primary objective of the Travel Machine is therefore […] to ease, enhance,
+ and enrich the experiences of a person going abroad, to foster the process
+ of intercultural understanding and learning, and thus to contribute, at
+ least partially, to a shift from leisure to cultural tourism.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~262]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mit seinem Konzept möchte er also seine Zielgruppe vom gewöhnlichen Freizeittour
+ismus wegbewegen, und hin zu einem Tourismus des interkulturellen Verstehens
+ und Lernens.
+\end_layout
+
 \begin_layout Paragraph*
 Zielgruppe/Spielertyp
 \end_layout
 
 \begin_layout Standard
-TODO: Fokus-Gruppe S.302
+Seine Zielgruppe gibt Markus Reisende mit einem durchschnittlichen bis höheren
+ Bildungsstand an und einem maximalen Alter von 50 Jahren.
+ Zudem sind sie aufgeschlossen gegenüber fremden Ländern, Kulturen und Menschen
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~266]{Marcus.2013b}
 \end_layout
 
-\begin_layout Standard
-Explorer, Achiever
+\end_inset
+
+.
+ Daraus ist abzuleiten, dass besagte Zielgruppe sich aus einer Kombination
+ von Explorern und Socializern zusammensetzt.
+ Des Weiteren lässt sich wegen mancher Gamification-Patterns (z.
+ B.
+ Challenges, Skill-Tree) auf einer untergeordneten Ebene auch der Spielertyp
+ Achiever hinzufügen.
 \end_layout
 
 \begin_layout Subsubsection
@@ -5264,8 +5325,8 @@ Zielverhalten
 Die Nutzer sollen während ihrer Reise von gezielten Vorschlägen eines virtuellen
  Assistenten innerhalb der Anwendung zu individuellen und besonderen Aufgaben
  verleitet werden.
- Durch Erfüllung dieser Aufgaben bekommen die Nutzer einen intensiveren
- Eindruck von den Kulturgepflogenheiten der jeweiligen Gegenden.
+ Durch Erfüllung dieser Aufgaben erhalten sie einen intensiveren Eindruck
+ von den Kulturgepflogenheiten der jeweiligen Länder.
  
 \end_layout
 
@@ -5390,16 +5451,15 @@ cite[S.~264]{Marcus.2013b}
 \end_layout
 
 \begin_layout Itemize
-Match-Making-Rating: Es gibt ein System mit dessen Hilfe Nutzer mit anderen
- Reisenden in Kontakt treten können.
+MMR: Es gibt ein System mit dessen Hilfe Nutzer mit anderen Reisenden in
+ Kontakt treten können.
  In 
 \emph on
 The Travel Machine
 \emph default
  lassen sich Tagebucheinträge verfassen.
- Aus ihnen TODO.
- Die Standortfreigabe des Tagebuchschreibenden ermöglicht zudem eine Lokalisieru
-ng von Nutzern mit ähnlichen Interessen in der unmittelbaren eigenen Umgebung.
+ Die Standortfreigabe der Tagebuchschreibenden ermöglicht die Lokalisierung
+ von Nutzern mit ähnlichen Interessen in der unmittelbaren eigenen Umgebung.
  
 \begin_inset ERT
 status open
@@ -5421,11 +5481,44 @@ Spielform
 \end_layout
 
 \begin_layout Standard
-Marcus erwähnt, wie sehr er mit diesem Konzept an den Selbstfindungs-Charakter
- der damaligen Grand Tour anknüpfen möchte (TODO: Quelle).
+Mit seinem Konzept zur Umgestalten des Reiseverhaltens möchte Markus den
+ Selbstfindungs-Charakter der Nutzer ansprechen 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~262]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+.
  Damit steht klar die Selbsterfahrung im Vordergrund.
- Für die Spielform Achiever wäre lediglich die Belohnung für erfolgreich
- abgeschlossene Challenges von Interesse.
+ Es existieren zudem Interaktionsmöglichkeiten mit anderen Reisenden (s.
+ MMR), diese sollen neben dem kommunikativen Austausch auch dazu dienen,
+ den Wettbewerb zu fördern 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~278--279]{Marcus.2013b}
+\end_layout
+
+\end_inset
+
+.
+ Da diese Punkte nur stichpunktartig von Markus erwähnt werden, sind sie
+ nicht ausschlaggebend für weitere Formen des Spiels in 
+\emph on
+The Travel Machine
+\emph default
+.
 \end_layout
 
 \begin_layout Section
