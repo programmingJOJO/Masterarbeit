@@ -1075,25 +1075,57 @@ Klassische Konditionierung
 
 \begin_layout Standard
 Die klassische Konditionierung ist ein Paradigma der behavioristischen Lerntheor
-ie und beschreibt das Erlernen von Reiz-Reaktions-Zusammenhängen (TODO:
- Quelle in bib mit vpn suchen).
- Das bekannteste Beispiel für dieses Prinzip ist der Pawlowsche Hundeversuch
- 
+ie und beschreibt Lernprozesse, die durch Reiz-Reaktions-Zusammenhänge entstehen.
+ Wichtigste Vertreter der klassischen Konditionierung sind der Begründer
+ des Behaviorismus Watson und Pawlow 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~46--47]{Bodenmann.2004}
+\end_layout
+
+\end_inset
+
+.
+ Pawlow stellte in seinem als Pawlowschen Hundeversuch bekanntestem Experiement
+ fest, dass nebem dem Essensduft durch Konditionierung auch neutrale Reize
+ (z.
+ B.
+ Glockenläuten) den Speichelfluss seines Hundes anregen können 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Bruhlmeier.2013,Hauser.o.J."
 
 \end_inset
 
-: ein Reiz (z.
+.
+ Dieser Lernprozess wird von Bodemann et al.
+ so beschrieben, dass ein Reiz (z.
  B.
- Essensduft) ruft eine natürliche Reaktion hervor (z.
+ Essensduft) eine angeborene Reaktion hervor ruft (z.
  B.
  Hungergefühl).
- Wird der Reiz mit einem weiteren irrelevanten Reiz kombiniert (z.
+ Wird der anfängliche Reiz mit einem weiteren neutralen Reiz gekoppelt (z.
  B.
  Glockenläuten), lässt sich die Reaktion durch mehrmaliges Wiederholen ebenfalls
- hervorrufen, wenn der erste Reiz vom zweiten Reiz abgelöst wird.
+ hervorrufen, wenn der erste Reiz vom zweiten Reiz abgelöst wird 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~47]{Bodenmann.2004}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
