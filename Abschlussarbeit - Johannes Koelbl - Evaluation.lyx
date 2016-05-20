@@ -2619,7 +2619,26 @@ name "fig:Bearbeitete-Aufaben-nach-Spielertypen"
 \end_layout
 
 \begin_layout Subsection
-Optimierungsvorschläge
+Optimierungspotentiale
+\end_layout
+
+\begin_layout Standard
+Im letzten Punkt der Umfrage konnten die Teilnehmer ihre persönliche Meinung
+ über den Prototyp mitteilen.
+ Eine Strukturierung der Kommentare nach ähnlichen Inhalten ergibt, dass
+ sechs Themen besonders häufig auftreten.
+ Fünf der sechs Themen beschäftigen sich mit technischen Mängeln des Prototyps,
+ während der letzte Punkt Anregungen bezüglich der Erstellung eigener Touren
+ umfasst.
+\end_layout
+
+\begin_layout Standard
+Der am meisten genannte Kritikpunkt benennt die funktionsarme Kartenintegration.
+ Drei Kommentare wünschen sich eine komfortable Navigation von einen Zielort
+ zum Nächsten.
+ Zwei weitere Kommentare hätten zumindest den eigenen Standort auf der Karte
+ sehen wollen.
+ Die Anregung zu einer Full-Screen-Karte ist ebenfalls getätigt worden.
 \end_layout
 
 \begin_layout Itemize
