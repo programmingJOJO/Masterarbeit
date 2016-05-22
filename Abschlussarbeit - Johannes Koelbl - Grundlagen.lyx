@@ -155,8 +155,8 @@ reference "sub:Spielformen,-Spielertypen-und"
 
 \end_inset
 
- führt alle weiteren wichtigen Begriffe ein für das Verständnis der korrekten
- Gamifizierung von spielfremden Domänen.
+ führt alle weiteren wichtigen Begriffe für das Verständnis der korrekten
+ Gamifizierung von spielfremden Domänen ein.
  Der abschließende Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -242,7 +242,10 @@ Das heißt Spielmechanismen (oder auch Spielelemente genannt) werden in einem
  einer Domäne eingesetzt, in denen sie für gewöhnlich nicht Verwendung finden.
  Was dieser bisher prägenden Definition fehlt ist der Sinn und Zweck von
  Gamification.
- Huotari und Hamari bestimmten Gamification als 
+ Huotari und Hamari bestimmen Gamification als
+\end_layout
+
+\begin_layout Quote
 \begin_inset ERT
 status open
 
@@ -295,20 +298,13 @@ cite[S.~20]{Huotari.2012}
 
 .
  Huotari und Hamari sehen mit ihrer Aussage die gamifizierte Tätigkeit als
- eine 
-\begin_inset Quotes eld
-\end_inset
-
-wertvolle
-\begin_inset Quotes erd
-\end_inset
-
- Tätigkeit an.
+ eine wertvolle Tätigkeit an.
  Momentan ist die Aussage allgemein verbreitet, das Ziel von Gamification
  sei eine gezielte Verhaltensbeeinflussung.
  Diese Interpretation wird in wissenschaftlichen Kreisen in Kombination
  mit der Definition von Deterding et al.
  verwendet.
+ TODO
 \end_layout
 
 \begin_layout Subsection
@@ -326,7 +322,7 @@ name "sub:Abgrenzung-zu-anderen"
 Die Abgrenzung gamifizierter Anwendungen oder Prozesse zu anderen Systemen
  ist unter Umständen nicht immer eindeutig.
  Um in der Marktanalyse korrekt unterscheiden zu können welche Situation
- vorliegt werden hier nachfolgend alle relevanten Systeme bzw.
+ vorliegt, werden nachfolgend alle relevanten Systeme bzw.
  Situationen erörtert:
 \end_layout
 
@@ -365,8 +361,8 @@ Nudging: Die Grundidee von Nudging (engl.
  vorgenommen, d.
  h.
  in Momenten an denen es Entscheidungen zu treffen gilt.
- Die unhandliche Form eines Hotelschlüssels beispielsweise, bewegt den Hotelgast
- eher dazu den Schlüssel an der Rezeption abzugeben, anstatt ihn bei sich
+ Die unhandliche Form eines Hotelschlüssels beispielsweise bewegt den Hotelgast
+ eher dazu, den Schlüssel an der Rezeption abzugeben, anstatt ihn bei sich
  zu tragen 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -438,7 +434,7 @@ key "Fogg.2012"
 .
  
 \begin_inset Float table
-placement h
+placement H
 wide false
 sideways false
 status collapsed
@@ -780,23 +776,6 @@ reference "fig:Die-fünf-Hauptphasen"
 
 \end_inset
 
-, Phase 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glqq
-\end_layout
-
-\end_inset
-
- Trough of Disillusionment
-\begin_inset Quotes erd
-\end_inset
-
 ).
  Auch wenn diese Abbildung eine pauschaule Entwicklung des Gesamtmarktes
  vieler Technologien beschreibt, zeigt sie die bereits vergangene anfängliche
@@ -854,7 +833,7 @@ name "fig:Die-fünf-Hauptphasen"
 Zu unkonkrete Motivationshintergründe bezüglich der Thematik zu Trendzeiten
  könnten ein Auslöser der jetzigen Ernüchterung sein.
  Denn schnell war klar, dass es mehr braucht als nur ein paar Punkte, Abzeichen
- und Ranglisten um Nutzer zu motivieren 
+ und Ranglisten, um Nutzer zu motivieren 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Scott.2012"
@@ -875,7 +854,7 @@ Aus der allgemeinen Motivationsforschung gehen verschiedene Theorien hervor,
  Die Motivationstheorien zu diesen Themen sind für Gamification entscheidend
  und deshalb Gegenstand dieses Abschnitts.
  Ferner ist für die Grundlage dieser Arbeit eine Differenzierung zwischen
- der extrinsischen, sowie der intrinsischen Motivation von Nöten, die zuvor
+ der extrinsischen sowie der intrinsischen Motivation von Nöten, die zuvor
  erfolgt.
 \end_layout
 
@@ -952,28 +931,12 @@ cite[S.~1]{Reiners.2015}
 \end_layout
 
 \begin_layout Standard
-Intrinsische Motivation hingegen bezieht sich auf die Tätigkeit als auf
- das erwartende Ergebnis.
+Intrinsische Motivation hingegen bezieht sich mehr auf die Tätigkeit als
+ auf das erwartete Ergebnis.
  Sie entsteht durch das bestehende Interesse an der Tätigkeit und dem dadurch
  generierten Hochgefühl.
- Diese Freude an der Sache, so behauptet McGonigal, lässt sich durch 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glqq
-\end_layout
-
-\end_inset
-
- positiven Stress
-\begin_inset Quotes erd
-\end_inset
-
- erklären, einer Kombination der Gefühle des Wohlseins und des Stresses
+ Diese Freude an der Sache, so behauptet McGonigal, lässt sich durch positiven
+ Stress erklären, einer Kombination der Gefühle des Wohlseins und des Stresses
  
 \begin_inset ERT
 status open
@@ -1009,7 +972,7 @@ cite[S.~2426]{Deterding.2011b}
 
 .
  Vorsicht ist allerdings dadurch geboten, dass extrinsische Motivation intrinsis
-che untergraben könne (
+che untergraben kann (
 \begin_inset ERT
 status open
 
@@ -1036,13 +999,12 @@ citealt[S.~431]{Deci.2004}
 \end_inset
 
 ).
- In einem Beispiel könnte zuvor überwiegend intrinsische Motivation wird
- mit gelegentlich extrinsischen Anreizen kombiniert werden, welche aber
- viel stärker wirken.
+ Beispielsweise kann zuvor überwiegend intrinsische Motivation mit gelegentlich
+ extrinsischen Anreizen kombiniert sein, welche aber viel stärker wirken.
  Die Intrinsische Motivation kann durch sie an Stellenwert verlieren oder
  ganz ersetzt werden.
- Konsequenz könnte sein, dass weiterhin stetig extrinsische Motivation erzeugt
- werden muss, um das Verhalten beizubehalten.
+ Als Konsequenz muss weiterhin stetig extrinsische Motivation erzeugt werden,
+ um das Verhalten beizubehalten.
 \end_layout
 
 \begin_layout Subsection
@@ -1214,17 +1176,15 @@ citet[S.~1--9]{Maslow.1971}
  Maslow stellt in seinem Modell acht Kategorien von Bedürfnissen hierachisch
  dar, von denen fünf in Bezug auf Gamification von größerer Bedeutung sind:
  soziale Bedürfnisse, Bedürfnis nach Wertschätzung und Anerkennung, kognitive
- und ästhetische Bedürfnisse sowie das Bedürfnis nach Selbstverwirklichung
- (s.
- Abb.
- 
+ und ästhetische Bedürfnisse sowie das Bedürfnis nach Selbstverwirklichung.
+ In Abbildung 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Maslow'sche-Bedürfnispyramide"
 
 \end_inset
 
-, grau markiert).
+ sind diese Bedürfnisse grau hervorgehoben.
 \end_layout
 
 \begin_layout Standard
@@ -1293,8 +1253,9 @@ name "fig:Maslow'sche-Bedürfnispyramide"
 \end_layout
 
 \begin_layout Standard
-Anders als die Pyramidenform es suggeriert, müssen nicht erst die unterliegenden
- Bedürfnisse voll befriedigt sein, sodass ein darüber liegendes wirken kann.
+Anders als die Pyramidenform es suggeriert, müssen nicht erst die untergeordnete
+n Hierarchieebenen voll befriedigt sein, bevor der Wunsch nach Erfüllung
+ eines darüber liegenden Bedürfnisses entsteht.
  Vielmehr existiert zwischen ihnen ein dynamischer Übergang, womit auch
  mehrere Bedürfnisse zum selben Zeitpunkt aktiv sein können 
 \begin_inset ERT
@@ -1346,8 +1307,8 @@ cite[S.~68]{Ryan.2000}
  Die SDT ist somit ebenfalls eine bedürfnisorientierte Theorie.
  Die der SDT zugrundeliegende Motivation wird von Deci und Ryan als eine
  mehrdimensionale Größe bezeichnet, welche sich durch den Grad ihrer Autonomie
- definiert sowie regulierender Stile, entlang eines Kontinuums der Selbstbestimm
-ung (s.
+ definiert sowie regulierender Stile entlang eines Kontinuums der Selbstbestimmu
+ng (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -1415,11 +1376,10 @@ name "fig:Kontinuum-der-Selbstbestimmung"
  Der höchste Grad der Selbstbestimmung ist geprägt von intrinsischer Motivation,
  während totale Fremdbestimmung praktisch keine Motivation erzeugt.
  Dazwischen existiert das Spektrum extrinsischer Motivation, unterteilt
- in vier Regulierungsklassen, welche sich erstrecken von externer Regulierung
- (z.
+ in vier Regulierungsklassen, welche sich von externer Regulierung (z.
  B.
  durch Belohnungen oder Bestrafungen) bis identifizierender und integrierender
- Regulierung 
+ Regulierung erstrecken 
 \begin_inset ERT
 status open
 
@@ -1499,8 +1459,8 @@ Action Funnels
  mit dem zu erwartenden Aufwand ab.
  Entscheidet sich der Nutzer dafür, prüft er nachfolgend, ob die eigene
  mentale und physische Verfassung die Durchführung des Verhaltens erlaubt.
- Schlaf- oder Arbeitszeiten beispielsweise, bieten kaum Möglichkeiten außerplanm
-äßige Unternehmungen durchzuführen.
+ Schlaf- oder Arbeitszeiten beispielsweise bieten kaum Möglichkeiten außerplanmä
+ßiger Unternehmungen.
  Zuletzt muss der Nutzer das Gefühl haben, das Verhalten sei dringlich.
  Ist dies nicht der Fall, lässt es sich aufschieben und eventuell vergessen.
  Jede dieser Stufen kann zu einer negativen Entscheidung gegen das angestrebte
@@ -1545,8 +1505,8 @@ Trotz der sehr gut ergründeten Verhaltensforschung ist es schwer, geeignete
  eines Prozesses und dem Motivationspotential der dafür vorgesehenen Zielgruppe
  zu finden.
  Das Wissen zu Formen des Spiels, den verschiedenen Spielertypen und dem
- Prinzip der Gamification-Patterns helfen bei als Ausgangsbasis und sind
- zugleich späterer Bestandteil der Marktanalyse in Kapitel 
+ Prinzip der Gamification-Patterns helfen als Ausgangsbasis und sind zugleich
+ späterer Bestandteil der Marktanalyse in Kapitel 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "chap:Marktanalyse"
@@ -1561,10 +1521,10 @@ Formen des Spiels
 \end_layout
 
 \begin_layout Standard
-Spiele unterscheiden sich in ihrer Form wie Spielende miteinander interagieren.
+Spiele unterscheiden sich in ihrer Form, wie Spielende miteinander interagieren.
  Beispielsweise müssen Spielende in einem kooperativen Spiel gemeinsam gegen
- das System bestehen, während in konfliktbasierenden Szenarien Spielende
- für den Sieg negativ auf Mitspieler einwirken müssen.
+ das System bestehen, während in konfliktbasierten Szenarien Spielende für
+ den Sieg negativ auf Mitspieler einwirken müssen.
  Bezogen auf diese Formen der Konkurrenzfähigkeit kategorisieren Crumlish
  und Malone ein Spektrum innerhalb einer spielfremden Domäne und zeigen
  somit auf, dass Formen des Spiels auch in spielfremdem Kontext möglich
@@ -1583,18 +1543,20 @@ cite[S.~156]{Crumlish.2015}
 
 .
  Fittnesssport ist ein solcher Kontext.
- Das Training mit Freunden weist beispielsweise eine koordinierende Spielform
- auf, in der die Trainierenden auf ein gemeinsames, höheres Ziel hinarbeiten,
- nämlich der körperlichen Gesundheit.
+ Das Training mit Freunden weist eine koordinierende Spielform auf, in der
+ die Trainierenden auf ein gemeinsames, höheres Ziel hinarbeiten, nämlich
+ der körperlichen Gesundheit.
  Fußball und andere Ballsportarten hingegen besitzen starkes Konfliktpotenzial.
- Die Parteien müssen negativ auf die Gegenpartei einwirken um zu gewinnen.
+ Die Parteien müssen negativ auf die Gegenpartei einwirken, um zu gewinnen.
  
 \end_layout
 
 \begin_layout Standard
-Crumlish & Malone geben aber zu verstehen, dass mit Konkurrenzfähigkeit
- ein weiter Begriff gewählt wurde und ihr Ansatz lediglich als Einstieg
- geeignet ist 
+Crumlish & Malone geben aber zu verstehen, dass der Begriff der Konkurrenzfähigk
+eit in weitem Sinne zu verstehen ist.
+ Ihr Verständnis ist deshalb als Einstieg in die begriffliche Definition
+ geeignet.
+ 
 \begin_inset ERT
 status open
 
@@ -1626,14 +1588,14 @@ Spielformen können bei der Gamifizierung einer Anwendung bzw.
  wählen.
  Ist das Ziel z.
  B.
- ein Forum zu gamifizieren, so sind Spielmechanismen aus kooperieren Spielen
- besser geeignet als Spiele basierend auf Wettbewerb und Konflikt.
+ die Gamifizierung eines Forums, so sind Spielmechanismen aus kooperieren
+ Spielen besser geeignet als Spiele basierend auf Wettbewerb und Konflikt.
  
 \begin_inset Float table
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1705,7 +1667,8 @@ Ziel
 \begin_inset Text
 
 \begin_layout Plain Layout
-Beispiele aus den Bereichen Spiel und Sport
+Beispiele aus den Bereichen Spiel bzw.
+ Sport
 \end_layout
 
 \end_inset
@@ -1726,7 +1689,8 @@ Konflikt
 
 \begin_layout Plain Layout
 Spielende treten gegeneinander an.
- Es geht darum, negativ auf Mitspielende einzuwirken.
+ Ziel des Spiels ist die negative Einwirkung auf Mitspielende, um eine Partie
+ zu gewinnen.
 \end_layout
 
 \end_inset
@@ -1735,7 +1699,8 @@ Spielende treten gegeneinander an.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Schach, Risiko, Fußball, Volleyball, Tennis
+Schach, Risiko bzw.
+ Fußball, Volleyball, Tennis
 \end_layout
 
 \end_inset
@@ -1766,8 +1731,8 @@ Spielende treten gegeneinander an.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Spiele mit Highscore, Autowettrennen, Leichtathletik oder andere Wettkampfsporta
-rten
+Spiele mit Highscore, Autowettrennen bzw.
+ Leichtathletik oder andere Wettkampfsportarten
 \end_layout
 
 \end_inset
@@ -1791,8 +1756,8 @@ erfahrung
 \begin_inset Text
 
 \begin_layout Plain Layout
-Spielende spielen ohne jeglichen Kontakt zu anderen Spielenden aus intrinsischer
- Motivation heraus ein Spiel.
+Spielende nehmen ohne jeglichen Kontakt zu anderen Spielenden aus intrinsischer
+ Motivation heraus an ein Spiel teil.
 \end_layout
 
 \end_inset
@@ -1801,8 +1766,8 @@ Spielende spielen ohne jeglichen Kontakt zu anderen Spielenden aus intrinsischer
 \begin_inset Text
 
 \begin_layout Plain Layout
-Action-Adventures oder andere Single-Player Spiele, Einzeltraining im Sport,
- Laufen, Bouldern
+Action-Adventures oder andere Single-Player Spiele bzw.
+ Einzeltraining im Sport, Laufen, Bouldern
 \end_layout
 
 \end_inset
@@ -1822,7 +1787,7 @@ Koordination
 \begin_inset Text
 
 \begin_layout Plain Layout
-Spielende haben ein gemeinsamen Ziel und arbeiten dafür zusammen.
+Spielende haben ein gemeinsames Ziel und arbeiten dafür temporär zusammen.
 \end_layout
 
 \end_inset
@@ -1831,8 +1796,7 @@ Spielende haben ein gemeinsamen Ziel und arbeiten dafür zusammen.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Spiele, welche temporäre Zusammenarbeit anbieten oder erfordern (Bosskämpfe
- in MMORPGs
+Spiele, welche Zusammenarbeit anbieten oder erfordern (Bosskämpfe in MMORPGs
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
 symbol "MMORPG"
@@ -1840,7 +1804,8 @@ description "Massively Multiplayer Online Role-Playing Game"
 
 \end_inset
 
-), Fitnesstraining mit Freunden
+) bzw.
+ Fitnesstraining mit Freunden
 \end_layout
 
 \end_inset
@@ -1869,7 +1834,8 @@ Spielende sind motiviert, sich gegenseitig zu unterstützen.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Pandemie, Scotland Yard, Meisterschaften mit dem Sportteam oder dem Clan
+Pandemie, Scotland Yard bzw.
+ Manschaftssportarten innerhalb des Teams oder dem Clan
 \end_layout
 
 \end_inset
@@ -1923,8 +1889,8 @@ key "Bartle.1996"
 \end_inset
 
  entwickelt.
- Er differenziert vier Persönlichkeitstypen von Spielern: Socializer, Achiever,
- Explorer und Killer 
+ Er differenziert vier Persönlichkeitstypen von Spielenden: Socializer,
+ Achiever, Explorer und Killer 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Bartle.1996"
@@ -1933,33 +1899,32 @@ key "Bartle.1996"
 
 .
  Obwohl diese vier Typen nur sehr rudimentär die komplexen Persönlichkeiten
- von Spielenden zuordnet, sind sie für diese Arbeit ausreichend um eine
- Verbindung zwischen den tätigkeitsorientieren Vorlieben von Zielgruppne
+ von Spielenden zuordnet, sind sie für diese Arbeit ausreichend, um eine
+ Verbindung zwischen den tätigkeitsorientieren Vorlieben von Zielgruppen
  und der gewählten Spielform herzustellen.
  Das gleichzeitige Interesse an Tätigkeiten verschiedener Spielertypen schließt
- sich zudem nicht aus.
- Spielende mit der Motivation zu erkunden, möchten dies unter Umstäden mit
- Freunden.
+ sich nicht aus.
+ Spielende mit der Motivation zu erkunden, möchten dies unter Umständen
+ mit Freunden.
  Daraus ergeben sich Explorer mit dem Bedürfnis sozialer Interaktion.
  
 \end_layout
 
 \begin_layout Standard
 Socializer pflegen vermehrt soziale Beziehungen, sind also kommunikativen
- Formen des Spiels aufgeschlossener (z.
+ Formen des Spiels aufgeschlossener z.
  B.
- Kooperation).
+ Kooperation.
  Spieler des Typs Achiever hingegen agieren primär mit der Spielumgebung.
  Ihr Interesse lässt sich nicht ganz auf eine bestimmte Spielform abbilden,
  kann aber in allen Spielformen ausreichend stark angesprochen werden.
  Spieler mit der Persönlichkeit eines Explorers beschäftigen sich ebenso
  stark mit der Spielumgebung, aber mehr auf einer interagierender Weise.
- Die Spielform Selbsterfahrung kann deshalb eine höhere Bedeutung für Explorer
- darstellen.
+ Die Spielform Selbsterfahrung ist deshalb neben sozialen Spielformen sehr
+ ansprechend für den Explorer.
  Killer präferieren den Wettbewerb mit Mitspielern und sind deshalb Spielformen
  mit Konfliktpotential zugeneigt.
- Das Interesse der jeweiligen Spielertypen an einem Spiel ist abhängig von
- der gewählten Spielform.
+ Je nach gewählter Spielform werden bestimmte Spielertypen angesprochen.
 \end_layout
 
 \begin_layout Subsection
@@ -2018,13 +1983,9 @@ Gamification-Patterns folgen Regeln und sind somit Musterbeispiele mit denen
  konkrete Spielmechanismen auf der Implementierungsebene möglich sind.
  Das Prinzip der Gamification-Patterns hat ihren Ursprung in Christopher
  Alexanders Werk 
-\begin_inset Quotes eld
-\end_inset
-
+\emph on
 A Pattern Language
-\begin_inset Quotes erd
-\end_inset
-
+\emph default
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2097,10 +2058,9 @@ name "sub:Chronologische-Vorgehensmodelle-"
 \end_layout
 
 \begin_layout Standard
-Es existieren Verfahren welche die bisher erörterten Elemente zu einem Vorgehens
-modell zusammenführen um so ein Verhalten beginnen, abstellen, steigern
- oder abschwächen zu lassen.
- Eines dieser Modelle wird in dieser Arbeit dazu genutzt um 
+Es existieren Verfahren, welche die bisher erörterten verhaltenstheoretischen
+ und -beeinflussenden Faktoren zu einem Vorgehensmodell zusammenführen.
+ Eines dieser Modelle wird in dieser Arbeit dazu genutzt, um das Ziel 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "Ziel-1:-Konzeption"

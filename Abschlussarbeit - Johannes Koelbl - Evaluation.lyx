@@ -116,7 +116,7 @@
 \begin_body
 
 \begin_layout Chapter
-Evaluation des Prototyps
+Evaluierung des Prototyps
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:Evaluation"
@@ -256,7 +256,15 @@ Absolvierung der Aufgaben (zusätzlich nach Spielertyp)
 \begin_layout Standard
 Neben dem Tracking wurde zudem eine Umfrage in Form eines vierteiligen Frageboge
 ns innerhalb der Anwendung zur Verfügung gestellt, welchen die Probanden
- ausfüllen sollten.
+ ausfüllen sollten (s.
+ Anhang 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Fragebogen-zur-Evaluierung"
+
+\end_inset
+
+).
  Auch dazu wurden die Probanden zu Beginn informiert.
  Gefragt wurde neben demographischen Merkmalen, auch nach dem Spielertyp
  und der bevorzugten Spielform.
@@ -273,36 +281,28 @@ reference "tab:Formen-des-Spiels"
  Des Weiteren wurden Fragestellungen nach der motivierenden Wichtigkeit
  der verhaltensbeeinflussenden Mechanismen gestellt.
  Diese ließen sich großteils mit einer fünfstufige Likert-Skala von 
-\begin_inset Quotes eld
-\end_inset
-
+\emph on
 Unwichtig
-\begin_inset Quotes erd
-\end_inset
-
+\emph default
  bis 
-\begin_inset Quotes eld
-\end_inset
-
+\emph on
 Motivierend
-\begin_inset Quotes erd
-\end_inset
-
+\emph default
  beantworten.
  Einige Mechanismen lassen sich auch ohne der Umfrage mithilfe der Tracking-Date
 n nach ihrer Wirksamkeit evaluieren.
  Der Vollständigkeit halber wurden allerdings alle Mechanismen im Fragebogen
  aufgeführt.
- Die exakten Fragestellungen sind im Anhang 
+ Die Umfrage endete mit einem Textfeld zur freien Meinungsäußerung für Anregen
+ (s.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "sec:Fragebogen-zur-Evaluierung"
+reference "sub:Optimierungspotentiale"
 
 \end_inset
 
- angegeben.
- Die Umfrage endete mit einem Textfeld zur freien Meinungsäußerung für Kritik
- und Anregungen.
+)
 \end_layout
 
 \begin_layout Standard
@@ -371,6 +371,13 @@ description "App-Identifier"
 
 \begin_layout Subsection
 Statistische Merkmale
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Statistische-Merkmale"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -821,6 +828,13 @@ g als populärste Form der Probanden.
 
 \begin_layout Subsection
 Verhaltensbeeinflussende Mechanismen
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Verhaltensbeeinflussende-Mechani"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2401,7 +2415,7 @@ Für einen legitimen Erfolg des Zielverhaltens bedarf es neben der Aktivierung
  Diese Zahl klingt ebenfalls gering, relativiert sich aber, wenn man die
  zuvor erwähnten 34 Probanden zum Vergleich hinzu zieht, die mindestens
  eine Tour begonnen haben.
- 82,4 Prozent der Probanden die eine Tour begannen haben somit auch eine
+ 82,4 Prozent der Probanden die eine Tour begonnen haben somit auch eine
  Aufgabe bearbeitet.
  Zudem ist nicht zu vergessen, dass die 120 registrierten Nutzer wie zu
  Beginn dieses Abschnitt erklärt mit Vorsicht zu betrachten sind.
@@ -2620,237 +2634,183 @@ name "fig:Bearbeitete-Aufaben-nach-Spielertypen"
 
 \begin_layout Subsection
 Optimierungspotentiale
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Optimierungspotentiale"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Im letzten Punkt der Umfrage konnten die Teilnehmer ihre persönliche Meinung
- über den Prototyp mitteilen.
+Im letzten Punkt der Umfrage teilten die Teilnehmer ihre persönliche Meinung
+ über den Prototyp mit.
  Eine Strukturierung der Kommentare nach ähnlichen Inhalten ergibt, dass
- sechs Themen besonders häufig auftreten.
- Fünf der sechs Themen beschäftigen sich mit technischen Mängeln des Prototyps,
- während der letzte Punkt Anregungen bezüglich der Erstellung eigener Touren
+ fünf Anliegen besonders häufig auftreten.
+ vier der fünf Themen beschäftigen sich mit technischen Mängeln des Prototyps,
+ während der letzte Punkt Anregungen bezüglich dem Funktionsumfang der Touren
  umfasst.
 \end_layout
 
 \begin_layout Standard
-Der am meisten genannte Kritikpunkt benennt die funktionsarme Kartenintegration.
- Drei Kommentare wünschen sich eine komfortable Navigation von einen Zielort
- zum Nächsten.
- Zwei weitere Kommentare hätten zumindest den eigenen Standort auf der Karte
- sehen wollen.
- Die Anregung zu einer Full-Screen-Karte ist ebenfalls getätigt worden.
+Der am meisten genannte Kritikpunkt benennt die Kartenintegration im Prototyp.
+ In drei Kommentaren wünschen sich die Probanden eine komfortable Navigation
+ von einen Zielort zum Nächsten.
+ Zwei weitere Meinungen benennen die fehlende, eigene geographische Ortung
+ auf der Karte.
+ Der letzte Kommentar greift die Idee einer Full-Screen-Karte auf.
 \end_layout
 
-\begin_layout Itemize
-Kartenfunktion/ Geographische Ortung
-\end_layout
+\begin_layout Standard
+Die Ortung des eigenen Standorts und die Navigation zu den einzelnen Zielorten
+ beziehen sich auf User Story 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:UST-B3"
 
-\begin_deeper
-\begin_layout Itemize
-Navigation mit Hilfe der app möglich machen (Routen von A nach B an der
- Karte klar sichtbar machen)
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-Mir ist Nicht klar wie ich mit der App von Ort A nach Ort B komme.
-\end_layout
-
-\begin_layout Itemize
-Es wäre ganz cool, wenn der aktuelle Standort noch miteingebunden wird.
- :)
-\end_layout
-
-\begin_layout Itemize
-Full-Screen Karte
-\end_layout
-
-\begin_layout Itemize
-Eigener Standort als Punkt
-\end_layout
-
-\begin_layout Itemize
-Folge der Karte.
- Wegbeschreibung
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Entdeckungsoption nicht als Menüpunkt erkennbar
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Hab den roten los button nicht als button erkannt
-\end_layout
-
-\begin_layout Itemize
-Ohh erst im Fragebogen hinterher hab ich gecheckt dass man auf den roten
- wackelnden los button drücken kann um das Quiz zu starten!
-\end_layout
-
-\begin_layout Itemize
-Los Button intuitiv nicht unten leider
-\end_layout
-
-\begin_layout Itemize
-Buttons mit "Entdeckung zeigen
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Antworten mit Vor- oder Nachname schwierig.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Geringe Fehler Toleranz bei Text Antworten wäre gut (z.b Kasper statt Kaspar)
-\end_layout
-
-\begin_layout Itemize
-Würde eher nur multiple Choice antworten statt Freitextfelder anbieten.
- Hab z.B.
- weinstadel statt weinstadl geschrieben
-\end_layout
-
-\begin_layout Itemize
-Verlangt wir Weinstadl, auf der Tafel am Haus steht aber Weinstadel.
- Vielleicht einfach beide Möglichkeiten akzeptieren.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Text zu den infos Und Fragen ein bischen strukturieren und so leichter lesbar
- machen
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Was die App noch deutlich verbessern wuerde, waere ein Audio-Guide fuer
- die geschichtlichen Hintergrundinfos zu den Orten.
-\end_layout
-
-\begin_layout Itemize
-Teilweise war der Text so lang, dass ich keine Lust hatte, es zu lesen,
- vor Allem nicht unterwegs, wenn ich mir den Ort ansehen will.
- Hier waere ein Audio-Guide viel besser!
-\end_layout
-
-\begin_layout Itemize
-Links zu Wiki oder weitere Infos.
- Z.B.
- zu Dürer, etc.
-\end_layout
-
-\begin_layout Itemize
-Bilder zu den Fragen?
-\end_layout
-
-\begin_layout Itemize
-Die richtigen Antworten nach dem Lösen der Aufgaben anzeigen.
- Da ich viele Antworten durch Ausprobieren erraten habe, habe ich kaum einen
- Mehrwert, wenn ich sie nicht noch mal sehe.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-ein bunteres, einladenderes Layout
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Alternative Belohnungen fuer Entdeckungen waeren z.B.
- andere Designs/Farben freizuschalten, oder Fotos der besuchten Orte als
- Erinnerung
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Ich will eigene Touren erstellen können :)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Eigene Reihenfolge der Stationen wäre gut (musste die Strecke 3 mal laufen)
-\end_layout
-
-\begin_layout Itemize
-Ich finde, die Freiheit eine eigene Tour zu erstellen, sollte von Anfang
- an gegeben sein, ohne sie freischalten zu muessen.
+.
+ Diese ist jedoch während der Implementierung des Prototyps zurückgestellt
+ worden (s.
  
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Zurückgestellte-Funktionen"
+
+\end_inset
+
+).
+ Die Anzahl der sich darauf beziehenden Kommentare zeigt jedoch, dass eine
+ Integration wesentlich zur Verbesserung des Ausflugserlebnisses beigetragen
+ hätte.
 \end_layout
 
-\begin_layout Itemize
-Wäre gut, wenn man abgeschlossene Touren auch so nochmal durchgehen könnte,
- ohne sie neu beginnen zu müssen.
- Quasi als Nachschlagewerk für später/zuhause.
+\begin_layout Standard
+Ein weiterer Kritikpunkt mit insgesamt fünf Bemerkungen betrifft die visuelle
+ Darstellung der Schaltflächen innerhalb der Anwendung.
+ Drei Kommentare sagen aus, dass der Entdeckungs-Menüpunkt nicht als solcher
+ erkennbar ist (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Menüpunkt-für-Entdeckungen"
+
+\end_inset
+
+).
+ Ein Proband würde Schaltflächen dieser Art intuitiv unter dem Bechreibungstext
+ vermuten und nicht in der oberen Hälfte.
+ Er sieht zudem die Beschriftung irreführend.
+ Statt dem Aufruf 
+\emph on
+Los
+\emph default
+ schlägt er eine Wortwahl vor, welche die Entdeckung benennt (z.
+ B.
+ 
+\emph on
+Entdeckung zeigen
+\emph default
+).
+ Ein weiterer Proband empfielt einen sichtbaren Rand für die Pause-Schaltflläche.
 \end_layout
 
-\begin_layout Itemize
-Es ist ja bestimmt auch geplant dann eine Städteauswahl zu machen oder?
- Man könnte ja auch noch Auswahlmöglichkeiten geben im Bezug auf Feier-sightseei
-ng, Bauwerk-Touren, oder ausgefallene andere Vorlieben der Leute!
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-"Ich denke diese App könnte das Erkunden der Stadt auf jeden Fall wieder
- interessanter machen, vorallem da man auch informationen erhält die man
- sonst Googlen müsste, aber meistens nicht macht.
- Eine super Idee! Ich hoffe eine Vollversion (am besten kostenfrei) wird
- erscheinen! Auch falls man Besuch aus dem Ausland hat ist es eine super
- Hilfe einfach mal zu zeigen und dazu auch etwas sagen zu können! Daher
- weiter so!
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/IMG_1418.jpg
+	width 33text%
+	BoundingBox 0bp 0bp 640bp 1100bp
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Darstellung des Entdeckungs-Menüpunktes im Prototyp
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Menüpunkt-für-Entdeckungen"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-", Die Hilfestellung: Frage Leute in der Umgebung ist nicht sonderlich hilfreich
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-"Mir gefällt die APP gut und ich würde sie nutzen.
- Ich finde sie sehr praktisch, wenn man an einem Ort unterwegs ist, an dem
- man sich noch nicht gut auskennt."
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Itemize
-"Für mich persönlich wären Touren mit Fokus Natur zB.
- im Nürnberger Umland am interessantesten.
- Nach einamliger Bentzung ist mir bis jetzt aufgefallen, dass bei der Tour
- an der Pegnitz entlang die Antwort auf die dritte Bonusfrage unglücklich
- gewählt ist.
- Außerdem ist in der Appbeschreibung im Android-Store ein Tippfehler.
- Spielersich statt spielerisch wenn ich mich richtig erinnere.
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-Usern immer Feedback geben, wenn etwas beispielsweise lädt
+\begin_layout Standard
+Die Häufigkeit dieser Bemerkungen zeigt auf, dass die Darstellung des Entdeckung
+s-Menüpunktes nicht ideal ist.
+ Eine Annäherung der Form an die anderen Schaltflächen und eine geeignetere
+ Positionierung kann diesbezüglich die Resonanz der Nutzer verbessern.
+ Die fehlende Erkennbarkeit der Entdeckungsoption trägt allerdings nicht
+ signifikant dazu bei, dass weniger Aufgaben von den Probanden bearbeitet
+ wurden.
+ Denn wie bereits erwähnt, liegt die Quote der Probanden, die eine Tour
+ starteten und mindestens eine Aufgabe bearbeiteten, mit 82,4 Prozent sehr
+ hoch.
 \end_layout
 
-\begin_layout Itemize
-Ich finde die App top
+\begin_layout Standard
+Weiteres Optimierungspotential gibt es auch in der Toleranz der Antwortmöglichke
+iten.
+ Vier Probanden bemängeln bei den Freitextfeldern eine zu niedrige Fehlertoleran
+z.
+ In ihren Fällen führte ein falsches Schriftzeichen bereits zu einer inkorrekten
+ Antwort.
 \end_layout
 
-\begin_layout Itemize
-Ich finde die Idee echt interessant, weil man interaktiv Ecken der Stadt
- kennen lernt, die man vorher nicht kannte.
- Bzw interessant Details.
- Auch die Fragen finde ich interessant, weil sie einen Entdeckergeist wecken.
+\begin_layout Standard
+Weitere Anregungen zum Prototyp betreffen strukturelle Maßnahmen sowie zusätzlic
+he Inhalte bzw.
+ Verweisen zu zusätzlichen Informationen.
+ Die Probanden schlagen beispielsweise den Einbau von Verweisen zu entsprechende
+n Wikipedia-Einträgen vor, oder Fotos zu den Fragestellungen.
+ Ein Proband vermisste die weitere Anzeige korrekter Antworten nach dem
+ Lösen der Aufgabe.
+ Nach ihm ginge der Mehrwert der Aufgabe ohne der Beibehaltung verloren.
 \end_layout
 
-\begin_layout Itemize
-Chrissi: Tutorial nicht gemacht, weil angelerntes Verhalten
-\end_layout
-
-\begin_layout Itemize
-Pause-pausieren besser mit Umrandung.
-\end_layout
-
-\begin_layout Itemize
-"Beenden" -> automatisch
-\end_layout
-
-\begin_layout Itemize
-App nutzen wenn funktionale Fehler behoben
+\begin_layout Standard
+Der letzte Punkt mit einer erhöhten Signifikanz bezieht sich auf den Funktionsum
+fang von Touren.
+ In einem Kommentar wird die Möglichkeit zur Änderung der Reihenfolge empfohlen,
+ um effizientere Abfolgen der Zielorte wählen zu können.
+ Eine andere Meinung spricht sich für ein Nachschlagewerk absolvierter Touren
+ aus.
+ Diese Funktion ist zum jetzigen Zeitpunkt nur indirekt durch den erneuten
+ Start einer Tour verfügbar.
+ Zwei Probanden nehmen Bezug auf die Erstellung eigener Touren und sprechen
+ sich in ihren Kommentaren dafür aus.
 \end_layout
 
 \end_body

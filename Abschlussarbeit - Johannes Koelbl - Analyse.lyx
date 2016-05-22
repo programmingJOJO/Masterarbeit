@@ -131,15 +131,9 @@ name "chap:Entwicklung-eines-Prototypen"
 \end_layout
 
 \begin_layout Standard
-In diesem Kapitel wird die Studie mithilfe des Vorgehensmodells 
-\begin_inset Quotes eld
-\end_inset
-
-Designprozess zur Verhaltensänderung
-\begin_inset Quotes erd
-\end_inset
-
- von Stephen Wendel kritisch reflektiert und weiterentwickelt.
+In diesem Kapitel wird die Studie mithilfe des Vorgehensmodells Designprozess
+ zur Verhaltensänderung von Stephen Wendel kritisch reflektiert und weiterentwic
+kelt.
  Die soeben vorgestellten verwandten Anwendungen und Arbeiten aus Abschnitt
  
 \begin_inset CommandInset ref
@@ -175,40 +169,40 @@ Weiterentwicklung der Konzeptstudie
 
 \begin_layout Standard
 In den folgenden Unterabschnitten werden zuerst die Haupteigenschaften des
- weiterzuentwickelnden Produkts geklärt.
- Diese sind die Klarstellung der Vision über das Produkt und eines Anwendungszie
-ls (Unterabschnitt 
+ zu entwickelnden Prototyps geklärt.
+ Durch diese Zieldefinition wird die Erreichung des Entwicklungsziels des
+ Prototyps sichergestellt.
+ Diese beginnen mit der Bestimmung des Anwendungsziels 
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand eqref
 reference "sub:Anwendungsziel-bestimmen"
 
 \end_inset
 
-).
- Danach werden mögliche Projekteinschränkungen bestimmt und eine Reihe plausible
-r Zielverhalten der Nutzer definiert (Unterabschnitt 
+ und der Projekteinschränkungen 
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand eqref
 reference "sub:Projekteinschränkungen"
 
 \end_inset
 
- und 
+.
+ Nachfolgend werden plausiblee Zielverhalten der Nutzer definiert 
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand eqref
 reference "sub:Mögliche-Zielverhalten-definiere"
 
 \end_inset
 
-).
- Nachfolgend wird in Unterabschnitt 
+.
+ Im Anschluss wird in 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Festlegung-der-Zielgruppe"
 
 \end_inset
 
- die Zielgruppe eingegrenzt und in Unterabschnitt 
+ die Zielgruppe eingegrenzt und in 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Persona-Gruppen"
@@ -216,15 +210,15 @@ reference "sub:Persona-Gruppen"
 \end_inset
 
  Persona-Gruppen in Bezug auf die Zielverhalten erstellt.
- Zuletzt wird in Unterabschnitt 
+ Die Festlegung auf ein Zielverhalten mithilfe der bisher erlangten Erkenntnisse
+ geschieht im letzten Punkt 
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand eqref
 reference "sub:Festlegung-auf-Zielverhalten"
 
 \end_inset
 
- die Festlegung auf exakt ein Zielverhalten mithilfe der bisher erlangten
- Erkenntnisse vorgenommen.
+.
 \end_layout
 
 \begin_layout Subsection
@@ -239,15 +233,7 @@ name "sub:Anwendungsziel-bestimmen"
 \end_layout
 
 \begin_layout Standard
-Wendel beginnt in der Phase 
-\begin_inset Quotes eld
-\end_inset
-
-Discover
-\begin_inset Quotes erd
-\end_inset
-
- mit der Festlegung der Produktvision und dem Anwendungsziel.
+Wendel beginnt mit der Festlegung der Produktvision und dem Anwendungsziel.
  Die Wahl zwischen einer nutzerorientierten oder unternehmensorientierten
  Gestaltung überlässt er dabei dem Leser 
 \begin_inset ERT
@@ -5888,14 +5874,14 @@ Action Funnels
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -5935,7 +5921,7 @@ name "fig:mock-2a"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -6336,7 +6322,7 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -6517,7 +6503,7 @@ reference "chap:Evaluation"
 
 \end_inset
 
-) beschänkte sich das zu testende Zielverhaltens auf eine einamlige Durchführung.
+) beschränkt sich das zu testende Zielverhaltens auf eine einamlige Durchführung.
  Der Einsatz von Push-Benachrichtigungen (s.
  User Story 
 \begin_inset CommandInset ref
@@ -6526,24 +6512,24 @@ reference "enu:UST-A3"
 
 \end_inset
 
-), welche einen erneuten Auslösereiz darstellen sollten, wurde deshalb nicht
- berücksichtig.
- Des weiteren wurde die Implementierung von User Story 
+), welche einen erneuten Auslösereiz darstellen, wurde deshalb nicht berücksicht
+ig.
+\end_layout
+
+\begin_layout Standard
+Ein weiterer Anlass zur Verringerung nicht essentieller Funktionen war der
+ zu kurz bemessene Implementierungszeitraum.
+ Wegfallende Funktionen betreffen hier die Geolocation und die Option für
+ gemeinsame Ausflüge (s.
+ User Story 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:UST-A5"
 
 \end_inset
 
-, der Vermittlung von Gleichgesinnten für Touren, aus Gründen der begrenzten
- Probantenanzahl nicht begonnen.
-\end_layout
-
-\begin_layout Standard
-Ein weiterer Anlass zur Verringerung nicht essentieller Funktionen war der
- zu kurz bemessene Implementierungszeitraum.
- Wegfallende Funktionen betreffen hier die Geolocation.
- Der Nutzer sollte ursprünglich geortet werden und relativ zum Ziel angezeigt
+).
+ Nutzer sollten ursprünglich geortet werden und relativ zum Zielort angezeigt
  werden (s.
  User Story 
 \begin_inset CommandInset ref
@@ -6553,8 +6539,8 @@ reference "enu:UST-B3"
 \end_inset
 
 ).
- Zielorte mit Öffnungszeiten wurden überdies ohne Hinweis auf ihren momentanen
- Stand in den entsprechenden Touren aufgeführt (s.
+ Zielorte mit wahrscheinlichen Öffnungszeiten sind überdies ohne diesen
+ Hinweis  in den entsprechenden Touren aufgeführt (s.
  User Story 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -6571,8 +6557,8 @@ reference "enu:UST-D2"
 
 \end_inset
 
-) wurde zwar im Prototyp eingebaut, die fortführende Implementierung wurde
- allerdings ebenfalls aus Zeitgründen gestoppt.
+) existiert zwar im Prototyp, die fortführende Implementierung ist allerdings
+ ebenfalls aus Zeitgründen gestoppt worden.
 \end_layout
 
 \begin_layout Standard
