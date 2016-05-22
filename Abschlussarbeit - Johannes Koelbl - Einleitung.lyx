@@ -286,7 +286,7 @@ Ziel 1: Konzeption einer gamifizierten Anwendung auf Basis der existierenden
 \emph on
 SeeSight
 \emph default
- und unter Einbeziehung einer zuvor erstellten Marktanalyse.
+ unter Einbeziehung einer zuvor erstellten Marktanalyse.
 \begin_inset CommandInset label
 LatexCommand label
 name "Ziel-1:-Konzeption"
@@ -298,7 +298,7 @@ name "Ziel-1:-Konzeption"
 
 \begin_layout Itemize
 Ziel 2: Realisierung eines Prototyps als Proof-of-Concept mit anschließender
- Testphase und Evaluation.
+ Evaluierung der verhaltensändernden Mechanismen.
 \begin_inset CommandInset label
 LatexCommand label
 name "Ziel-2:-Realisierung"

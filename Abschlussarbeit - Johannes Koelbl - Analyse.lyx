@@ -5874,7 +5874,7 @@ Action Funnels
 placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -6578,14 +6578,14 @@ en.
 \end_layout
 
 \begin_layout Standard
-Mit Beendigung dieses Abschnitts ist das erste Ziel aus Abschnitt 
+Mit Beendigung dieses Kapitels ist das erste Ziel aus Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:Ziel-der-Arbeit"
 
 \end_inset
 
- bewältigt, nämlich die Konzeption einer gamifizierten Anwendung auf Basis
+ erreicht, nämlich die Konzeption einer gamifizierten Anwendung auf Basis
  der existierenden Konzeptstudie 
 \emph on
 SeeSight

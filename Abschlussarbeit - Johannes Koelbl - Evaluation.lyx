@@ -2813,5 +2813,18 @@ fang von Touren.
  sich in ihren Kommentaren dafür aus.
 \end_layout
 
+\begin_layout Standard
+Mit Beendigung der Evaluierung ist das zweite und letzte Ziel aus Abschnitt
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Ziel-der-Arbeit"
+
+\end_inset
+
+ erreicht, der Prototyp als Machbarkeitsnachweis und die anschließende Überprüfu
+ng der beinhalteten, verhaltensändernden Mechanismen.
+\end_layout
+
 \end_body
 \end_document
