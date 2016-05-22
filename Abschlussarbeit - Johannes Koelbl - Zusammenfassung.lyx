@@ -119,8 +119,31 @@
 Zusammenfassung
 \end_layout
 
+\begin_layout Standard
+Nach der Zusammentragung der Ergebnisse und eines ersten kritischen Fazits
+ in Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Evaluation"
+
+\end_inset
+
+, werden nun im abschließenden Teil die Ziele der Abschlussarbeit rekapituliert
+\end_layout
+
 \begin_layout Section
 Diskussion der Ergebnisse
+\end_layout
+
+\begin_layout Standard
+Ziel der vorliegenden Abschlussarbeit war es unter Berücksichtigung der
+ derzeitigen technischen Möglichkeiten bei derWebentwicklung eine Plattform
+ zu verwirklichen, die es Nutzern ermöglicht, plattformunabhängige Spieleingaben
+ zu asynchronen Spielkonzepten mit dem gerade vorliegenden Endgerät zu tätigen.
+ Zu diesem Zweck wurde zusätzlich zur Server-Plattform ein Prototyp realisiert
+ der die Eigenschaften eines asynchronen Spielkonzeptes besitzt.
+ Die in insgesamt drei Punkte untergliederte für die Abschlussarbeit vorgenommen
+e Zielsetzung, konnte über die Zeit hinweg vollständig eingehalten werden.
 \end_layout
 
 \begin_layout Section
