@@ -1595,16 +1595,22 @@ Spielformen können bei der Gamifizierung einer Anwendung bzw.
 placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Formen des Spiels nach 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Voit.2014"
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citet[S.~3]{Voit.2014}
+\end_layout
 
 \end_inset
 
@@ -2616,17 +2622,15 @@ Die Konzeptstudie
 \emph on
 SeeSight
 \emph default
- entstand im Rahmen eines Leistungsnachweises in der Lehrveranstaltung 
-\begin_inset Quotes eld
+ entstand im Rahmen eines Leistungsnachweises in einer Lehrveranstaltung
+ zur Gamifizierung von Anwendungssystemen 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kuhnlein.2014"
+
 \end_inset
 
-Gamification von Informations- und Anwendungssystemen
-\begin_inset Quotes erd
-\end_inset
-
- von Prof.
- Dr.
- Thomas Voit TODO: Qelle.
+.
  Vorgabe der praktischen Arbeit war die Gamifizierung einer spielfremden
  Domäne mithilfe des in der Lehrveranstaltung gewonnenen Wissens.
  Als zu gamifzierende Domäne wurde der Bereich Reisen im engeren Sinne von

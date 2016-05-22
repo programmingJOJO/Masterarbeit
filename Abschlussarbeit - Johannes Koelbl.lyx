@@ -702,9 +702,112 @@ setcounter{section}{0}
 \end_layout
 
 \begin_layout Section
+Spielformen
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Spielformen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Bilder/Voit Spielformen.jpg
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+Formen des Spiels 
+\lang ngerman
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~3]{Voit.2014}
+\end_layout
+
+\end_inset
+
+ in Anlehnung an 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citet[S.~156]{Crumlish.2015}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Konzeptstudie SeeSight
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Konzeptstudie-SeeSight"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename Konzeptstudie SeeSight.pdf
+	lyxscale 80
+	extra LaTeX "pages=-, nup=1x2, frame= true, delta=3mm 3mm"
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 
 \lang english
-Fragebogen zur Evaluierung des Prototyp
+Fragebogen zum Prototyp
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Fragebogen-zur-Evaluierung"
