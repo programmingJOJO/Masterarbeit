@@ -340,6 +340,13 @@ Während einer mehrstündigen Zeitintervalls am ersten Tag war die Anwendung
 
 \begin_layout Section
 Evaluierung der Ergebnisse
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Evaluierung-der-Ergebnisse"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -365,8 +372,8 @@ description "App-Identifier"
  Dies kann den höheren Anteil von Nicht-Android-Geräten erklären.
  Zudem konnten möglicherweise inaktive Nutzer-Entitäten enstanden sein,
  welche unter Umständen die Ergebnisse beeinflussen.
- Dieses Problem konnte erst während der Testphase identifiziert werden und
- eine Aussortierung ist nicht mehr möglich.
+ Dieses Problem ist erst während der Testphase identifiziert worden und
+ eine Aussortierung ist zum jetzigen Zeitpunkt nicht mehr möglich.
 \end_layout
 
 \begin_layout Subsection

@@ -120,15 +120,21 @@ Zusammenfassung
 \end_layout
 
 \begin_layout Standard
-Nach der Zusammentragung der Ergebnisse und eines ersten kritischen Fazits
- in Kapitel 
+Nach der Zusammentragung der Ergebnisseaus der Testphase und eines ersten
+ kritischen Fazits in Kapitel 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "chap:Evaluation"
 
 \end_inset
 
-, werden nun im abschließenden Teil die Ziele der Abschlussarbeit rekapituliert
+, werden nun im abschließenden Teil die eingangs gestellte Frage rekapituliert,
+ wie motivationale Defizie innerhalb der spielfremden Domäne Reisen durch
+ Anwendung von Gamification bewältigt und zu einem bestimmten Verhalten
+ anregen können.
+ Gegenstand dieser Fragestellung sind zudem zwei Ziele, welche mit Abschluss
+ dieser Arbeit erreicht werden sollten.
+ Sie werden im anschließenden Abschnitt zuerst diskutiert.
 \end_layout
 
 \begin_layout Section
@@ -137,13 +143,124 @@ Diskussion der Ergebnisse
 
 \begin_layout Standard
 Ziel der vorliegenden Abschlussarbeit war es unter Berücksichtigung der
- derzeitigen technischen Möglichkeiten bei derWebentwicklung eine Plattform
- zu verwirklichen, die es Nutzern ermöglicht, plattformunabhängige Spieleingaben
- zu asynchronen Spielkonzepten mit dem gerade vorliegenden Endgerät zu tätigen.
- Zu diesem Zweck wurde zusätzlich zur Server-Plattform ein Prototyp realisiert
- der die Eigenschaften eines asynchronen Spielkonzeptes besitzt.
- Die in insgesamt drei Punkte untergliederte für die Abschlussarbeit vorgenommen
-e Zielsetzung, konnte über die Zeit hinweg vollständig eingehalten werden.
+ derzeitigen technischen Möglichkeiten bei der App-Entwicklung einen Prototyp
+ mit dem Kontext Reisen zu verwirklichen, welche motivationale Defizite
+ reduziert und zu einem bestimmten Verhalten verleitet.
+ Zu diesem Zweck wurde vor der Konzeption eine Marktstudie etablierter,
+ verwandter Anwendungen realisiert, welche nach zuvor bestimmten Vergleichsmerkm
+alen hin analysiert wurden.
+ Die Ergebnisse wurden sodann, gekoppelt mit einem ausgewählten Vorgehensmodell
+ zur Verhaltensänderung, für die Entwicklung des Prototyp verwendet.
+ Eine darauffolgende Testphase mit freiwilligen Probanden sollte den Grad
+ der Verhaltensänderung messen und über Erfolg oder Misserfolg informieren.
+ 
+\end_layout
+
+\begin_layout Standard
+Die aus zwei Punkten untergliederte, für diese Abschlussarbeit vorgenommene
+ Zielsetzung, konnte vollständig erreicht werden.
+ Ziel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Ziel-1:-Konzeption"
+
+\end_inset
+
+ umfasst die Konzeption einer gamifizierten Anwendung auf Basis der existierende
+n Konzeptstudie 
+\emph on
+SeeSight
+\emph default
+ und unter Einbeziehung einer zuvor erstellten Marktanalyse.
+ Die aus insgesamt sieben ausgewählten, verwandten Anwendungen und Arbeiten
+ bestehende Zusammensetzung ist gemeinsam mit der Konzeptstudie auf die
+ definierten Vergleichskriterien überprüft worden.
+ Ihre Unterschiede sowie Gemeinsamkeiten sind anschließend gegenübergestellt
+ und für die Konzeptphase ausgewertet worden.
+ Das Konzept selbst wurde mithilfe eines bestehenden Vorgehensmodells und
+ bis einschließlich verwendungsfähiger Mock-Ups entwickelt.
+ Aus diesem Ergebnis resultiert, dass der erste Teil der Zielsetzung erreicht
+ ist.
+ 
+\end_layout
+
+\begin_layout Standard
+Aufgabe 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Ziel-2:-Realisierung"
+
+\end_inset
+
+ beinhaltet die Implementierung zum Prototyp und die daran angesetzte Testphase.
+ Geplante Funktionen in den Bereichen Geolocation und Personalisierung mussten
+ während der Umsetzung zurückgestellt werden.
+ Ungeachtet dessen, ermöglicht der Prototyp vollumfänglich das intendierte
+ Zielverhalten.
+ Dieses Zielverhalten - die Beantwortung standortbasierter Fragestellungen
+ - wurde mit weiteren unterstützenden Mechanismen zum Testzeitpunkt mit
+ Einverständnis der Teilnehmer getrackt.
+ In Kombination mit einer Umfrage wurden die erhobenen Daten abschließend
+ evaluiert.
+ 
+\end_layout
+
+\begin_layout Standard
+Entscheidend zur Erkenntnisgewinnung bezüglich der Fragestellung aus Abschnitt
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Ziel-der-Arbeit"
+
+\end_inset
+
+ trägt die Evaluierung der erhobenen Daten aus 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Evaluierung-der-Ergebnisse"
+
+\end_inset
+
+ bei.
+ Wie in zu erkennen ist, ergibt die Gesamtheit der Ergebnisse ein durchwachsende
+s Resultat.
+ Während diejenigen die eine Tour auswählten, diese auch überwiegend beendeten,
+ wählte die Mehrheit der Probanden erst gar keine Tour aus.
+ Die Gründe dazu können von einer Abwägung der Interessen bis hin zu fehlender
+ Freizeit für diese Tätigkeit liegen.
+ Denn das Zielverhalten benötigt eine angemessene Zeitspanne zur Durchführung.
+ Andererseits kann das Verhältnis der aktiven Probanden zu den nicht aktiven
+ Teilnehmern eine gewöhnliches Merkmal der Generierung von App-Nutzern sein.
+\end_layout
+
+\begin_layout Standard
+Was die Reduzierung motivationaler Defizite durch unterstützende Mechanismen
+ angeht, so wurden die Mechanismens zu Beginn der Anwendung sehr gut angenommen.
+ Es war beispielsweise mit der Personalisierung nach Vorlieben geplant,
+ dass bestimmte Vorgehensweisen innerhalb der Anwendung zu vereinfachen
+ sind.
+ Die Nutzer sollten somit schneller und bequemer das Zielverhalten durchführen
+ können.
+ Weitere unterstützende Elemente hingegen, wie die Fortschrittsanzeige oder
+ die Hinweise zu den angebotenen Aufgabenstellungen können keinen klaren
+ Erfolg zugeschrieben werden.
+ Dies begründet sich jedoch in ihrer subtilen Darstellung und weniger an
+ ihrer Effektivität.
+\end_layout
+
+\begin_layout Standard
+Der Erfolg des Anwendungsziel wurde während der Arbeit dadurch definiert,
+ dass ein Zielverhalten auch mehrmals während einer Tour durchgeführt wird.
+ Eine solche Wiederholung zeigt anhaltendes Interesse und Freude am Zielverhalte
+n und somit auch eine bewusstere Wahrnehmung der besuchten Orte.
+ Aus der Evaluierung geht hervor, dass knapp die Hälfte der Probanden, welche
+ mindesten einmal das Zielverhalten ausfühten, es auch wiederholte Male
+ taten.
+ Dieses Ergebniss liegt hinter den eigenen Erwartungen zurück, die für das
+ Zielverhalten sprächen.
+ Jedoch ist zu erwähnten, dass in den ebenfalls evaluierten Meinungen der
+ Probanden hohes Optimierungspotential liegt.
+ 
 \end_layout
 
 \begin_layout Section

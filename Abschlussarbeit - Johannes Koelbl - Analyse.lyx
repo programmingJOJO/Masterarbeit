@@ -394,8 +394,10 @@ mer Faktor.
 \begin_layout Description
 Produkttyp: Die Konzeptstudie ist als mobile App festgelegt.
  Diese Einschränkung wird für den Prototyp als hybride App präzisiert.
- Mit der Entwicklung eines hybriden Prototypen lassen sich für die spätere
- Testpahse mehr Probanden werben.
+ Sie ermöglicht mit weniger Implementierungsaufwand eine breitere Verteilung
+ des Prototyps auf verschieden Smartphones.
+ Mit der Entwicklung eines hybriden Prototypen lässt sich somit für die
+ spätere Testphase ein größerer Teilnehmerkreis aquirieren.
 \end_layout
 
 \begin_layout Description
@@ -5326,22 +5328,9 @@ reference "fig:mock-1b"
 \end_inset
 
 , 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glqq
-\end_layout
-
-\end_inset
-
- Tour durch die Anwendung
-\begin_inset Quotes erd
-\end_inset
-
+\emph on
+Tour durch die Anwendung
+\emph default
 ).
  
 \begin_inset CommandInset ref
@@ -5410,22 +5399,9 @@ reference "enu:UST-A4"
  Dieser Nugde ist dem Schema des automatisierten Verhaltens aus dem Bereich
  zur Veränderung der Entscheidungsarchitektur nachempfunden.
  Nachdem der Nutzer seine Vorlieben angegeben hat, wird die Option 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glqq
-\end_layout
-
-\end_inset
-
- Nach Vorlieben vorsortieren
-\begin_inset Quotes erd
-\end_inset
-
+\emph on
+Nach Vorlieben vorsortieren
+\emph default
  im rechten Ausschnitt in Abbildung 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -5446,22 +5422,9 @@ reference "enu:UST-A5"
 \end_inset
 
  ist ebenfalls in den Benutzereinstellungen (
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glqq
-\end_layout
-
-\end_inset
-
- Gleichgesinnte für geplante Tour finden
-\begin_inset Quotes erd
-\end_inset
-
+\emph on
+Gleichgesinnte für geplante Tour finden
+\emph default
 ) als Standardannahme vorausgewählt.
  Wie sich diese Option auf das Auswählen einer Tour auswirkt ist allerdings
  in den Mock-Ups bisher nicht näher beschrieben.
@@ -5487,22 +5450,9 @@ reference "enu:UST-A3"
 
 , die Aktivierung von Push-Benachrichtigungen zwecks Vorschlägen zu Ausflugszeit
 en (
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glqq
-\end_layout
-
-\end_inset
-
- Passende Tage für Touren empfohlen bekommen
-\begin_inset Quotes erd
-\end_inset
-
+\emph on
+Passende Tage für Touren empfohlen bekommen
+\emph default
 ).
  Wendel führt diesen Mechanismus in der Liste der weniger wirkungsvolleren
  Entwurfsmuster als 
@@ -5720,22 +5670,9 @@ reference "enu:UST-D2"
  Eine geeignete Stelle zum wiederholten Aufruf sind auch hier wieder die
  Benutzereinstellungen.
  Unter dem Menüpunkt 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glqq
-\end_layout
-
-\end_inset
-
- Mein Fortschritt
-\begin_inset Quotes erd
-\end_inset
-
+\emph on
+Mein Fortschritt
+\emph default
  lassen sich alle ungelösten Aufgaben von Neuem beginnen.
  Gleich darunter werden Information über den aktuellen Fortschritt des Nutzers
  zusammenfassend festgehalten.
@@ -6069,22 +6006,14 @@ reference "sub:Unterstützende-Mechanismen"
  mental von Neuem beginnen, sondern erkennt sofort den zuletzt erreichten
  Zielort.
  Eine Umbenennung der Schaltflächen für den Tourabbruch von 
-\begin_inset Quotes eld
-\end_inset
-
+\emph on
 Tour abbrechen
-\begin_inset Quotes erd
-\end_inset
-
+\emph default
  zu 
-\begin_inset Quotes eld
-\end_inset
-
-Tour später fortsetzen
-\begin_inset Quotes erd
-\end_inset
-
- wäre dahingehend ebenfalls präziser.
+\emph on
+Tour später fortsetzen 
+\emph default
+wäre dahingehend ebenfalls präziser.
  
 \end_layout
 
@@ -6105,13 +6034,9 @@ reference "enu:UST-C2"
 \end_inset
 
 ) geschieht durch Betätigung der rechts hereinragenden 
-\begin_inset Quotes eld
-\end_inset
-
+\emph on
 Rätsel
-\begin_inset Quotes erd
-\end_inset
-
+\emph default
 -Schaltfläche.
  Das Mock-Up mit der aktivierten Aufgabe (s.
  Abb.
