@@ -120,7 +120,7 @@ Zusammenfassung
 \end_layout
 
 \begin_layout Standard
-Nach der Zusammentragung der Ergebnisseaus der Testphase und eines ersten
+Nach der Zusammentragung der Ergebnisse aus der Testphase und eines ersten
  kritischen Fazits in Kapitel 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -129,7 +129,7 @@ reference "chap:Evaluation"
 \end_inset
 
 , werden nun im abschließenden Teil die eingangs gestellte Frage rekapituliert,
- wie motivationale Defizie innerhalb der spielfremden Domäne Reisen durch
+ wie motivationale Defizite innerhalb der spielfremden Domäne Reisen durch
  Anwendung von Gamification bewältigt und zu einem bestimmten Verhalten
  anregen können.
  Gegenstand dieser Fragestellung sind zudem zwei Ziele, welche mit Abschluss
@@ -235,7 +235,7 @@ s Resultat.
 
 \begin_layout Standard
 Was die Reduzierung motivationaler Defizite durch unterstützende Mechanismen
- angeht, so wurden die Mechanismens zu Beginn der Anwendung sehr gut angenommen.
+ angeht, so wurden diese zu Beginn der Anwendung sehr gut angenommen.
  Es war beispielsweise mit der Personalisierung nach Vorlieben geplant,
  dass bestimmte Vorgehensweisen innerhalb der Anwendung zu vereinfachen
  sind.
@@ -254,9 +254,9 @@ Der Erfolg des Anwendungsziel wurde während der Arbeit dadurch definiert,
  Eine solche Wiederholung zeigt anhaltendes Interesse und Freude am Zielverhalte
 n und somit auch eine bewusstere Wahrnehmung der besuchten Orte.
  Aus der Evaluierung geht hervor, dass knapp die Hälfte der Probanden, welche
- mindesten einmal das Zielverhalten ausfühten, es auch wiederholte Male
+ mindestens einmal das Zielverhalten ausführten, es auch wiederholte Male
  taten.
- Dieses Ergebniss liegt hinter den eigenen Erwartungen zurück, die für das
+ Dieses Ergebnis liegt hinter den eigenen Erwartungen zurück, die für das
  Zielverhalten sprächen.
  Jedoch ist zu erwähnten, dass in den ebenfalls evaluierten Meinungen der
  Probanden hohes Optimierungspotential liegt.
@@ -265,6 +265,51 @@ n und somit auch eine bewusstere Wahrnehmung der besuchten Orte.
 
 \begin_layout Section
 Ausblick
+\end_layout
+
+\begin_layout Standard
+Trotz der nicht zufrieden stellenden Ergebnisse gilt das ausgearbeitete
+ Konzept nicht als Fehlschlag.
+ Denn wie bereits in Abschnitt zu den chronologischen Vorgehensmodellen
+ erklärt wird, ist nicht auszuschließen, dass die Nutzer das Produkt im
+ ersten Testdurchlauf akzeptieren.
+ In Hinblick auf eine konsequente Weiterentwicklung des Prototyps, besitzt
+ das Konzept weiterhin hohes, auszuschöpfendes Potential.
+ In einem nächsten Überarbeitungsvorgang sollten neben den geplanten, aber
+ zurückgestellten Funktionen, auch die von den Probanden erwähnten Optimierungsm
+öglichkeiten berücksichtigt werden.
+ Zudem muss sichergestellt werden, dass Nutzer motiviert sind, selbst Inhalte,
+ sprich Touren zu erstellen.
+ Dadurch wird eine kontinuierliche Aktualität und Attraktivität des Prototyps
+ gewährleistet.
+ Das Konzept lebt von interessanten Touren und den darin enthaltenen Mehrwert.
+ Einige der zurückgestellten Funktionen wie die automatische Tour-Vorsortierung
+ nach gewählten Präferenzen oder der Mechanismus zu Tour-Vorschlägen durch
+ Push-Benachrichtigungen funktionieren beispielsweise nur durch ausreichend
+ verschiedene Touren.
+\end_layout
+
+\begin_layout Standard
+Ebenso müssen nachfolgende Testdurchläufe optimiert werden.
+ Bezüglich des Trackings konnten manche Daten während der ersten Iteration
+ nicht eindeutig ausgewertet werden.
+ Das betrifft exemplarisch das Verhältnis der hohen Anzahl registrierter
+ Probanden zu den tatsächlich aktiven Teilnehmern.
+ Des Weiteren lassen sich zukünftig redundante Fragestellungen aus der Umfrage
+ vermeiden, deren Ergebnisse auch wahrheitsgetreuer durch das Tracking erfasst
+ werden können.
+ Zusätzlich kann der Versuch zum Verzicht der Umfrage unternommen werden
+ und beispielsweise demographische Merkmale mithilfe einer optionalen Nutzerregi
+strierung zu erfassen.
+\end_layout
+
+\begin_layout Standard
+Mit Berücksichtigung des genannten Optimierungspotentials, lässt sich das
+ in dieser Arbeit entworfene Konzept für Städtetouren als eine gelungene,
+ wenn auch verbesserungswürdige Gamification-Lösung bezeichnen.
+ In nachkommenden Überarbeitungszyklen oder als als Muster für ähnliche
+ Anwendungen kann sie das Gesamterlebnis von Touren aufwerten und als ständiger,
+ mobiler Begleiter für Urlaubs- und Städtereisende verwendet werden.
 \end_layout
 
 \end_body
