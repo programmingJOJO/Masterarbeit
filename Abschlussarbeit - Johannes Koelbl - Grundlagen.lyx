@@ -42,6 +42,10 @@
 \setlength{\nomitemsep}{-\parsep}
 \renewcommand{\nomname}{Abkürzungsverzeichnis}
 \def\nompreamble{\addcontentsline{toc}{section}{\nomname}\markboth{\nomname}{\nomname}}
+
+% Worttrennungen %
+\hyphenation{
+McGonigal}
 \end_preamble
 \options liststotoc
 \use_default_options true
@@ -128,7 +132,7 @@ name "chap:Gamification und verhaltenstheoretische Grundlagen"
 
 \begin_layout Standard
 Dieses Kapitel vermittelt das für den weiteren Verlauf der Arbeit vorausgesetzte
- Wissen bezüglich Gamification und verhaltenstheoretische Grundlagen.
+ Wissen bezüglich Gamification und verhaltenstheoretischer Grundlagen.
  Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -164,10 +168,11 @@ reference "sub:Chronologische-Vorgehensmodelle-"
 
 \end_inset
 
- umfasst zwei aktuelle chronologische Vorgehensmodelle zur Gamifizierung
+ umfasst zwei aktuelle, chronologische Vorgehensmodelle zur Gamifizierung
  von Anwendungen.
- Eines der beiden Vorgehensmodelle wird für die zwei Ziele, der Konzeption
- und anschließenden Ausarbeitung des Prototyps, herangezogen.
+ Eines der beiden Vorgehensmodelle, der Designprozess zur Verhaltensänderung
+ von Wendel, wird für die zwei Ziele, der Konzeption und anschließenden
+ Ausarbeitung des Prototyps, herangezogen.
 \end_layout
 
 \begin_layout Section
@@ -239,7 +244,8 @@ cite[S.~11]{Deterding.2011}
 \begin_layout Standard
 Das heißt Spielmechanismen (oder auch Spielelemente genannt) werden in einem
  Kontext bzw.
- einer Domäne eingesetzt, in denen sie für gewöhnlich nicht Verwendung finden.
+ einer Domäne eingesetzt, in der für gewöhnlich kein Verwendungszweck dafür
+ besteht.
  Was dieser bisher prägenden Definition fehlt ist der Sinn und Zweck von
  Gamification.
  Huotari und Hamari bestimmen Gamification als
@@ -299,12 +305,8 @@ cite[S.~20]{Huotari.2012}
 .
  Huotari und Hamari sehen mit ihrer Aussage die gamifizierte Tätigkeit als
  eine wertvolle Tätigkeit an.
- Momentan ist die Aussage allgemein verbreitet, das Ziel von Gamification
- sei eine gezielte Verhaltensbeeinflussung.
- Diese Interpretation wird in wissenschaftlichen Kreisen in Kombination
- mit der Definition von Deterding et al.
- verwendet.
- TODO
+ Und das Ziel, die Unterstützung der Nutzer in hier Tätigkeit, lässt sich
+ als eine gezielte Verhaltensbeeinflussung verstehen.
 \end_layout
 
 \begin_layout Subsection
@@ -348,9 +350,11 @@ key "Albert.2012"
 
 \begin_layout Description
 Gamification: Wie bereits erläutert, ist die Grundidee von Gamification
- die Verhaltensbeeinflussung durch Zuhilfenahme motivierender Spielmechanismen.
+ die Unterstützung von Tätigkeiten durch Zuhilfenahme motivierender Spielmechani
+smen.
  Das Arbeitsumfeld wird dadurch so umfunktioniert, dass die Tätigkeit nicht
  mehr als Arbeit empfunden wird.
+ Eine positive Verhaltensänderung tritt somit ein.
 \end_layout
 
 \begin_layout Description
@@ -619,7 +623,7 @@ Vermehrt mit dem Rad zur Arbeit fahren
 \begin_inset Text
 
 \begin_layout Plain Layout
-Lichter bei Verlassen des Wohnung ausschalten
+Lichter bei Verlassen der Wohnung ausschalten
 \end_layout
 
 \end_inset
@@ -716,7 +720,7 @@ Nie wieder Verzehr von Fleisch
 
  Fogg unterteilt Verhalten in drei zeitliche Größen und in fünf Verhaltensweisen.
  Zeitlich geht er von einem einmaligen Verhalten aus, einem Verhalten über
- einen definiertes Zeitfenster sowie eine kontinuierliche Beibehaltung des
+ ein definiertes Zeitfenster sowie eine kontinuierliche Beibehaltung des
  Verhaltens.
  Diese können entweder neu erzeugt werden, in ihrer Intensität oder Zeitdauer
  verstärkt bzw.
@@ -750,7 +754,7 @@ cite[S.~21--23]{Wendel.2013}
 
 .
  In Bezug auf den Gamifizierungsprozess sollte das angestrebte Zielverhalten
- möglichst eine vertrautes Situation darstellen.
+ möglichst eine vertraute Situation darstellen.
 \end_layout
 
 \begin_layout Section
@@ -777,7 +781,7 @@ reference "fig:Die-fünf-Hauptphasen"
 \end_inset
 
 ).
- Auch wenn diese Abbildung eine pauschaule Entwicklung des Gesamtmarktes
+ Auch wenn diese Abbildung eine pauschale Entwicklung des Gesamtmarktes
  vieler Technologien beschreibt, zeigt sie die bereits vergangene anfängliche
  Euphorie zu Gamification.
  
@@ -841,8 +845,8 @@ key "Scott.2012"
 \end_inset
 
 .
- Motivation ist jedoch ein essentieller Faktor in Bereich Gamification,
- denn sie ist letztendlich der Beweggrund, welche zu bestimmten Handlungen
+ Motivation ist jedoch ein essentieller Faktor im Bereich Gamification,
+ denn sie ist letztendlich der Beweggrund, welcher zu bestimmten Handlungen
  anregt oder diese beeinflusst.
 \end_layout
 
@@ -864,7 +868,7 @@ Zuletzt beschreibt der
 Action Funnel
 \emph default
  aus dem Vorgehensmodell Designprozess zur Verhaltensänderung von Wendel
- fünf Bedingungen in sequenzieller Reihenfolge, welche für die Enstehung
+ fünf Bedingungen in sequenzieller Reihenfolge, welche für die Entstehung
  des Verhaltens erfüllt sein müssen 
 \begin_inset ERT
 status open
@@ -893,10 +897,10 @@ name "sub:Intrinsische-und-extrinsische"
 \end_layout
 
 \begin_layout Standard
-Extrinsische Motivation entsteht durch äußere Anreize, sind also fremdbestimmt.
- Sie wird dabei erzeugt durch das zu erwartende Ergebnis, z.
- B.
- Geld, bessere Prüfungsnoten während oder nach einem Verhalten 
+Extrinsische Motivation entsteht durch äußere Anreize, ist also fremdbestimmt.
+ Sie wird durch das zu erwartende Ergebnis während oder nach einem Verhalten
+ erzeugt, beispielsweise den Erhalt von Geld oder besseren Prüfungsnoten
+ 
 \begin_inset ERT
 status open
 
@@ -931,8 +935,8 @@ cite[S.~1]{Reiners.2015}
 \end_layout
 
 \begin_layout Standard
-Intrinsische Motivation hingegen bezieht sich mehr auf die Tätigkeit als
- auf das erwartete Ergebnis.
+Intrinsische Motivation hingegen bezieht sich auf die Tätigkeit und nicht
+ auf das Ergebnis.
  Sie entsteht durch das bestehende Interesse an der Tätigkeit und dem dadurch
  generierten Hochgefühl.
  Diese Freude an der Sache, so behauptet McGonigal, lässt sich durch positiven
@@ -1001,8 +1005,8 @@ citealt[S.~431]{Deci.2004}
 ).
  Beispielsweise kann zuvor überwiegend intrinsische Motivation mit gelegentlich
  extrinsischen Anreizen kombiniert sein, welche aber viel stärker wirken.
- Die Intrinsische Motivation kann durch sie an Stellenwert verlieren oder
- ganz ersetzt werden.
+ Die Intrinsische Motivation verliert dadurch an Stellenwert oder wird ganz
+ ersetzt.
  Als Konsequenz muss weiterhin stetig extrinsische Motivation erzeugt werden,
  um das Verhalten beizubehalten.
 \end_layout
@@ -1014,8 +1018,8 @@ Behavioristische Theorie
 \begin_layout Standard
 Der Behaviorismus ist eine Bewegung aus der Psychologie und wurde von John
  Waston geprägt.
- Er entwickelte sicht aus dem Grundgedanken dass die Psychologie sich auf
- die Beobachtung des Verhalten von Lebenwesen konzentrieren soll und erklärt
+ Er entwickelte sich aus dem Grundgedanken, dass die Psychologie sich auf
+ die Beobachtung des Verhalten von Lebewesen konzentrieren soll und erklärt
  wie Mensch und Tier auf externe Reize reagieren 
 \begin_inset CommandInset citation
 LatexCommand Citep
@@ -1028,7 +1032,7 @@ key "Graham.2015,Hauser.o.J."
  von Lernerfahrung in Bezug auf das Ergebnis (Reaktion) die Handlung auslösen
  kann.
  Die klassische und die operante Konditionierung beschäftigen sich mit diesen
- Reiz-Reaktions-Zusammenhängen und werden im folgenden näher erläutert.
+ Reiz-Reaktions-Zusammenhängen und werden im Folgenden näher erläutert.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1137,7 +1141,7 @@ reference "sec:Gamification"
  Operante Konditionierung kann als extrinsischer Verstärker insofern genutzt
  werden, dass ein belohnendes Ergebnis das gewünschte Zielverhalten verstärkt
  bzw.
- eine Strafe dasselbige reduziert oder auch ganz unterbindet.
+ eine Strafe das selbige reduziert oder auch ganz unterbindet.
  Bleibt das Ergebnis aus, kann aber auch das Zielverhalten stoppen (s.
  Abschnitt 
 \begin_inset CommandInset ref
@@ -1173,7 +1177,7 @@ citet[S.~1--9]{Maslow.1971}
 \end_inset
 
 .
- Maslow stellt in seinem Modell acht Kategorien von Bedürfnissen hierachisch
+ Maslow stellt in seinem Modell acht Kategorien von Bedürfnissen hierarchisch
  dar, von denen fünf in Bezug auf Gamification von größerer Bedeutung sind:
  soziale Bedürfnisse, Bedürfnis nach Wertschätzung und Anerkennung, kognitive
  und ästhetische Bedürfnisse sowie das Bedürfnis nach Selbstverwirklichung.
@@ -1378,8 +1382,8 @@ name "fig:Kontinuum-der-Selbstbestimmung"
  Dazwischen existiert das Spektrum extrinsischer Motivation, unterteilt
  in vier Regulierungsklassen, welche sich von externer Regulierung (z.
  B.
- durch Belohnungen oder Bestrafungen) bis identifizierender und integrierender
- Regulierung erstrecken 
+ durch Belohnungen oder Bestrafungen) bis zu identifizierender und integrierende
+r Regulierung erstrecken 
 \begin_inset ERT
 status open
 
@@ -1455,7 +1459,7 @@ Action Funnels
  Darunter lässt sich beispielsweise die automatische, visuelle Fixierung
  einer blinkenden Schaltfläche verstehen.
  Es folgt eine Kosten-Nutzen-Abwägung.
- Der Nutzer wiegt das womögliche Ergebnis bei Durchführung des Verhaltens
+ Der Nutzer wiegt das mögliche Ergebnis bei Durchführung des Verhaltens
  mit dem zu erwartenden Aufwand ab.
  Entscheidet sich der Nutzer dafür, prüft er nachfolgend, ob die eigene
  mentale und physische Verfassung die Durchführung des Verhaltens erlaubt.
@@ -1471,7 +1475,7 @@ Action Funnels
 \emph on
 Action Funnel
 \emph default
- zur Überprüfung nach Umstimmigkeiten beim angestrebten Verhaltens zu verwenden
+ zur Überprüfung nach Unstimmigkeiten beim angestrebten Verhaltens zu verwenden
  
 \begin_inset ERT
 status open
@@ -1505,8 +1509,8 @@ Trotz der sehr gut ergründeten Verhaltensforschung ist es schwer, geeignete
  eines Prozesses und dem Motivationspotential der dafür vorgesehenen Zielgruppe
  zu finden.
  Das Wissen zu Formen des Spiels, den verschiedenen Spielertypen und dem
- Prinzip der Gamification-Patterns helfen als Ausgangsbasis und sind zugleich
- späterer Bestandteil der Marktanalyse in Kapitel 
+ Prinzip der Gamification-Patterns helfen dabei als Ausgangsbasis und sind
+ zugleich späterer Bestandteil der Marktanalyse in Kapitel 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "chap:Marktanalyse"
@@ -1542,7 +1546,7 @@ cite[S.~156]{Crumlish.2015}
 \end_inset
 
 .
- Fittnesssport ist ein solcher Kontext.
+ Fitnesssport ist ein solcher Kontext.
  Das Training mit Freunden weist eine koordinierende Spielform auf, in der
  die Trainierenden auf ein gemeinsames, höheres Ziel hinarbeiten, nämlich
  der körperlichen Gesundheit.
@@ -1588,7 +1592,7 @@ Spielformen können bei der Gamifizierung einer Anwendung bzw.
  wählen.
  Ist das Ziel z.
  B.
- die Gamifizierung eines Forums, so sind Spielmechanismen aus kooperieren
+ die Gamifizierung eines Forums, so sind Spielmechanismen aus kooperativen
  Spielen besser geeignet als Spiele basierend auf Wettbewerb und Konflikt.
  
 \begin_inset Float table
@@ -1887,7 +1891,7 @@ Gamification befasst sich mit der Motivierung einer Anwenderzielgruppe.
 \end_layout
 
 \begin_layout Standard
-Das grundlegenste Spielertypenmodell wurde von 
+Das grundlegendste Spielertypenmodell wurde von 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Bartle.1996"
@@ -1925,7 +1929,7 @@ Socializer pflegen vermehrt soziale Beziehungen, sind also kommunikativen
  Ihr Interesse lässt sich nicht ganz auf eine bestimmte Spielform abbilden,
  kann aber in allen Spielformen ausreichend stark angesprochen werden.
  Spieler mit der Persönlichkeit eines Explorers beschäftigen sich ebenso
- stark mit der Spielumgebung, aber mehr auf einer interagierender Weise.
+ stark mit der Spielumgebung, aber mehr auf einer interagierende Weise.
  Die Spielform Selbsterfahrung ist deshalb neben sozialen Spielformen sehr
  ansprechend für den Explorer.
  Killer präferieren den Wettbewerb mit Mitspielern und sind deshalb Spielformen
@@ -1948,8 +1952,8 @@ men.
  zur Motivierung oder Problemlösung).
  Die logisch strukturierten Zusammenfassungen dieser Mechanismen werden
  Gamification-Design-Patterns oder auch - wie in dieser Arbeit - nur Gamificatio
-n-Patters genannt.
- Ašeriškis und Damaševičius bezeichen Gamification-Patterns als 
+n-Patterns genannt.
+ Ašeriškis und Damaševičius bezeichnen Gamification-Patterns als 
 \begin_inset ERT
 status open
 
@@ -2018,7 +2022,7 @@ reference "sec:Identifikation-geeigneter-Vergleichskriterien"
  werden in der Marktstudie existierende Spielmechanismen aufgelistet, um
  anhand der Ergebnisse aus den weiteren Vergleichskriterien geeignete Patterns
  für den Prototyp wählen zu können.
- Ašeriškis und Damaševičius struktuieren Gamification-Pattern nach insgesamt
+ Ašeriškis und Damaševičius strukturieren Gamification-Pattern nach insgesamt
  11 Merkmalen aus der 
 \emph on
 Unified Modeling Language
@@ -2031,7 +2035,7 @@ description "Unified Modeling Language"
 
 \end_inset
 
-), einer Modellierungsprache aus der Softwarearchitektur 
+), einer Modellierungssprache aus der Softwarearchitektur 
 \begin_inset ERT
 status open
 
@@ -2045,9 +2049,9 @@ cite[S.~85]{Aseriskis.2014}
 \end_inset
 
 .
- Im Rahmen dieser Arbeit werden Patterns ausschließlich mit bereits allgemein
- anerkanntem Namen oder einem selbst gewählten Namen aufgelistet und mit
- einer Beschreibung zum Anwendungszweck versehen.
+ Im Rahmen dieser Arbeit werden Patterns mit bereits allgemein anerkanntem
+ Namen oder einem selbst gewählten Namen aufgelistet und mit einer Beschreibung
+ zum Anwendungszweck versehen.
  Erstmalig erwähnte Patterns werden zudem um ihren motivationalen Hintergrund
  ergänzt.
 \end_layout
@@ -2099,8 +2103,7 @@ Implementierung der Mechanismen in bestehendes Softwareprodukt
 \end_layout
 
 \begin_layout Enumerate
-Testen und ggf.
- Refactoring
+Testen und überarbeiten
 \end_layout
 
 \begin_layout Standard
@@ -2121,13 +2124,13 @@ n Produkt bestehen.
  bzw.
  das neue Produkt wird der Konzeption entsprechend umgesetzt.
  Als letzter Punkt ist noch eine Testphase und ggf.
- eine Überarbeitung des Produktion zu erwähnen.
+ eine Überarbeitung des Produktes zu erwähnen.
  Denn es ist nicht auszuschließen, dass die Zielgruppe das gamifizierte
  Produkt im ersten Anlauf annimmt.
 \end_layout
 
 \begin_layout Standard
-Zwei Vorgehensmodelle, welche diese vorgestellten Schritte verfolgen, wurden
+Zwei Vorgehensmodelle, welche die vorgestellten Schritte verfolgen, wurden
  für die Konzeptionsphase vorausgewählt: der Player Centric Design-Prozess
  von Brian Burke und der Designprozess zur Verhaltensveränderung von Stephen
  Wendel 
@@ -2139,7 +2142,7 @@ key "Burke.2014b,Wendel.2013"
 
 .
  Burke spricht in seinem Modell klar von Gamifizierung, während Wendel den
- Begriff nur am Rande als Behilfsmittel für die Verhaltensänderung erwähnt
+ Begriff nur am Rande als Hilfsmittel für die Verhaltensänderung erwähnt
  
 \begin_inset ERT
 status open

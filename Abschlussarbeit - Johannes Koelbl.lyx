@@ -52,6 +52,10 @@
 \setlength{\nomitemsep}{-\parsep}
 \renewcommand{\nomname}{Abkürzungsverzeichnis}
 }
+
+% Worttrennungen %
+\hyphenation{
+McGonigal}
 \end_preamble
 \options liststotoc, pointlessnumbers
 \use_default_options true
@@ -734,10 +738,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
 Formen des Spiels 
-\lang ngerman
-
 \begin_inset ERT
 status open
 

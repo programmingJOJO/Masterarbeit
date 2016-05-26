@@ -155,9 +155,9 @@ reference "sec:Identifikation-geeigneter-Vergleichskriterien"
 
  an entsprechenden Stellen verglichen und abgewogen.
  Spricht etwas für die Übernahme bestimmter Merkmale eines verwandten Produktes,
- fließen diese Merkmale in die Weiterentwicklung mit ein.
+ fließen diese in die Weiterentwicklung mit ein.
  Zuallererst wird jedoch nach den Vorschlägen von Wendel gehandelt.
- Wenn möglich, wird der jeweilige IST-Stand der Konzeptstudie herangezogen
+ Wenn möglich, wird der jeweilige Ist-Stand der Konzeptstudie herangezogen
  und nach seiner Aktualität sowie Relevanz geprüft.
  Falls zusätzliche Erkenntnisse aus den verwandten Produkten vorliegen,
  werden auch diese berücksichtigt.
@@ -168,11 +168,12 @@ Weiterentwicklung der Konzeptstudie
 \end_layout
 
 \begin_layout Standard
-In den folgenden Unterabschnitten werden zuerst die Haupteigenschaften des
- zu entwickelnden Prototyps geklärt.
+In diesem Abschnitt werden zuerst die Haupteigenschaften des zu entwickelnden
+ Prototyps geklärt.
  Durch diese Zieldefinition wird die Erreichung des Entwicklungsziels des
  Prototyps sichergestellt.
- Diese beginnen mit der Bestimmung des Anwendungsziels 
+ Ab diesem Punkt wird das Vorgehensmodell von Wendel verwendet.
+ Es beginnt mit der Bestimmung des Anwendungsziels 
 \begin_inset CommandInset ref
 LatexCommand eqref
 reference "sub:Anwendungsziel-bestimmen"
@@ -332,8 +333,7 @@ reference "sec:Überblick-zu-verwandten-Anwendungen-und-Arbeiten"
 
 \end_inset
 
- sind überwiegend wegen diesem Punkt für diese Abschlussarbeit herangezogen
- worden.
+ werden aus den oben genannten Gründen für diese Abschlussarbeit herangezogen.
  Anwendungen wie 
 \emph on
 Quarterquest
@@ -369,9 +369,9 @@ name "sub:Projekteinschränkungen"
 \end_layout
 
 \begin_layout Standard
-Für den weiteren Designprozess empfiehlt Wendel an diesem Punkt sonstige
- mögliche Einschränkungen zu identifizieren, damit diese das weitere Vorgehen
- nicht unerwartet negativ beeinflussen könnten 
+Nach der Bestimmung des Anwendungsziels empfiehlt Wendel mögliche Einschränkunge
+n zu identifizieren, damit diese das weitere Vorgehen nicht unerwartet negativ
+ beeinflussen 
 \begin_inset ERT
 status open
 
@@ -385,19 +385,22 @@ cite[S.~85--86]{Wendel.2013}
 \end_inset
 
 .
- Im Rahmen von Abschlussarbeiten ist unter anderem die Zeit ein nicht unbedeutsa
-mer Faktor.
- Des Weiteren kann es vorteilhaft sein, sich Gedanken über die Erscheinungsform
- des späteren Produkttyps zu machen.
+ Im Rahmen von Abschlussarbeiten ist z.
+ B.
+ die Zeit ein entscheidender Faktor.
+ Des Weiteren muss bereits hier festgelegt werden, auf welchen Plattformen
+ der fertige Prototyp den Probanden für die nachfolgende Testphase zur Verfügung
+ gestellt wird.
 \end_layout
 
 \begin_layout Description
-Produkttyp: Die Konzeptstudie ist als mobile App festgelegt.
- Diese Einschränkung wird für den Prototyp als hybride App präzisiert.
- Sie ermöglicht mit weniger Implementierungsaufwand eine breitere Verteilung
- des Prototyps auf verschieden Smartphones.
- Mit der Entwicklung eines hybriden Prototypen lässt sich somit für die
- spätere Testphase ein größerer Teilnehmerkreis aquirieren.
+Produkttyp: Die Konzeptstudie ist als mobile App konzipiert.
+ Dieser abstrakten Einschränkung wird später durch die Fokusierung einer
+ hybriden App entgegengewirkt.
+ Sie ermöglicht mit verhältnismäßig wenig Implementierungsaufwand eine breite
+ Verteilung des Prototyps auf verschieden Smartphones.
+ Mit der Entwicklung eines hybriden Prototyps lässt sich somit für die Testphase
+ ein größerer Teilnehmerkreis aquirieren, als mit einer nativen Umsetzung.
 \end_layout
 
 \begin_layout Description
@@ -411,8 +414,10 @@ der
 
 Arbeit: Die Abschlussarbeit umfasst zeitlich sechs Monate bei ausschließlicher
  Bearbeitung, ansonsten maximal acht Monate.
- Diese Einschränkung kann für die spätere Abwägung der Entwicklungszeit
- und somit der Erscheinungsform des Prototyps bedeutend sein.
+ Aufgrund der begrenzten Arbeitsstunden ist bei der Entwicklung des Prototyps
+ zwischen Funktionsumfang und dem damit verbundenen Aufwand abzuwägen.
+ Eine marktübliche Detailgenauigkeit ist mit der Masterarbeit nicht abzudecken.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -427,9 +432,8 @@ name "sub:Mögliche-Zielverhalten-definiere"
 \end_layout
 
 \begin_layout Standard
-Nachdem das Anwendungsziel konkretisiert wurde, schlägt Wendel eine Liste
- aus mindestens fünf verschiedenen Zielverhalten vor, welche unternommen
- werden könnten, um das Anwendungsziel zu erfüllen 
+Nachdem das Anwendungsziel konkretisiert ist, werden nach dem Modell von
+ 
 \begin_inset ERT
 status open
 
@@ -437,14 +441,14 @@ status open
 
 
 \backslash
-cite[S.~86]{Wendel.2013}
+citet[S.~86]{Wendel.2013}
 \end_layout
 
 \end_inset
 
-.
- Die erdachten Zielverhalten sollten sich zudem in ihrer Ausführung möglichst
- auf die wichtigsten Schritte konzentrieren 
+, welche unternommen werden sollen, um das Anwendungsziel zu erreichen.
+ Die definierten Maßnahmen sollen sich in ihrer Ausführung auf die wichtigsten
+ Schritte beschränken 
 \begin_inset ERT
 status open
 
@@ -460,22 +464,9 @@ cite[S.~89--91]{Wendel.2013}
 .
  Wendel führt hierfür den Begriff der am kleinsten durchführbaren Aktion
  (
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-glqq
-\end_layout
-
-\end_inset
-
- Minimum Viable Action
-\begin_inset Quotes erd
-\end_inset
-
+\emph on
+Minimum Viable Action
+\emph default
 ) ein.
  Diese Art des auf ein Minimum reduzierten Zielverhaltens lässt sich gemäß
  dem Behavioral Grid (s.
@@ -487,27 +478,16 @@ reference "sub:Behavioral-Grid"
 \end_inset
 
 ) als ein einmaliges Verhalten definieren.
- Für die Testphase ist diese Zeitdauer auch geeignet.
- Für eine fortwährende bewusstere Auseinandersetzung mit den besuchten kulturell
-en Orten ist jedoch ein kontinuierliches Zielverhalten angestrebt.
- Das bedeutet, immer wenn die Anwendungsnutzer eine Reise oder eine Tour
- unternehmen, sollen sie das Zielverhalten durchführen.
+ Für die Testphase ist eine einmalige Verhaltensänderung geplant und auch
+ realistisch umsetzbar.
+ Eine dauerhafte Verhaltensbeeinflussung macht eine kontinuierliche Nutzung
+ des Prototyps erforderlich, was im Rahmen der begrenzten Zeit der Abschlussarbe
+it nicht durchführbar ist.
+ 
 \end_layout
 
 \begin_layout Standard
-Das Zielverhalten der Konzeptstudie wird in die fünf Tätigkeiten einfließen.
- Es ist jedoch kein einzelner Punkt, da dessen komplexer Handlungsstrang
- mit den Vorgaben von Wendel kollidieren würde.
- Genauso werden diejenigen verwandten Anwendungen und Arbeiten mit denselben
- Anwendungsziel berücksichtigt - dazu mehr im Unterabschnitt 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sub:Assoziation-zu-vergleichenden"
-
-\end_inset
-
-.
- Vorstellbare Verhaltensweisen für das bewusstere Wahrnehmen von kulturellen
+Vorstellbare Verhaltensweisen für das bewusstere Wahrnehmen von kulturellen
  Orten und Sehenswürdigkeiten sind wie folgt:
 \end_layout
 
@@ -533,7 +513,7 @@ arabic{enumi}
 
 \end_inset
 
-Einige weitere Hintergrundinformationen zu den zu besuchenden Orten abrufen.
+Einige Hintergrundinformationen zu den zu besuchten Orten abrufen.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Zielverhalten-Hintergrundinformationen-zu-den"
@@ -555,7 +535,7 @@ name "enu:Zielverhalten-Mindestens-eine-Unterhaltung"
 \end_layout
 
 \begin_layout Enumerate
-Mindestens eine kulturelle Besonderheit während einer Reise ausprobieren.
+Mindestens eine kulturelle Gepflogenheit während einer Reise ausprobieren.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Zielverhalten-Mindestens-eine-kulture"
@@ -566,7 +546,8 @@ name "enu:Zielverhalten-Mindestens-eine-kulture"
 \end_layout
 
 \begin_layout Enumerate
-Eine Tour nach eigener Präferenz gestalten oder auswählen und diese durchführen.
+Eine Tour nach eigenen Präferenzen gestalten oder auswählen und diese durchführe
+n.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Zielverhalten-Eine-Reise-nach"
@@ -594,8 +575,8 @@ Bei genauerer Betrachtung lassen sich manche Gamification-Patterns in den
  Beispielsweise ist das Erstellen von Inhalten wie beispielsweise eigener
  Touren ein Spielmechanismus, welche dem Pattern User Generated Content
  nachempfunden ist.
- Die Präsenz von Spielmechanismen in Zielverhalten könnten als zweckmäßig
- angesehen werden.
+ Die Präsenz von Gamification-Patterns in Zielverhalten ist zweckmäßig,
+ da sie die Nutzer in ihrer Tätigkeit unterstützen.
 \end_layout
 
 \begin_layout Subsubsection
@@ -610,15 +591,17 @@ name "sub:Assoziation-zu-vergleichenden"
 \end_layout
 
 \begin_layout Standard
-Das Zielverhalten 
+Das Zielverhalten der Konzeptstudie sowie die der verwandten Anwendungen
+ und Arbeiten wurden bei der Erstellung der fünf Maßnahmen berücksichtigt.
+ Das Zielverhalten 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 
 \end_inset
 
- (Abruf von Hintergrundinformationen) findet bereits in mehreren verwandten
- Produkten während einer Tour Verwendung, wie beispielsweise in 
+ findet bereits in mehreren verwandten Produkten während einer Tour Verwendung,
+ wie beispielsweise in 
 \emph on
 Tripwolf
 \emph default
@@ -630,7 +613,7 @@ City Maps and Walks
 \emph on
 Foursquare
 \emph default
- oder 
+ und 
 \emph on
 Quarterquest
 \emph default
@@ -642,14 +625,14 @@ reference "enu:Zielverhalten-Mindestens-eine-Unterhaltung"
 
 \end_inset
 
- (Unterhaltung führen mit Einheimischen) und 
+ und 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Zielverhalten-Mindestens-eine-kulture"
 
 \end_inset
 
- (Kulturelle Besonderheiten) sind hingegen nur in 
+ sind hingegen nur in 
 \emph on
 The Travel Machine
 \emph default
@@ -667,7 +650,7 @@ cite[S.~272--275]{Marcus.2013b}
 \end_inset
 
 .
- Die Gestaltung einer Tour nach eigenen Vorlieben (Zielverhalten 
+ Die Gestaltung einer Tour nach eigenen Vorlieben (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Zielverhalten-Eine-Reise-nach"
@@ -691,8 +674,8 @@ Trip Journal
 \emph on
 The Travel Machine
 \emph default
- schlägt sogar automatisch nach den Präferenzen der Nutzer interessante
- Orte vor 
+ schlägt sogar automatisch gemäß den individuellen Präferenzen der Nutzer
+ interessante Orte vor 
 \begin_inset ERT
 status open
 
@@ -715,7 +698,7 @@ Quarterquest
 SeeSight
 \emph default
  ist man angehalten, Quizfragen an den zu besuchenden Orten einer Tour zu
- beantworten (Zielverhalten 
+ beantworten (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
@@ -744,8 +727,8 @@ cite[S.~262]{Marcus.2013b}
 \emph on
 Streetspotr
 \emph default
- beinhalten angepasste Fragestellungen oder Aufgaben.
- Die Struktur dieser Aufgaben unterliegt jedoch wirtschaftlichen Interessen
+ beinhalten individuelle Aufgabenstellungen.
+ Die Struktur dieser Spots unterliegt jedoch wirtschaftlichen Interessen
  der jeweiligen Unternehmen und besitzen keinen spielerischen Charakter.
 \end_layout
 
@@ -761,8 +744,8 @@ name "sub:Festlegung-der-Zielgruppe"
 \end_layout
 
 \begin_layout Standard
-Nachdem eine Liste aus mindestens fünf Zielverhalten definiert wurde, empfiehlt
- Wendel, diese Liste mit der noch zu definierenden Zielgruppe zu konfrontieren.
+Nachdem die Liste aus fünf Zielverhalten definiert wurde, empfiehlt Wendel,
+ diese Liste mit der noch zu definierenden Zielgruppe zu konfrontieren.
  Zuerst sollte man die demographischen Merkmale der gewünschten Zielgruppe
  festlegen 
 \begin_inset ERT
@@ -780,9 +763,9 @@ cite[S.~95--96]{Wendel.2013}
 .
  Wendel besitzt keinerlei Referenz zu Spielertypen in seinem Vorgehensmodell,
  weshalb dieses Vergleichsmerkmal zusätzlich in den Prozess integriert wird.
- Die Konzeptstudie wurde auf Basis von zugeteilten Studierenden aus der
- Lehrveranstaltung geplant.
- Folgende Merkmale lassen sich daraus übertragen:
+ Die Konzeptstudie wurde gemeinsam mit zugeteilten Studierenden im Rahmen
+ der Lehrveranstaltung geplant.
+ Folgende Merkmale lassen sich daraus ableiten:
 \end_layout
 
 \begin_layout Itemize
@@ -823,8 +806,8 @@ Foursquare
 Streetspotr
 \emph default
 , gegeben durch ihre bereits abweichenden Spielformen, auch durchweg verschieden
-e Spielertypen anzieht, lassen sich alle weiteren Produkte durch den gemeinsamen
- Spielertyp Explorer in dieselbe Zielgruppe wie die Konzeptstudie einsortieren.
+e Spielertypen anzieht, lassen sich alle anderen Produkte durch den gemeinsamen
+ Spielertyp Explorer in derselben Zielgruppe wie die Konzeptstudie zuordnen.
  
 \emph on
 Quarterquest
@@ -833,11 +816,12 @@ Quarterquest
 \emph on
 The Travel Machine
 \emph default
- bieten mit ihren Spielmechanismen zusätzlich noch Achievern genügend Anreiz.
- Ob sich der Prototyp nur auf den Explorer konzentrieren sollte, oder aber
- weiterhin Socializer und eventuell Achiever berücksichtigt werden sollten,
- hängt von der späteren Festlegung des Zielverhaltens und den gewählten
+ bieten mit ihren Spielmechanismen zusätzlich Achievern ausreichende Anreize.
+ Ob sich die Umsetzung des Prototyps wie in der Konzeptstudie auf die Bedürfniss
+e des Explorer und Socializers beschränkt oder auf den Achiever ausgedehnt
+ wird, hängt von der späteren Festlegung des Zielverhaltens und den gewählten
  Spielmechanismen ab.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -854,8 +838,9 @@ name "sub:Persona-Gruppen"
 \begin_layout Standard
 Nach der Festlegung der demographischen Merkmale und der vorsorglichen Abwägung
  des Spielertyps, werden Persona-Verhaltensgruppen gebildet, welche wahrscheinli
-ch das Produkt in Zukunft nutzen werden.
- Diese Gruppen werden schließlich auf die verschiedenen Zielverhalten (
+ch das Produkt nutzen werden.
+ TODO: wendel Diese Gruppen werden schließlich auf die verschiedenen Zielverhalt
+en (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
@@ -870,10 +855,9 @@ reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
 \end_inset
 
 ) abgebildet.
- Ziel ist es, eine Menge an Persona-Gruppen zu erstellen, die unterschiedlich
+ Das Ziel ist die Bildung verschiedener Persona-Gruppen, die unterschiedlich
  auf die Versuche der Verhaltensänderung des Produkts reagieren.
- Für die Persona-Erstellung werden zudem von Wendel folgende fünf Verhaltensfrag
-estellungen herangezogen 
+ Für die Persona-Erstellung werden von 
 \begin_inset ERT
 status open
 
@@ -881,12 +865,12 @@ status open
 
 
 \backslash
-cite[S.~98]{Wendel.2013}
+citet[S.~98]{Wendel.2013}
 \end_layout
 
 \end_inset
 
-:
+ folgende fünf Verhaltensfragestellungen herangezogen :
 \end_layout
 
 \begin_layout Itemize
@@ -926,17 +910,17 @@ cite[S.~102--103]{Wendel.2013}
 \end_inset
 
 .
- Zur besseren Übersicht ist in Abbildung 
+ In Abbildung 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:JA-NEIN-Ansatz-zu-den"
 
 \end_inset
 
- dargestellt, wie sich diese Ja-Nein-Iteration vorzustellen ist.
- Es beginnt mit einer beliebigen Verhaltensfragestellung und wägt ab, ob
- die zu erstellende Persona-Gruppe die Frage mit ja oder nein beantworten
- würde.
+ wird die Funktionsweise dieser Iteration veranschaulicht.
+ Es beginnt mit einer beliebigen Verhaltensfragestellung.
+ Dabei wird entschieden, ob die zu erstellende Persona-Gruppe die Frage
+ mit ja oder nein beantworten würde.
  Danach folgen der Reihe nach alle weiteren Fragestellungen bis man an den
  Blättern des abgebildeten Baumes angelangt ist.
  Entlang den für diese Persona-Gruppe gewählten Merkmalen entwirft man eine
@@ -968,7 +952,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-JA-NEIN-Ansatz zu den verhaltensbasierenden Fragestellungen
+Ja-Nein-Ansatz zu den verhaltensbasierenden Fragestellungen
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:JA-NEIN-Ansatz-zu-den"
@@ -1020,9 +1004,9 @@ cite[S.~102]{Wendel.2013}
  Das Zielverhalten wonach man sich mit Einheimischen unterhält, wird diesbezügli
 ch nicht weiter verfolgt.
  Es gäbe sicherlich spannende Themengebiete zu denen der Prototyp anregen
- könnte, dennoch überwiegen gravierende Aspekte wie eine wahrscheinliche
- Hemmschwelle der Nutzer und die möglicherweise von Ansässigen als belästigend
- wahrgenommene Gesprächsgesuche von Nutzern.
+ kann, dennoch überwiegen gravierende Aspekte wie eine wahrscheinliche Hemmschwe
+lle der Nutzer und die möglicherweise von Ansässigen als belästigend wahrgenomme
+ne Gesprächsgesuche von Nutzern.
  Da der Prototyp im Rahmen einer Abschlussarbeit entwickelt wird, ist diese
  Frage nach existierender Erfahrung mit dem Unternehmen vernachlässigbar
  und lässt sich aus der Iteration ebenso ausschließen.
@@ -2422,7 +2406,7 @@ reference "enu:Zielverhalten-Eine-Reise-nach"
 
 \end_inset
 
-): Touren, zu denen man mehr neigt wird man viel bewusster erleben.
+): Präferierte Touren werden bewusster erlebt.
 \end_layout
 
 \end_inset
@@ -2500,7 +2484,7 @@ reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 
 \end_inset
 
-): Nur wenige Medienformate können zusätzlich motivieren.
+): Die Medienformate wirken unterschiedlich stark motivierend.
 \end_layout
 
 \end_inset
@@ -2589,7 +2573,7 @@ reference "enu:Zielverhalten-Eine-Reise-nach"
 
 \end_inset
 
-): Die Konfiguration von Touren ließe sich intuitiv bedienbar gestalten.
+): Die Konfiguration von Touren lässt sich intuitiv bedienbar gestalten.
 \end_layout
 
 \end_inset
@@ -2678,7 +2662,7 @@ reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
 
 \end_inset
 
-): Geeignete Fragen müssen erarbeitet werden.
+): Erstellung von Fragen kostet Zeit.
 \end_layout
 
 \end_inset
@@ -2694,7 +2678,7 @@ reference "enu:Zielverhalten-Eine-Reise-nach"
 
 \end_inset
 
-): Die Vorauswahl ausreichend vieler Touren und Zielorte ist Voraussetzung.
+): Das Anbieten ausreichend vieler Touren und Zielorte ist Voraussetzung.
 \end_layout
 
 \end_inset
@@ -2805,7 +2789,7 @@ reference "tab:Ergebnis-der-Zielverhalten-Gewichtung"
 placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
