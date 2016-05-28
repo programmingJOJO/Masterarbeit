@@ -119,7 +119,7 @@ enumitem
 \begin_body
 
 \begin_layout Chapter
-Entwicklung eines Prototypen im Bezug auf die Analyse der erfassten Anwendungen
+Entwicklung eines Prototyps im Bezug auf die Analyse der erfassten Anwendungen
  und der bestehenden Konzeptstudie 
 \begin_inset CommandInset label
 LatexCommand label
@@ -2019,7 +2019,7 @@ reference "enu:Zielverhalten-Mindestens-eine-kulture"
 placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2283,10 +2283,10 @@ name "tab:Gewichtung-der-Zielverhalten"
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="4">
 <features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
-<column alignment="left" valignment="middle" width="11text%">
-<column alignment="left" valignment="top" width="29text%">
-<column alignment="left" valignment="top" width="27text%">
-<column alignment="left" valignment="top" width="25text%">
+<column alignment="left" valignment="middle" width="0pt">
+<column alignment="left" valignment="top" width="30text%">
+<column alignment="left" valignment="top" width="28text%">
+<column alignment="left" valignment="top" width="26text%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -3141,9 +3141,9 @@ n Sehenswürdigkeiten und die Quiz-Fragen während einer Tour sind nicht konträ
 \end_layout
 
 \begin_layout Standard
-Nachdem zuletzt das primäre Zielverhalten bestimmt wurde, schlägt Wendel
- vor, die bisherigen Ergebnisse in einer Aussage festzuhalten, welches überdies
- Auskunft über Erfolg und Misserfolg des Produkts informiert 
+Nachdem das primäre Zielverhalten bestimmt ist, schlägt Wendel vor, die
+ bisherigen Ergebnisse in einer Aussage festzuhalten, welches überdies Auskunft
+ über Erfolg und Misserfolg des Produkts informiert 
 \begin_inset ERT
 status open
 
@@ -3174,6 +3174,26 @@ reference "tab:Relevante-Persona-Gruppen-der-Zielverhalten"
 Das Produkt soll mithilfe ortsbezogener Fragen erwachsene Reisende und Ausflügle
 r mit Interesse an Rätseln unterstützen, intensiver sehenswerte Orte und
  Touristenattraktion zu erleben.
+\end_layout
+
+\begin_layout Standard
+Mit der Festlegung des Zielverhaltens lässt sich nun auch erneut reflektieren,
+ wie das Anwendungsziel messbar gemacht werden kann.
+ Das Zielverhalten soll während einer Tour im erfolgversprechendsten Fall
+ mehrfach durchgeführt werden.
+ Diese sich wiederholenden Zielverhalten lassen sich analog zu Wendels Vorschlag
+ zur Messung von Ereignissen unmittelbar nach dem Anwendungsziel verstehen
+ (s.
+ Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Anwendungsziel-bestimmen"
+
+\end_inset
+
+).
+ Wenn also das Zielverhalten nicht nur einmal sondern mehrmals durchgeführt
+ wird, spricht dies für das Anwendungsziel.
 \end_layout
 
 \begin_layout Section
@@ -3733,21 +3753,22 @@ name "fig:Verhaltensplan 1"
 \end_layout
 
 \begin_layout Standard
-Der Verhaltensplan wird in Bezug auf unterstützende Mechanismen (
+Der Verhaltensplan wird in Bezug auf unterstützende Mechanismen in Abschnitt
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Unterstützende-Mechanismen"
 
 \end_inset
 
-) und der Zielgruppe (
+ und der Zielgruppe in Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Zielgruppe-vorbereiten"
 
 \end_inset
 
-) von Neuem betrachtet und gegebenenfalls überarbeitet.
+ von Neuem betrachtet und gegebenenfalls überarbeitet.
 \end_layout
 
 \begin_layout Subsection
@@ -3850,8 +3871,8 @@ reference "fig:Verhaltensplan 1"
 
 \end_inset
 
-) wurden eine der Fragestellungen (Motivation, Auslösereiz, Rückmeldung
- und Hindernisse) zugeordnet und - falls möglich - konzeptuell ausgearbeitet.
+) sind eine der Fragestellungen (Motivation, Auslösereiz, Rückmeldung und
+ Hindernisse) zugeordnet und - falls möglich - konzeptuell ausgearbeitet.
  Die orangen Markierungen entsprechen Gamification-Patterns die an dieser
  Stelle zum Einsatz kommen können.
  Diese entsprechen überwiegend den darüber stehenden Überlegungen zur Beseitigun
@@ -3864,11 +3885,9 @@ g von Hindernissen, oder der Erhöhung der Motivation und könnten somit als
  die Einbeziehung von Präferenzen bei der Tourauswahl oder nutzt sie für
  einen schnellen Einstieg in eine Tour, führt dies zu einem abkürzenden
  Auswahlverhalten des Nutzers.
-\end_layout
-
-\begin_layout Standard
+ 
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status collapsed
@@ -3902,10 +3921,6 @@ name "fig:Aktionsplan-2"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -5508,7 +5523,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename Bilder/Prototyp 4/Mockup Hauptmenü.png
-	width 32text%
+	width 35text%
 	BoundingBox 0bp 0bp 375bp 647bp
 	clip
 
@@ -5544,7 +5559,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename Bilder/Prototyp 4/Mockup Einstellungen.png
-	width 32text%
+	width 35text%
 	BoundingBox 0bp 0bp 375bp 647bp
 	clip
 
@@ -5803,13 +5818,13 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Bilder/Prototyp 4/Mockup Tour.png
-	width 32text%
+	width 35text%
 	BoundingBox 0bp 0bp 375bp 647bp
 	clip
 
@@ -5843,13 +5858,13 @@ name "fig:mock-2a"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Bilder/Prototyp 4/Mockup Tour Vorschau.png
-	width 32text%
+	width 35text%
 	BoundingBox 0bp 0bp 375bp 647bp
 	clip
 
@@ -6275,7 +6290,7 @@ name "fig:mock-3a"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center

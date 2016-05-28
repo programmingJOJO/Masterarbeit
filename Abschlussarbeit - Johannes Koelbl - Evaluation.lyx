@@ -127,11 +127,11 @@ name "chap:Evaluation"
 \end_layout
 
 \begin_layout Standard
-Um genaue Erkenntnis darüber zu erlangen, ob die implementierten Mechanismen
+Um genaue Erkenntnis darüber zu erlangen, ob die umgesetzten Mechanismen
  tatsächlich Wirkung zeigen und das Verhalten beeinflussen, wurde nach der
  Implementierungsphase ein Testzeitraum mit freiwilligen Probanden eingeplant.
- Dieses Kapitel befasst sich mit der Durchführung der Testphase und den
- daraus erlangten Erkenntnissen.
+ Das folgende Kapitel befasst sich mit der Durchführung der Testphase und
+ den daraus erlangten Ergebnissen.
 \end_layout
 
 \begin_layout Section
@@ -139,15 +139,29 @@ Gliederung der Testphase
 \end_layout
 
 \begin_layout Standard
-Gelungene Gamification lässt sich beispielsweise effizient mit A/B-Tests
- ermitteln.
+Zur Durchführung von Testphasen für gamifizierte Anwendungen gibt es verschieden
+e Ansätze.
+ Gelungene Gamification lässt sich beispielsweise mit A/B-Tests ermitteln.
  Zwei Testgruppen (Gruppe A und Gruppe B) erproben über einen längeren Zeitraum
  das Produkt.
  Eine der Gruppe erhält die gamifizierte Version, während die zweite Gruppe
  das Produkt ohne verhaltensbeeinflussende Inhalte austestet.
  Am Ende des Testzeitraumes lassen sich die gesammelten Daten miteinander
  abgleichen und so daraus Erkenntnisse ableiten, ob sich die Gamification-Gruppe
- dem Zielverhalten in signifikanter Weise annähert.
+ dem Zielverhalten in signifikanter Weise annähert 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~217--218]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -155,11 +169,24 @@ Ein weiterer Ansatz zur Evaluierung beschäftigt sich dagegen mit nur einer
  Probandengruppe.
  In diesem Beispiel erhalten alle Probanden das gamifizierte Produkt über
  einen längeren Zeitraum.
- Während dieser Testintervalls werden die verhaltensbeeinflussenden Mechanismen
+ Während dieser Testintervalle werden die verhaltensbeeinflussenden Mechanismen
  deaktiviert, sodass die Probanden über einen kurzen Zeitraum keine gamifizierte
  Version bedienen.
  Am lässt sich ermitteln, ob zum Zeitpunkt der Deaktivierung aussagekräftige
- Veränderungen in der Reaktion der Probanden stattfanden.
+ Veränderungen in der Reaktion der Probanden stattfanden 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[S.~214]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -174,9 +201,9 @@ name "sub:Problemstellung"
 \end_layout
 
 \begin_layout Standard
-Für den zu evaluierenden Prototyp ergab für beide Ansätze Komplikationen.
+Für den zu evaluierenden Prototyp ergeben für beide Ansätze Komplikationen.
  Das Anwendungsziel - die bewusstere Wahrnehmung von Schauplätzen und Sehenswürd
-igkeiten - lässt sich nicht durch eine messbare Größe feststellen (s.
+igkeiten - lässt sich durch keine messbare Größe feststellen (s.
  Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -185,37 +212,31 @@ reference "sub:Anwendungsziel-bestimmen"
 \end_inset
 
 ).
- Bei Festlegung des Zielverhaltens während der Konzeptphase lag allerdings
- der Gedanke nah, zu messen ob die Aktivierung und Beantwortung der Aufgaben
- auch an den nachkommenden Orten von den Probanden unmittelbar fortgeführt
- wird.
- Diese Ereignisse gleich nach dem Zielverhalten lassen sich analog zu Wendels
- Vorschlag zur Messung von Ereignissen unmittelbar nach dem Anwendungsziel
- verstehen (s.
- Abschnitt 
+ In Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "sub:Anwendungsziel-bestimmen"
+reference "sub:Festlegung-auf-Zielverhalten"
 
 \end_inset
 
-).
+ wird deshalb der Erfolg des Anwendungsziels an die wiederholende Durchführung
+ des Zielverhaltens gebunden.
  Bei einer Evaluierung mit A/B-Tests ließe sich diese Messung auf eine Gruppe
  nicht transferieren, da bei ihr die nötigen Spielmechanismen fehlen würden.
 \end_layout
 
 \begin_layout Standard
-Dies lässt nun die Schlussfolgerung zu, dass der zweitgenannte Ansatz wegen
+Dies lässt nun die Schlussfolgerung zu, dass der zweitgenannte Ansatz aufgrund
  der einheitlichen Probandengruppe die bessere Variante sei.
  Zwingende Voraussetzung für diese Vorgehensweise ist eine kontinuierliche
  Verwendung des Produkts durch die Probanden über den veranschlagten Zeitraum.
  Für den zu evaluierenden Prototyp ergibt sich daraus ein weiteres Problem.
- Denn eine kontinuierliche Durchführung des Zielverhaltens über den Testzeitraum
- ist nicht mit der Intention des Prototyps, der kontinuierlichen Durchführung
- des Zielverhaltens über jede Reise bzw.
- Tour hinweg zu vergleichen.
- Das heißt, der Prototyp ist kein Produkt, welches wöchentlich oder gar
- täglich angewendet wird.
+ Eine kontinuierliche Durchführung des Zielverhaltens über den Testzeitraum
+ ist nämlich nicht mit der Intention des Prototyps, der Durchführung des
+ Zielverhaltens über jede Reise bzw.
+ Tour hinweg, zu vergleichen.
+ Der Prototyp ist kein Produkt, welches wöchentlich oder gar täglich angewendet
+ wird.
 \end_layout
 
 \begin_layout Subsection
@@ -223,10 +244,10 @@ Erfassung gehaltvoller Daten
 \end_layout
 
 \begin_layout Standard
-Für die Evaluation wird deshalb ein Kompromiss zwischen Erfassung der Verhalten
+Für die Evaluation wurde deshalb ein Kompromiss zwischen Erfassung der Verhalten
  der Probanden und einer zusätzlichen Umfrage gewählt.
- Die Erfassung stichhaltiger Daten geschah mittels Tracking der Nutzerinteraktio
-nen mit dem Prototyp.
+ Die Erfassung stichhaltiger Daten wurde mittels Tracking der Nutzerinteraktione
+n mit dem Prototyp erhoben.
  Alle Teilnehmer wurden zu Beginn der Anwendung auf der ersten Splash Page
  über das Tracking in Kenntnis gesetzt.
  Für die Evaluierung sind folgende Interaktionen erfasst worden:
@@ -265,22 +286,26 @@ reference "sec:Fragebogen-zur-Evaluierung"
 \end_inset
 
 ).
- Auch dazu wurden die Probanden zu Beginn informiert.
- Gefragt wurde neben demographischen Merkmalen, auch nach dem Spielertyp
- und der bevorzugten Spielform.
+ Neben der Erfassung demographischer Merkmale, wird auch nach dem Spielertyp
+ und der bevorzugten Spielform gefragt.
  Zur Vermeidung der vier Spielertyp-Begriffe als offensichtliche Antwortmöglichk
-eiten, wurden diese entsprechend ihrer Charakteristika umschrieben.
- Die Spielformen wurden stattdessen Beispielen aus Tabelle 
+eiten, sind diese entsprechend ihrer Charakteristika verfasst.
+ Beispielen für die Spielformen sind aus Tabelle 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Formen-des-Spiels"
 
 \end_inset
 
- zugeordnet.
- Des Weiteren wurden Fragestellungen nach der motivierenden Wichtigkeit
- der verhaltensbeeinflussenden Mechanismen gestellt.
- Diese ließen sich großteils mit einer fünfstufige Likert-Skala von 
+ entnommen.
+ Mit den Umschreibungen zu den Spielertypen und den Spielformen soll eine
+ neutrale Befragung nach den Persönlichkeiten der Probanden ermöglicht werden.
+\end_layout
+
+\begin_layout Standard
+Des Weiteren werden Fragestellungen nach der motivierenden Wichtigkeit der
+ verhaltensbeeinflussenden Mechanismen gestellt.
+ Diese lassen sich größtenteils mit einer fünfstufige Likert-Skala von 
 \emph on
 Unwichtig
 \emph default
@@ -291,9 +316,9 @@ Motivierend
  beantworten.
  Einige Mechanismen lassen sich auch ohne der Umfrage mithilfe der Tracking-Date
 n nach ihrer Wirksamkeit evaluieren.
- Der Vollständigkeit halber wurden allerdings alle Mechanismen im Fragebogen
+ Der Vollständigkeit halber sind allerdings alle Mechanismen im Fragebogen
  aufgeführt.
- Die Umfrage endete mit einem Textfeld zur freien Meinungsäußerung für Anregen
+ Die Umfrage endet mit einem Textfeld zur freien Meinungsäußerung für Anregen
  (s.
  
 \begin_inset CommandInset ref
@@ -306,8 +331,8 @@ reference "sub:Optimierungspotentiale"
 \end_layout
 
 \begin_layout Standard
-Die Testphase umfasste 20 Tage und verlief vom 08.04.
- bis einschließlich 27.04.2016.
+Die Testphase umfasste 20 Tage und verlief vom 08.04.2016 bis einschließlich
+ 27.04.2016.
  Verteilt wurde der Prototyp ausschließlich auf Android- und iPhone-Betriebssyst
 emen (iOS
 \begin_inset CommandInset nomenclature
@@ -318,24 +343,24 @@ description "iPhone Operating System"
 \end_inset
 
 ).
- Teilnehmen konnten alle Personen die von der Testphase per E-Mail oder
- anderen Kanälen erfuhren und ein geeignetes Smartphone besitzen.
- Interessierte Personen konnten sich den Prototyp vom Google Play Store
- beziehen oder mithilfe einer Deploy-App mit der schnelle Auslieferungen
- an Mitarbeiter, Kunden oder, wie in diesem Fall, auch Probanden möglich
- sind.
+ Teilnehmen konnten alle Personen die von der Testphase per E-Mail, sozialen
+ Netzwerken oder persönlich erfuhren und ein geeignetes Smartphone besitzen.
+ Interessierte Android-Nutzer konnten den Prototyp vom Google Play Store
+ beziehen.
+ Für alle anderen Geräte ließ sich die Anwendung mithilfe einer Deploy-App
+ installieren, dessen Verwendungszweck die schnelle Auslieferungen an Mitarbeite
+r, Kunden, oder Probanden darstellt.
  
 \end_layout
 
 \begin_layout Standard
-Während einer mehrstündigen Zeitintervalls am ersten Tag war die Anwendung
+Während eines mehrstündigen Zeitintervalls am ersten Tag war die Anwendung
  aus dem Play Store nicht korrekt darstellbar.
  Sie ließ sich zwar herunterladen und starten, eine weiße Bildfläche versperrte
  allerdings das weitere Vorgehen.
- Aus diesem Grund gilt für die Evaluierung der Trackingdaten der 09.04.
+ Aus diesem Grund gilt für die Evaluierung der Trackingdaten der 09.04.2016
  als Startzeitpunkt.
- Die Fragebögen sind davon ausgenommen, da die Probanden darauf Zugriff
- haben mussten, um ihn auszufüllen.
+ Rür die Fragebögen gilt dies ebenfalls.
 \end_layout
 
 \begin_layout Section
@@ -353,10 +378,9 @@ name "sec:Evaluierung-der-Ergebnisse"
 Aus den erfassten Daten geht hervor, dass der Prototyp während der Testphase
  von insgesamt 120 verschiedenen Geräten gestartet wurde.
  Davon entfallen 52 Downloads (43,3 %) auf den Play Store.
- Das Zustandekommen des hohen Anteils anderer Bezugsquellen ist schwer nachzuvol
-lziehen, zumal neben dem Play Store nur die Möglichkeit der Deploy-App auf
- iOS-Geräten bestand.
- Es existiere allerdings ein Problem über die ganze Testphase hinweg.
+ Das Zustandekommen des hohen Anteils anderer Bezugsquellen lässt dich dadurch
+ erklären, dass ein Problem mit der Deploy-App über die ganze Testphase
+ hinweg gab.
  Ohne verbindliche Einladung zum Prototyp wurde selbiger bei der alternativen
  Vorgehensweise über Eingabe der App-Identifier (App-ID
 \begin_inset CommandInset nomenclature
@@ -366,7 +390,7 @@ description "App-Identifier"
 
 \end_inset
 
-) jedes mal automatisch bei Beendigung der Deploy-App entfernt.
+) jedes Mal automatisch bei Beendigung der Deploy-App entfernt.
  Probanden mit iOS-Geräten mussten deshalb den Prototyp von Neuem beziehen.
  Dies kann den höheren Anteil von Nicht-Android-Geräten erklären.
  Zudem konnten möglicherweise inaktive Nutzer-Entitäten entstanden sein,
@@ -388,16 +412,15 @@ name "sub:Statistische-Merkmale"
 
 \begin_layout Standard
 Gemessen an den 120 Teilnehmern begannen 34 Probanden (28,3 %) mindestens
- eine Tour, 26 Probanden (21,7 %) beendeten sie sogar.
- Diese Werte fallen sehr gering aus.
- Es lässt sich jedoch nicht ermitteln, ob die Prozentangabe höher ausgefallen
- wäre, ohne inaktiver Nutzer-Entitäten.
- Ein anderer Grund könnte aber auch die fehlende Attraktivität des Prototyps
- für die Probanden gewesen sein.
+ eine Tour, 26 Probanden (21,7 %) beendeten diese.
+ Es lässt sich nicht ermitteln, ob die Prozentangabe höher ausgefallen wäre,
+ ohne inaktiver Nutzer-Entitäten.
+ Ein anderer Grund könnte die fehlende Attraktivität des Prototyps für die
+ Probanden gewesen sein.
  Für den Prototyp konnte sich zuerst eine heterogene Probandengruppe interessier
 t haben.
- Gemäß dem Prinzip der Spielformen und Spielertypen sollten sich aber vor
- allem Explorer vom Prototyp angesprochen fühlen.
+ Gemäß der Theorie der Spielformen und Spielertypen sollten sich vor allem
+ Explorer vom Prototyp angesprochen fühlen.
  Probanden mit abweichendem Interesse wandten sich möglicherweise der Anwendung
  gleich zu Beginn wieder ab.
 \end_layout
@@ -422,7 +445,12 @@ reference "enu:Alter-(Antwortmöglichkeiten:-10"
 \end_inset
 
 ).
- Die Frage nach der Häufigkeit von Ausflügen oder Spaziergängen beantworteten
+ Diese Daten zeigen nur demographische Merkmale und sind nicht von Relevanz
+ für die weitere Evaluierung.
+\end_layout
+
+\begin_layout Standard
+Die Frage nach der Häufigkeit von Ausflügen oder Spaziergängen beantworteten
  knapp 46 Prozent, dass sie manchmal dieser Tätigkeit nachgehen (s.
  Tabelle 
 \begin_inset CommandInset ref
@@ -458,9 +486,9 @@ reference "enu:Erkundest-du-dabei"
 ).
  Somit besteht bei der Umfrage teilgenommenen Probanden ein Gleichgewicht
  in diesem Punkt.
- Mit einer ähnlichen Ausgewogenheit antworteten sie auch bei der Frage,
- ob Ort und Umgebung während Ausflügen bewusst erkundet bzw.
- wahrgenommen werden (Selten: 35,1 %; Manchmal: 32,4 %).
+ Mit einem ähnlichen homogenen Verhältnis antworteten sie auch bei der Frage
+ zur bewussten Wahrnehmung der Orte während Ausflügen (Selten: 35,1 %; Manchmal:
+ 32,4 %).
 \end_layout
 
 \begin_layout Standard
@@ -494,7 +522,7 @@ name "tab:Ergebnisse-zu-Ausflugshäufigkeit"
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="7">
 <features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
-<column alignment="left" valignment="top" width="20text%">
+<column alignment="left" valignment="top" width="17text%">
 <column alignment="center" valignment="top" width="9text%">
 <column alignment="center" valignment="top" width="10text%">
 <column alignment="center" valignment="top" width="10text%">
@@ -801,12 +829,12 @@ reference "enu:Welche-der-folgenden-1"
 ) mit denen die Probanden nach ihren Neigungen bezüglich ihrer Eigenschaften
  als Spieler und den Formen des Spiels befragt wurden.
  42,4 Prozent wählten die Aussage, welche sie als Explorer identifiziert.
- Weitere 40,9 Prozent wählten zudem die Aussage mit der Zuordnung zum Spielertyp
- Socializer.
+ Weitere 40,9 Prozent stimmten zudem für die Aussage mit der Zuordnung zum
+ Spielertyp Socializer.
  Killer und Achiever wurden mit jeweils 15,2 Prozentpunkten seltener votiert.
- Dieses Ergebnis zeigt, dass Probanden mit tendenziell mehr explorativer
- und sozialer Persönlichkeit über die Umfrage hinaus Interesse an dem Prototyp
- gezeigt haben können.
+ Dieses Ergebnis führt zur Hypothese, dass Probanden mit tendenziell mehr
+ explorativer und sozialer Persönlichkeit über die Umfrage hinaus Interesse
+ an dem Prototyp gezeigt haben könnten.
  Dieses Ergebnis ist wie in Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -815,7 +843,6 @@ reference "sub:Festlegung-der-Zielgruppe"
 \end_inset
 
  beschrieben, so angestrebt.
- 
 \end_layout
 
 \begin_layout Standard
@@ -823,13 +850,14 @@ Von insgesamt 111 vergebenen Stimmen zu den Wahlmöglichkeiten der Spielformen
  kommen 37 Stimmen auf die Selbsterfahrung (33,3 %), 32 Stimmen auf Konflikt
  (28,8 %), 22 Stimmen auf Koordination (19, 8%), 12 Stimmen auf Kooperation
  (10,8 %) und zuletzt acht Stimmen auf Wettkampf (7,2 %).
- Auch in Falle der Spielformen zeigt sich ein klarer Trend hin zu Selbsterfahrun
-g als populärste Form der Probanden.
- Andere Probanden mit Interesse an einer anderen Spielform sind weniger
- unter den Probanden vertreten.
- Jedoch präferieren fast ebenso viele Probanden die Spielform Konflikt.
- Diese Signifikanz ist nicht zu erklären, da weder im Prototyp noch im Aufruf
+ Im Fall der Spielformen zeigt sich ein klarer Trend hin zu Selbsterfahrung
+ als populärste Form.
+ Probanden mit Interesse an einer anderen Spielform sind seltener vertreten.
+ Jedoch präferieren fast ebenso viele die Spielform Konflikt.
+ Diese Signifikanz ist überraschend, da weder im Prototyp noch im Aufruf
  zur Testphase Texte oder Informationen eine solche Spielform suggerieren.
+ Eventuell sind jedoch die Antwortmöglichkeiten zur den Spielformen nicht
+ ideal gewählt.
 \end_layout
 
 \begin_layout Subsection
@@ -901,7 +929,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Umfrageergebnisse zu verhaltensbeeinflussenden Mechanismen (Teil 1)
+Umfrageergebnisse zu verhaltensbeeinflussenden Mechanismen
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:Ergebnisse-Teil-1"
@@ -921,7 +949,7 @@ name "tab:Ergebnisse-Teil-1"
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="5">
 <features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
-<column alignment="left" valignment="top" width="38text%">
+<column alignment="left" valignment="top" width="35text%">
 <column alignment="center" valignment="top" width="12text%">
 <column alignment="center" valignment="top" width="12text%">
 <column alignment="center" valignment="top" width="12text%">
@@ -1256,9 +1284,9 @@ reference "fig:Tracking-1a"
  Die Alternative wäre gewesen, die Splash Pages gleich zu Beginn zu überspringen.
  Ganze 88,3 Prozent der getrackten Probanden wählten mindestens ein Vorlieben-Th
 ema aus dem Angebot von Vorschlägen aus.
- Auch dieser Wert übersteigt dem der Umfrage.
- Diese eindeutigen Ergebnisse liefern auch die Erklärung, weshalb der Schnelltst
-art mit 37,8% am Meisten gewählt wurde (Fragestellung 
+ Dieser Wert übersteigt dem der Umfrage.
+ Diese eindeutigen Ergebnisse liefern die Erklärung, weshalb der Schnelltstart
+ mit 37,8% am Meisten gewählt wurde (Fragestellung 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Wähltest-du-beim"
@@ -1276,9 +1304,10 @@ reference "fig:Tracking-1b"
 
  erkennbar.
  Hier wird das Verhältnis zwischen bequemer und manueller Tourauswahl mit
- 52,6 zu 47,4 Prozent dargestellt.Zusammenfassend lässt sich zu den genannten
- Mechanismen sagen, dass sie das Verhalten Reisewilliger dahingehend tatsächlich
- verändern, sich vom System geeignete Touren aussuchen zu lassen.
+ 52,6 zu 47,4 Prozent dargestellt.
+ Zusammenfassend lässt sich zu den genannten Mechanismen sagen, dass sie
+ das Verhalten Reisewilliger dahingehend tatsächlich verändern, sich vom
+ System geeignete Touren aussuchen zu lassen.
 \end_layout
 
 \begin_layout Standard
@@ -1413,21 +1442,13 @@ reference "tab:Ergebnisse-Teil-2"
  zeigt die weiteren Ergebnisse der Umfrage hinsichtlich der implementierten
  Mechanismen.
  Insgesamt standen den Probanden jeweils eine fünfstufige Skala von 
-\begin_inset Quotes eld
-\end_inset
-
+\emph on
 Unwichtig
-\begin_inset Quotes erd
-\end_inset
-
+\emph default
  bis 
-\begin_inset Quotes eld
-\end_inset
-
+\emph on
 Motivierend
-\begin_inset Quotes erd
-\end_inset
-
+\emph default
  zur Wahl.
  Sie wurden unter anderem nach dem Zielverhalten und den dazugehörigen Hinweisen
  befragt (Fragestellung 
@@ -1446,8 +1467,8 @@ reference "enu:Zu-den-Fragen"
 
 ).
  Darin enthalten sind die Gamification-Patterns Challenges und Tipps.
- Des Weiteren wurde nach der motivierenden Wirkung des erhaltenen Feedbacks
- und des zu gebenden Feedbacks gefragt (Fragestellung 
+ Des Weiteren wurde nach der motivierenden Wirkung des erhaltenen und zu
+ gebenden Feedbacks gefragt (Fragestellung 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Am-Ende-der"
@@ -1462,9 +1483,9 @@ reference "enu:Am-Ende-der-1"
 \end_inset
 
 ).
- Das Gamification-Pattern User-Generated-Content wurde zwar nicht im Prototyp
+ Das Gamification-Pattern User Generated Content wurde zwar nicht im Prototyp
  umgesetzt aber als Belohnungsanreiz angedeutet.
- Dieser Aspekt wurde wie auch die Fortschrittsanzeige ebenso nach ihren
+ Dieses Pattern, wie auch die Fortschrittsanzeige wurden ebenso nach iihrem
  motivierenden Potential befragt (Fragestellung 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1492,9 +1513,9 @@ reference "enu:Könntest-du-dir"
 \end_layout
 
 \begin_layout Standard
-Auffällig sind die überwiegenden Antworten, die Mechanismen seien mehr motiviere
-nd denn unwichtig.
- Ebenso befand kein Proband das Zielverhalten der ortsbezogenen Aufgaben
+Aus der Umfrage geht hervor, dass die Probanden die Mechanismen überwiegend
+ motivierend empfinden.
+ Ebenso bewertet kein Proband das Zielverhalten der ortsbezogenen Aufgaben
  in Gänze als unwichtig.
  Diese Signifikanz des eher motivierenden Zielverhaltens mit fast 65 Prozent
  lässt sich im Rahmen der an der Umfrage teilgenommenen Probanden als Erfolg
@@ -1503,30 +1524,30 @@ nd denn unwichtig.
 \end_layout
 
 \begin_layout Standard
-Auffallend ist die erhöhte Verzicht auf eine Angabe bei den Fragestellungen
+Auffallend ist der erhöhte Verzicht auf eine Angabe bei den Fragestellungen
  zu den Hinweisen und der Fortschrittsanzeige.
- Der Grund dieser hohen Werte lässt sich daraus ableiten, dass diese Spielmechan
-ismen den Probanden während der Benutzung nicht auffielen.
+ Der Grund dieser hohen Werte könnte sich daraus ableiten, dass diese Spielmecha
+nismen den Probanden während der Benutzung nicht auffielen.
  Die Fortschrittsanzeige war zwar kontinuierlich eingeblendet, aber ihre
  dezent Darstellung könnte der Grund dafür sein, dass über ein Viertel der
  Probanden dazu keine Angaben machten.
  Die Hinweise hingegen wurden ausschließlich bei falschen Antworten sichtbar.
- Probanden, welche mit der Eingabe bis zur offensichtlichen Antwort geduldeten,
- wurden somit nie mit den Hinweisen konfrontiert.
+ Probanden, welche nie eine falsche Antwort wählten, wurden somit nie mit
+ den Hinweisen konfrontiert.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
-placement h
+placement H
 wide false
-sideways false
+sideways true
 status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Umfrageergebnisse zu verhaltensbeeinflussenden Mechanismen (Teil 2)
+Umfrageergebnisse zu verhaltensbeeinflussenden Mechanismen
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:Ergebnisse-Teil-2"
@@ -2376,14 +2397,21 @@ reference "enu:Könntest-du-dir"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Zielverhalten und Anwendungsziel
 \end_layout
 
 \begin_layout Standard
-Während in der Umfrage noch eine Mehrheit das Zielverhalten als sehr motivierend
- empfanden, zeigen die Tracking-Daten zu den aktivierten Aufgaben gemessen
- am Tourfortschritt ein ernüchterndes Ergebnis (s.
+Während in der Umfrage eine Mehrheit der Teilnehmer das Zielverhalten als
+ sehr motivierend empfinden, zeigen die Tracking-Daten zu den aktivierten
+ Aufgaben gemessen am Tourfortschritt ein anderes Ergebnis (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -2393,8 +2421,16 @@ reference "fig:tracking-2a"
 \end_inset
 
 ).
- Der Unterschied zwischen erster und zweiter aktivierter Aufgabe ist in
- einem nicht nachvollziehbarem Maße recht hoch (44,4 % zu 25 %).
+ Der Unterschied zwischen erster und zweiter aktivierter Aufgabe ist sehr
+ hoch (44,4
+\begin_inset space ~
+\end_inset
+
+% zu 25
+\begin_inset space ~
+\end_inset
+
+%).
  Denn wie Fragestellung 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2405,26 +2441,43 @@ reference "enu:Es-konnten-ortsbezogene"
  zeigt, werteten nur 16,2 Prozent das Zielverhalten als eher unwichtig.
  Die Unterschiede der nachfolgenden drei Aufgaben-Aktivierungen fallen dafür
  geringer aus.
- 
+ Aus diesem Ergebniss lässt sich die Hypothese aufstellen, dass es zwei
+ Hauptgruppen von Probanden gibt.
+ Die erste Gruppe verlor bereits nach der ersten Aufgabe die Motivation,
+ während die zweite Gruppe motiviert war weitere Aufaben zu absolvieren.
 \end_layout
 
 \begin_layout Standard
-Für einen legitimen Erfolg des Zielverhaltens bedarf es neben der Aktivierung
- einer Aufgabe vor allem die Durchführung.
+Für einen legitimen Erfolg des Zielverhaltens muss neben der Aktivierung
+ einer Aufgabe, diese vor allem auch durchgeführt werden.
  Diesbezüglich ist aus den Tracking-Daten zu erkennen, dass nur 15 von 37
  (40,5 %) der an der Umfrage teilgenommenen Gruppe tatsächlich eine Aufgabe
  bearbeitet haben.
  Das ist eine verhältnismäßig kleine Prozentzahl, dafür dass sie aus der
  Gruppe hervorgeht, die freiwillig an der Umfrage teilnahm.
- Aus allen 120 Teilnehmenden geht hervor, dass 28 Probanden (23,3 %) mindestens
- eine Aufgabe bearbeiteten.
- Diese Zahl klingt ebenfalls gering, relativiert sich aber, wenn man die
- zuvor erwähnten 34 Probanden zum Vergleich hinzu zieht, die mindestens
- eine Tour begonnen haben.
- 82,4 Prozent der Probanden die eine Tour begonnen haben somit auch eine
- Aufgabe bearbeitet.
- Zudem ist nicht zu vergessen, dass die 120 registrierten Nutzer wie zu
- Beginn dieses Abschnitt erklärt mit Vorsicht zu betrachten sind.
+ Für das Zustandekommen dieses Verhältnisses gibt es drei Möglichkeiten.
+ Eine Hypothtese ist, dass die Probanden das Zielverhalten durchführen wollten,
+ aber nicht die nötige Zeit dafür besaßen.
+ Die andere Hypothese geht davon aus, dass sie lediglich an der Umfrage
+ teilnehmen wollten und sich nicht für den Prototyp interessierten.
+ Wie später in den Anmerkungen der Probanden hervorgeht, gibt es eine dritte
+ Gruppe, denen der Vorschlag zum Zielverhalten erst während der Umfrage
+ auffiel.
+ Während letzterer Aspekt durch die Überarbeitung des Prototyps reduziert
+ werden kann, ist die zweite Hypothese wahrscheinlich dem Aufruf zur Teilnahme
+ im Bekanntenkreis verschuldet.
+\end_layout
+
+\begin_layout Standard
+Aus allen 120 Teilnehmenden geht hervor, dass 28 Probanden (23,3
+\begin_inset space ~
+\end_inset
+
+%) mindestens eine Aufgabe bearbeiteten.
+ Diese geringe Zahl relativiert sich aber, wenn die zuvor erwähnten 34 Probanden
+ zum Vergleich hinzugezogen werden, die mindestens eine Tour begonnen haben.
+ 82,4 Prozent der Probanden die eine Tour begonnen haben, bearbeiteten somit
+ auch eine Aufgabe.
 \end_layout
 
 \begin_layout Standard
@@ -2441,8 +2494,11 @@ reference "sub:Problemstellung"
  dies für einen Erfolg.
  Wurden von den Probanden jedoch nur vereinzelt Aufgaben bearbeitet, mag
  dies ein Zeichen eines wenig motivierenden Zielverhaltens sein.
- Von den 28 Probanden führten exakt die Hälfte (52,8 %) mehr als eine Aufgabe
- durch (s.
+ Von den 28 Probanden führten die Hälfte (52,8
+\begin_inset space ~
+\end_inset
+
+%) mehr als eine Aufgabe durch (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -2452,9 +2508,19 @@ reference "fig:tracking-2b"
 \end_inset
 
 ).
- Von diesen 14 Probanden bearbeiteten weitere sechs (26 %) mehr als drei
- Aufgaben und fünf Probanden (11,3 %) machten genau vier Aufgaben oder mehr
- (9,4 %).
+ Von diesen 14 Probanden bearbeiteten weitere sechs (26
+\begin_inset space ~
+\end_inset
+
+%) mehr als drei Aufgaben und fünf Probanden (11,3
+\begin_inset space ~
+\end_inset
+
+%) machten genau vier Aufgaben oder mehr (9,4
+\begin_inset space ~
+\end_inset
+
+%).
 \end_layout
 
 \begin_layout Standard
@@ -2469,7 +2535,7 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2579,9 +2645,17 @@ Aus den 40,4 Prozent der Probanden die eine Aufgabe bearbeiteten und auch
  die Umfrage ausfüllten, lässt sich zuletzt ermitteln, welchem Spielertyp
  sie zugeordnet sind und welche Formen des Spiels sie präferieren.
  Jeweils acht Probanden wählten die Aussagen zu Spielertyp Explorer und
- Socializer (53,3 %).
+ Socializer (53,3
+\begin_inset space ~
+\end_inset
+
+%).
  Jeweils fünf Probanden wählten zudem Aussagen zu den Spielertypen Killer
- und Achiever (33,3 %).
+ und Achiever (33,3
+\begin_inset space ~
+\end_inset
+
+%).
  Aus Abbildung 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2650,11 +2724,11 @@ name "sub:Optimierungspotentiale"
 \end_layout
 
 \begin_layout Standard
-Im letzten Punkt der Umfrage teilten die Teilnehmer ihre persönliche Meinung
- über den Prototyp mit.
+Im letzten Punkt der Umfrage gaben die Teilnehmer ihre persönliche Meinung
+ zum Prototyp an.
  Eine Strukturierung der Kommentare nach ähnlichen Inhalten ergibt, dass
  fünf Anliegen besonders häufig auftreten.
- vier der fünf Themen beschäftigen sich mit technischen Mängeln des Prototyps,
+ Vier der fünf Themen beschäftigen sich mit technischen Mängeln des Prototyps,
  während der letzte Punkt Anregungen bezüglich dem Funktionsumfang der Touren
  umfasst.
 \end_layout
@@ -2732,14 +2806,10 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Bilder/IMG_1418.jpg
-	width 33text%
+	width 35text%
 	BoundingBox 0bp 0bp 640bp 1100bp
 	clip
 
@@ -2774,8 +2844,8 @@ name "fig:Menüpunkt-für-Entdeckungen"
 \end_layout
 
 \begin_layout Standard
-Die Häufigkeit dieser Bemerkungen zeigt auf, dass die Darstellung des Entdeckung
-s-Menüpunktes nicht ideal ist.
+Die Häufigkeit dieser Bemerkungen zeigt, dass die Darstellung des Entdeckungs-Me
+nüpunktes nicht ideal ist.
  Eine Annäherung der Form an die anderen Schaltflächen und eine geeignetere
  Positionierung kann diesbezüglich die Resonanz der Nutzer verbessern.
  Die fehlende Erkennbarkeit der Entdeckungsoption trägt allerdings nicht
@@ -2807,11 +2877,11 @@ n Wikipedia-Einträgen vor, oder Fotos zu den Fragestellungen.
 \end_layout
 
 \begin_layout Standard
-Der letzte Punkt mit einer erhöhten Signifikanz bezieht sich auf den Funktionsum
-fang von Touren.
+Der letzte Punkt mit einer hohen Signifikanz bezieht sich auf den Funktionsumfan
+g von Touren.
  In einem Kommentar wird die Möglichkeit zur Änderung der Reihenfolge empfohlen,
  um effizientere Abfolgen der Zielorte wählen zu können.
- Eine andere Meinung spricht sich für ein Nachschlagewerk absolvierter Touren
+ Ein anderer Proband spricht sich für ein Nachschlagewerk absolvierter Touren
  aus.
  Diese Funktion ist zum jetzigen Zeitpunkt nur indirekt durch den erneuten
  Start einer Tour verfügbar.

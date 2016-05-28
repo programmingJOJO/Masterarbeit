@@ -201,10 +201,7 @@ key "McGonigal.2010"
  Obwohl der Begriff selbst nicht in ihrer Rede Erwähnung fand, so lässt
  sich dieser Moment aus medialer Sicht als Startzeitpunkt von Gamification
  betrachten.
-\end_layout
-
-\begin_layout Standard
-Deterding et al.
+ Deterding et al.
  prägten den Begriff Gamification als 
 \end_layout
 
@@ -420,7 +417,14 @@ Verhaltensbeeinflussung besitzt verschiedene Ausprägungen in ihrer Intensität
 rozess das Zielverhalten bereits klar definiert sein.
  Denn so lässt sich beispielsweise herausfinden, ob das Zielverhalten im
  festgelegten Zeitfenster durchgeführt wird oder nicht.
- Bei Hinzunahme des Behavioral Grid von Fogg aus Tabelle 
+ Bei Hinzunahme des Behavioral Grid von 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Fogg.2012"
+
+\end_inset
+
+ aus Tabelle 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Behavioral-Grid-in"
@@ -428,14 +432,7 @@ reference "tab:Behavioral-Grid-in"
 \end_inset
 
  lässt sich das angestrebte Verhalten einem von insgesamt 15 verschiedenen
- Ausprägungen zuordnen 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Fogg.2012"
-
-\end_inset
-
-.
+ Ausprägungen zuordnen.
  
 \begin_inset Float table
 placement H
@@ -473,7 +470,7 @@ name "tab:Behavioral-Grid-in"
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="4">
 <features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
-<column alignment="center" valignment="top" width="20text%">
+<column alignment="center" valignment="top" width="19text%">
 <column alignment="center" valignment="top" width="23text%">
 <column alignment="center" valignment="top" width="23text%">
 <column alignment="center" valignment="top" width="23text%">
@@ -538,7 +535,7 @@ Installierung einer Photovoltaikanlage auf dem Dach
 \begin_inset Text
 
 \begin_layout Plain Layout
-Fahrgemeinschaften für ein paar Wochen
+Fahrgemein- schaften für ein paar Wochen
 \end_layout
 
 \end_inset
@@ -1599,7 +1596,7 @@ Spielformen können bei der Gamifizierung einer Anwendung bzw.
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2504,7 +2501,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename Bilder/Tripadvisor/IMG_0911.PNG
-	width 32text%
+	width 35text%
 	BoundingBox 0bp 0bp 640bp 1100bp
 	clip
 
@@ -2547,7 +2544,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename Bilder/Tripme/thumb_IMG_1287_1024.jpg
-	width 32text%
+	width 35text%
 	BoundingBox 0bp 0bp 640bp 1100bp
 	clip
 
@@ -2719,7 +2716,7 @@ de Reisegruppen ersetzen, in denen motivationalie Defizite auftreten.
  entsprechen.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Paragraph*
 Zielgruppe/Spielertyp
 \end_layout
 
@@ -2774,7 +2771,7 @@ Planung der Route entlang der Sehenswürdigkeiten.
 Beschaffung von Informationen über Sehenswürdigkeiten vor Ort.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Spielmechanismen
 \end_layout
 
@@ -2877,7 +2874,7 @@ Persönliches Hauptziel: Ein Spiel kann mehrere Stunden oder gar Tage andauern.
 pezifischen Eigenschaften.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Spielform
 \end_layout
 
@@ -3195,7 +3192,7 @@ reference "fig:Tripwolf-a"
  deren Kauf zur Verfügung.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Anwendungsziel
 \end_layout
 
@@ -3229,7 +3226,7 @@ reference "fig:Tripwolf-c"
  Achiever, Socializer und Killer werden deshalb nicht angesprochen.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Zielverhalten
 \end_layout
 
@@ -3254,7 +3251,7 @@ reference "fig:Tripwolf-b"
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Spielmechanismen
 \end_layout
 
@@ -3267,7 +3264,7 @@ Tripwolf
  eigener Touren keine weiteren nennenswerten Spielmechanismen.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Spielform
 \end_layout
 
@@ -3487,7 +3484,7 @@ key "iQapps.2013"
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Anwendungsziel
 \end_layout
 
@@ -3510,7 +3507,7 @@ ung auf Reiselust lassen sich als Spielertypen Socializer und Explorer identifiz
 ieren.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Zielverhalten
 \end_layout
 
@@ -3521,7 +3518,7 @@ Nutzer erstellen ihre eigenen Reiserouten und bereisen diese aus eigenem
  Fotos und teilen diese mit ihrem Freundeskreis.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Spielmechanismen
 \end_layout
 
@@ -3538,7 +3535,7 @@ Trip Journal
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Spielform
 \end_layout
 
@@ -3616,7 +3613,7 @@ Quarterquest
 her Highscore errechnet.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Anwendungsziel
 \end_layout
 
@@ -3666,7 +3663,7 @@ key "Mintert.o.J.b"
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Zielverhalten
 \end_layout
 
@@ -3677,7 +3674,7 @@ Um das Anwendungsziel zu erreichen, beantworten Nutzer ortsbezogene Quiz-Fragen
  der Sehenswürdigkeiten nötig.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 Spielmechanismen
 \end_layout
 
@@ -3783,7 +3780,7 @@ Rangliste/Leaderboard: Das Leaderboard ist in Verbindung des übergeordneten
  auf seiner Webseite anwendungsübergreifend.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Spielform
 \end_layout
 
@@ -4013,7 +4010,7 @@ reference "fig:street-a"
 )
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Anwendungsziel
 \end_layout
 
@@ -4065,7 +4062,7 @@ key "Hoier.2016"
  Die Anwendung ist daraufhin nicht explizit konzipiert.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Zielverhalten
 \end_layout
 
@@ -4075,7 +4072,7 @@ Das Zielverhalten für die Absolvierung von Spots beinhaltet die Annahme,
  Das Zielverhalten variiert je nach Spot-Typ und geforderter Aufgabe.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 Spielmechanismen
 \end_layout
 
@@ -4149,7 +4146,7 @@ Streetspotr
  Der Nutzer erkennt somit sofort seinen Tätigkeitsfortschritt.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Spielform
 \end_layout
 
@@ -4389,7 +4386,7 @@ reference "fig:city-b"
 ).
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Anwendungsziel
 \end_layout
 
@@ -4434,7 +4431,7 @@ key "GPSMYCITYInc.2016"
  die App besonders für Explorer ansprechend.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Zielverhalten
 \end_layout
 
@@ -4504,7 +4501,7 @@ reference "fig:city-c"
 lichkeiten mit der Community erkennbar.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Spielform
 \end_layout
 
@@ -4731,7 +4728,7 @@ n zumindest aber Schnittpunkte in Bereich Aufsuchen erstrebenswerter Orte.
  ist seine markante Gamifizierung.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Anwendungsziel
 \end_layout
 
@@ -4817,7 +4814,7 @@ e Spielertyp-Merkmale.
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Zielverhalten
 \end_layout
 
@@ -4833,7 +4830,7 @@ ise einstellbaren Präferenzen, Filtermöglichkeiten und der Standortbestimmung
  des Ortes motivieren.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Spielmechanismen
 \end_layout
 
@@ -4971,7 +4968,7 @@ cite[S.~253--255]{Frith.2013}
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Spielform
 \end_layout
 
@@ -5243,7 +5240,7 @@ key "Faller.2013"
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Anwendungsziel
 \end_layout
 
@@ -5323,7 +5320,7 @@ cite[S.~266]{Marcus.2013b}
  Achiever hinzufügen.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Zielverhalten
 \end_layout
 
@@ -5336,7 +5333,7 @@ Die Nutzer sollen während ihrer Reise von gezielten Vorschlägen eines virtuell
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 Spielmechanismen
 \end_layout
 
@@ -5482,7 +5479,7 @@ cite[S.~278]{Marcus.2013b}
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph*
 Spielform
 \end_layout
 

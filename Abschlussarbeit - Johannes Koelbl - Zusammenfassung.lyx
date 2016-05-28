@@ -128,10 +128,10 @@ reference "chap:Evaluation"
 
 \end_inset
 
-, werden nun im abschließenden Teil die eingangs gestellte Frage rekapituliert,
- wie motivationale Defizite innerhalb der spielfremden Domäne Reisen durch
- Anwendung von Gamification bewältigt und zu einem bestimmten Verhalten
- anregen können.
+, wird nun im abschließenden Teil die zu Beginn der Abschlussarbeit gestellte
+ Frage rekapituliert, wie motivationale Defizite innerhalb der spielfremden
+ Domäne Reisen durch Anwendung von Gamification bewältigt und zu einem bestimmte
+n Verhalten anregen können.
  Gegenstand dieser Fragestellung sind zudem zwei Ziele, welche mit Abschluss
  dieser Arbeit erreicht werden sollten.
  Sie werden im anschließenden Abschnitt zuerst diskutiert.
@@ -144,8 +144,8 @@ Diskussion der Ergebnisse
 \begin_layout Standard
 Ziel der vorliegenden Abschlussarbeit war es unter Berücksichtigung der
  derzeitigen technischen Möglichkeiten bei der App-Entwicklung einen Prototyp
- mit dem Kontext Reisen zu verwirklichen, welche motivationale Defizite
- reduziert und zu einem bestimmten Verhalten verleitet.
+ mit dem Kontext Reisen zu verwirklichen, welcher motivationale Defizite
+ reduziert und zu einem bestimmten Verhalten beeinflusst.
  Zu diesem Zweck wurde vor der Konzeption eine Marktstudie etablierter,
  verwandter Anwendungen realisiert, welche nach zuvor bestimmten Vergleichsmerkm
 alen hin analysiert wurden.
@@ -177,8 +177,7 @@ SeeSight
  definierten Vergleichskriterien überprüft worden.
  Ihre Unterschiede sowie Gemeinsamkeiten sind anschließend gegenübergestellt
  und für die Konzeptphase ausgewertet worden.
- Das Konzept selbst wurde mithilfe eines bestehenden Vorgehensmodells und
- bis einschließlich verwendungsfähiger Mock-Ups entwickelt.
+ Das Konzept selbst wurde mithilfe eines bestehenden Vorgehensmodells entwickelt.
  Aus diesem Ergebnis resultiert, dass der erste Teil der Zielsetzung erreicht
  ist.
  
@@ -198,8 +197,8 @@ reference "Ziel-2:-Realisierung"
  Ungeachtet dessen, ermöglicht der Prototyp vollumfänglich das intendierte
  Zielverhalten.
  Dieses Zielverhalten - die Beantwortung standortbasierter Fragestellungen
- - wurde mit weiteren unterstützenden Mechanismen zum Testzeitpunkt mit
- Einverständnis der Teilnehmer getrackt.
+ - wurde mit unterstützenden Mechanismen zum Testzeitpunkt mit Einverständnis
+ der Teilnehmer getrackt.
  In Kombination mit einer Umfrage wurden die erhobenen Daten abschließend
  evaluiert.
  
@@ -221,16 +220,15 @@ reference "sec:Evaluierung-der-Ergebnisse"
 
 \end_inset
 
- bei.
- Wie in zu erkennen ist, ergibt die Gesamtheit der Ergebnisse ein durchwachsende
-s Resultat.
- Während diejenigen die eine Tour auswählten, diese auch überwiegend beendeten,
+ bei, wo zu erkennen ist, dass die Gesamtheit der Ergebnisse ein durchwachsendes
+ Resultat ergibt.
+ Während diejenigen, die eine Tour auswählten, diese auch überwiegend beendeten,
  wählte die Mehrheit der Probanden erst gar keine Tour aus.
  Die Gründe dazu können von einer Abwägung der Interessen bis hin zu fehlender
  Freizeit für diese Tätigkeit liegen.
  Denn das Zielverhalten benötigt eine angemessene Zeitspanne zur Durchführung.
  Andererseits kann das Verhältnis der aktiven Probanden zu den nicht aktiven
- Teilnehmern eine gewöhnliches Merkmal der Generierung von App-Nutzern sein.
+ Teilnehmern ein gewöhnliches Merkmal der Generierung von App-Nutzern sein.
 \end_layout
 
 \begin_layout Standard
@@ -249,7 +247,7 @@ Was die Reduzierung motivationaler Defizite durch unterstützende Mechanismen
 \end_layout
 
 \begin_layout Standard
-Der Erfolg des Anwendungsziel wurde während der Arbeit dadurch definiert,
+Der Erfolg des Anwendungsziels wurde während der Arbeit dadurch definiert,
  dass ein Zielverhalten auch mehrmals während einer Tour durchgeführt wird.
  Eine solche Wiederholung zeigt anhaltendes Interesse und Freude am Zielverhalte
 n und somit auch eine bewusstere Wahrnehmung der besuchten Orte.
@@ -274,7 +272,7 @@ Trotz der nicht zufrieden stellenden Ergebnisse gilt das ausgearbeitete
  erklärt wird, ist nicht auszuschließen, dass die Nutzer das Produkt im
  ersten Testdurchlauf akzeptieren.
  In Hinblick auf eine konsequente Weiterentwicklung des Prototyps, besitzt
- das Konzept weiterhin hohes, auszuschöpfendes Potential.
+ das Konzept weiterhin hohes Potential.
  In einem nächsten Überarbeitungsvorgang sollten neben den geplanten, aber
  zurückgestellten Funktionen, auch die von den Probanden erwähnten Optimierungsm
 öglichkeiten berücksichtigt werden.
@@ -284,13 +282,24 @@ Trotz der nicht zufrieden stellenden Ergebnisse gilt das ausgearbeitete
  gewährleistet.
  Das Konzept lebt von interessanten Touren und den darin enthaltenen Mehrwert.
  Einige der zurückgestellten Funktionen wie die automatische Tour-Vorsortierung
- nach gewählten Präferenzen oder der Mechanismus zu Tour-Vorschlägen durch
+ nach gewählten Präferenzen, oder der Mechanismus zu Tour-Vorschlägen durch
  Push-Benachrichtigungen funktionieren beispielsweise nur durch ausreichend
  verschiedene Touren.
 \end_layout
 
 \begin_layout Standard
-Ebenso müssen nachfolgende Testdurchläufe optimiert werden.
+Des Weiteren geht der Umfrage eine hohe Signifikanz von Probanden hervor,
+ welche die Spielform Konflikt bevorzugen.
+ Diesbezüglich ist zu prüfen, ob eine Neuausrichtung des Prototyps hin zu
+ mehr Wettbewerb sinnvoll ist.
+ Ein solcher Strukturwandel würde u.
+ a.
+ den Verhaltensplan mit neuen unterstützdenen Mechanismen ergänzen, bzw.
+ bestehende Elemente ersetzen.
+\end_layout
+
+\begin_layout Standard
+Zuletzt müssen nachfolgende Testdurchläufe optimiert werden.
  Bezüglich des Trackings konnten manche Daten während der ersten Iteration
  nicht eindeutig ausgewertet werden.
  Das betrifft exemplarisch das Verhältnis der hohen Anzahl registrierter
@@ -298,9 +307,9 @@ Ebenso müssen nachfolgende Testdurchläufe optimiert werden.
  Des Weiteren lassen sich zukünftig redundante Fragestellungen aus der Umfrage
  vermeiden, deren Ergebnisse auch wahrheitsgetreuer durch das Tracking erfasst
  werden können.
- Zusätzlich kann der Versuch zum Verzicht der Umfrage unternommen werden
- und beispielsweise demographische Merkmale mithilfe einer optionalen Nutzerregi
-strierung zu erfassen.
+ Zusätzlich kann ein Versuch zum Verzicht der Umfrage unternommen werden
+ um stattdessen personenbezogende Merkmale mithilfe einer optionalen Nutzerregis
+trierung zu erfassen.
 \end_layout
 
 \begin_layout Standard
