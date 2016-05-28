@@ -839,9 +839,21 @@ name "sub:Persona-Gruppen"
 \begin_layout Standard
 Nach der Festlegung der demographischen Merkmale und der vorsorglichen Abwägung
  des Spielertyps, werden Persona-Verhaltensgruppen gebildet, welche wahrscheinli
-ch das Produkt nutzen werden.
- TODO: wendel Diese Gruppen werden schließlich auf die verschiedenen Zielverhalt
-en (
+ch das Produkt nutzen werden 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citet[S.~101]{Wendel.2013}
+\end_layout
+
+\end_inset
+
+.
+ Diese Gruppen werden schließlich auf die verschiedenen Zielverhalten (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
@@ -895,9 +907,7 @@ Physische, psychische oder ökonomische Barrieren zu diesem Zielverhalten?
 \end_layout
 
 \begin_layout Standard
-Der präferierte Ansatz von Wendel für die Erstellung möglichst unterschiedlicher
- Persona-Gruppen, ist eine Ja-Nein-Iteration über die vorgestellten fünf
- Verhaltensfragestellungen 
+Der präferierte Ansatz von 
 \begin_inset ERT
 status open
 
@@ -905,12 +915,13 @@ status open
 
 
 \backslash
-cite[S.~102--103]{Wendel.2013}
+citet[S.~102--103]{Wendel.2013}
 \end_layout
 
 \end_inset
 
-.
+ für die Erstellung möglichst unterschiedlicher Persona-Gruppen, ist eine
+ Ja-Nein-Iteration über die vorgestellten fünf Verhaltensfragestellungen.
  In Abbildung 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2019,7 +2030,7 @@ reference "enu:Zielverhalten-Mindestens-eine-kulture"
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2045,7 +2056,7 @@ name "tab:Relevante-Persona-Gruppen-der-Zielverhalten"
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="2">
 <features rotate="0" tabularvalignment="middle" tabularwidth="100text%">
-<column alignment="left" valignment="top" width="25text%">
+<column alignment="left" valignment="top" width="23text%">
 <column alignment="left" valignment="top" width="70text%">
 <row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
