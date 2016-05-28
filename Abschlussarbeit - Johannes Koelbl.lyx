@@ -386,7 +386,9 @@ dungen als hilfreich - sei es, um Empfehlungen einzuholen oder als Reiseführer.
 \emph on
 SeeSight
 \emph default
- ein eigener Prototyp implementiert und eine Nutzerstudie durchgeführt.
+ ein eigener Prototyp implementiert.
+ Mit den erfassten Daten aus der darauffolgenden Testphase wird die Wirksamkeit
+ der eingesetzten Mechanismen schließlich evaluiert.
  
 \end_layout
 
@@ -808,7 +810,7 @@ name "sec:Konzeptstudie-SeeSight"
 \begin_layout Section
 
 \lang english
-Fragebogen zum Prototyp
+Umfrage zum Prototyp 
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Fragebogen-zur-Evaluierung"
@@ -1071,7 +1073,7 @@ name "enu:Es-war-geplant,"
 
 \begin_layout Enumerate-Resume
 Während des Ausflugs konnte man den aktuellen Stand der Tour an jedem Zielort
- ablesen, sowie bei Pausierung einer Tour innerhalb der Zielortliste.
+ ablesen, sowie bei Pausieren einer Tour innerhalb der Zielort-Liste.
  Findest du diese Art der Hilfestellung ...
  (Antwortmöglichkeiten: Unwichtig ...
  Motivierend, Keine Angabe)

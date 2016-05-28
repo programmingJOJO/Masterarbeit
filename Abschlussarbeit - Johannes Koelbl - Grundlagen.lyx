@@ -2644,7 +2644,7 @@ key "Kuhnlein.2014"
  Tour sollten durch die Gamifizierung behoben werden und Reisenden ein intensive
 res und somit besseres Erlebnis bieten.
  Nach der Konzeptphase wurde das Projekt als Demonstrationsprototyp aufgesetzt
- und den Kunden innerhalb einer Testphase zum Erproben überreicht.
+ und den Probanden innerhalb einer Testphase zum Erproben überreicht.
 \end_layout
 
 \begin_layout Standard
@@ -2725,7 +2725,7 @@ Zielgruppe/Spielertyp
 
 \begin_layout Standard
 Das Ermitteln der Zielgruppe mit ihren Erwartungen an die Konzeptstudie
- erfolgte durch die Befragung der teilnehmenden Kunden.
+ erfolgte durch die Befragung der teilnehmenden Probanden.
  Den Resultaten entsprechend, galt es anschließend Personas zu definieren.
  Personas sind keinen realen Menschen nachempfunden, sondern repräsentieren
  charakteristische Vertreter einer gewünschten Zielgruppe.
@@ -2820,7 +2820,7 @@ n fehlen, wenn sie alle Funktionen und Inhalte entdecken und somit nur Bekanntes
  der Schaffung eigener neuer Touren kann die Motivation erneut steigern.
  Dieser Spielmechanismus ist innerhalb der Konzeptstudie geplant gewesen.
  Durch die Gegebenheit einer späteren möglichen Aktivierung dieser Funktionalitä
-t innerhalb des Anwendungszyklus und des kurzen Testzeitraums mit den Kunden
+t innerhalb des Anwendungszyklus und des kurzen Testzeitraums mit den Probanden
  wurde der Spielmechanismus nicht implementiert.
 \end_layout
 
@@ -3622,7 +3622,7 @@ Anwendungsziel
 
 \begin_layout Standard
 Der Besuch von Orten und Plätzen soll intensiver und aufregender werden.
- Dieses Ziel soll mithilfe der interaktiven Aufgaben erreicht werden.
+ Dieses Ziel wird mithilfe der interaktiven Aufgaben erreicht.
 \end_layout
 
 \begin_layout Paragraph*
@@ -3638,10 +3638,19 @@ Quarterquest
  Einheimische.
  Nutzer des Spielertyps Explorer können sich von der Anwendung angesprochen
  fühlen, weil die Anwendung mit 
-\begin_inset Quotes eld
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+glqq
+\end_layout
+
 \end_inset
 
-geheimnisvolle(n) Plätze(n)
+ geheimnisvolle(n) Plätze(n)
 \begin_inset Quotes erd
 \end_inset
 
@@ -3673,11 +3682,10 @@ Spielmechanismen
 \end_layout
 
 \begin_layout Itemize
-Quests: Die Anwendung trägt es bereits im Namen.
- Quests sind größere Aufgaben, die sich über mehrere Etappen hinweg erstrecken
- können.
- Das Ziel von Quests ist es, die Aktionen bis zum Hauptziel unterhaltsamer
- zu gestalten.
+Quests: Quests sind Aufgabenstellungen, die sich über mehrere Phasen hinweg
+ strecken.
+ Das Ziel von Quests ist es, die zu erledigenden Aktionen bis zum Hauptziel
+ unterhaltsamer zu gestalten.
  Das schaffen sie u.
  a.
  dadurch, dass sie meist einen geschichtlichen Hintergrund besitzen, der
@@ -3695,8 +3703,7 @@ reference "fig:Quarterquest-a"
 
 \end_inset
 
-), bei denen man auf noch unentdeckte Orte oder aufregende Plätze stoßen
- kann.
+), in denen unentdeckte Orte oder aufregende Plätze zu erkunden sind.
  
 \end_layout
 
@@ -3705,7 +3712,7 @@ Challenges:
 \emph on
 Quarterquest
 \emph default
- bietet an jedem Hotspot in seiner Tour kleine Aufgaben (s.
+ bietet an jedem Zielort in seiner Tour kurze Aufgaben (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -3715,14 +3722,12 @@ reference "fig:Quarterquest-b"
 \end_inset
 
 ).
- Diese müssen richtig beantwortet werden, damit die Reise fortgesetzt werden
- kann.
- Challenges sind für gewöhnlich in Quests vereinzelt eingebunden.
+ Diese müssen richtig beantwortet werden, damit die Tour fortgesetzbar.
 \end_layout
 
 \begin_layout Itemize
-Tipps: Tipps werden dem Nutzer optional angeboten, um schwierige Problemstellung
-en ohne Frustration überwinden zu können.
+Tipps: Dem Nutzer werden in der Awendung Tipps optional angeboten, um schwierige
+ Problemstellungen ohne Frustration überwinden zu können.
  Oft ist die Annahme von Tipps mit einem Defizit von Reputation oder Punkten
  verbunden.
  Dies soll eine mehrmalige Zuhilfenahme von Tipps einschränken.
@@ -3743,7 +3748,7 @@ Badge: Auszeichnungen für besondere Verdienste werden oft in Form von Badges
 \emph on
 Quarterquest
 \emph default
- bekommt man beispielsweise einen Badge, indem man seinen ersten Tipp annimmt
+ wird beispielsweise einen Badge für die Annahme des ersten Tipps verliehen
  (s.
  Abb.
  
@@ -4014,8 +4019,9 @@ Anwendungsziel
 
 \begin_layout Standard
 Ziel dieser Plattform ist es, Unternehmen mit Micro-Jobs und Kunden zusammenzubr
-ingen, indem extrinsisch motivierende Nutzer mit der App kleinere Tätigkeiten
- von Unternehmen annehmen und für sie in der näheren Umgebung abschließen.
+ingen, indem extrinsisch motivierende Nutzer mit der Anwendung kleinere
+ Tätigkeiten von Unternehmen annehmen und für sie in der näheren Umgebung
+ abschließen.
  Dieses Anwendungsziel ist nicht vergleichbar mit dem von 
 \emph on
 SeeSight
@@ -4064,9 +4070,8 @@ Zielverhalten
 \end_layout
 
 \begin_layout Standard
-Das Zielverhalten für die Absolvierung von Spots beinhaltet die Annahme
- eines solchen Spots, die physische Lokalisierung und die Durchführung der
- Aufgabe am Zielort innerhalb der Anwendung.
+Das Zielverhalten für die Absolvierung von Spots beinhaltet die Annahme,
+ die physische Lokalisierung und die Durchführung der Aufgabe am Zielort.
  Das Zielverhalten variiert je nach Spot-Typ und geforderter Aufgabe.
 \end_layout
 
@@ -4103,8 +4108,8 @@ Punktesystem: Bei Erledigung von Sehenswürdigkeiten-Spots steigt der eigene
 
 \begin_layout Itemize
 Rangliste/Leaderboard: Mit den gesammelten Punkten errechnet sich im Profil
- eines Nutzers ein Rang, der die Position des Nutzers in einer Rangliste
- nach seiner geleisteten Aktivität feststellt (s.
+ der Nutzer ein Rang, der ihre Position in einer Rangliste nach der geleisteten
+ Aktivität feststellt (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -4150,9 +4155,8 @@ Spielform
 
 \begin_layout Standard
 Als Spielform lässt sich primär der Wettkampf ermitteln.
- Spots werden regulär zwar im Alleingang durchgeführt.
- Der Wettbewerb erschließt sich jedoch durch Spielmechanismen wie dem Punktesyst
-em und der Rangliste.
+ Spots werden regulär zwar im Alleingang durchgeführt, der Wettbewerb erschließt
+ sich jedoch durch Spielmechanismen wie dem Punktesystem und der Rangliste.
  Neben der dominierenden Spielform Wettkampf sind auch Konflikt und Selbsterfahr
 ung zu identifizieren.
  Diese sind aber nicht relevant genug, um sie auf eine gleiche Ebene zu
@@ -4365,8 +4369,8 @@ key "GPSMYCITYInc.2016"
 \end_layout
 
 \begin_layout Standard
-Hauptmerkmale der Anwendung sind die Auswahl von Städtetouren, die Erstellung
- eigener Touren und der Reiseroutenassistent.
+Hauptmerkmale der Anwendung sind die Auswahl und Erstellung eigener Touren
+ und der Reiseroutenassistent.
  Letzteres ist allerdings nur als In-App-Kauf verfügbar.
  Die Benutzeroberfläche ist rudimentär gehalten, weißt jedoch einige Besonderhei
 ten auf.
@@ -4515,7 +4519,7 @@ Die Spielform der Anwendung lässt sich als Selbsterfahrung deklarieren.
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center

@@ -141,13 +141,13 @@ Gliederung der Testphase
 \begin_layout Standard
 Gelungene Gamification lässt sich beispielsweise effizient mit A/B-Tests
  ermitteln.
- Zwei Testgruppen (Gruppe A und Gruppe B) erproben dabei über einen längeren
- Zeitraum das Produkt.
- Eine der Gruppe erählt dafür die gamifizierte Version, während die zweite
- Gruppe das Produkt ohne verhaltensbeeinflussende Inhalte austestet.
+ Zwei Testgruppen (Gruppe A und Gruppe B) erproben über einen längeren Zeitraum
+ das Produkt.
+ Eine der Gruppe erhält die gamifizierte Version, während die zweite Gruppe
+ das Produkt ohne verhaltensbeeinflussende Inhalte austestet.
  Am Ende des Testzeitraumes lassen sich die gesammelten Daten miteinander
  abgleichen und so daraus Erkenntnisse ableiten, ob sich die Gamification-Gruppe
- dem Zielverhalten in signifikanter Weise annäherte.
+ dem Zielverhalten in signifikanter Weise annähert.
 \end_layout
 
 \begin_layout Standard
@@ -155,11 +155,11 @@ Ein weiterer Ansatz zur Evaluierung beschäftigt sich dagegen mit nur einer
  Probandengruppe.
  In diesem Beispiel erhalten alle Probanden das gamifizierte Produkt über
  einen längeren Zeitraum.
- Während dieser Testinvervalls werden die verhaltensbeeinflussenden Mechanismen
- deaktiviert, sodass die Probranten über einen kurzen Zeitraum keine gamifiziert
-e Version bedienen.
- Am Ende der Testphase lässt sich ermitteln, ob zum Zeitpunkt der Deaktivierung
- aussagekräfitge Veränderungen in der Reaktion der Probanden stattfanden.
+ Während dieser Testintervalls werden die verhaltensbeeinflussenden Mechanismen
+ deaktiviert, sodass die Probanden über einen kurzen Zeitraum keine gamifizierte
+ Version bedienen.
+ Am lässt sich ermitteln, ob zum Zeitpunkt der Deaktivierung aussagekräftige
+ Veränderungen in der Reaktion der Probanden stattfanden.
 \end_layout
 
 \begin_layout Subsection
@@ -201,12 +201,12 @@ reference "sub:Anwendungsziel-bestimmen"
 
 ).
  Bei einer Evaluierung mit A/B-Tests ließe sich diese Messung auf eine Gruppe
- nicht transverieren, da bei ihr die nötigen Spielmechanismen fehlen würden.
+ nicht transferieren, da bei ihr die nötigen Spielmechanismen fehlen würden.
 \end_layout
 
 \begin_layout Standard
 Dies lässt nun die Schlussfolgerung zu, dass der zweitgenannte Ansatz wegen
- der einheitlilchen Probandengrupppe die bessere Variante sei.
+ der einheitlichen Probandengruppe die bessere Variante sei.
  Zwingende Voraussetzung für diese Vorgehensweise ist eine kontinuierliche
  Verwendung des Produkts durch die Probanden über den veranschlagten Zeitraum.
  Für den zu evaluierenden Prototyp ergibt sich daraus ein weiteres Problem.
@@ -223,7 +223,7 @@ Erfassung gehaltvoller Daten
 \end_layout
 
 \begin_layout Standard
-Für die Evaluation wurde deshalb ein Kompromiss zwischen Erfassung der Verhalten
+Für die Evaluation wird deshalb ein Kompromiss zwischen Erfassung der Verhalten
  der Probanden und einer zusätzlichen Umfrage gewählt.
  Die Erfassung stichhaltiger Daten geschah mittels Tracking der Nutzerinteraktio
 nen mit dem Prototyp.
@@ -233,7 +233,7 @@ nen mit dem Prototyp.
 \end_layout
 
 \begin_layout Itemize
-Vollsändige Durchführung der Splash Pages mit der inbegriffenen Erklärung
+Vollständige Durchführung der Splash Pages mit der inbegriffenen Erklärung
  zur Vorgehensweise
 \end_layout
 
@@ -242,7 +242,7 @@ Personalisierung (Auswahl von Vorlieben-Themen bezüglich Touren)
 \end_layout
 
 \begin_layout Itemize
-Aktiverung eines bequemen Schnellstarts einer Tour oder der manuellen Auswahl
+Aktivierung eines bequemen Schnellstarts einer Tour oder der manuellen Auswahl
 \end_layout
 
 \begin_layout Itemize
@@ -308,8 +308,8 @@ reference "sub:Optimierungspotentiale"
 \begin_layout Standard
 Die Testphase umfasste 20 Tage und verlief vom 08.04.
  bis einschließlich 27.04.2016.
- Verteilt wurde der Prototyp ausschließlich auf Andoid- und iPhone-Betriebssyste
-men (iOS
+ Verteilt wurde der Prototyp ausschließlich auf Android- und iPhone-Betriebssyst
+emen (iOS
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
 symbol "iOS"
@@ -356,8 +356,7 @@ Aus den erfassten Daten geht hervor, dass der Prototyp während der Testphase
  Das Zustandekommen des hohen Anteils anderer Bezugsquellen ist schwer nachzuvol
 lziehen, zumal neben dem Play Store nur die Möglichkeit der Deploy-App auf
  iOS-Geräten bestand.
- Allerdings gab es an diesem Punkt ein Problem über die ganze Testphase
- hinweg.
+ Es existiere allerdings ein Problem über die ganze Testphase hinweg.
  Ohne verbindliche Einladung zum Prototyp wurde selbiger bei der alternativen
  Vorgehensweise über Eingabe der App-Identifier (App-ID
 \begin_inset CommandInset nomenclature
@@ -370,10 +369,10 @@ description "App-Identifier"
 ) jedes mal automatisch bei Beendigung der Deploy-App entfernt.
  Probanden mit iOS-Geräten mussten deshalb den Prototyp von Neuem beziehen.
  Dies kann den höheren Anteil von Nicht-Android-Geräten erklären.
- Zudem konnten möglicherweise inaktive Nutzer-Entitäten enstanden sein,
+ Zudem konnten möglicherweise inaktive Nutzer-Entitäten entstanden sein,
  welche unter Umständen die Ergebnisse beeinflussen.
- Dieses Problem ist erst während der Testphase identifiziert worden und
- eine Aussortierung ist zum jetzigen Zeitpunkt nicht mehr möglich.
+ Dieses Problem wurde erst während der Testphase identifiziert und eine
+ Aussortierung ist zum jetzigen Zeitpunkt nicht mehr möglich.
 \end_layout
 
 \begin_layout Subsection
@@ -460,7 +459,7 @@ reference "enu:Erkundest-du-dabei"
  Somit besteht bei der Umfrage teilgenommenen Probanden ein Gleichgewicht
  in diesem Punkt.
  Mit einer ähnlichen Ausgewogenheit antworteten sie auch bei der Frage,
- ob Ort und Umgebung wärend Ausflügen bewusst erkundet bzw.
+ ob Ort und Umgebung während Ausflügen bewusst erkundet bzw.
  wahrgenommen werden (Selten: 35,1 %; Manchmal: 32,4 %).
 \end_layout
 
@@ -475,7 +474,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Umfragergebnisse zu Ausflugshäufigkeit und wahrnehmender Umgebung 
+Umfrageergebnisse zu Ausflugshäufigkeit und wahrnehmender Umgebung 
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:Ergebnisse-zu-Ausflugshäufigkeit"
@@ -785,7 +784,7 @@ reference "enu:Erkundest-du-dabei"
 \end_layout
 
 \begin_layout Standard
-Der Fragebogen enthielt des Weiteren Multiple-Choice-Fragestellungen (
+Der Fragebogen enthält des Weiteren Multiple-Choice-Fragestellungen (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Welche-der-folgenden"
@@ -804,11 +803,11 @@ reference "enu:Welche-der-folgenden-1"
  42,4 Prozent wählten die Aussage, welche sie als Explorer identifiziert.
  Weitere 40,9 Prozent wählten zudem die Aussage mit der Zuordnung zum Spielertyp
  Socializer.
- Killer und Achiever wurden mit jeweils 15,2 Prozentpunkten seltener gewählt.
+ Killer und Achiever wurden mit jeweils 15,2 Prozentpunkten seltener votiert.
  Dieses Ergebnis zeigt, dass Probanden mit tendenziell mehr explorativer
  und sozialer Persönlichkeit über die Umfrage hinaus Interesse an dem Prototyp
- gezeigt haben könnten.
- Dieses Ergebnis ist auch, wie in Abschnitt 
+ gezeigt haben können.
+ Dieses Ergebnis ist wie in Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Festlegung-der-Zielgruppe"
@@ -821,16 +820,16 @@ reference "sub:Festlegung-der-Zielgruppe"
 
 \begin_layout Standard
 Von insgesamt 111 vergebenen Stimmen zu den Wahlmöglichkeiten der Spielformen
- kamen 37 Stimmen auf die Selbsterfahrung (33,3 %), 32 Stimmen auf Konflikt
+ kommen 37 Stimmen auf die Selbsterfahrung (33,3 %), 32 Stimmen auf Konflikt
  (28,8 %), 22 Stimmen auf Koordination (19, 8%), 12 Stimmen auf Kooperation
  (10,8 %) und zuletzt acht Stimmen auf Wettkampf (7,2 %).
  Auch in Falle der Spielformen zeigt sich ein klarer Trend hin zu Selbsterfahrun
 g als populärste Form der Probanden.
- Andere Probanden mit Interessse an einer anderen Spieleform sind weniger
+ Andere Probanden mit Interesse an einer anderen Spielform sind weniger
  unter den Probanden vertreten.
  Jedoch präferieren fast ebenso viele Probanden die Spielform Konflikt.
  Diese Signifikanz ist nicht zu erklären, da weder im Prototyp noch im Aufruf
- zur Testphase Texte oder Informationen eine solche Spielform suggerierten.
+ zur Testphase Texte oder Informationen eine solche Spielform suggerieren.
 \end_layout
 
 \begin_layout Subsection
@@ -860,7 +859,7 @@ reference "tab:Ergebnisse-Teil-2"
 \end_inset
 
  spiegeln die Meinungen der Probanden inwiefern die verhaltensbeeinflussenden
- Mechanismen von ihnen angenommen wurden.
+ Mechanismen von ihnen angenommen werden.
  In Fällen in denen auch Tracking-Daten zur Verfügung stehen, werden diese
  auch zum direkten Vergleich herangezogen.
  Tabelle 
@@ -887,7 +886,7 @@ reference "enu:Wähltest-du-beim"
 .
  Diese umfassen Nudges wie die Personalisierung und die Ermöglichung eines
  anschließenden schnellen Starts, sowie Gamification-Patterns in Form von
- Spielmechanismen (Persönliches Hauptziel und Easy-Getting-Started).
+ Spielmechanismen (Persönliches Hauptziel und Easy Getting Started).
  
 \end_layout
 
@@ -902,7 +901,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Umfragergebnisse zu verhaltensbeeinflussenden Mechanismen (Teil 1)
+Umfrageergebnisse zu verhaltensbeeinflussenden Mechanismen (Teil 1)
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:Ergebnisse-Teil-1"
@@ -1238,7 +1237,7 @@ reference "enu:Wähltest-du-beim"
 \begin_layout Standard
 Was die Durchführung des einführenden Tutorials (Erklärung zu Vorgehensweise)
  und die daran anschließende Aufforderung zur Personalisierung durch Angabe
- der Vorlieben angeht, gaben dreiviertel der Probanden an dies getan zu
+ der Vorlieben angeht, gaben Dreiviertel der Probanden an dies getan zu
  haben (78,4% u.
  73%).
  Mit fast 87,9 Prozent übersteigt die getrackte Angabe sogar dem Wert der
@@ -1253,7 +1252,7 @@ reference "fig:Tracking-1a"
 
 ).
  Diese Werte bedeuten aber lediglich, dass die Probanden die Splash Pages
- mit der Übersicht zu den Funktionen lediglich vollständig durchscrollten.
+ mit der Übersicht zu den Funktionen lediglich vollständig durchschalten.
  Die Alternative wäre gewesen, die Splash Pages gleich zu Beginn zu überspringen.
  Ganze 88,3 Prozent der getrackten Probanden wählten mindestens ein Vorlieben-Th
 ema aus dem Angebot von Vorschlägen aus.
@@ -1267,7 +1266,7 @@ reference "enu:Wähltest-du-beim"
 \end_inset
 
 ).
- Das Verhältnis zwischem schnellem und manuellem Start (37,8 % zu 24,3 %)
+ Das Verhältnis zwischen schnellem und manuellem Start (37,8 % zu 24,3 %)
  durch die Befragung ist ebenso aus den Tracking-Daten in Abbildung 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1277,7 +1276,7 @@ reference "fig:Tracking-1b"
 
  erkennbar.
  Hier wird das Verhältnis zwischen bequemer und manueller Tourauswahl mit
- 52,6 zu 47,4 Prozent dargestellt.Zusammenfassend lässt sich zu den gennanten
+ 52,6 zu 47,4 Prozent dargestellt.Zusammenfassend lässt sich zu den genannten
  Mechanismen sagen, dass sie das Verhalten Reisewilliger dahingehend tatsächlich
  verändern, sich vom System geeignete Touren aussuchen zu lassen.
 \end_layout
@@ -1448,7 +1447,7 @@ reference "enu:Zu-den-Fragen"
 ).
  Darin enthalten sind die Gamification-Patterns Challenges und Tipps.
  Des Weiteren wurde nach der motivierenden Wirkung des erhaltenen Feedbacks
- und des zu gebenen Feedbacks gefragt (Fragestellung 
+ und des zu gebenden Feedbacks gefragt (Fragestellung 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Am-Ende-der"
@@ -1509,10 +1508,10 @@ Auffallend ist die erhöhte Verzicht auf eine Angabe bei den Fragestellungen
  Der Grund dieser hohen Werte lässt sich daraus ableiten, dass diese Spielmechan
 ismen den Probanden während der Benutzung nicht auffielen.
  Die Fortschrittsanzeige war zwar kontinuierlich eingeblendet, aber ihre
- dezent Darstellug könnte der Grund dafür sein, dass über ein Viertel der
+ dezent Darstellung könnte der Grund dafür sein, dass über ein Viertel der
  Probanden dazu keine Angaben machten.
  Die Hinweise hingegen wurden ausschließlich bei falschen Antworten sichtbar.
- Probanden, welche mit der Eingabe bis zur offensichtlichen Anwort geduldeten,
+ Probanden, welche mit der Eingabe bis zur offensichtlichen Antwort geduldeten,
  wurden somit nie mit den Hinweisen konfrontiert.
 \end_layout
 
@@ -1527,7 +1526,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Umfragergebnisse zu verhaltensbeeinflussenden Mechanismen (Teil 2)
+Umfrageergebnisse zu verhaltensbeeinflussenden Mechanismen (Teil 2)
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:Ergebnisse-Teil-2"
@@ -2415,7 +2414,7 @@ Für einen legitimen Erfolg des Zielverhaltens bedarf es neben der Aktivierung
  Diesbezüglich ist aus den Tracking-Daten zu erkennen, dass nur 15 von 37
  (40,5 %) der an der Umfrage teilgenommenen Gruppe tatsächlich eine Aufgabe
  bearbeitet haben.
- Das ist eine verhältnismäßig kleine Pronzentzahl, dafür dass sie aus der
+ Das ist eine verhältnismäßig kleine Prozentzahl, dafür dass sie aus der
  Gruppe hervorgeht, die freiwillig an der Umfrage teilnahm.
  Aus allen 120 Teilnehmenden geht hervor, dass 28 Probanden (23,3 %) mindestens
  eine Aufgabe bearbeiteten.
@@ -2555,7 +2554,7 @@ name "fig:tracking-2b"
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Tracking-Ergebnisse zu aktiverten (a) und bearbeiteten Aufgaben (b)
+Tracking-Ergebnisse zu aktivierten (a) und bearbeiteten Aufgaben (b)
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Tracking-Ergebnisse-zu-aktiverte"
@@ -2615,7 +2614,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Bearbeitete Aufaben nach Spielertypen
+Bearbeitete Aufgaben nach Spielertypen
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Bearbeitete-Aufaben-nach-Spielertypen"
@@ -2708,8 +2707,8 @@ reference "fig:Menüpunkt-für-Entdeckungen"
 \end_inset
 
 ).
- Ein Proband würde Schaltflächen dieser Art intuitiv unter dem Bechreibungstext
- vermuten und nicht in der oberen Hälfte.
+ Ein Proband würde Schaltflächen dieser Art intuitiv unter dem Zielortbeschreibu
+ng vermuten und nicht in der oberen Hälfte.
  Er sieht zudem die Beschriftung irreführend.
  Statt dem Aufruf 
 \emph on
@@ -2722,7 +2721,7 @@ Los
 Entdeckung zeigen
 \emph default
 ).
- Ein weiterer Proband empfielt einen sichtbaren Rand für die Pause-Schaltflläche.
+ Ein weiterer Proband empfiehlt einen sichtbaren Rand für die Pause-Schaltfläche.
 \end_layout
 
 \begin_layout Standard
