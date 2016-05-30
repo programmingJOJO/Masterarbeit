@@ -2229,24 +2229,46 @@ name "chap:Marktanalyse"
 \end_layout
 
 \begin_layout Standard
-Vor der Entwicklung zu einem Prototyp in Kapitel 
+Vor der Entwicklung eines Prototyps, wird in diesem Kapitel eine Marktstudie
+ bereits erhältlicher, mobiler Anwendungen zum Kontext Reisen durchgeführt.
+ In Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "chap:Entwicklung-eines-Prototypen"
+reference "sec:Identifikation-geeigneter-Vergleichskriterien"
 
 \end_inset
 
-, wird in diesem Kapitel Vergleichskriterien zu den aufgelisteten Smartphone-Anw
-endungen und Arbeiten zu identifiziert.
- Anhand dieser Kriterien soll ermittelt werden, ob und in welchem Ausmaß
- ausgewählte Anwendungen und Arbeiten zusätzlich zu ihrem inhaltlichen Angebot
- versuchen ihre Zielgruppe zu einem bestimmten Verhalten motivieren.
+ werden dazu geeignete Vergleichskriterien identifiziert.
+ Anhand dieser Kriterien wird in den Abschnitten 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Bestehende-Konzeptstudie--SeeSight"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Überblick-zu-verwandten-Anwendungen-und-Arbeiten"
+
+\end_inset
+
+ ermittelt, ob und in welchem Ausmaß die ausgewählten Anwendungen und Arbeiten
+ zusätzlich zu ihrem inhaltlichen Angebot versuchen ihre Zielgruppe zu einem
+ bestimmten Verhalten zu motivieren.
  Anschließend lassen sich die erhobenen Ergebnisse dieser Marktanalyse für
  die Weiterentwicklung einer gamifizierten Anwendung auf Basis der existierenden
  Konzeptstudie 
 \emph on
 SeeSight
 \emph default
+ in Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Entwicklung-eines-Prototypen"
+
+\end_inset
+
  verwenden.
 \end_layout
 
@@ -2263,7 +2285,7 @@ name "sec:Identifikation-geeigneter-Vergleichskriterien"
 
 \begin_layout Standard
 Die bisherige Auswahl der Anwendungen und Arbeiten beruht auf der Tatsache,
- dass sie ein ähnlichen Anwendungsziel oder ähnliche Funktionen besitzen.
+ dass sie ein ähnliches Anwendungsziel oder ähnliche Funktionen besitzen.
  Allerdings befinden sich zum wesentlichen Teil alle verwandten Produkte
  in der spielfremden Domäne Reisen.
  Einzelne Teilschritte des verwendeten Vorgehensmodells von Wendel können
@@ -2441,7 +2463,7 @@ Ausschlusskriterien
 Es gibt neben den aufgelisteten Anwendungen und Arbeiten auch eine Reihe
  weiterer Produkte, welche aber anhand folgender Ausschlusskriterien nicht
  für eine nähere Analyse infrage kommen.
- Es sind auschließlich kostenfreie Anwendungen ausgewählt worden.
+ Es sind ausschließlich kostenfreie Anwendungen ausgewählt worden.
  Dazu wurde zwischen Anwendungen unterschieden, bei denen bereits der Download
  kostenpflichtig ist und Anwendungen die In-App-Käufe anbieten.
  Letzteres ist vertretbar, solange sie nicht Zugriff zu Hauptfunktionen
@@ -2668,13 +2690,6 @@ reference "fig:seesight-a"
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:seesight-b"
-
-\end_inset
-
- und 
-\begin_inset CommandInset ref
-LatexCommand ref
 reference "fig:seesight-c"
 
 \end_inset
@@ -2703,7 +2718,7 @@ Anwendungsziel
 Ziel der Arbeit ist die Entwicklung eines interaktiven Touren-Guide, der
  seinen Nutzern ein intensiveres Ausflugserlebnis garantiert.
  Die Anwendung sollte gewöhnliche angebotene Reiseführer vor Ort und entsprechen
-de Reisegruppen ersetzen, in denen motivationalie Defizite auftreten.
+de Reisegruppen ersetzen, in denen motivationale Defizite auftreten.
  Beispielsweise kann eine gebuchte Tour nicht das gesamte Interessengebiet
  abdecken, oder ist zu oberflächlich bzw.
  zu speziell.
@@ -2739,8 +2754,8 @@ description "User Interface"
 .
  Sie helfen dabei, sich vorzustellen, wie sich Nutzer in bestimmten Situationen
  während der Anwendung verhalten könnten.
- In Verbindung mit den Sielertypen nach Bartle wurde anschließend die Zielgruppe
- den Bereichen Socializer und Explorer zugeordnet.
+ In Verbindung mit den Spielertypen nach Bartle wurde anschließend die Zielgrupp
+e den Bereichen Socializer und Explorer zugeordnet.
 \end_layout
 
 \begin_layout Paragraph*
@@ -2776,15 +2791,15 @@ Spielmechanismen
 \end_layout
 
 \begin_layout Standard
-Folgende Gamification-Patterns sind in der Konzeptstudie umgesetzt oder
- geplant:
+Folgende Gamification-Patterns sind im Demonstrationsprototyp der Konzeptstudie
+ enthalten oder waren geplant:
 \end_layout
 
 \begin_layout Itemize
 Easy Getting Started: Ein unkomplizierter Einstieg soll den Nutzer gleich
  zu Beginn animieren, eine erste Städtetour in seiner Nähe zu starten.
- Dieser Spielmechanismus ist für die Konzeptstudie geplant, ist jedoch aus
- Zeitgründen nicht für den Demonstrationsprototyp umgesetzt.
+ Dieser Spielmechanismus war für die Konzeptstudie geplant, wurde jedoch
+ aus Zeitgründen nicht für den Demonstrationsprototyp umgesetzt.
 \end_layout
 
 \begin_layout Itemize
@@ -2800,8 +2815,8 @@ description "Match Making Rating"
  Gleichgesinnten angeboten werden.
  Der Zeitpunkt der Tour und die Präferenzen der Teilnehmer sind hierfür
  ausschlaggebend.
- In der Konzeptphase wird dem Proband die gleichzeitige Teilnahme mit weiteren
- Probanden vorgeschlagen.
+ In der Konzeptphase wird dem Probanden die gleichzeitige Teilnahme mit
+ weiteren Probanden vorgeschlagen.
  Dieses Pattern ist eigens für Nutzer des Spielertyps Socializer gewählt.
  
 \end_layout
@@ -2815,7 +2830,7 @@ n fehlen, wenn sie alle Funktionen und Inhalte entdecken und somit nur Bekanntes
  Domänen.
  Ein Editor für die Bearbeitung vorhandener Touren, bzw.
  der Schaffung eigener neuer Touren kann die Motivation erneut steigern.
- Dieser Spielmechanismus ist innerhalb der Konzeptstudie geplant gewesen.
+ Dieser Spielmechanismus war innerhalb der Konzeptstudie geplant.
  Durch die Gegebenheit einer späteren möglichen Aktivierung dieser Funktionalitä
 t innerhalb des Anwendungszyklus und des kurzen Testzeitraums mit den Probanden
  wurde der Spielmechanismus nicht implementiert.
@@ -2826,7 +2841,7 @@ Feedback: Positive Kommentare auf eigene mit der Community geteilte Touren
  sollen die Anwender motivieren, weitere Touren zu erstellen.
  Gleichzeitig dient Feedback als Indikator für gelungene oder weniger gelungene
  Touren.
- Dies lässt sich entweder wieder durch Kommentare oder durch einem Scoringsystem
+ Dies lässt sich entweder wieder durch Kommentare oder durch ein Scoringsystem
  ermitteln.
 \end_layout
 
@@ -2864,14 +2879,15 @@ Newbie
 
 \begin_layout Itemize
 Persönliches Hauptziel: Ein Spiel kann mehrere Stunden oder gar Tage andauern.
- Damit der Spieler nicht währenddessen aufgrund eines fehlenden, sich lohnenden
- Ziels aufgibt, wird ein besonders erstrebenswertes, persönliches Hauptziel
- am Ende des Spiels definiert.
+ Damit Spieler nicht währenddessen aufgrund eines fehlenden, sich lohnenden
+ Ziels aufgeben, wird ein besonders erstrebenswertes, persönliches Hauptziel
+ am Ende von Spielen definiert.
  Das Hauptziel ist beispielsweise eine Story-Handlung zu einem für die Nutzer
  befriedigenden Abschluss bringen zu wollen.
  Es kann aber auch ein individuelles Persönlichkeitsmerkmal sein.
- Im Falle der Konzeptstudie ist es eine Städtetour mit Schwerpunkt auf rubrikens
-pezifischen Eigenschaften.
+ Im Falle der Konzeptstudie ist es eine Städtetour mit freier Wahl Rubriken
+ spezifischer Eigenschaften.
+ 
 \end_layout
 
 \begin_layout Paragraph*
@@ -2904,7 +2920,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename Bilder/Konzeptstudie SeeSight/Start/5_Routenliste.PNG
-	width 24text%
+	width 32text%
 
 \end_inset
 
@@ -2940,41 +2956,8 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Bilder/Konzeptstudie SeeSight/Punkt 1 - Kaiserburg.PNG
-	width 24text%
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:seesight-b"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- 
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Graphics
 	filename Bilder/Konzeptstudie SeeSight/Punkt 1 - Kaiserburg Challenge.PNG
-	width 24text%
+	width 32text%
 
 \end_inset
 
@@ -3007,7 +2990,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename Bilder/Konzeptstudie SeeSight/Innenstadt-Tour-Beendet.png
-	width 24text%
+	width 32text%
 
 \end_inset
 
@@ -3039,8 +3022,8 @@ name "fig:seesight-d"
 \emph on
 SeeSight
 \emph default
- Demonstrationsprototyp - Tourauswahl (a), Zielortübersicht (b), Aufgabenübersic
-ht (c) und Tourabschluss (d)
+ Demonstrationsprototyp - Tourauswahl (a), Aufgabenübersicht (b) und Tourabschlu
+ss (c)
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Screenshots-aus-der-SeeSight-App"
@@ -3107,7 +3090,7 @@ Das wesentliche Thema der Anwendungen soll den Kontext Reisen umfassen.
  Diese Domäne wird dahingehend weiter eingegrenzt, dass die zu untersuchenden
  Anwendungen sich möglichst mit dem Thema Städtereisen befassen sollen.
  36 Prozent der in Deutschland getätigten Kurzurlaube mit einer Reisedauer
- von zwei bis vier Tage sind Städtereisen 
+ von zwei bis vier Tagen sind Städtereisen 
 \begin_inset ERT
 status open
 
@@ -3128,7 +3111,7 @@ cite[S.~31]{DeutscherReiseverband.2016}
 \begin_layout Standard
 Einige der folgenden Anwendungen besitzen neben Anwendungszielen auch Geschäftsz
 iele wie der Steigerung des finanziellen Umsatzes.
- Dieses Ziele stehen teilweise in Korrelation mit ihren Anwendungszielen,
+ Diese Ziele stehen teilweise in Korrelation mit ihren Anwendungszielen,
  werden jedoch nicht mit in die Marktanalyse mit einfließen.
 \end_layout
 
@@ -3178,7 +3161,7 @@ Für die Durchführung des Zielverhaltens muss zuerst eine präferierte Stadt
  Danach steht es dem Nutzer frei, aus welchen Themen zu Nachtleben, Gastronomie,
  Sehenswürdigkeiten, Hotellerie, Touren und anderen Aktivitäten er sich
  seine Städtetour organisieren möchte.
- Die freie Auswahl aller zur Verfügung stehender Städte und Sehenswürdigkeiten
+ Die freie Auswahl aller zur Verfügung stehenden Städte und Sehenswürdigkeiten
  ist jedoch eingeschränkt, bedingt durch eine präsente Bewerbung von In-App-Käuf
 en.
  Die in Abbildung 
@@ -3207,7 +3190,7 @@ Zielgruppe/Spielertyp
 \end_layout
 
 \begin_layout Standard
-Die Anwendung richtig sich primär an Städtereisende, gemessen an dem Guide-Angeb
+Die Anwendung richtet sich primär an Städtereisende, gemessen an dem Guide-Angeb
 ot, welches sich fast ausschließlich aus namhaften Städten zusammenfassen
  lässt.
  Die Zielgruppe lässt sich hauptsächlich auf den Spielertyp Explorer eingrenzen.
@@ -3541,7 +3524,7 @@ Spielform
 
 \begin_layout Standard
 Innerhalb der Anwendung existieren keinerlei Abhängigkeiten, die zu Interaktione
-n mit anderen Nutzer führen, weshalb die sich Spielform auf Selbsterfahrung
+n mit anderen Nutzer führen, weshalb sich die Spielform auf Selbsterfahrung
  eingrenzen lässt.
  Sie ist somit dieselbe wie von 
 \emph on
