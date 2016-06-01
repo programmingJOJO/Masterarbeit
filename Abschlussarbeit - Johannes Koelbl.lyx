@@ -55,7 +55,8 @@
 
 % Worttrennungen %
 \hyphenation{
-McGonigal}
+McGonigal
+Design-ent-scheidungen}
 \end_preamble
 \options liststotoc, pointlessnumbers
 \use_default_options true

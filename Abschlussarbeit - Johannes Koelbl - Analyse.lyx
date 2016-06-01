@@ -938,8 +938,8 @@ reference "fig:JA-NEIN-Ansatz-zu-den"
  Entlang den für diese Persona-Gruppe gewählten Merkmalen entwirft man eine
  einzelne Persona.
  Personas lassen sich unbestimmbar detailliert entwerfen.
- Für diese Abschlussarbeit wird jedoch ein knapper Ansatz aus Name, Alter,
- Beruf und Kontext zum Zielverhalten gewählt.
+ Für diese Abschlussarbeit wird ein knapper Ansatz aus Name, Alter, Beruf
+ und Kontext zum Zielverhalten gewählt.
 \end_layout
 
 \begin_layout Standard
@@ -964,7 +964,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Ja-Nein-Ansatz zu den verhaltensbasierenden Fragestellungen
+Ja-Nein-Ansatz zu den verhaltensbasierten Fragestellungen
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:JA-NEIN-Ansatz-zu-den"
@@ -989,7 +989,7 @@ name "fig:JA-NEIN-Ansatz-zu-den"
 \end_layout
 
 \begin_layout Standard
-Dieser Prozess wird laut Wendel so lange wiederholt, bis jedes Zielverhalten
+Es gibt so viele Ja-Nein-Fragen zu beantworten, bis jedes Zielverhalten
  ausreichend verhaltensbasierte Persona-Gruppen aufweist.
  Darüber hinaus lassen sich im Vorfeld Zielverhalten aussortieren, welche
  aufgrund der Projekteinschränkungen aus Abschnitt 
@@ -1013,13 +1013,20 @@ cite[S.~102]{Wendel.2013}
 \end_inset
 
 .
- Das Zielverhalten wonach man sich mit Einheimischen unterhält, wird diesbezügli
-ch nicht weiter verfolgt.
- Es gäbe sicherlich spannende Themengebiete zu denen der Prototyp anregen
- kann, dennoch überwiegen gravierende Aspekte wie eine wahrscheinliche Hemmschwe
-lle der Nutzer und die möglicherweise von Ansässigen als belästigend wahrgenomme
-ne Gesprächsgesuche von Nutzern.
- Da der Prototyp im Rahmen einer Abschlussarbeit entwickelt wird, ist diese
+ Das Zielverhalten, wonach man sich mit Einheimischen unterhält, wird diesbezügl
+ich nicht weiter verfolgt.
+ Zwar könnten Nutzer des Prototyps hierdurch auf spannende Art und Weise
+ zu einem Verhalten, nämlich dem Ansprechen von Einheimischen, angeregt
+ werden, jedoch überwiegen die Gegenargumente.
+ Beispielsweise besteht bei den Nutzern voraussichtlich eine hohe Hemmschwelle,
+ was das Ansprechen fremder Menschen an den Zielorten betrifft.
+ Diese Überwindung würde ein negatives Gefühl hervorrufen, was es zu vermeiden
+ gilt.
+ Zudem könnten sich die Ansässigen durch die häufig fragenden Nutzer belästigt
+ fühlen.
+ Dieses Problem würde vor allem bei einer Verbreitung und häufigen Nutzung
+ des Prototyps auftreten.
+ Da der Prototyp im Rahmen einer Abschlussarbeit entwickelt wird, ist die
  Frage nach existierender Erfahrung mit dem Unternehmen vernachlässigbar
  und lässt sich aus der Iteration ebenso ausschließen.
 \end_layout
@@ -1028,7 +1035,9 @@ ne Gesprächsgesuche von Nutzern.
 Für die Bezeichnungen der Persona-Gruppen für das Zielverhalten des Ausprobieren
 s kultureller Gepflogenheiten wurde u.
  a.
- eine Studie zukünftiger Reisetypen herangezogen 
+ eine Studie zukünftiger Reisetypen herangezogen.
+ Dies betrifft die Bezeichnungen Cultural Purist und Simplicity Searchers
+ 
 \begin_inset ERT
 status open
 
@@ -1062,7 +1071,7 @@ reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 
 \end_inset
 
-: Hintergrundinformationen zu den zu besuchenden Orten abrufen
+: Hintergrundinformationen zu den besuchten Orten abrufen
 \end_layout
 
 \end_inset
@@ -1131,8 +1140,8 @@ Sie planen vor Ausflügen sehr genau, wo es hingeht.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Spontane Ausflüge oder Urlaubsreisen, ohne viel Wert darauf zu legen, was
- sie dort erwartet.
+Diese Gruppe plant spontan Ausflüge oder Urlaubsreisen, ohne viel Wert darauf
+ zu legen, was sie dort erwartet.
 \end_layout
 
 \end_inset
@@ -1162,7 +1171,7 @@ Sie kennen einige mobile Reiseführer, die nützliche Informationen zu Orten
 \begin_inset Text
 
 \begin_layout Plain Layout
-Nur mit Anwendungen die einen besonderen Urlaub suggerieren.
+Sie haben nur Erfahrung mit Anwendungen die einen besonderen Urlaub suggerieren.
  
 \end_layout
 
@@ -1183,8 +1192,8 @@ Motivation
 \begin_inset Text
 
 \begin_layout Plain Layout
-Diese Gruppe ist interessiert in historische und denkwürdige Urlaubs- oder
- Ausflugsziele.
+Diese Gruppe ist interessiert an historischen und denkwürdigen Urlaubs-
+ oder Ausflugszielen.
  Sie plant deshalb vorausschauend, um viel in kurzer Zeit besuchen zu können.
 \end_layout
 
@@ -1194,9 +1203,8 @@ Diese Gruppe ist interessiert in historische und denkwürdige Urlaubs- oder
 \begin_inset Text
 
 \begin_layout Plain Layout
-Diese Persona-Gruppe macht sich nichts daraus, viel im Vornherein zu recherchier
-en.
- Meist bieten ihre Ausflüge einige spannende Orte.
+Diese Persona-Gruppe möchte nicht viel im Voraus recherchieren.
+ Meist sind ihre Ausflüge mit spannenden Touristenattraktionen verknüpft.
  Das könnte Motivation sein, um mehr über diese Orte oder angrenzende Gegenden
  zu erfahren.
 \end_layout
@@ -1359,7 +1367,7 @@ Erfahrung mit ähnlichen Zielverhalten
 \begin_inset Text
 
 \begin_layout Plain Layout
-Probieren während Urlaubsaufenthalten in fremden Gegenden oft kulturelle
+Probieren oft während Urlaubsaufenthalten in fremden Gegenden kulturelle
  Gepflogenheiten aus.
 \end_layout
 
@@ -1421,7 +1429,7 @@ Existierende Motivation
 \begin_layout Plain Layout
 Diese Gruppe besteht aus neugierigen und offenen Personen.
  Sie möchten sich während ihrer Reise intensiv mit der jeweiligen Kultur
- auseinandersetzen und scheuen nicht etwaige Risiken.
+ auseinandersetzen und scheuen nicht etwaige Hürden.
 \end_layout
 
 \end_inset
@@ -1461,7 +1469,7 @@ N/A
 \begin_inset Text
 
 \begin_layout Plain Layout
-Bleiben lieber bei Gewohntem.
+Bewegen sich gerne in gewohntem Umfeld.
 \end_layout
 
 \end_inset
@@ -1589,9 +1597,9 @@ Erfahrung mit ähnlichen Zielverhalten
 \begin_inset Text
 
 \begin_layout Plain Layout
-Achten auf barierrefreie oder günstige Ausflugmöglichkeiten, suchen sich
- Orte die noch kaum touristisch erschlossen sind, oder buchen lieber selbst
- Hotels und Flüge anstatt es anderen zu überlassen.
+Achten auf individuelle Ausflugsziele, suchen sich Orte, die noch kaum touristis
+ch erschlossen sind, oder buchen lieber selbst Hotels und Flüge anstatt
+ es anderen zu überlassen.
 \end_layout
 
 \end_inset
@@ -1620,8 +1628,7 @@ Erfahrung mit ähnlichen Produkten
 \begin_inset Text
 
 \begin_layout Plain Layout
-Reise-Apps mit der Option personalisierter Touren und mit der Community
- zu teilen.
+Reise-Apps mit der Option individueller Angebote.
 \end_layout
 
 \end_inset
@@ -1652,7 +1659,8 @@ Existierende Motivation
 \begin_layout Plain Layout
 Diese Gruppe möchte oder muss verschiedene Aspekte bei Ausflügen bzw.
  des Urlaubs beachten.
- Hauptmotivation ist eine mögliche Verbesserung des Komforts oder der Kosten.
+ Hauptmotivation ist eine mögliche Verbesserung des Komforts, der Kosten
+ oder des Reiseerlebnisses.
 \end_layout
 
 \end_inset
@@ -1661,7 +1669,7 @@ Diese Gruppe möchte oder muss verschiedene Aspekte bei Ausflügen bzw.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dieser Gruppe verhält sich Reise-Entscheidungsfragen gegenüber gleichgültig.
+Diese Gruppe verhält sich Reise-Entscheidungsfragen gegenüber gleichgültig.
  Ihnen sind andere Aspekte wichtiger, beispielsweise mit wem sie auf Reisen
  gehen.
 \end_layout
@@ -1683,7 +1691,8 @@ Barrieren
 \begin_inset Text
 
 \begin_layout Plain Layout
-Körperliche oder ökonomische Einschränkungen.
+Ggf.
+ physische oder ökonomische Einschränkungen
 \end_layout
 
 \end_inset
@@ -1713,10 +1722,9 @@ Beispiel einer Persona aus der Gruppe
 
 \begin_layout Plain Layout
 Hans ist 35 Jahre alt, verheiratet und hat zwei Kinder.
- Er war von Beruf Dachdecker und seine Fortbewegungsmöglichkeiten sind seit
- einem Unfall eingeschränkt.
- Um mit seiner Familie auch weiterhin Ausflüge machen zu können, achtet
- er dabei besonders auf Barierrefreiheit.
+ Seine Frau ist mit dem dritten Kind schwanger.
+ Um mit seiner wachsenden Familie weiterhin Ausflüge machen zu können, achtet
+ er dabei besonders auf günstige Angebote.
 \end_layout
 
 \end_inset
@@ -1803,7 +1811,7 @@ Entdecker
 \begin_inset Text
 
 \begin_layout Plain Layout
-Herausforderungs-Skeptiker
+Skeptiker
 \end_layout
 
 \end_inset
@@ -1832,7 +1840,7 @@ Spielabende und durch Quiz-Sendungen im Fernsehen, sowie Geocaching.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Durch Spielabende.
+N/A
 \end_layout
 
 \end_inset
@@ -1843,7 +1851,7 @@ Durch Spielabende.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Erfahrung mit ähnlichen Produkten?
+Erfahrung mit ähnlichen Produkten
 \end_layout
 
 \end_inset
@@ -1945,8 +1953,9 @@ Beispiel einer Persona aus der Gruppe
 \begin_inset Text
 
 \begin_layout Plain Layout
-Georg ist 19 Jahre alt und studiert Informatik.
- Er liebt es sich mit Kommilitonen mithilfe eines Quiz-Spiels zu messen.
+Georg ist 19 Jahre alt und studiert im ersten Semester Geographie.
+ Er liebt es, sich mit Kommilitonen mithilfe eines über geographische Fragen
+ handelndes Quiz-Spiels zu messen.
  In seiner neuen Stadt kennt er sich noch nicht sehr gut aus, weshalb er
  sich oft von seinen neuen Freunden alles zeigen lässt.
 \end_layout
@@ -1957,11 +1966,11 @@ Georg ist 19 Jahre alt und studiert Informatik.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Maria ist 24 Jahre alt und ist Fotografin.
+Maria ist 24 Jahre alt und Fotografin.
  Ihre Freunde sind leidenschaftliche Geocacher.
  Sie selber jedoch hat kaum Interesse am Hobby ihrer Freunde.
- Sie kommt öfter auf Touren mit, weil ihr der gemeinschaftliche Aspekt Freude
- macht, ihr Handeln bleibt aber passiv.
+ Sie kommt öfter auf Touren mit, weil ihr der gemeinschaftliche Aspekt wichtig
+ ist, ihr Handeln bleibt aber passiv.
 \end_layout
 
 \end_inset
@@ -1997,8 +2006,7 @@ reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
 
 \end_inset
 
- kann theoretisch alle Persona-Gruppn außer den Herausforderungs-Skeptikern
- ansprechen.
+ kann theoretisch alle Persona-Gruppn außer den Skeptikern ansprechen.
  Personalisierte Touren (
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2014,15 +2022,15 @@ reference "enu:Zielverhalten-Mindestens-eine-kulture"
 
 \end_inset
 
-) sollten weder Indifferentisten, Herausforderungs-Skeptikern noch Simplicity
- Searchers präferieren und das Zielverhalten 
+) dürften weder Indifferentisten, Skeptikern noch Simplicity Searchers präferier
+en und das Zielverhalten 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:Zielverhalten-Mindestens-eine-kulture"
 
 \end_inset
 
- sollte ebenfalls von allen Gruppen außer Indifferentisten gefallen.
+ dürfte allen Gruppen außer Indifferentisten gefallen.
 \end_layout
 
 \begin_layout Standard
@@ -2030,7 +2038,7 @@ reference "enu:Zielverhalten-Mindestens-eine-kulture"
 placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2125,8 +2133,8 @@ reference "enu:Zielverhalten-Eine-Reise-nach"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Entdecker, Herausforderungs-Skeptiker, Individualist, Cultural Purist, Reiseplan
-er, Spontanreisende
+Entdecker, Skeptiker, Individualist, Cultural Purist, Reiseplaner, Spontanreisen
+de
 \end_layout
 
 \end_inset
@@ -2178,8 +2186,8 @@ reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Entdecker, Herausforderungs-Skeptiker, Individualist, Cultural Purist, Simplicit
-y Searchers, Reiseplaner, Spontanreisende
+Entdecker, Skeptiker, Individualist, Cultural Purist, Simplicity Searchers,
+ Reiseplaner, Spontanreisende
 \end_layout
 
 \end_inset
@@ -2209,10 +2217,16 @@ name "sub:Festlegung-auf-Zielverhalten"
 \end_layout
 
 \begin_layout Standard
-Nach der Erstellung der Persona-Gruppe soll sich der Leser laut Wendel nun
- auf eines der Zielverhalten festlegen.
- Hierfür werden alle Zielverhalten anhand folgender von Wendel vorgegebener
- Kriterien gewichtet 
+Nach der Erstellung und Zuordnung der Persona-Gruppen folgt für die Ausarbeitung
+ des Systementwurfs in Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Systementwurf"
+
+\end_inset
+
+ die Festlegung auf ein Zielverhalten.
+ Hierfür werden alle Zielverhalten anhand folgender Kriterien von 
 \begin_inset ERT
 status open
 
@@ -2220,12 +2234,12 @@ status open
 
 
 \backslash
-cite[S.~103--104]{Wendel.2013}
+citet[S.~103--104]{Wendel.2013}
 \end_layout
 
 \end_inset
 
-:
+ gewichtet:
 \end_layout
 
 \begin_layout Description
@@ -2234,7 +2248,8 @@ l zu erreichen?
 \end_layout
 
 \begin_layout Description
-Motivation: Welche Anreize können vorliegen, um das Zielverhalten durchzuführen?
+Motivation: Welche Anreize liegen vor, die zu dem gewünschten Zielverhalten
+ anregen?
 \end_layout
 
 \begin_layout Description
@@ -2260,7 +2275,7 @@ reference "sub:Projekteinschränkungen"
 \begin_layout Standard
 Als Gewichtungsinstrument dient eine numerische Skala mit den Werten 1,
  2 und 3 Punkten.
- Die höchst zu erreichende Punktezahl wären somit 12 Punkte.
+ Die maximal erreichbare Punktezahl liegt bei 12 Punkten.
 \end_layout
 
 \begin_layout Standard
@@ -2774,8 +2789,8 @@ reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 Aus diesem Vergleich wird nun ein Zielverhalten ermittelt, welches in allen
  Bereichen durchschnittlich am Besten abschneidet.
  Nur dieses Zielverhalten wird für den weiteren Designprozess weiter verarbeitet.
- Allerdings können die restlichen Ideen in anderer Form oder als Untermenge
- des ausgewählten Zielverhaltens verwendet werden.
+ Die restlichen Ideen können ggf.
+ in anderer Form oder zweitrangig berücksichtigt werden.
  Diese Zielverhalten besitzen ihre Daseinsberechtigung und sollten für den
  weiteren Gamifizierungsprozess zur Verhaltensänderung nicht völlig ignoriert
  werden.
@@ -3016,18 +3031,18 @@ reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 \end_layout
 
 \begin_layout Standard
-Es ist deutlich erkennbar, dass die Zielverhalten Quiz-Fragen und Personalisiert
-e Touren einen höheren Abstand zu den restlichen beiden Zielverhalten besitzen.
+Es ist deutlich erkennbar, dass die Zielverhalten Quiz-Fragen und personalisiert
+e Touren einen hohen Abstand zu den restlichen beiden Zielverhalten besitzen.
  Legt man den Fokus nun auf diese beiden Zielverhalten, ist ein eindeutiger
  Favorit wegen des Unterschiedes von nur einem Punkt schwierig zu ermitteln.
  In den Bereichen Kosten und Machbarkeit wurde das Zielverhalten mit den
  Quiz-Fragen höher bewertet und in ihrer Motivation liegen sie beide gleich
  auf.
  Personalisierte Touren werden nur in ihrer Effektivität höher eingestuft.
- Wendel schlägt in Fällen schwieriger Entscheidungsfindung vor, in letzter
- Instanz dasjenige Zielverhalten mit dem geringeren Kosten zu wählen.
- Dennoch könnte es im Rahmen dieser Abschlussarbeit helfen, sich beide Zielverha
-lten in den Beispielen der verwandten Anwendungen und Arbeiten näher anzusehen.
+ Wendel rät in Fällen schwieriger Entscheidungsfindung, in letzter Instanz
+ dasjenige Zielverhalten mit dem geringeren Kosten zu wählen.
+ Dennoch hilft es im Rahmen der Abschlussarbeit, sich beide Zielverhalten
+ zusätzlich mithilfe der verwandten Anwendungen und Arbeiten näher zu betrachten.
  
 \end_layout
 
@@ -3061,8 +3076,8 @@ reference "sub:The-Travel-Machine"
 Quarterquest
 \emph default
  ist der Prozess des Beantwortens von Fragen ein zentraler Bestandteil.
- Dies ist dadurch erkennbar, dass das System keinen Fortgang der Tour ohne
- korrekte Antwort erlaubt.
+ Dies ist dadurch erkennbar, dass das System keine Fortführung der Tour
+ ohne korrekte Antwort erlaubt.
  Die Quiz-Mechanik ist somit eng mit der Tour gekoppelt.
  Darüber hinaus sind alle sonstigen Spielmechaniken auf dieses Zielverhalten
  begründet.
@@ -3072,17 +3087,24 @@ The Travel Machine
 \emph default
  ist dieses Zielverhalten nicht so extrem ausgeprägt, dennoch wurde hierfür
  ein eigener Bereich in der Konzeption geschaffen.
- Touren oder ganze Reisen lassen sich hingegen in den Anwendungen 
+ Zielverhalten 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Zielverhalten-Eine-Reise-nach"
+
+\end_inset
+
+ - personalisierte Touren - fällt in den Anwendungen 
 \emph on
 Tripwolf
 \emph default
 , 
 \emph on
-City Maps and Walks
+Trip Journal
 \emph default
  und 
 \emph on
-Trip Journal
+City Maps and Walks
 \emph default
  (s.
  
@@ -3092,14 +3114,22 @@ reference "sub:Tripwolf"
 
 \end_inset
 
- und 
+, 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Trip-Journal"
 
 \end_inset
 
-) auswählen oder sogar selbst erstellen.
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:City-Maps-and"
+
+\end_inset
+
+) besonders auf.
+ Hier lassen sich Touren oder ganze Reisen auswählen oder selbst erstellen.
  In Trip-Journal wird der Nutzer angehalten, seine eigene Reise komplett
  selbst zu planen.
  Eine Möglichkeit zur Auswahl vordefinierter Reisen gibt es nicht.
@@ -3114,21 +3144,21 @@ City Maps and Walks
  kann man individuell Sehenswürdigkeiten innerhalb eines Ortes zusammentragen,
  oder aber passende Touren auswählen.
  Eine Filtermöglichkeit speziell nach Vorlieben ist allerdings nicht verfügbar.
- Dieses Zielverhalten ist zwar ausgeprägt in beiden Anwendungen, gleichwohl
- nicht essenziell wie in 
+ Das Zielverhalten personalisierte Touren ist zwar ausgeprägt in beiden
+ Anwendungen, gleichwohl nicht essenziell wie in 
 \emph on
 Trip Journal
 \emph default
 .
  Für beide Zielverhalten existieren also vorgestellte verwandte Anwendungen
- oder Arbeiten, die diese Mechaniken sowohl als Kernelement ansehen, als
+ oder Arbeiten, die diese Mechanismen sowohl als Kernelement ansehen, als
  auch optional in ihrer Anwendungsumgebung integriert haben.
 \end_layout
 
 \begin_layout Standard
 Ein Rückblick auf die frühere Konzeptstudie hinsichtlich des Zielverhaltens
- zeigt, dass beide Mechaniken in Verwendung waren (s.
- 
+ zeigt, dass beide Mechanismen in Verwendung waren (s.
+ Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:Bestehende-Konzeptstudie--SeeSight"
@@ -3138,60 +3168,21 @@ reference "sec:Bestehende-Konzeptstudie--SeeSight"
 , Zielverhalten).
  Somit lässt auch mithilfe dieser Anhaltspunkte kein bedeutsamer Aspekt
  finden, der für eines der beiden Zielverhalten spricht.
- In diesem Fall würde es sich anbieten, zweitplatziertes Zielverhalten als
+ In diesem Fall bietet es sich an, das zweitplatzierte Zielverhalten als
  unterstützendes Subverhalten bzw.
  Spielmechanismus zu verwenden.
  Die Wahl von personalisierten Touren oder eine Zusammenstellung von auswählbare
-n Sehenswürdigkeiten und die Quiz-Fragen während einer Tour sind nicht konträr
- zueinander.
- Beide Zielverhalten sind überdies ihn ihrer Technik auch Gamification-Patterns
- nachempfunden, was eine Integration in ein übergeordnetes Zielverhalten
- vereinfacht.
- Der einzige Aspekt der für die eben vorgestellte Reihenfolge spricht ist
- der, dass Quiz-Fragen in ihrem Wesen besser zu propagierende Merkmale besitzen.
+n Sehenswürdigkeiten und die Quiz-Fragen während einer Tour verhalten sich
+ nicht konträr zueinander.
+ Beide Zielverhalten sind ihrer Technik Gamification-Patterns nachempfunden,
+ was eine Integration in ein übergeordnetes Zielverhalten vereinfacht.
 \end_layout
 
 \begin_layout Standard
-Nachdem das primäre Zielverhalten bestimmt ist, schlägt Wendel vor, die
- bisherigen Ergebnisse in einer Aussage festzuhalten, welches überdies Auskunft
- über Erfolg und Misserfolg des Produkts informiert 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cite[S.~105--106]{Wendel.2013}
-\end_layout
-
-\end_inset
-
-.
- Das Anwendungsziel ist, Nutzer ab dem ersten Moment gezielt dazu anzuregen,
- kulturelle Plätze und Sehenswürdigkeiten bewusster wahrzunehmen.
- Die ermittelten Persona-Gruppen sind in Tabelle 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Relevante-Persona-Gruppen-der-Zielverhalten"
-
-\end_inset
-
- ersichtlich und das Zielverhalten ist die Beantwortung ortsbezogener Fragen
- zu den besuchten Schauplätzen.
-\end_layout
-
-\begin_layout Quote
-Das Produkt soll mithilfe ortsbezogener Fragen erwachsene Reisende und Ausflügle
-r mit Interesse an Rätseln unterstützen, intensiver sehenswerte Orte und
- Touristenattraktion zu erleben.
-\end_layout
-
-\begin_layout Standard
-Mit der Festlegung des Zielverhaltens lässt sich nun auch erneut reflektieren,
- wie das Anwendungsziel messbar gemacht werden kann.
- Das Zielverhalten soll während einer Tour im erfolgversprechendsten Fall
- mehrfach durchgeführt werden.
+Mit der Festlegung des primären Zielverhaltens lässt sich nun ein Ansatz
+ für den bisher noch schwer zu messenden Erfolg des Anwendungsziel ableiten.
+ Das Zielverhalten wird während einer Tour im erfolgversprechendsten Fall
+ mehrfach durchgeführt.
  Diese sich wiederholenden Zielverhalten lassen sich analog zu Wendels Vorschlag
  zur Messung von Ereignissen unmittelbar nach dem Anwendungsziel verstehen
  (s.
@@ -3204,11 +3195,18 @@ reference "sub:Anwendungsziel-bestimmen"
 
 ).
  Wenn also das Zielverhalten nicht nur einmal sondern mehrmals durchgeführt
- wird, spricht dies für das Anwendungsziel.
+ wird, spricht dies für den Erfolg des Anwendungsziels.
 \end_layout
 
 \begin_layout Section
 Systementwurf
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Systementwurf"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3222,7 +3220,7 @@ reference "sub:Verhaltensplan"
 
 \end_inset
 
- und mit dem Verhalten unterstützenden Mechanismen versehen (
+ und mit Verhalten unterstützenden Mechanismen versehen (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Unterstützende-Mechanismen"
@@ -3253,17 +3251,18 @@ reference "sub:Interface-Designs"
 \end_inset
 
 .
- Nach der Festlegung des Interface Designs wird sofort der Prototyp entwickelt.
- Eine nähere Erwähnung der Werkzeuge für die Implementierung findet an dieser
- Stelle jedoch nicht statt.
- Allerdings wird im abschließenden Punkt 
+ Im Anschluss wird der Prototyp entwickelt.
+ Eine Erläuterung der Werkzeuge für die Implementierung findet an dieser
+ Stelle nicht statt.
+ Im letzten Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Zurückgestellte-Funktionen"
 
 \end_inset
 
- erläutert, weshalb manche Funktionen für den Prototyp zurückgestellt wurden.
+ werden die Gründe für die Zurückstellung einiger Funktionen für den Prototyp
+ erläutert.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3272,7 +3271,7 @@ Assoziation zu vergleichenden Produkten
 
 \begin_layout Standard
 Die Entscheidung der Spielform des Prototyps sollte spätestens jetzt im
- Systementwurf festgesetzt werden.
+ Systementwurf festgelegt werden.
  Denn je nach Wahl wird das Zielverhalten anders strukturiert und mit unterstütz
 enden Mechanismen ausgestattet.
 \end_layout
@@ -3288,14 +3287,12 @@ reference "sec:Zusammenfassung-Anwendungen"
 \end_inset
 
 ).
- Diesem Beispiel folgt auch der Prototyp.
- D.
- h., es werden beispielsweise keine Funktionen mit starkem Konflikt-, Wettbewerbs
-, Koordinations- oder Kooperationscharakter im weiteren Verlauf der Entwicklung
- genutzt.
- Aktionen mit weiteren Nutzern der Anwendung sind diesbezüglich nicht komplett
- versperrt, jedoch dürfen sie nicht dazu führen in Konkurrenz zueinander
- zu stehen.
+ Diesen Beispielen folgt auch der Prototyp, d.
+ h.
+ es werden keine Funktionen mit starkem Konflikt-, Wettbewerbs, Koordinations-
+ oder Kooperationscharakter im weiteren Verlauf der Entwicklung eingebaut.
+ Interaktionen mit anderen Nutzern sind von der Anwendung jedoch nicht gänzlich
+ ausgeschlossen
 \end_layout
 
 \begin_layout Subsection
@@ -3310,140 +3307,35 @@ name "sub:Verhaltensplan"
 \end_layout
 
 \begin_layout Standard
-Nach Bestimmung des Zielverhaltens muss für die weitere Vorgehensweise das
- Verhalten logisch strukturiert in einen Plan übersetzt werden.
- Wendel definiert in seinem Designprozess den Begriff des 
-\begin_inset Quotes eld
+Die Maßnahmen zur Umsetzung des Zielverhaltens werden für die weitere Vorgehensw
+eise logisch strukturiert und in Teilschritte übersetzt.
+ In seinem Designprozess definiert 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citet[S.~114--118]{Wendel.2013}
+\end_layout
+
 \end_inset
 
+ den Begriff des 
+\emph on
 Behavioral Plan
-\begin_inset Quotes erd
-\end_inset
-
+\emph default
  (engl.
  für Verhaltensplan).
  Ein Verhaltensplan ist eine strukturierte Abfolge aller erforderlichen
- Teilschritte, die der Nutzer für die Erfüllung des Zielverhaltens absolvieren
- muss 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cite[S.~114--118]{Wendel.2013}
-\end_layout
-
-\end_inset
-
-.
- Wendel orientiert sich in der Gestaltung an Customer Experience Maps aus
- der User-Experience-Domäne (UX
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "UX"
-description "User Experience"
-
-\end_inset
-
-) 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-cite[S.~116--117]{Wendel.2013}
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Begonnen wird das Zielverhalten mit der Beschaffung der App, bzw.
- dem Seitenaufruf der Webseite (Schritt 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Download,-Installierung-und"
-
-\end_inset
-
-).
- Ist dies geschafft, kann der Nutzer im zweiten Schritt in der Anwendung
- eine Tour auswählen und starten.
- Innerhalb der Tour existieren Orte oder Attraktionen - im Folgenden Zielorte
- genannt.
- Der Nutzer ist beim Start einer Tour angehalten den ersten Zielort zu lokalisie
-ren und sich dorthin zu begeben (Schritte 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Identifizierung-und-Lokalisierun"
-
-\end_inset
-
- und 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Aufsuchen-des-Zielortes"
-
-\end_inset
-
-).
- Im darauffolgenden Schritt wird die Aufgabe aktiviert und der Nutzer kann
- sie einsehen (Schritte 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Aktivierung-der-Frage-Aufgabe"
-
-\end_inset
-
- und 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Erfassen-der-angezeigten"
-
-\end_inset
-
-).
- Nachdem die Lösung zur Bewältigung der Aufgabe entdeckt wurde, sollte es
- möglich sein, sie in die Anwendung eintippen zu können.
- Danach sollte eine Bestätigung über Erfolg oder Misserfolg erscheinen,
- weitere Zielorte können zudem in der Tour enthalten sein (Schritte 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Quittierung-der-Bestätigungsinfo"
-
-\end_inset
-
- und 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Wiederholen-der-Schritte"
-
-\end_inset
-
-).
- Die Beendigung der Tour wird als letzter Schritt in den Verhaltensplan
- aufgenommen, auch wenn das eigentliche Zielverhalten schon davor abgearbeitet
- wird (Schritt 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Quittierung-der-Tour-Abschlussin"
-
-\end_inset
-
-).
- Ein in sich abgeschlossenes Konzept trägt dazu bei, die Spielform des Prototyps
- zu formen.
+ Teilschritte, die Nutzende für die Erfüllung des Zielverhaltens absolvieren
+ muss.
+ Die Teilschritte für das Zielverhalten sind wie folgt:
 \end_layout
 
 \begin_layout Enumerate
-Download, Installierung und Öffnen bzw.
- Seitenaufruf der Anwendung.
+Download, Installierung und Öffnen der Anwendung.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Download,-Installierung-und"
@@ -3454,8 +3346,7 @@ name "enu:Download,-Installierung-und"
 \end_layout
 
 \begin_layout Enumerate
-Auswählen einer Tour und Betätigung der Schaltfläche zum Starten der Tour
- (Anwendung).
+Auswählen einer Tour und Betätigung der Schaltfläche zum Starten der Tour.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Auswählen-einer-Tour"
@@ -3465,7 +3356,14 @@ name "enu:Auswählen-einer-Tour"
 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Standard
+Der erste Teilschritt für die Nutzenden besteht aus der Beschaffung der
+ Anwendung.
+ Im zweiten Schritt starten die Nutzenden eine Tour, indem sie eine auswählen
+ und die Schaltfläche zum Start betätigen.
+\end_layout
+
+\begin_layout Enumerate-Resume
 Identifizierung und Lokalisierung des am Display angezeigten Zielortes.
 \begin_inset CommandInset label
 LatexCommand label
@@ -3476,8 +3374,8 @@ name "enu:Identifizierung-und-Lokalisierun"
 
 \end_layout
 
-\begin_layout Enumerate
-Aufsuchen des Zielortes (physische Welt).
+\begin_layout Enumerate-Resume
+Aufsuchen des Zielortes.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Aufsuchen-des-Zielortes"
@@ -3487,8 +3385,15 @@ name "enu:Aufsuchen-des-Zielortes"
 
 \end_layout
 
-\begin_layout Enumerate
-Aktivierung der Frage-Aufgabe am Display (Anwendung).
+\begin_layout Standard
+Innerhalb der Tour existieren Sehenswürdigkeiten oder Attraktionen - im
+ Folgenden Zielorte genannt.
+ Nutzende sind beim Start einer Tour angehalten, den ersten Zielort zu lokalisie
+ren und sich dorthin zu begeben.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Aktivierung der Fragestellung am Display.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Aktivierung-der-Frage-Aufgabe"
@@ -3498,8 +3403,8 @@ name "enu:Aktivierung-der-Frage-Aufgabe"
 
 \end_layout
 
-\begin_layout Enumerate
-Erfassen der angezeigten Fragestellung (Anwendung).
+\begin_layout Enumerate-Resume
+Erfassen der angezeigten Fragestellung durch den Nutzer.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Erfassen-der-angezeigten"
@@ -3509,9 +3414,14 @@ name "enu:Erfassen-der-angezeigten"
 
 \end_layout
 
-\begin_layout Enumerate
-Erforderliche Maßnahmen zur Bewältigung der Fragestellung am Zielort unternehmen
- (physische Welt).
+\begin_layout Standard
+Am Ziel angekommen wird dazugehörige Aufgabe aktiviert und für Nutzenden
+ sichtbar.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Unternehmen erforderlicher Maßnahmen zur Bewältigung der Fragestellung am
+ Zielort.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Erforderliche-Maßnahmen-zur"
@@ -3521,8 +3431,8 @@ name "enu:Erforderliche-Maßnahmen-zur"
 
 \end_layout
 
-\begin_layout Enumerate
-Korrekte Antwort in das Antwortfeld der Aufgabe eintippen (Anwendung).
+\begin_layout Enumerate-Resume
+Eintippen der korrekten Antwort in das Eingabefeld der Fragestellung.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Korrekte-Anwort-in"
@@ -3532,8 +3442,8 @@ name "enu:Korrekte-Anwort-in"
 
 \end_layout
 
-\begin_layout Enumerate
-Quittierung der Bestätigungsinformation (Anwendung).
+\begin_layout Enumerate-Resume
+Quittierung der Bestätigungsinformation.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Quittierung-der-Bestätigungsinfo"
@@ -3543,8 +3453,8 @@ name "enu:Quittierung-der-Bestätigungsinfo"
 
 \end_layout
 
-\begin_layout Enumerate
-Wiederholen der Schritte 2 bis 8 für eventuell nachfolgende Zielorte.
+\begin_layout Enumerate-Resume
+Wiederholen der Schritte 2 bis 8 für alle nachfolgenden Zielorte.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Wiederholen-der-Schritte"
@@ -3554,8 +3464,19 @@ name "enu:Wiederholen-der-Schritte"
 
 \end_layout
 
-\begin_layout Enumerate
-Quittierung der Tour-Abschlussinformation (Anwendung).
+\begin_layout Standard
+Zur Lösung der Aufgaben ist das Erkunden der Umgebung auf unterschiedliche
+ Art und Weise notwendig.
+ Ist ein Hinweis entdeckt, wird die Lösung in ein Eingabefeld getippt oder,
+ je nach Aufgabentyp, die richtige Antwortmöglichkeit ausgewählt.
+ Die Anwendung gibt anschließend Auskunft über Erfolg bzw.
+ Misserfolg der Aktion.
+ Bei nachfolgenden Zielorten wird der Standort des nächsten Ziels angezeigt
+ und von den Nutzenden aufgesucht.
+\end_layout
+
+\begin_layout Enumerate-Resume
+Quittierung der Tour.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Quittierung-der-Tour-Abschlussin"
@@ -3566,25 +3487,15 @@ name "enu:Quittierung-der-Tour-Abschlussin"
 \end_layout
 
 \begin_layout Standard
-Nach der Aufzählung der Teilschritte beschreibt Wendel den grundlegenden
- Aufbau des Vehaltensplans.
- Die Teilschritte werden als Oberpunkte in einer von links nach rechts laufenden
- Sequenz visuell dargestellt.
- Darunter werden die relevanten Persona-Gruppen aus Abschnitt 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sub:Festlegung-der-Zielgruppe"
+Die Beendigung der Tour wird als letzter Schritt in den Verhaltensplan aufgenomm
+en, auch wenn das eigentliche Zielverhalten schon davor erreicht ist.
+ Ein in sich abgeschlossenes Konzept trägt dazu bei, die Spielform des Prototyps
+ zu präzisieren.
+\end_layout
 
-\end_inset
-
- mit ihren Eindrücken und ihren Befürchtungen platziert.
- Zudem werden Handlungen entsprechend ihres Umgebungskontextes (Anwendung
- oder reale Welt) markiert.
- Die Teilschritte werden danach nochmals überarbeitet.
- Logisch zusammengehörige Teilschritte können zu einem größeren Teilschritt
- vereint werden.
- Schleifen werden laut Wendel zudem im Verhaltensplan ebenfalls vermieden
- 
+\begin_layout Standard
+Die detaillierte Aufzählung der Teilschritte dient der Strukturierung des
+ Verhaltensplans von TODO: Wendel 
 \begin_inset ERT
 status open
 
@@ -3597,83 +3508,7 @@ cite[S.~117]{Wendel.2013}
 
 \end_inset
 
-.
-\end_layout
-
-\begin_layout Standard
-Abbildung 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Verhaltensplan 1"
-
-\end_inset
-
- zeigt den aus diesen Vorgaben resultierenden Verhaltensplan.
- Teilschritte 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Download,-Installierung-und"
-
-\end_inset
-
- und 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Auswählen-einer-Tour"
-
-\end_inset
-
-, 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Identifizierung-und-Lokalisierun"
-
-\end_inset
-
- und 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Aufsuchen-des-Zielortes"
-
-\end_inset
-
-, 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Aktivierung-der-Frage-Aufgabe"
-
-\end_inset
-
- und 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Erfassen-der-angezeigten"
-
-\end_inset
-
-, sowie 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Erforderliche-Maßnahmen-zur"
-
-\end_inset
-
-, 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Korrekte-Anwort-in"
-
-\end_inset
-
- und 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Quittierung-der-Bestätigungsinfo"
-
-\end_inset
-
- wurden jeweils im Verhaltensplan zusammengefasst (s.
- Abb.
+, siehe Abb.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3681,22 +3516,40 @@ reference "fig:Verhaltensplan 1"
 
 \end_inset
 
-, Teilschritte 1 bis 4).
- Die in Teilschritt 
+.
+ Logisch zusammengehörige Teilschritte werden in Oberpunkten zusammengeführt
+ und in einer von links nach rechts laufenden Sequenz visuell dargestellt.
+ Darunter sind dem Zielverhalten unerlässliche Handlungen mit Anführungszeichen
+ aufgelistet.
+ Diese sind entsprechend ihres Umgebungskontextes (Anwendung oder reale
+ Welt) eingeordnet.
+ Unter den Handlungen sind die relevanten Persona-Gruppen aus Abschnitt
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "enu:Wiederholen-der-Schritte"
+reference "sub:Festlegung-der-Zielgruppe"
 
 \end_inset
 
- beschriebene weitere Fortführung der Tour wurde ebenfalls entfernt.
- Unerlässliche Handlungen wurden mit Bulletpoints aufgelistet.
- Des Weiteren befindet sich als graue Markierung über den Handlungen der
- Umgebungskontext.
- Unter den Handlungen werden verschiedene Persona-Gruppen mit womöglich
- relevanten Bemerkungen aufgereiht.
- Zu den bereits bekannten Persona-Gruppen kamen noch unerfahrene Nutzergruppen
- hinzu, sowie Bemerkungen, die alle Persona-Gruppen tangieren können (
+ mit ihren wahrscheinlichen Befürchtungen aufgereiht.
+ Die bekannten Persona-Gruppen sind um die Nutzergruppen 
+\begin_inset Quotes eld
+\end_inset
+
+Erfahren
+\begin_inset Quotes erd
+\end_inset
+
+ und 
+\begin_inset Quotes eld
+\end_inset
+
+Unerfahren
+\begin_inset Quotes erd
+\end_inset
+
+ ergänzt.
+ Bemerkungen, welche auf alle Gruppen zutreffen, sind mit dem Wort 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3704,8 +3557,8 @@ Alle
 \begin_inset Quotes erd
 \end_inset
 
-).
- Blau markiert sind darunter die jeweiligen Stimmungslagen der Gruppen angelegt.
+ gekennzeichnet.
+ Die blauen Markierungen geben Auskunft über ihre jeweiligen Stimmungslagen.
  Wie an den Bemerkungen erkennbar ist, können manche Persona-Gruppen Teilschritt
 e hinterfragen und sich somit selbst am weiteren Fortgang hindern.
  Abschnitt 
@@ -3739,7 +3592,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Verhaltensplan mit dem als Teilschritten zerlegten Zielverhalten
+Verhaltensplan mit dem in Teilschritte zerlegten Zielverhalten
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Verhaltensplan 1"
@@ -3794,14 +3647,14 @@ name "sub:Unterstützende-Mechanismen"
 \end_layout
 
 \begin_layout Standard
-Während der Verhaltensplan das Zielverhalten greifbarer, verständlicher
- macht, werden in diesem Abschnitt Mechanismen bestimmt, die den Nutzern
- unterstützen das Zielverhalten zu beginnen.
- Hierbei wird zuerst davon ausgegangen, dass sich am Zielverhalten nichts
+Während der Verhaltensplan das Zielverhalten greifbarer und verständlicher
+ macht, werden in diesem Abschnitt Mechanismen bestimmt, die den Nutzenden
+ unterstützen, das Zielverhalten zu beginnen und durchzuführen.
+ Hierbei wird zunächst davon ausgegangen, dass sich am Zielverhalten nichts
  mehr ändert.
- Um nun den Nutzern dabei zu helfen das Zielverhalten zu beginnen, schlägt
- Wendel vor, das Umfeld des Nutzers so zu gestalten, sodass es dem Zielverhalten
- förderlich ist 
+ Um nun den Nutzenden dabei zu helfen, das Zielverhalten zu beginnen, wird
+ deren Umfeld so gestaltet, dass es der Erreichung des Zielverhaltens förderlich
+ ist 
 \begin_inset ERT
 status open
 
@@ -3821,8 +3674,7 @@ cite[S.~126]{Wendel.2013}
 \end_layout
 
 \begin_layout Standard
-Wendel führt in seinem Vorgehensmodell einige Verbesserungsvorschläge auf
- mit denen sich der Verhaltensplan optimieren lässt 
+In seinem Vorgehensmodell führt 
 \begin_inset ERT
 status open
 
@@ -3830,22 +3682,24 @@ status open
 
 
 \backslash
-cite[S.~127--138]{Wendel.2013}
+citet[S.~127--138]{Wendel.2013}
 \end_layout
 
 \end_inset
 
-:
+ einige Fragen zur Anregung von Verbesserungsprozessen auf.
+ Diese Fragen sollen Anlass zur Hinterfragung des aufgestellten Verhaltensplans
+ sein:
 \end_layout
 
 \begin_layout Itemize
-Welche Motivation hat der Nutzer um diesen Schritt zu absolvieren? Was kann
+Welche Motivation hat der Nutzer, diesen Schritt zu absolvieren? Was kann
  die Anwendung zu dieser Motivation beitragen? Kann bereits bestehende Motivatio
-n nochmals hervorgehoben werden?
+n verstärkt werden?
 \end_layout
 
 \begin_layout Itemize
-Existiert ein Auslösereiz, um das Zielverhalten jetzt zu beginnen?
+Existiert ein Auslösereiz, der den Beginn des Zielverhaltens einleitet?
 \end_layout
 
 \begin_layout Itemize
@@ -3854,17 +3708,12 @@ Wird der Nutzer mit ausreichend Rückmeldung versorgt? Wenn ja, kann er anhand
 \end_layout
 
 \begin_layout Itemize
-Welche Elemente lenken den Nutzer ab, oder verwirren ihn? Gibt es sonstige
- Hindernisse die es zu entfernen gilt?
+Welche Elemente lenken den Nutzer ab oder verwirren ihn? Gibt es sonstige
+ Hindernisse, die es zu entfernen gilt?
 \end_layout
 
 \begin_layout Standard
-Diese sollten nun für jeden Schritt im Verhaltensplan hinterfragt werden.
- Zu Beginn sollte nochmals klar sein, dass die Zielgruppe bereits über intrinsis
-che Motivation verfügt, Ausflüge oder Reisen zu unternehmen.
- Die Anwendung soll ihnen - neben dem Anwendungsziel - dabei helfen, einen
- bequemeren Einstieg zu ermöglichen, falls motivationale Defizite existieren.
- Abbildung 
+Abbildung 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Aktionsplan-2"
@@ -3872,7 +3721,7 @@ reference "fig:Aktionsplan-2"
 \end_inset
 
  zeigt einen überarbeiteten Verhaltensplan.
- Alle eventuell auftretende Gedanken und Stimmungslagen aus dem vorherigen
+ Alle eventuell auftretenden Gedanken und Stimmungslagen aus dem vorherigen
  Verhaltensplan (s.
  Abb.
  
@@ -3882,20 +3731,20 @@ reference "fig:Verhaltensplan 1"
 
 \end_inset
 
-) sind eine der Fragestellungen (Motivation, Auslösereiz, Rückmeldung und
+) sind einer der Fragestellungen (Motivation, Auslösereiz, Rückmeldung und
  Hindernisse) zugeordnet und - falls möglich - konzeptuell ausgearbeitet.
- Die orangen Markierungen entsprechen Gamification-Patterns die an dieser
- Stelle zum Einsatz kommen können.
- Diese entsprechen überwiegend den darüber stehenden Überlegungen zur Beseitigun
-g von Hindernissen, oder der Erhöhung der Motivation und könnten somit als
+ Die orangen Markierungen entsprechen Gamification-Patterns, die an dieser
+ Stelle zum Einsatz kommen.
+ Diese entsprechen den darüber abgebildeten Überlegungen der Beseitigung
+ von Hindernissen oder der Erhöhung der Motivation und können somit als
  Mustervorlage dienen.
- Des Weiteren lassen sich auch Nudges zur Veränderung der Verhaltensarchitektur
+ Des Weiteren lassen sich Nudges zur Veränderung der Verhaltensarchitektur
  an manchen Stellen verwenden.
  Automatisiert man z.
  B.
  die Einbeziehung von Präferenzen bei der Tourauswahl oder nutzt sie für
  einen schnellen Einstieg in eine Tour, führt dies zu einem abkürzenden
- Auswahlverhalten des Nutzers.
+ Auswahlverhalten der Nutzenden.
  
 \begin_inset Float figure
 placement H

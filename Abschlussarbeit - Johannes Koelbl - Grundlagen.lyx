@@ -3098,13 +3098,13 @@ status open
 
 
 \backslash
-cite[S.~31]{DeutscherReiseverband.2016}
+cite[S.~31]{DeutscherReiseverband.2015}
 \end_layout
 
 \end_inset
 
 .
- Da sich die Konzeptstudie aus dieser signifikanten Subdomäne heraus entstand,
+ Da die Konzeptstudie aus dieser signifikanten Subdomäne heraus entstand,
  wird auch die jetzige Marktstudie dies als engeren Bezugspunkt nehmen.
 \end_layout
 
@@ -4322,6 +4322,13 @@ name "fig:Screenshots-von-der-Streetspotr-App"
 
 \begin_layout Subsection
 City Maps and Walks
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:City-Maps-and"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
