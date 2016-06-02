@@ -188,7 +188,7 @@ reference "sub:Projekteinschränkungen"
 \end_inset
 
 .
- Nachfolgend werden plausible Zielverhalten der Nutzer definiert 
+ Nachfolgend werden plausible Zielverhalten der Nutzende definiert 
 \begin_inset CommandInset ref
 LatexCommand eqref
 reference "sub:Mögliche-Zielverhalten-definiere"
@@ -299,10 +299,9 @@ Das Messen von Gefühlen ist unter Umständen schwierig.
  solcher Ergebnisse kann allerdings je nach Interpretation unterschiedlich
  ausfallen.
  Wendel führt diesen Gedanken damit fort, dass man sich trotz nicht messbarem
- Anwendungsziel beispielsweise Gedanken darüber machen kann, ob Nutzer ihr
- neu hinzugewonnenes Wissen bzw.
- ihre erlebten Erfahrungen nach dem Anwendungsziel zu Handlungen verleiten
- könnten 
+ Anwendungsziel beispielsweise Gedanken darüber machen kann, ob Nutzende
+ ihr neu hinzugewonnenes Wissen beziehungsweise ihre erlebten Erfahrungen
+ nach dem Anwendungsziel zu Handlungen verleiten könnten 
 \begin_inset ERT
 status open
 
@@ -577,7 +576,7 @@ Bei genauerer Betrachtung lassen sich manche Gamification-Patterns in den
  Touren ein Spielmechanismus, welche dem Pattern User Generated Content
  nachempfunden ist.
  Die Präsenz von Gamification-Patterns in Zielverhalten ist zweckmäßig,
- da sie die Nutzer in ihrer Tätigkeit unterstützen.
+ da sie  Nutzende in ihrer Tätigkeit unterstützen.
 \end_layout
 
 \begin_layout Subsubsection
@@ -675,7 +674,7 @@ Trip Journal
 \emph on
 The Travel Machine
 \emph default
- schlägt sogar automatisch gemäß den individuellen Präferenzen der Nutzer
+ schlägt sogar automatisch gemäß den individuellen Präferenzen der Nutzenden
  interessante Orte vor 
 \begin_inset ERT
 status open
@@ -1015,14 +1014,14 @@ cite[S.~102]{Wendel.2013}
 .
  Das Zielverhalten, wonach man sich mit Einheimischen unterhält, wird diesbezügl
 ich nicht weiter verfolgt.
- Zwar könnten Nutzer des Prototyps hierdurch auf spannende Art und Weise
+ Zwar könnten Nutzende des Prototyps hierdurch auf spannende Art und Weise
  zu einem Verhalten, nämlich dem Ansprechen von Einheimischen, angeregt
  werden, jedoch überwiegen die Gegenargumente.
- Beispielsweise besteht bei den Nutzern voraussichtlich eine hohe Hemmschwelle,
- was das Ansprechen fremder Menschen an den Zielorten betrifft.
+ Beispielsweise besteht bei den Nutzenden voraussichtlich eine hohe Hemmschwelle
+, was das Ansprechen fremder Menschen an den Zielorten betrifft.
  Diese Überwindung würde ein negatives Gefühl hervorrufen, was es zu vermeiden
  gilt.
- Zudem könnten sich die Ansässigen durch die häufig fragenden Nutzer belästigt
+ Zudem könnten sich die Ansässigen durch die häufig fragenden Nutzende belästigt
  fühlen.
  Dieses Problem würde vor allem bei einer Verbreitung und häufigen Nutzung
  des Prototyps auftreten.
@@ -1772,7 +1771,7 @@ reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
 
 \end_inset
 
-: Ortsbezogene Quiz-Fragen
+: Ortsbezogene Quizfragen
 \end_layout
 
 \end_inset
@@ -2006,7 +2005,7 @@ reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
 
 \end_inset
 
- kann theoretisch alle Persona-Gruppn außer den Skeptikern ansprechen.
+ kann theoretisch alle Persona-Gruppen außer den Skeptikern ansprechen.
  Personalisierte Touren (
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2097,7 +2096,7 @@ reference "enu:Zielverhalten-Einige-ortsbezogene-Quiz-Fragen"
 
 \end_inset
 
-: Quiz-Fragen
+: Quizfragen
 \end_layout
 
 \end_inset
@@ -2253,9 +2252,9 @@ Motivation: Welche Anreize liegen vor, die zu dem gewünschten Zielverhalten
 \end_layout
 
 \begin_layout Description
-Machbarkeit: Wie leicht ist es für den Nutzer, das Zielverhalten durchzuführen?
- Ähnelt sich das Zielverhalten bereits potenziellen Gewohnheiten oder werden
- Gewohnheiten dadurch gestoppt?
+Machbarkeit: Wie leicht ist es für den Nutzenden, das Zielverhalten durchzuführe
+n? Ähnelt sich das Zielverhalten bereits potenziellen Gewohnheiten oder
+ werden Gewohnheiten dadurch gestoppt?
 \end_layout
 
 \begin_layout Description
@@ -2879,7 +2878,7 @@ Punktezahl
 \begin_inset Text
 
 \begin_layout Plain Layout
-Quiz-Fragen
+Quizfragen
 \end_layout
 
 \end_inset
@@ -3031,12 +3030,12 @@ reference "enu:Zielverhalten-Hintergrundinformationen-zu-den"
 \end_layout
 
 \begin_layout Standard
-Es ist deutlich erkennbar, dass die Zielverhalten Quiz-Fragen und personalisiert
-e Touren einen hohen Abstand zu den restlichen beiden Zielverhalten besitzen.
+Es ist deutlich erkennbar, dass die Zielverhalten Quizfragen und personalisierte
+ Touren einen hohen Abstand zu den restlichen beiden Zielverhalten besitzen.
  Legt man den Fokus nun auf diese beiden Zielverhalten, ist ein eindeutiger
  Favorit wegen des Unterschiedes von nur einem Punkt schwierig zu ermitteln.
  In den Bereichen Kosten und Machbarkeit wurde das Zielverhalten mit den
- Quiz-Fragen höher bewertet und in ihrer Motivation liegen sie beide gleich
+ Quizfragen höher bewertet und in ihrer Motivation liegen sie beide gleich
  auf.
  Personalisierte Touren werden nur in ihrer Effektivität höher eingestuft.
  Wendel rät in Fällen schwieriger Entscheidungsfindung, in letzter Instanz
@@ -3047,7 +3046,7 @@ e Touren einen hohen Abstand zu den restlichen beiden Zielverhalten besitzen.
 \end_layout
 
 \begin_layout Standard
-Die Quiz-Fragen werden in den Produkten 
+Die Quizfragen werden in den Produkten 
 \emph on
 Quarterquest
 \emph default
@@ -3130,7 +3129,7 @@ reference "sub:City-Maps-and"
 
 ) besonders auf.
  Hier lassen sich Touren oder ganze Reisen auswählen oder selbst erstellen.
- In Trip-Journal wird der Nutzer angehalten, seine eigene Reise komplett
+ In Trip-Journal wird der Nutzende angehalten, seine eigene Reise komplett
  selbst zu planen.
  Eine Möglichkeit zur Auswahl vordefinierter Reisen gibt es nicht.
  In 
@@ -3169,10 +3168,9 @@ reference "sec:Bestehende-Konzeptstudie--SeeSight"
  Somit lässt auch mithilfe dieser Anhaltspunkte kein bedeutsamer Aspekt
  finden, der für eines der beiden Zielverhalten spricht.
  In diesem Fall bietet es sich an, das zweitplatzierte Zielverhalten als
- unterstützendes Subverhalten bzw.
- Spielmechanismus zu verwenden.
+ unterstützendes Subverhalten beziehungsweise Spielmechanismus zu verwenden.
  Die Wahl von personalisierten Touren oder eine Zusammenstellung von auswählbare
-n Sehenswürdigkeiten und die Quiz-Fragen während einer Tour verhalten sich
+n Sehenswürdigkeiten und die Quizfragen während einer Tour verhalten sich
  nicht konträr zueinander.
  Beide Zielverhalten sind ihrer Technik Gamification-Patterns nachempfunden,
  was eine Integration in ein übergeordnetes Zielverhalten vereinfacht.
@@ -3291,8 +3289,8 @@ reference "sec:Zusammenfassung-Anwendungen"
  h.
  es werden keine Funktionen mit starkem Konflikt-, Wettbewerbs, Koordinations-
  oder Kooperationscharakter im weiteren Verlauf der Entwicklung eingebaut.
- Interaktionen mit anderen Nutzern sind von der Anwendung jedoch nicht gänzlich
- ausgeschlossen
+ Interaktionen mit anderen Nutzenden sind von der Anwendung jedoch nicht
+ gänzlich ausgeschlossen
 \end_layout
 
 \begin_layout Subsection
@@ -3404,7 +3402,7 @@ name "enu:Aktivierung-der-Frage-Aufgabe"
 \end_layout
 
 \begin_layout Enumerate-Resume
-Erfassen der angezeigten Fragestellung durch den Nutzer.
+Erfassen der angezeigten Fragestellung durch den Nutzenden.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:Erfassen-der-angezeigten"
@@ -3469,8 +3467,8 @@ Zur Lösung der Aufgaben ist das Erkunden der Umgebung auf unterschiedliche
  Art und Weise notwendig.
  Ist ein Hinweis entdeckt, wird die Lösung in ein Eingabefeld getippt oder,
  je nach Aufgabentyp, die richtige Antwortmöglichkeit ausgewählt.
- Die Anwendung gibt anschließend Auskunft über Erfolg bzw.
- Misserfolg der Aktion.
+ Die Anwendung gibt anschließend Auskunft über Erfolg beziehungsweise Misserfolg
+ der Aktion.
  Bei nachfolgenden Zielorten wird der Standort des nächsten Ziels angezeigt
  und von den Nutzenden aufgesucht.
 \end_layout
@@ -3494,8 +3492,8 @@ en, auch wenn das eigentliche Zielverhalten schon davor erreicht ist.
 \end_layout
 
 \begin_layout Standard
-Die detaillierte Aufzählung der Teilschritte dient der Strukturierung des
- Verhaltensplans von TODO: Wendel 
+Die detaillierte Aufzählung der Teilschritte ist eine der Maßnahmen zur
+ Strukturierung des Verhaltensplans nach 
 \begin_inset ERT
 status open
 
@@ -3503,7 +3501,7 @@ status open
 
 
 \backslash
-cite[S.~117]{Wendel.2013}
+citet[S.~114--118]{Wendel.2013}
 \end_layout
 
 \end_inset
@@ -3669,7 +3667,7 @@ cite[S.~126]{Wendel.2013}
 
 .
  Das Resultat am Ende dieses Abschnittes wird ein detaillierterer Verhaltensplan
- sein, welcher entscheidungsunterstützende Elemente für das Umfeld der Nutzer
+ sein, welcher entscheidungsunterstützende Elemente für das Umfeld der Nutzenden
  beinhaltet.
 \end_layout
 
@@ -3693,7 +3691,7 @@ citet[S.~127--138]{Wendel.2013}
 \end_layout
 
 \begin_layout Itemize
-Welche Motivation hat der Nutzer, diesen Schritt zu absolvieren? Was kann
+Welche Motivation hat der Nutzende, diesen Schritt zu absolvieren? Was kann
  die Anwendung zu dieser Motivation beitragen? Kann bereits bestehende Motivatio
 n verstärkt werden?
 \end_layout
@@ -3703,12 +3701,12 @@ Existiert ein Auslösereiz, der den Beginn des Zielverhaltens einleitet?
 \end_layout
 
 \begin_layout Itemize
-Wird der Nutzer mit ausreichend Rückmeldung versorgt? Wenn ja, kann er anhand
- der Art der Rückmeldung mit der Aktion erneut agieren?
+Wird der Nutzende mit ausreichend Rückmeldung versorgt? Wenn ja, kann er
+ anhand der Art der Rückmeldung mit der Aktion erneut agieren?
 \end_layout
 
 \begin_layout Itemize
-Welche Elemente lenken den Nutzer ab oder verwirren ihn? Gibt es sonstige
+Welche Elemente lenken den Nutzenden ab oder verwirren ihn? Gibt es sonstige
  Hindernisse, die es zu entfernen gilt?
 \end_layout
 
@@ -3735,16 +3733,6 @@ reference "fig:Verhaltensplan 1"
  Hindernisse) zugeordnet und - falls möglich - konzeptuell ausgearbeitet.
  Die orangen Markierungen entsprechen Gamification-Patterns, die an dieser
  Stelle zum Einsatz kommen.
- Diese entsprechen den darüber abgebildeten Überlegungen der Beseitigung
- von Hindernissen oder der Erhöhung der Motivation und können somit als
- Mustervorlage dienen.
- Des Weiteren lassen sich Nudges zur Veränderung der Verhaltensarchitektur
- an manchen Stellen verwenden.
- Automatisiert man z.
- B.
- die Einbeziehung von Präferenzen bei der Tourauswahl oder nutzt sie für
- einen schnellen Einstieg in eine Tour, führt dies zu einem abkürzenden
- Auswahlverhalten der Nutzenden.
  
 \begin_inset Float figure
 placement H
@@ -3786,7 +3774,17 @@ name "fig:Aktionsplan-2"
 
 \end_inset
 
-
+ Diese entsprechen den darüber abgebildeten Überlegungen der Beseitigung
+ von Hindernissen oder der Erhöhung der Motivation und können somit als
+ Mustervorlage dienen.
+ Des Weiteren lassen sich Nudges zur Veränderung der Verhaltensarchitektur
+ an manchen Stellen verwenden.
+ Automatisiert man z.
+ B.
+ die Einbeziehung von Präferenzen bei der Tourauswahl oder nutzt sie für
+ einen schnellen Einstieg in eine Tour, führt dies zu einem abkürzenden
+ Auswahlverhalten der Nutzenden.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -3806,8 +3804,8 @@ reference "fig:Aktionsplan-2"
 \emph on
 Streetspotr 
 \emph default
-lässt beispielsweise neu registrierte Nutzer ein Tutorial absolvieren, welches
- einem Spot gleicht.
+lässt beispielsweise neu registrierte Nutzende ein Tutorial absolvieren,
+ welches einem Spot gleicht.
  Somit wird ein einfacher und schneller Einstieg in die Funktionsweise von
  Spots gewährleistet.
  Dieser Mechanismus lässt sich dem Pattern Easy Getting Started zuordnen,
@@ -3819,10 +3817,10 @@ lässt beispielsweise neu registrierte Nutzer ein Tutorial absolvieren, welches
 \emph on
 Foursquare
 \emph default
- fordert seine Nutzer gleich zu Beginn auf, Vorlieben zu Essen oder Lokalen
- anzugeben.
- Diese Art der persönlichen Konfiguration nimmt nachträglich das Filtern
- von Gastronomiebetrieben ab und ermöglicht auf die Vorlieben der Nutzer
+ fordert seine Nutzer gleich zu Beginn auf, Vorlieben bezüglich Essen oder
+ Lokalen anzugeben.
+ Diese Art der persönlichen Konfiguration ersetzt das nachträgliche Filtern
+ von Gastronomiebetrieben ab und ermöglicht auf die Vorlieben der Nutzenden
  abgestimmte Empfehlungen per Push-Benachrichtigung (s.
  Abb.
  
@@ -4192,21 +4190,20 @@ name "sub:Zielgruppe-vorbereiten"
 \end_layout
 
 \begin_layout Standard
-In diesem letzten Abschnitt vor dem Wechsel der konzeptuellen Phase zum
- Systemdesign, steht nochmals die Zielgruppe im Mittelpunkt von Wendel.
- Er empfiehlt eine Vergegenwärtigung der möglichen Stimmungslagen und Selbstwahr
-nehmungen des Nutzers in Verbindung mit dem Produkt.
- Es sei wichtig den Nutzer auf das Zielverhalten vorzubereiten, so Wendel.
- Anders als wie in Abschnitt 
+Vor dem Wechsel der konzeptuellen Phase zum Systemdesign, steht erneut die
+ Zielgruppe im Mittelpunkt von Wendel's Konzept.
+ Ziel ist die Vergegenwärtigung der möglichen Stimmungslagen und Selbstwahrnehmu
+ngen der Nutzenden in Verbindung mit dem Produkt.
+ Anders als in Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Unterstützende-Mechanismen"
 
 \end_inset
 
-, in denen der Nutzer mithilfe motivationaler Hilfestellung zum Zeitpunkt
- der Handlung vorbereitet wird, fokussiert sich Wendel hier auf den Teil
- vor der Handlung, sowie einer Verhaltensänderung auf längere Sicht 
+, in dem dem Nutzende mithilfe motivationaler Mechanismen zum Zeitpunkt
+ der Handlung vorbereitet werden, wird sich hier auf den Teil vor der Handlung,
+ sowie einer längerfristigen Verhaltensänderung fokussiert 
 \begin_inset ERT
 status open
 
@@ -4220,9 +4217,8 @@ cite[S.~142--143]{Wendel.2013}
 \end_inset
 
 .
- Das Ziel dieses Abschnitts ist auch diesmal eine weitere Verbesserung des
- Verhaltensplans, indem folgende von Wendel vorgeschlagene Gesichtspunkte
- angewendet werden 
+ Das Ziel dieses Abschnitts ist auch diesmal eine Verbesserung des Verhaltenspla
+ns, indem folgende von 
 \begin_inset ERT
 status open
 
@@ -4230,17 +4226,17 @@ status open
 
 
 \backslash
-cite[S.~148--149]{Wendel.2013}
+citet[S.~148--149]{Wendel.2013}
 \end_layout
 
 \end_inset
 
-:
+ beschriebene Gesichtspunkte angewendet werden:
 \end_layout
 
 \begin_layout Itemize
-Die Selbstwahrnehmung der Nutzer zum Produkt sollte so optimiert sein, sodass
- der Eindruck besteht, das Zielverhalten sei für sie eine natürliche Erweiterung
+Optimierung der Selbstwahrnehmung der Nutzenden zum Produkt zur Entstehung
+ des Eindrucks, das Zielverhalten sei für sie eine natürliche Erweiterung
  ihres Lebens.
 \end_layout
 
@@ -4250,12 +4246,12 @@ Herstellung einer mentalen Verknüpfung früherer ähnlicher Erfahrungen mit
 \end_layout
 
 \begin_layout Itemize
-Bereitstellung der zwingend erforderlichsten Informationen vor Beginn des
+Bereitstellung der zwingend erforderlichen Informationen vor Beginn des
  Zielverhaltens.
 \end_layout
 
 \begin_layout Itemize
-Rechtzeitige und ausreichende Vorbereitung der Nutzer für anspruchsvolle
+Rechtzeitige und ausreichende Vorbereitung der Nutzenden für anspruchsvolle
  Aktionen.
 \end_layout
 
@@ -4267,23 +4263,31 @@ reference "fig:Überarbeiteter-Verhaltensplan-mit-Vorbereitung der Zielgruppe"
 
 \end_inset
 
- zeigen die überarbeiteten Stellen.
+ zeigen die überarbeiteten Passagen.
  Ganz zu Anfang des ersten Teilschritts bietet sich die Möglichkeit eines
- Überblicks zu den Hauptfunktionen des Produkts für den Nutzer.
+ Überblicks zu den Hauptfunktionen des Produkts für Nutzende.
  Reiseinteressierten ließe sich an dieser Stelle die mentale Verknüpfung
  zu ihren bisherigen Unternehmungen und dem jetzigen Produkt darstellen.
- Des Weiteren könnte man durch entsprechende Formulierungen die Selbstwahrnehmun
-g der Nutzer zum Zielverhalten des Produkt verbessern.
+ Des Weiteren lassen sich durch entsprechende Formulierungen die Selbstwahrnehmu
+ng der Nutzende zum Zielverhalten des Produkt verbessern.
  Die Kombination aus einem schnellen und bequemen Einstieg mittels eines
- Schnelleinstieg-Menüpunkts und die zuvor erläuterte Bedienung zu dieser
- Hauptfunktion gestalten das Gamification-Pattern Easy Getting Started.
+ Schnelleinstieg-Menüpunkts und die zuvor erläuterte Funktionsweise gestalten
+ das Gamification-Pattern Easy Getting Started.
  
 \end_layout
 
 \begin_layout Standard
 Die zweite Markierung im selbem Teilschritt ergänzt Touren oder Zielorte
- um die wichtigsten Informationen, bevor der Nutzer eine Entscheidung trifft.
- Die dritte Markierung (s.
+ um die wichtigsten Informationen, bevor die Nutzenden eine Entscheidung
+ treffen.
+ 
+\end_layout
+
+\begin_layout Standard
+Das Einfügen einer "Howto-Vorschau zur Bewältigung von Aufgaben" im Abschnitt
+ Aktivierung und Erfassung der Aufgabe kommt einer generellen Aktionsbewältigung
+ gleich, sofern Nutzende zum ersten Mal mit einer Aufgabe konfrontiert werden
+ (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -4292,8 +4296,7 @@ reference "fig:Überarbeiteter-Verhaltensplan-mit-Vorbereitung der Zielgruppe"
 
 \end_inset
 
-), käme einer Vorbereitung zur generellen Aktionsbewältigung gleich, falls
- man zum ersten Mal damit konfrontiert werden sollte.
+).
 \end_layout
 
 \begin_layout Standard
@@ -4346,7 +4349,7 @@ name "fig:Überarbeiteter-Verhaltensplan-mit-Vorbereitung der Zielgruppe"
 \end_layout
 
 \begin_layout Standard
-Mit Abschluss dieses Abschnitts endet die Konzeptphase des Produkts.
+Die Konzeptphase des Prototyps ist hiermit abgeschlossen.
  Nachfolgend beginnt die Designphase mit Überleitung zum Prototyp.
 \end_layout
 
@@ -4362,14 +4365,11 @@ name "sub:User-Stories"
 \end_layout
 
 \begin_layout Standard
-Im weiteren Verlauf der Designprozesses zur Verhaltensänderung wird der
+Im weiteren Verlauf des Designprozesses zur Verhaltensänderung wird der
  Verhaltensplan keiner weiteren Änderung unterzogen.
  Stattdessen wird der Plan auf Anforderungen heruntergebrochen, mit welchen
  adäquater in der Designphase umgegangen werden kann.
- Wendel überlässt es an dieser Stelle den Anwendern, ob diese sich für die
- aus der agilen Entwicklung stammenden User Stories oder den Anforderungsspezifi
-kationen linearer Vorgehensmodelle entscheidet, weshalb aus persönlichem
- Interesse Ersteres gewählt wird 
+ An dieser Stelle überlässt es 
 \begin_inset ERT
 status open
 
@@ -4377,18 +4377,19 @@ status open
 
 
 \backslash
-cite[S.~156]{Wendel.2013}
+citet[S.~156]{Wendel.2013}
 \end_layout
 
 \end_inset
 
-.
+ den Anwendenden, ob sich diese für die aus der agilen Entwicklung stammenden
+ User Stories oder den Anforderungsspezifikationen linearer Vorgehensmodelle
+ entscheiden, weshalb aus persönlichem Interesse Ersteres gewählt wird.
 \end_layout
 
 \begin_layout Standard
-User Stories sind Wünsche bzw.
- Anforderungen aus der Nutzersicht und sind im Allgemeinen nicht länger
- als zwei Sätze.
+User Stories (UST) sind Wünsche beziehungsweise Anforderungen aus der Nutzersich
+t und sind im Allgemeinen nicht länger als zwei Sätze TODO.
  Sie sind deshalb für die Designphase praktisch, weil man mit ihnen die
  Anwendung aus einer anderen Perspektive sieht.
  User Stories lassen sich aus dem Verhaltensplan für jede Aktion exportieren:
@@ -4451,7 +4452,7 @@ arabic{enumii}
 
 \end_inset
 
-Als Nutzer möchte ich die Hauptfunktionen kennenlernen, damit ich schnell
+Als Nutzender möchte ich die Hauptfunktionen kennenlernen, damit ich schnell
  zurecht komme.
 \begin_inset CommandInset label
 LatexCommand label
@@ -4463,8 +4464,8 @@ name "enu:UST-A1"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich schnell einen Ausflug beginnen können, um unkompliziert
- Voreinstellungen zu überspringen.
+Als Nutzender möchte ich unkompliziert Voreinstellungen überspringen, um
+ schnell Ausflüge zu beginnen.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-A2"
@@ -4475,8 +4476,8 @@ name "enu:UST-A2"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich passende Tage für Ausflüge empfohlen bekommen, um
- die Zeit besser zu nutzen.
+Als Nutzender möchte ich passende Tage für Ausflüge empfohlen bekommen,
+ um die Zeit besser zu nutzen.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-A3"
@@ -4487,8 +4488,8 @@ name "enu:UST-A3"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich nach meinen Präferenzen Touren auswählen und konfigurieren
- können, um den Ausflug mehr zu genießen.
+Als Nutzender möchte ich nach meinen Präferenzen Touren auswählen und konfigurie
+ren können, um den Ausflug mehr zu genießen.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-A4"
@@ -4499,7 +4500,7 @@ name "enu:UST-A4"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich mit Gleichgesinnten Ausflüge machen, um nicht alleine
+Als Nutzender möchte ich mit Gleichgesinnten Ausflüge machen, um nicht alleine
  reisen zu müssen.
 \begin_inset CommandInset label
 LatexCommand label
@@ -4547,8 +4548,8 @@ arabic{enumii}
 
 \end_inset
 
-Als Nutzer möchte ich den Zielort identifizieren können, um zu wissen, um
- was es sich dabei handelt.
+Als Nutzender möchte ich den Zielort identifizieren können, um zu wissen,
+ um was es sich dabei handelt.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-B1"
@@ -4559,8 +4560,8 @@ name "enu:UST-B1"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich den Zielort lokalisieren können, um mich dorthin begeben
- zu können.
+Als Nutzender möchte ich den Zielort lokalisieren können, um mich dorthin
+ begeben zu können.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-B2"
@@ -4571,7 +4572,7 @@ name "enu:UST-B2"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich über die Entfernung des Zielortes Bescheid wissen,
+Als Nutzender möchte ich über die Entfernung des Zielortes Bescheid wissen,
  damit ich die Zeitdauer einschätzen kann.
 \begin_inset CommandInset label
 LatexCommand label
@@ -4583,7 +4584,7 @@ name "enu:UST-B3"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich informiert werden, wenn Zielorte geschlossen oder
+Als Nutzender möchte ich informiert werden, wenn Zielorte geschlossen oder
  gesperrt sind, damit ich diese Zielorte ggf.
  einsparen kann.
 \begin_inset CommandInset label
@@ -4596,8 +4597,8 @@ name "enu:UST-B4"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich über meinen Tour-Fortschritt informiert werden, damit
- ich den Zeitpunkt für das Ende abschätzen kann.
+Als Nutzender möchte ich über meinen Tour-Fortschritt informiert werden,
+ damit ich den Zeitpunkt für das Ende abschätzen kann.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-B5"
@@ -4644,8 +4645,8 @@ arabic{enumii}
 
 \end_inset
 
-Als Nutzer möchte ich erfahren wie eine Aufgabe funktioniert, um keine Probleme
- damit zu bekommen.
+Als Nutzender möchte ich erfahren wie eine Aufgabe funktioniert, um keine
+ Probleme damit zu bekommen.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-C1"
@@ -4656,7 +4657,8 @@ name "enu:UST-C1"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich Aufgaben aktivieren, der Herausforderung wegen.
+Als Nutzender möchte ich Aufgaben aktivieren und die damit verbundene Herausford
+erung annehmen.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-C2"
@@ -4667,7 +4669,7 @@ name "enu:UST-C2"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich den Schwierigkeitsgrad der Aufgabe wissen, um mich
+Als Nutzender möchte ich den Schwierigkeitsgrad der Aufgabe wissen, um mich
  auf den nötigen Aufwand zur Lösung einzustellen.
 \begin_inset CommandInset label
 LatexCommand label
@@ -4679,7 +4681,7 @@ name "enu:UST-C3"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich Hinweise zu schwierigen Fragestellungen erhalten,
+Als Nutzender möchte ich Hinweise zu schwierigen Fragestellungen erhalten,
  um nicht frustriert zu sein.
 \begin_inset CommandInset label
 LatexCommand label
@@ -4720,8 +4722,8 @@ arabic{enumii}
 
 \end_inset
 
-Als Nutzer möchte ich Aufgaben abbrechen können, um mit der Tour fortfahren
- zu können.
+Als Nutzender möchte ich anspruchsvolle Aufgaben abbrechen können, um mit
+ der Tour fortfahren zu können.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-D1"
@@ -4732,8 +4734,8 @@ name "enu:UST-D1"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich abgebrochene Aufgaben gesammelt erneut aufrufen dürfen,
- um sie doch noch lösen zu können.
+Als Nutzender möchte ich abgebrochene Aufgaben gesammelt erneut aufrufen
+ dürfen, um sie doch noch lösen zu können.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-D2"
@@ -4744,8 +4746,8 @@ name "enu:UST-D2"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich die Antwort für eine Aufgabe eintippen können, um
- die Aufgabe abzuschließen.
+Als Nutzender möchte ich die Antwort für eine Aufgabe eintippen können,
+ um die Aufgabe abzuschließen.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-D3"
@@ -4756,7 +4758,7 @@ name "enu:UST-D3"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich erfahren, ob die Antwort korrekt war, um die Aufgabe
+Als Nutzender möchte ich erfahren, ob die Antwort korrekt war, um die Aufgabe
  zum Abschluss zu bringen.
 \begin_inset CommandInset label
 LatexCommand label
@@ -4797,7 +4799,7 @@ arabic{enumii}
 
 \end_inset
 
-Als Nutzer möchte ich die Tour abschließen können, um mich etwas anderem
+Als Nutzender möchte ich die Tour abschließen können, um mich etwas anderem
  zu widmen.
 \begin_inset CommandInset label
 LatexCommand label
@@ -4809,7 +4811,7 @@ name "enu:UST-E1"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich nach der Tour über meine Erfolge informiert werden,
+Als Nutzender möchte ich nach der Tour über meine Erfolge informiert werden,
  um mental mit der Tour abschließen zu können.
 \begin_inset CommandInset label
 LatexCommand label
@@ -4821,8 +4823,8 @@ name "enu:UST-E2"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich über ähnliche Touren informiert werden, für den Fall
- dass mir die Tour gefiel.
+Als Nutzender möchte ich über ähnliche Touren informiert werden, für den
+ Fall dass mir die Tour gefiel.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-E3"
@@ -4833,8 +4835,8 @@ name "enu:UST-E3"
 \end_layout
 
 \begin_layout Enumerate
-Als Nutzer möchte ich die Tour bewerten können, um meine Freude oder meinen
- Unmut Ausdruck zu verleihen.
+Als Nutzender möchte ich die Tour bewerten können, um meiner Freude oder
+ meinem Unmut Ausdruck zu verleihen.
 \begin_inset CommandInset label
 LatexCommand label
 name "enu:UST-E4"
@@ -4862,29 +4864,29 @@ name "sub:Interface-Designs"
 \end_layout
 
 \begin_layout Standard
-Dieser Abschnitt behandelt die Wahl geeigneter Designentscheidungen für
- das Produkt bzw.
- dem Prototyp.
+Dieser Abschnitt behandelt die Auswahl geeigneter Designentscheidungen für
+ das Produkt beziehungsweise den Prototyp.
  Die Festlegung auf ein finales interface Design wird hier gleich durch
  mehrere Faktoren aus dem Designprozess zur Verhaltensänderung und den Vergleich
 skriterien beeinflusst.
- Um nicht die Übersicht darüber zu verlieren, welcher der Faktoren wann
- welche Designentscheidung bestimmt, ist zuallererst ein strukturierter
- Überblick dieser Faktoren unumgänglich.
- Zunächst werden alle Faktoren benannt und - wenn noch nicht an andere Stelle
- geschehen - auch in ihrer Bedeutsamkeit erläutert.
+ Um nicht den Überblick darüber zu verlieren, welcher der Faktoren wann
+ welche Designentscheidung bestimmt, ist eine strukturierte Übersicht dieser
+ Faktoren unumgänglich.
+ Zunächst werden alle Faktoren benannt und - wenn noch nicht an anderer
+ Stelle geschehen - auch in ihrer Bedeutsamkeit erläutert.
  Danach folgt eine Sortierung dieser Faktoren, um anschließend die erstellten
  Mock-Ups jeweils in ihrem Aufbau zu rechtfertigen.
  Die Mock-Ups zum Prototyp sind schlussendlich das Ergebnis dieses Abschnitts.
 \end_layout
 
 \begin_layout Subsubsection
-Überblick zu designentscheidenden Faktoren
+Übersicht zu designentscheidenden Faktoren
 \end_layout
 
 \begin_layout Standard
-Wendel gibt im Rahmen seines Vorgehensmodells Vorgaben und Vorschläge vor,
- wie der Designprozess fortgeführt werden sollte.
+Wendel gibt im Rahmen seines Vorgehensmodells Anregungen zur Fortführung
+ des Designprozesses (s.
+ u.).
  Darüber hinaus wurden in Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -4894,18 +4896,17 @@ reference "sec:Identifikation-geeigneter-Vergleichskriterien"
 
  Vergleichskriterien festgelegt, welche ebenso für die Konzeption des Interface
  Designs relevant sind.
- Beide Aspekte wurden seit Beginn dieses Kapitels so behandelt, dass schwerpunkt
-mäßig der Designprozess von Wendel die Weiterentwicklung der Konzeptstudie
- bestimmt und die Ergebnisse der Marktanalyse nachrangig in diesen Prozess
- eingearbeitet sind.
- Die Fortführung des bisherigen Vorgehens wird jedoch nun umstrukturiert,
- da sonst die Übersicht durch die Menge der folgenden Faktoren darunter
- leiden wird.
+ Ausgehend von diesen beiden beeinflussenden Faktoren wird bisher das Vorgehensm
+odell schwerpunktmäßig für den Designprozess der Konzeptstudie verwendet.
+ Die Ergebnisse der Marktanalyse werden nachrangig behandelt.
+ Um nun eine bessere Übersicht über alle designentscheidenden Faktoren zu
+ erhalten, wird eine Liste aus dem Vorgehensmodell und den Vergleichskriterien
+ gleichermaßen generiert, welche bei der späteren strukturierten Umsetzung
+ des Prototyps hilfreich sein wird.
+ 
 \end_layout
 
 \begin_layout Standard
-Wendel führt drei Zielvorgaben für die Bewältigung der geeigneten Wahl von
- Designentscheidungen auf 
 \begin_inset ERT
 status open
 
@@ -4913,12 +4914,13 @@ status open
 
 
 \backslash
-cite[S.~159--160]{Wendel.2013}
+citet[S.~159--160]{Wendel.2013}
 \end_layout
 
 \end_inset
 
-:
+ benennt drei Zielvorgaben für die Bewältigung der geeigneten Wahl von Designent
+scheidungen:
 \end_layout
 
 \begin_layout Description
@@ -4933,8 +4935,7 @@ name "enu:Funktionale-Vorgaben"
 
 \end_inset
 
-: Funktionale Anforderungen beschreiben nach Wendel, was das Produkt erreichen
- soll 
+: Funktionale Anforderungen beschreiben nach 
 \begin_inset ERT
 status open
 
@@ -4942,12 +4943,12 @@ status open
 
 
 \backslash
-cite[S.~160]{Wendel.2013}
+citet[S.~160]{Wendel.2013}
 \end_layout
 
 \end_inset
 
-.
+, was das Produkt erreichen soll.
  Diese Anforderungen wurden bereits im Verhaltensplan und davon abgeleitet
  in den User Stories herausgearbeitet.
 \end_layout
@@ -4971,7 +4972,7 @@ reference "sub:Abgrenzung-zu-anderen"
 
 \end_inset
 
-, sowie der 
+ sowie der 
 \emph on
 Action Funnel
 \emph default
@@ -4998,7 +4999,7 @@ Design
 
 Patterns: Bei den Design Patterns (engl.
  für Entwurfsmuster) gibt Wendel Hilfestellung, indem er in ihrer Wirksamkeit
- aufgeteilte, der Verhaltensänderung zuträglicher Entwurfsmuster empfiehlt.
+ aufgeteilte, der Verhaltensänderung zuträgliche Entwurfsmuster vorgibt.
  Ein Entwurfsmuster muss nicht für die gesamte Anwendung ausgewählt werden.
  Es können auch unterschiedliche Muster an verschiedenen Stellen angewandt
  werden 
@@ -5018,9 +5019,6 @@ cite[S.~162--164]{Wendel.2013}
 \end_layout
 
 \begin_layout Standard
-Wendel benennt ein Entwurfsmuster aus seiner Liste als Gamification und
- bezeichnet es als ein Verfahren, welches Aspekte aus dem Game Design in
- spielfremde Domänen einbettet 
 \begin_inset ERT
 status open
 
@@ -5028,22 +5026,24 @@ status open
 
 
 \backslash
-cite[S.~163]{Wendel.2013}
+citet[S.~163]{Wendel.2013}
 \end_layout
 
 \end_inset
 
-.
- Die konkrete Anwendung dieses Verfahrens mit Zuhilfenahme von Gamification-Patt
-erns wurde bereits in Abschnitt 
+ deklariert ein Entwurfsmuster aus seiner Liste als Gamification und bezeichnet
+ es als ein Verfahren, welches Aspekte aus dem Game Design in spielfremde
+ Domänen einbettet.
+ Die konkrete Anwendung dieses Verfahrens unter Zuhilfenahme von Gamification-Pa
+tterns wurde bereits in Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:Identifikation-geeigneter-Vergleichskriterien"
 
 \end_inset
 
- insofern diskutiert, sodass aus dem Verfahren entstandene Spielmechanismen
- in den verwandten Produkten identifiziert werden konnten.
+ diskutiert, sodass aus dem Verfahren entstandene Spielmechanismen in den
+ verwandten Produkten identifiziert werden konnten.
  Die dort identifizierten Gamification-Patterns wurden überdies in Unterabschnit
 t 
 \begin_inset CommandInset ref
@@ -5052,7 +5052,7 @@ reference "sub:Unterstützende-Mechanismen"
 
 \end_inset
 
- punktuell eingeführt, und dienten im überarbeiteten Verhaltensplan (s.
+ punktuell eingeführt, und dienen im überarbeiteten Verhaltensplan (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -5061,14 +5061,10 @@ reference "fig:Aktionsplan-2"
 
 \end_inset
 
-) als Gedankenstütze für eventuell geeignete Stellen für Spielmechanismen
- im Prototyp.
- Da also die Spielmechanismen im Verhaltensplan integriert sind, gelten
- diese ebenfalls als funktionale Anforderungen.
-\end_layout
-
-\begin_layout Standard
-Zusammenfassend ergeben sich folgende Faktoren die in der Erörterung der
+) als Gedankenstütze für geeignete Stellen für Spielmechanismen im Prototyp.
+ Da die Spielmechanismen im Verhaltensplan integriert sind, sind diese den
+ funktionalen Anforderungen zuzuordnen.
+ Zusammenfassend ergeben sich folgende Faktoren, die in der Erörterung der
  Mock-Ups Anwendung finden:
 \end_layout
 
@@ -5077,7 +5073,7 @@ User Stories als funktionale Anforderungen
 \end_layout
 
 \begin_layout Itemize
-Spielmechanismen (im Verhaltensplan) als funktionale Anforderungen
+Spielmechanismen im Verhaltensplan als funktionale Anforderungen
 \end_layout
 
 \begin_layout Itemize
@@ -5090,13 +5086,13 @@ Strategien zur Entscheidungsfindung (Änderung der Entscheidungsarchitektur
 \emph on
 Action Funnel
 \emph default
-: Überprüfung der einzelnen Mock-Ups, ob diese den Nutzer zum erwünschten
+: Überprüfung der einzelnen Mock-Ups, ob diese die Nutzenden zum erwünschten
  Verhalten führen
 \end_layout
 
 \begin_layout Standard
 Die Mock-Ups werden so entwickelt, dass diese die User Stories erfüllen.
- Spielmechanismen und weitere Anwendungsfunktionen werden entsprechend auf
+ Spielmechanismen und weitere Anwendungsfunktionen werden entsprechend aus
  dem Verhaltensplan entnommen (s.
  Abb.
  
@@ -5106,11 +5102,11 @@ reference "fig:Überarbeiteter-Verhaltensplan-mit-Vorbereitung der Zielgruppe"
 
 \end_inset
 
-, orangene und blaue Markierungen) .
+, orangene und blaue Markierungen).
  Ebenso wird Wert auf die Strategien zur Entscheidungsfindung gelegt, indem
  Vorgänge automatisiert werden, wo es als geeignet erscheint.
- Default-Optionen welche das Zielverhalten fördern, können des Weiteren
- in den Benutzereinstellungen voreingestellt sein.
+ Außerdem können Default-Optionen, welche das Zielverhalten fördern, in
+ den Benutzereinstellungen voreingestellt werden.
  Zuletzt wird jedes Mock-Up mithilfe des 
 \emph on
 Action Funnel
@@ -5216,10 +5212,10 @@ reference "fig:mock-1a"
  als Hauptmenüpunkte deklariert.
  Einzig das Erstellen von Touren ist noch deaktiviert.
  Dies hat zweierlei Gründe.
- Zum einem soll verhindert werden, dass der Nutzer mit Funktionen anfangs
+ Zum einem soll verhindert werden, dass der Nutzende mit Funktionen anfangs
  überfordert wird, zum anderen lassen sich Funktionen oder Abschnitte einer
  Anwendung als Teil eines Belohnungssystems nutzen.
- Ein Belohnungssystem lässt sich als unterstützenden Mechanismus für die
+ Ein Belohnungssystem lässt sich als unterstützender Mechanismus für die
  Durchführung des Zielverhaltens definieren (s.
  Abschnitt 
 \begin_inset CommandInset ref
@@ -5244,7 +5240,11 @@ reference "fig:Überarbeiteter-Verhaltensplan-mit-Vorbereitung der Zielgruppe"
 
 \end_inset
 
-, jeweils letzter Teilschritt unter Rückmeldung).
+, jeweils letzter Teilschritt unter 
+\emph on
+Rückmeldung
+\emph default
+).
  Weiterhin ist 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -5253,12 +5253,13 @@ reference "enu:UST-A4"
 \end_inset
 
  noch in zwei weitere Bereiche unterteilt.
- Der Nutzer kann zum einen frei nach seinen Vorlieben unter allen Touren
- auswählen, darüber hinaus soll ein Automatismus ihm nach seinen zuvor einmalig
- angegeben Präferenzen angemessenere Touren in der Liste vorsortieren.
+ Die Nutzenden können zum einen frei nach ihren Vorlieben unter allen Touren
+ auswählen.
+ Darüber hinaus soll ihnen ein Automatismus nach ihren zuvor einmalig angegeben
+ Präferenzen angemessene Touren in der Liste vorsortieren.
  Dieser Nugde ist dem Schema des automatisierten Verhaltens aus dem Bereich
  zur Veränderung der Entscheidungsarchitektur nachempfunden.
- Nachdem der Nutzer seine Vorlieben angegeben hat, wird die Option 
+ Nachdem die Nutzenden ihre Vorlieben angegeben haben, wird die Option 
 \emph on
 Nach Vorlieben vorsortieren
 \emph default
@@ -5281,16 +5282,16 @@ reference "enu:UST-A5"
 
 \end_inset
 
- ist ebenfalls in den Benutzereinstellungen (
+ ist in den Benutzereinstellungen (
 \emph on
 Gleichgesinnte für geplante Tour finden
 \emph default
 ) als Standardannahme vorausgewählt.
- Wie sich diese Option auf das Auswählen einer Tour auswirkt ist allerdings
- in den Mock-Ups bisher nicht näher beschrieben.
- Das Matching von Nutzern über geplante Tourzeiträume würde überdies eine
- Art von Registrierung der Nutzer voraussetzen, was hinsichtlich der Beseitigung
- von Hindernissen (s.
+ Wie sich diese Option auf das Auswählen einer Tour auswirkt, ist in den
+ Mock-Ups bisher nicht beschrieben.
+ Das Matching von Nutzenden über geplante Tourzeiträume würde überdies eine
+ Art von Registrierung voraussetzen, was hinsichtlich der Beseitigung von
+ Hindernissen (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -5332,8 +5333,7 @@ glqq
 \begin_inset Quotes erd
 \end_inset
 
- bzw.
- 
+ beziehungsweise 
 \begin_inset ERT
 status open
 
@@ -5470,7 +5470,7 @@ name "fig:Mock-Ups-zum-Prototypen-1a"
 \end_layout
 
 \begin_layout Standard
-Weitere in Abbildung
+Weitere in Abbildung 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Mock-Ups-zum-Prototypen-1b"
@@ -5508,8 +5508,8 @@ reference "enu:UST-B4"
 
  umschreibt die ausreichende Signalisierung von geschlossenen Zielorten
  wie beispielsweise Museen.
- Solche Informationen können in der Tourvorschau je Zielort dynamisch angezeigt
- werden (s.
+ Solche Informationen können in der Tourvorschau je Zielort dynamisch zur
+ Tageszeit angezeigt werden (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -5519,6 +5519,7 @@ reference "fig:mock-2b"
 \end_inset
 
 ).
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:UST-D2"
@@ -5527,16 +5528,15 @@ reference "enu:UST-D2"
 
  befasst sich mit der verbleibenden Verfügbarkeit nicht gelöster Aufgaben
  über alle Touren hinweg.
- Eine geeignete Stelle zum wiederholten Aufruf sind auch hier wieder die
- Benutzereinstellungen.
+ Eine geeignete Stelle zum wiederholten Aufruf sind die Benutzereinstellungen.
  Unter dem Menüpunkt 
 \emph on
 Mein Fortschritt
 \emph default
  lassen sich alle ungelösten Aufgaben von Neuem beginnen.
- Gleich darunter werden Information über den aktuellen Fortschritt des Nutzers
- zusammenfassend festgehalten.
- Diese Anzeige ist Teil der weiteren, bereits erwähnten User Story 
+ Gleich darunter werden Informationen über den aktuellen Fortschritt der
+ Nutzenden zusammenfassend festgehalten.
+ Diese Anzeige ist Teil der User Story 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:UST-E2"
@@ -5545,22 +5545,20 @@ reference "enu:UST-E2"
 
  zum Anzeigen des aktuellen Fortschritts nach einer abgeschlossenen Tour.
  Tourspezifische Informationen werden zunächst direkt nach der Tour angezeigt,
- und dann auf die Informationen in den Einstellungen hinzugerechnet.
+ und dann auf die Informationen in den Einstellungen hinzugefügt.
 \end_layout
 
 \begin_layout Standard
-Nach dem Nachweis der umgesetzten User Stories und einer Argumentation zu
- den eingesetzten Strategien, Spielmechanismen und Entwurfsmustern, fehlt
- zuletzt noch die Überprüfung nach Plausibilität anhand der einzelnen Stufen
- des 
+Die Überprüfung der Plausibilität der umgesetzten User Stories erfolgt anhand
+ der Stufen im 
 \emph on
-Action Funnels
+Action Funnel
 \emph default
 .
  Mit ihm wird belegt, dass alle Mock-Ups in Abbildungen 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Mock-Ups-zum-Prototypen-1b"
+reference "fig:Mock-Ups-zum-Prototypen-1a"
 
 \end_inset
 
@@ -5571,33 +5569,36 @@ reference "fig:Mock-Ups-zum-Prototypen-1b"
 
 \end_inset
 
- das angestrebte Verhalten im Nutzer hervorrufen.
+ das angestrebte Verhalten bei den Nutzenden hervorrufen.
 \end_layout
 
 \begin_layout Standard
-Zu Beginn der Anwendung, d.
- h.
- bei erstmaligem Aufruf, begrüßen den Nutzer Splash Pages.
- Diese werden in einer kurzen, überspringbaren Diashow auf die Kernfunktionen
- des Prototyps hinweisen, sowie dem Nutzer Tour-Vorlieben auswählen lassen.
- Der Auslösereiz ist der Hinweis eines aufregenden Ausflugerlebnisses auf
- eines dieser Splash Pages.
- Die unmittelbare Reaktion soll durch das schlichte und übersichtliche Layout
- des Prototyps unterstützt werden.
- Es soll zudem vertrauenserweckend wirken und so den Nutzer nicht vom eigentlich
-en Verhalten ablenken.
+Bei erstmaligem Aufruf, begrüßen den Nutzenden Splash Pages.
+ Diese weisen in einer kurzen, überspringbaren Diashow auf die Kernfunktionen
+ des Prototyps hin.
+ Des Weiteren lassen sich dort Tour-Vorlieben auswählen.
+ Der Auslösereiz ist der Hinweis auf ein aufregendes Ausflugserlebnis innerhalb
+ der Splash Pages.
+ Die unmittelbare Reaktion durch den Hinweis soll durch das schlichte und
+ übersichtliche Layout des Prototyps unterstützt werden.
+ Es soll vertrauenserweckend wirken und so den Nutzenden nicht vom eigentlichen
+ Verhalten ablenken.
  Nun folgt die Kosten-Nutzen-Abschätzung.
- Der Nutzer wird sich überlegen, ob die Arbeit die in die Konfiguration
- investiert werden muss, dem Nutzen entspricht.
- Diese Abschätzung ist individuell abhängig, d.
- h.
- es können unterschiedlich viele Schritte ausreichen um den Vorgang abzubrechen.
- Im Falle des Prototyps existiert neben der regulären Tourauswahl ein Schnellein
-stieg, der den Aufwand minimiert.
+ Die Nutzenden werden sich überlegen, ob der Nutzen die Arbeit, die in die
+ Konfiguration investiert werden muss, übersteigt.
+ Der Nutzen ist bei jedem Vorgang individuell abzuschätzen.
+ Im Falle positiven Nutzens ist die Arbeit fortzuführen, im Falle negativen
+ Nutzens ist der Vorgang abzubrechen.
+ Im Prototyp existiert neben der regulären Tourauswahl ein Schnelleinstieg,
+ der den Aufwand minimiert.
  Die als Schnellstart gekennzeichnete Aktion überspringt die Tourübersicht
  und zeigt sofort die bestmögliche Tour an.
- Die darauf folgende Stufe klärt, ob der Nutzer das Potential für die Durchführu
-ng des Verhaltens sieht.
+ Die darauf folgende Stufe des 
+\emph on
+Action Funnels
+\emph default
+ klärt, ob die Nutzenden eine Möglichkeit zur Durchführung des Verhaltens
+ sehen.
  Diese Möglichkeit kann zum Beispiel dann nicht bestehen, wenn unklar ist,
  was als nächstes zu tun ist.
  Die gewählte Zielgruppe besitzt eine Affinität bezüglich Smartphones (s.
@@ -5608,14 +5609,13 @@ reference "sub:Festlegung-der-Zielgruppe"
 
 \end_inset
 
-) und sollte mit den allgemein gültigen Gegebenheiten von Anwendungsarchitekture
-n zurecht kommen.
- Des Weiteren sind wichtige Schaltflächen ihrer Funktion betreffend ausreichend
- beschrieben, sodass ihre Intention erkennbar ist.
+) und kommen mit den Anwendungsarchitekturen zurecht.
+ Wichtige Schaltflächen sind ihre Funktion betreffend ausreichend beschrieben,
+ sodass ihre Intention erkennbar ist.
  Die letzte Stufe untersucht die Dringlichkeit für das Verhalten.
- Der Nutzer muss das Gefühl haben, dass das Zielverhalten jetzt wichtiger
+ Die Nutzenden müssen das Gefühl haben, dass das Zielverhalten jetzt wichtiger
  ist als andere Tätigkeiten.
- Diese Dringlichkeit wird innerhalb der Anwendung in den ersten zwei Schritten
+ Diese Dringlichkeit wird innerhalb der Anwendung in den ersten beiden Schritten
  durch kurze, dynamisch wechselnde Aufforderungstexte verursacht (s.
  Abb.
  
@@ -5633,7 +5633,7 @@ reference "fig:mock-2a"
 \end_inset
 
 ).
- Im Mock-Up zur Tourvorschau ist der Nutzer angehalten, die auffordernde
+ Im Mock-Up zur Tourvorschau sind die Nutzenden angehalten, die auffordernde
  Schaltfläche mit der 
 \begin_inset Quotes eld
 \end_inset
@@ -5642,9 +5642,9 @@ Los
 \begin_inset Quotes erd
 \end_inset
 
--Beschriftung zu bestätigen.
- Ist die Anwendung geschlossen, werden zu günstigen Zeitpunkten Push-Benachricht
-igungen den Nutzer zu spontanen Ausflügen auffordern.
+-Beschriftung zu betätigen.
+ Ist die Anwendung geschlossen, fordert der Prototyp zu günstigen Zeitpunkten
+ Push-Benachrichtigungen die Nutzenden zu spontanen Ausflügen auf.
  Die Mock-Ups aus Abbildung 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -5663,7 +5663,7 @@ reference "fig:Mock-Ups-zum-Prototypen-1b"
 \emph on
 Action Funnels
 \emph default
- für das weitere Vorgehen ohne Konflikt durchführbar.
+ im weiteren Verlauf ohne Konflikt durchführbar.
 \end_layout
 
 \begin_layout Standard
@@ -5837,17 +5837,17 @@ reference "enu:UST-B3"
 \end_inset
 
  werden durch die anklickbare Karte und die geographischen Informationen
- wie Entfernung die Zeitdauer realisiert.
- Die letzte User Story im B-Teil (
+ wie Entfernung und Dauer realisiert.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:UST-B5"
 
 \end_inset
 
-) wird im unteren Bildabschnitt durch einen horizontalen Fortschrittsanzeige
+ wird im unteren Bildabschnitt durch eine horizontale Fortschrittsanzeige
  visualisiert.
- Eine zusätzliche Fortschrittskennzeichnung wie sie in der verwandten Anwendung
+ Eine zusätzliche Fortschrittskennzeichnung wie sie, in der verwandten Anwendung
  
 \emph on
 Streetspotr
@@ -5860,26 +5860,15 @@ reference "sub:Unterstützende-Mechanismen"
 
 \end_inset
 
-, Assoziation zu verwandten Produkten) ließe sich ebenfalls noch in der
- Übersicht aller Zielorte integrieren.
- Der Nutzer müsste dann nicht nach vorzeitigem Abbruch einer Tour diese
- mental von Neuem beginnen, sondern erkennt sofort den zuletzt erreichten
- Zielort.
- Eine Umbenennung der Schaltflächen für den Tourabbruch von 
-\emph on
-Tour abbrechen
-\emph default
- zu 
-\emph on
-Tour später fortsetzen 
-\emph default
-wäre dahingehend ebenfalls präziser.
- 
+, Assoziation zu verwandten Produkten) ließe sich in der Übersicht aller
+ Zielorte integrieren.
+ Die Nutzenden müssten in diesem Fall nicht nach vorzeitigem Abbruch einer
+ Tour diese mental von Neuem beginnen, sondern erkennen sofort den zuletzt
+ erreichten Zielort.
 \end_layout
 
 \begin_layout Standard
-Die Aufgabenvorschau bzw.
- -aktivierung (
+Die Aufgabenvorschau beziehungsweise -aktivierung (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:UST-C1"
@@ -5936,23 +5925,24 @@ reference "enu:UST-C4"
 
 \end_inset
 
-) sind in der oberen Hälfte der Aufgabe platziert.
- Der Nutzer kann die Aufgabe jederzeit auf 
-\begin_inset Quotes eld
+) sind in der oberen Hälfte des Aufgabenfensters platziert (s.
+ Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mock-3b"
+
 \end_inset
 
-Später
-\begin_inset Quotes erd
-\end_inset
-
- verschieben (
+).
+ Die Nutzenden können die Aufgabe jederzeit auf später verschieben (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:UST-D1"
 
 \end_inset
 
-), oder eine Antwort in das Antwortfeld eintippen (
+) oder eine Antwort in das Eingabefeld tippen (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:UST-D3"
@@ -5960,13 +5950,13 @@ reference "enu:UST-D3"
 \end_inset
 
 ).
- Multiple-Choice Antworten anstatt einem Eingabefeld wären ebenso vorstellbar,
+ Multiple-Choice Antworten anstatt einem Eingabefeld sind ebenso vorstellbar,
  und könnten zudem das Frustrationslevel weiter minimieren.
  Aus Sicht der Gamification stellt sich hier die Frage, ob das Annehmen
  von Tipps und die Eingabe falscher Antworten mit einem Malus bestraft werden
  sollte - also eine Schmälerung der Belohnung.
- Jedoch ist ein Spielmechanismus der das Gamification-Pattern Punktesystem
- aufgreift noch nicht an dieser Stelle bis ins Detail ausgearbeitet.
+ Jedoch ist ein Spielmechanismus, der das Gamification-Pattern Punktesystem
+ aufgreift, an dieser Stelle noch nicht ins Detail ausgearbeitet.
  Die letzte User Story 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -5987,14 +5977,14 @@ reference "fig:mock-3c"
 
  zeigt den Tourabschluss.
  Diese verarbeitet alle User Stories mit Kennzeichnung E.
- Der Nutzer kann die Tour sofort abschließen (
+ Nutzende können die Tour sofort abschließen (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:UST-E1"
 
 \end_inset
 
-), oder zuvor noch eine persönliche Bewertung zur Tour abgeben (
+) oder zuvor noch eine persönliche Bewertung zur Tour abgeben (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "enu:UST-E4"
@@ -6002,10 +5992,10 @@ reference "enu:UST-E4"
 \end_inset
 
 ).
- Auch hier wird per Default bereits ein Wert angegeben.
- Der Nutzer kann diese Angabe entweder ohne weiteres Zutun akzeptieren,
- oder manuell eingreifen und einen anderen Wert angeben.
- Mit Bestätigung der Tourabschluss-Schaltfläche wird sodann auch die Bewertung
+ Hier wird per Default ein Wert angegeben.
+ Nutzende können diese Angabe entweder ohne weiteres Zutun akzeptieren,
+ oder manuell einen anderen Wert angeben.
+ Mit Bestätigung der Tourabschluss-Schaltfläche wird sodann die Bewertung
  übermittelt.
  Der Mittelwert der Bewertung kann später in der Tourenübersicht wiedergegeben
  werden.
@@ -6017,9 +6007,9 @@ reference "enu:UST-E2"
 \end_inset
 
  wurde bereits in den Benutzereinstellungen erwähnt.
- Außerdem ist diese User Story ein elementarer Bestandteil zur Rekapitulation
- am Ende einer jeden Tour.
- Der Nutzer wird diesbezüglich mit einer auffälligen Information auf seine
+ Diese User Story ist ein elementarer Bestandteil zur Rekapitulation am
+ Ende einer jeden Tour.
+ Nutzende werden diesbezüglich mit einem eingeblendeten Banner auf ihre
  Erfolge hingewiesen.
  In User Story 
 \begin_inset CommandInset ref
@@ -6028,14 +6018,14 @@ reference "enu:UST-E3"
 
 \end_inset
 
- möchte der Nutzer weiterhin Touren empfohlen bekommen, welche ähnlich der
- durchgeführten Tour sind.
- Allerdings gilt dies nur, wenn ihm diese Tour gefiel.
- Schließt der Nutzer beispielsweise diese Tour mit einer positiven Bewertung
+ möchten die Nutzenden weiterhin Touren empfohlen bekommen, welche der durchgefü
+hrten Tour ähnlich sind.
+ Allerdings werden die Empfehlungen nur bei positiven Bewertungen der Touren
+ angezeigt.
+ Schließen die Nutzenden beispielsweise diese Tour mit einer positiven Bewertung
  ab, lassen sich über diesen Indikator und den an der Tour festgemachten
- Vorlieben-Eigenschaften weitere Touren empfehlen.
- Diese Funktion könnte ein weiteres Mal als Push-Benachrichtigung denkbar
- sein.
+ Vorlieben weitere Touren empfehlen.
+ Diese Funktion ist als Push-Benachrichtigung denkbar.
 \end_layout
 
 \begin_layout Standard
@@ -6050,42 +6040,42 @@ reference "fig:Mock-Ups-zum-Prototypen-2"
 \emph on
 Action Funnels
 \emph default
- überprüft, ob sie das angestrebte Verhalten im Nutzer hervorrufen.
+ überprüft, ob sie das angestrebte Verhalten bei den Nutzenden hervorrufen.
  Es beginnt erneut mit dem Auslösereiz.
  Dieser liegt mit dem nachträglichen Erscheinen der Aufgaben-Schaltfläche
  in der Zielort-Übersicht vor.
  Es folgt eine automatische Fixierung auf die Schaltfläche, was bereits
  die zweite Stufe kennzeichnet.
- Die restliche Oberfläche rückt dadurch in den Hintergrund und der Nutzer
- wechselt über zur Kosten-Nutzen-Abschätzung.
- Nutzer des Spielertyps Explorer sollten den gegebenen Umstand als Gewohnheit
- betrachten und werden sich wie gewünscht verhalten.
- Andere Spielertypen, wie Achiever können sich ebenfalls in der Hoffnung
- nach Belohnungen zugunsten des Nutzens entscheiden.
+ Die restliche Oberfläche rückt dadurch in den Hintergrund und die Nutzenden
+ wechseln über zur Kosten-Nutzen-Abschätzung.
+ Nutzende des Spielertyps Explorer werden den gegebenen Umstand als Gewohnheit
+ betrachten und sich wie gewünscht verhalten.
+ Andere Spielertypen, wie Achiever können sich in der Hoffnung nach Belohnungen
+ zugunsten des Nutzens entscheiden.
  Die Möglichkeit zum Verhalten sollte ebenfalls gegeben sein.
  Ein Pulsieren der Schaltfläche soll zu Verstehen geben, dass sich dahinter
- ein noch unbekannter Inhalt befindet oder etwas bei Berührung geschehen
- muss.
- Auch die Dringlichkeit wird durch die pulsierende Dynamik verstärkt.
+ ein noch unbekannter Inhalt befindet oder etwas bei Berührung geschieht.
+ Die Dringlichkeit wird durch die pulsierende Dynamik bei den Nutzenden
+ hervorgerufen.
 \end_layout
 
 \begin_layout Standard
 Im Mock-Up mit der eigentlichen Aufgabe ist die Fragestellung der Auslösereiz.
- Der Nutzer wird darin aufgefordert die Frage zu beantworten.
+ Die Nutzenden werden darin aufgefordert die Frage zu beantworten.
  Die folgende Reaktion muss durch interessante Aufgaben positiv ausfallen.
  Auch die Kosten-Nutzen-Abschätzung ist von der Art der Aufgabe ausschlaggebend.
- Es sollten Fragestellungen sein, mit dessen Antworten der Nutzer einen
- Mehrwert erhält, beispielsweise sinnvolle Zusatzinformationen.
- Für die Möglichkeit zum Verhalten muss sich der Nutzer auf die Beantwortung
- der Fragestellung konzentrieren.
+ Es sollten Fragestellungen sein, mit dessen Antworten die Nutzenden einen
+ Mehrwert erhalten, beispielsweise sinnvolle Zusatzinformationen.
+ Für die Möglichkeit zum Verhalten müssen sich die Nutzenden auf die Beantwortun
+g der Fragestellung konzentrieren.
  Die Aufgabe wird hierfür mit einem neuem Dialogfenster vollständig von
  der Zielort-Informationsseite isoliert.
  Somit gibt es nur wenige andere Interaktionsmöglichkeiten und das Potential
  für Ablenkungen wird minimiert.
  Zuletzt ist der Zeitpunkt noch ein wichtiges Kriterium.
- Es kann an dieser Stelle davon ausgegangen werden, dass sich der Nutzer
- an besagten Zielort befindet.
- Eventuell müsste dies technisch validiert werden.
+ Es wird an dieser Stelle davon ausgegangen, dass sich die Nutzenden am
+ besagten Zielort befinden.
+ Eventuell muss dies technisch validiert werden.
  Die Analyse mit dem 
 \emph on
 Action Funnel
@@ -6097,7 +6087,7 @@ Action Funnel
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status collapsed
@@ -6107,7 +6097,7 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -6272,7 +6262,7 @@ name "sub:Zurückgestellte-Funktionen"
 \end_layout
 
 \begin_layout Standard
-Bezüglich des fertig umgesetzten Prototyps sind alle Mechanismen umgesetzt
+Bezüglich des fertig umgesetzten Prototyps sind alle Mechanismen umgesetzt,
  welche für das Zielverhalten essentiell sind.
  In Anbetracht der zeitlichen Begrenzung der Implementierungsphase und den
  Gegebenheiten der Testphase, fehlen manche erörterte Funktionen und Spielmechan
@@ -6280,7 +6270,7 @@ ismen.
 \end_layout
 
 \begin_layout Standard
-Durch diese zeitliche Einschränkung der Testphase (s.
+Durch die zeitliche Einschränkung der Testphase (s.
  Kapitel 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -6288,7 +6278,7 @@ reference "chap:Evaluation"
 
 \end_inset
 
-) beschränkt sich das zu testende Zielverhaltens auf eine einmalige Durchführung.
+) beschränkt sich das zu testende Zielverhalten auf eine einmalige Durchführung.
  Der Einsatz von Push-Benachrichtigungen (s.
  User Story 
 \begin_inset CommandInset ref
@@ -6298,11 +6288,11 @@ reference "enu:UST-A3"
 \end_inset
 
 ), welche einen erneuten Auslösereiz darstellen, wurde deshalb nicht berücksicht
-ig.
+igt.
 \end_layout
 
 \begin_layout Standard
-Ein weiterer Anlass zur Verringerung nicht essentieller Funktionen war der
+Ein weiterer Anlass zur Verringerung nicht essentieller Funktionen ist der
  zu kurz bemessene Implementierungszeitraum.
  Wegfallende Funktionen betreffen hier die Geolocation und die Option für
  gemeinsame Ausflüge (s.
@@ -6314,7 +6304,7 @@ reference "enu:UST-A5"
 \end_inset
 
 ).
- Nutzer sollten ursprünglich geortet werden und relativ zum Zielort angezeigt
+ Nutzende sollten ursprünglich geortet werden und relativ zum Zielort angezeigt
  werden (s.
  User Story 
 \begin_inset CommandInset ref
@@ -6347,16 +6337,9 @@ reference "enu:UST-D2"
 \end_layout
 
 \begin_layout Standard
-Das limitierte Angebot von testbaren Inhalten ist ein drittes zusätzliches
- Kriterium für die Aussparung einer weiteren User Story.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:UST-E3"
-
-\end_inset
-
- beschreibt Vorschläge zu weiteren Touren mittels Push-Benachrichtigungen.
+Das limitierte Angebot von testbaren Inhalten ist ein Grund für die Aussparung
+ einer weiteren User Story.
+ Sie beschreibt Vorschläge zu weiteren Touren mittels Push-Benachrichtigungen.
  Doch durch die zeitintensive Aufbereitung von Inhalten und dem zusätzlichen
  Wegfall der Push-Funktion, wurde auch diese Funktion für den Prototyp ausgelass
 en.
@@ -6370,8 +6353,8 @@ reference "sec:Ziel-der-Arbeit"
 
 \end_inset
 
- erreicht, nämlich die Konzeption einer gamifizierten Anwendung auf Basis
- der existierenden Konzeptstudie 
+ abgeschlossen, nämlich die Konzeption einer gamifizierten Anwendung auf
+ Basis der existierenden Konzeptstudie 
 \emph on
 SeeSight
 \emph default

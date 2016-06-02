@@ -240,9 +240,8 @@ cite[S.~11]{Deterding.2011}
 
 \begin_layout Standard
 Das heißt Spielmechanismen (oder auch Spielelemente genannt) werden in einem
- Kontext bzw.
- einer Domäne eingesetzt, in der für gewöhnlich kein Verwendungszweck dafür
- besteht.
+ Kontext beziehungsweise einer Domäne eingesetzt, in der für gewöhnlich
+ kein Verwendungszweck dafür besteht.
  Was dieser bisher prägenden Definition fehlt ist der Sinn und Zweck von
  Gamification.
  Huotari und Hamari bestimmen Gamification als
@@ -302,7 +301,7 @@ cite[S.~20]{Huotari.2012}
 .
  Huotari und Hamari sehen mit ihrer Aussage die gamifizierte Tätigkeit als
  eine wertvolle Tätigkeit an.
- Und das Ziel, die Unterstützung der Nutzer in hier Tätigkeit, lässt sich
+ Und das Ziel, die Unterstützung Nutzender in hier Tätigkeit, lässt sich
  als eine gezielte Verhaltensbeeinflussung verstehen.
 \end_layout
 
@@ -321,15 +320,15 @@ name "sub:Abgrenzung-zu-anderen"
 Die Abgrenzung gamifizierter Anwendungen oder Prozesse zu anderen Systemen
  ist unter Umständen nicht immer eindeutig.
  Um in der Marktanalyse korrekt unterscheiden zu können welche Situation
- vorliegt, werden nachfolgend alle relevanten Systeme bzw.
- Situationen erörtert:
+ vorliegt, werden nachfolgend alle relevanten Systeme beziehungsweise Situatione
+n erörtert:
 \end_layout
 
 \begin_layout Description
 Games: Spiele dienen primär der Unterhaltung, ausgenommen davon ist jedoch
  die Sparte Serious Games (Spiele mit einem lehrenden Charakter).
- Nutzer empfinden die Tätigkeit des Spielens als Selbstzweck und nicht als
- Arbeit.
+ Nutzende empfinden die Tätigkeit des Spielens als Selbstzweck und nicht
+ als Arbeit.
 \end_layout
 
 \begin_layout Description
@@ -720,8 +719,7 @@ Nie wieder Verzehr von Fleisch
  ein definiertes Zeitfenster sowie eine kontinuierliche Beibehaltung des
  Verhaltens.
  Diese können entweder neu erzeugt werden, in ihrer Intensität oder Zeitdauer
- verstärkt bzw.
- reduziert, oder komplett gestoppt werden.
+ verstärkt beziehungsweise reduziert, oder komplett gestoppt werden.
  Der fünfte Punkt umfasst vertrautes Verhalten, welches aber bei der zu
  beeinflussenden Person bisher nicht zielgerichtet ausgelöst wurde.
  Zusammen ergeben sich aus diesen Punkten insgesamt 15 unterschiedliche
@@ -834,7 +832,7 @@ name "fig:Die-fünf-Hauptphasen"
 Zu unkonkrete Motivationshintergründe bezüglich der Thematik zu Trendzeiten
  könnten ein Auslöser der jetzigen Ernüchterung sein.
  Denn schnell war klar, dass es mehr braucht als nur ein paar Punkte, Abzeichen
- und Ranglisten, um Nutzer zu motivieren 
+ und Ranglisten, um Nutzende zu motivieren 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Scott.2012"
@@ -1014,7 +1012,7 @@ Behavioristische Theorie
 
 \begin_layout Standard
 Der Behaviorismus ist eine Bewegung aus der Psychologie und wurde von John
- Waston geprägt.
+ Watson geprägt.
  Er entwickelte sich aus dem Grundgedanken, dass die Psychologie sich auf
  die Beobachtung des Verhalten von Lebewesen konzentrieren soll und erklärt
  wie Mensch und Tier auf externe Reize reagieren 
@@ -1054,8 +1052,8 @@ cite[S.~46--47]{Bodenmann.2004}
 \end_inset
 
 .
- Pawlow stellte in seinem als Pawlowschen Hundeversuch bekanntestem Experiement
- fest, dass nebem dem Essensduft durch Konditionierung auch neutrale Reize
+ Pawlow stellte in seinem als Pawlowschen Hundeversuch bekanntestem Experiment
+ fest, dass neben dem Essensduft durch Konditionierung auch neutrale Reize
  (z.
  B.
  Glockenläuten) den Speichelfluss seines Hundes anregen können 
@@ -1137,8 +1135,7 @@ reference "sec:Gamification"
  menschlichen Verhaltens.
  Operante Konditionierung kann als extrinsischer Verstärker insofern genutzt
  werden, dass ein belohnendes Ergebnis das gewünschte Zielverhalten verstärkt
- bzw.
- eine Strafe das selbige reduziert oder auch ganz unterbindet.
+ beziehungsweise eine Strafe das selbige reduziert oder auch ganz unterbindet.
  Bleibt das Ergebnis aus, kann aber auch das Zielverhalten stoppen (s.
  Abschnitt 
 \begin_inset CommandInset ref
@@ -1430,8 +1427,8 @@ Wendel beschreibt in seinem Designprozess die Methode
 \emph on
 Action Funnel
 \emph default
- in denen Nutzer für die angestrebte Verhaltensänderung sequenziell verschiedene
- Bedingungen erfüllen müssen 
+ in denen Nutzende für die angestrebte Verhaltensänderung sequenziell verschiede
+ne Bedingungen erfüllen müssen 
 \begin_inset ERT
 status open
 
@@ -1446,8 +1443,8 @@ cite[S.~39--46]{Wendel.2013}
 
 .
  Das Prinzip enthält insgesamt fünf Stufen und beginnt mit einem Auslösereiz.
- Entfällt dieser oder ist nicht korrekt gewählt, wird der Nutzer nicht weiter
- reagieren.
+ Entfällt dieser oder ist nicht korrekt gewählt, wird der Nutzende nicht
+ weiter reagieren.
  Diese Reaktion ist bereits die zweite Stufe des 
 \emph on
 Action Funnels
@@ -1456,13 +1453,13 @@ Action Funnels
  Darunter lässt sich beispielsweise die automatische, visuelle Fixierung
  einer blinkenden Schaltfläche verstehen.
  Es folgt eine Kosten-Nutzen-Abwägung.
- Der Nutzer wiegt das mögliche Ergebnis bei Durchführung des Verhaltens
+ Der Nutzende wiegt das mögliche Ergebnis bei Durchführung des Verhaltens
  mit dem zu erwartenden Aufwand ab.
- Entscheidet sich der Nutzer dafür, prüft er nachfolgend, ob die eigene
+ Entscheidet sich der Nutzende dafür, prüft er nachfolgend, ob die eigene
  mentale und physische Verfassung die Durchführung des Verhaltens erlaubt.
  Schlaf- oder Arbeitszeiten beispielsweise bieten kaum Möglichkeiten außerplanmä
 ßiger Unternehmungen.
- Zuletzt muss der Nutzer das Gefühl haben, das Verhalten sei dringlich.
+ Zuletzt muss der Nutzende das Gefühl haben, das Verhalten sei dringlich.
  Ist dies nicht der Fall, lässt es sich aufschieben und eventuell vergessen.
  Jede dieser Stufen kann zu einer negativen Entscheidung gegen das angestrebte
  Verhalten führen.
@@ -1502,8 +1499,8 @@ name "sub:Spielformen,-Spielertypen-und"
 
 \begin_layout Standard
 Trotz der sehr gut ergründeten Verhaltensforschung ist es schwer, geeignete
- Ansätze zwischen der Gamifizierung einer Anwendung bzw.
- eines Prozesses und dem Motivationspotential der dafür vorgesehenen Zielgruppe
+ Ansätze zwischen der Gamifizierung einer Anwendung beziehungsweise eines
+ Prozesses und dem Motivationspotential der dafür vorgesehenen Zielgruppe
  zu finden.
  Das Wissen zu Formen des Spiels, den verschiedenen Spielertypen und dem
  Prinzip der Gamification-Patterns helfen dabei als Ausgangsbasis und sind
@@ -1584,7 +1581,7 @@ reference "tab:Formen-des-Spiels"
 \end_layout
 
 \begin_layout Standard
-Spielformen können bei der Gamifizierung einer Anwendung bzw.
+Spielformen können bei der Gamifizierung einer Anwendung beziehungsweise
  eines Prozesses dahingehend genutzt werden geeignete Spielmechanismen zu
  wählen.
  Ist das Ziel z.
@@ -1879,7 +1876,7 @@ name "sub:Spielertypenmodell"
 
 \begin_layout Standard
 Gamification befasst sich mit der Motivierung einer Anwenderzielgruppe.
- Heterogene Zielgruppen sind jedoch schwer zufrieden zu stellen, da Nutzer
+ Heterogene Zielgruppen sind jedoch schwer zufrieden zu stellen, da Nutzende
  unterschiedliche Spielmechanismen bevorzugen.
  Ein Ansatz zur Lösung dieses Problems bietet ein Modell von Spielertypen.
  Es bezeichnet die Methodik, vor der Einführung von Gamification zu analysieren,
@@ -2087,8 +2084,8 @@ key "Burke.2014b,Wendel.2013"
 \end_layout
 
 \begin_layout Enumerate
-Gewünschtes Zielverhalten bestimmen bzw.
- motivationale Defizite identifizieren
+Gewünschtes Zielverhalten bestimmen beziehungsweise motivationale Defizite
+ identifizieren
 \end_layout
 
 \begin_layout Enumerate
@@ -2118,8 +2115,7 @@ n Produkt bestehen.
  Spielmechanismen in Form von Gamification-Patterns oder Nudges) gezielt
  für den gewünschten Effekt ausgewählt oder kombiniert.
  Nachfolgend werden die Mechanismen in das bestehende Produkt implementiert,
- bzw.
- das neue Produkt wird der Konzeption entsprechend umgesetzt.
+ beziehungsweise das neue Produkt wird der Konzeption entsprechend umgesetzt.
  Als letzter Punkt ist noch eine Testphase und ggf.
  eine Überarbeitung des Produktes zu erwähnen.
  Denn es ist nicht auszuschließen, dass die Zielgruppe das gamifizierte
@@ -2162,7 +2158,7 @@ reference "Frage:-Wie-können"
 
 \end_inset
 
-, denn beide Modelle orientieren sich in ihren Designprozessen am Nutzer
+, denn beide Modelle orientieren sich in ihren Designprozessen am Nutzenden
  und wie dessen Verhalten gezielt beeinflusst werden kann.
  Die dafür vorgesehenen Hilfsmittel sind von sekundärer Bedeutung.
  Ein weiterer Unterschied liegt in der Erfassung der zu ändernden Produktbereich
@@ -2229,7 +2225,7 @@ name "chap:Marktanalyse"
 \end_layout
 
 \begin_layout Standard
-Vor der Entwicklung eines Prototyps, wird in diesem Kapitel eine Marktstudie
+Vor der Entwicklung eines Prototyps wird in diesem Kapitel eine Marktstudie
  bereits erhältlicher, mobiler Anwendungen zum Kontext Reisen durchgeführt.
  In Abschnitt 
 \begin_inset CommandInset ref
@@ -2253,7 +2249,7 @@ reference "sec:Überblick-zu-verwandten-Anwendungen-und-Arbeiten"
 
 \end_inset
 
- ermittelt, ob und in welchem Ausmaß die ausgewählten Anwendungen und Arbeiten
+ ermittelt, ob, und in welchem Ausmaß die ausgewählten Anwendungen und Arbeiten
  zusätzlich zu ihrem inhaltlichen Angebot versuchen ihre Zielgruppe zu einem
  bestimmten Verhalten zu motivieren.
  Anschließend lassen sich die erhobenen Ergebnisse dieser Marktanalyse für
@@ -2331,10 +2327,10 @@ Spielertyp: Die meisten Hersteller möchten eine bestimmte Zielgruppe mit
  Jede Zielgruppe hat unterschiedliche demographische Merkmale, Wünsche und
  Bedürfnisse.
  Besäße eine Anwendung dieselbe Zielgruppe wie die Konzeptstudie, so ließe
- sich darauf schließen, dass sich dessen Eigenschaften eignen.
+ sich darauf schließen, dass sich deren Eigenschaften eignen.
  Jedoch ist dieses Kriterium in Korrelation mit dem Anwendungsziel zu bewerten.
  Ein interessanter Aspekt wäre es z.
- B., wenn sie sich ähneln, nicht jedoch die jeweilige Zielgruppe.
+ B., wenn sich die Anwendungsziele ähneln, nicht jedoch die jeweilige Zielgruppe.
  Die Recherchierbarkeit durch eine Adressierung der jeweiligen Unternehmen
  ist bezüglich des erheblichen Aufwands und eines nicht gesicherten Erfolgs
  auf Antwort als schwierig einzustufen.
@@ -2358,7 +2354,7 @@ reference "sub:Spielformen,-Spielertypen-und"
 
 \begin_layout Description
 Zielverhalten: Um das Anwendungsziel zu erreichen, muss ein bestimmtes Verhalten
- vom Nutzer erbracht werden.
+ vom Nutzenden erbracht werden.
  Dieses Zielverhalten kann ebenfalls als Vergleichskriterium genutzt werden.
  Wäre das Anwendungsziel beispielsweise das Kennenlernen des neuen Wohnortes,
  so könnte ein passendes Zielverhalten ein täglicher Wechsel des Weges zur
@@ -2371,8 +2367,8 @@ Zielverhalten: Um das Anwendungsziel zu erreichen, muss ein bestimmtes Verhalten
 
 \begin_layout Description
 Spielmechanismen: Mechanismen zur Erhöhung der extrinsischen oder intrinsischen
- Motivation sind Teil der Zielverhalten unterstützenden Methoden im Vorgehensmod
-ell von Wendel 
+ Motivation sind Teil der das Zielverhalten unterstützenden Methoden im
+ Vorgehensmodell von 
 \begin_inset ERT
 status open
 
@@ -2380,14 +2376,14 @@ status open
 
 
 \backslash
-cite[S.~127--133]{Wendel.2013}
+citet[S.~127--133]{Wendel.2013}
 \end_layout
 
 \end_inset
 
 .
- Auch die Konzeptstudie, sowie die verwandten Anwendungen und Arbeiten gebrauche
-n spielerische Funktionen um ihre Nutzer zu ihrem Zielverhalten zu motivieren.
+ Auch die Konzeptstudie sowie die verwandten Anwendungen und Arbeiten gebrauchen
+ spielerische Funktionen, um ihre Nutzer zu ihrem Zielverhalten zu motivieren.
  Zum großen Teil basieren diese Mechanismen auf Mustern - den Gamification-Patte
 rns (s.
  Abschnitt 
@@ -2401,7 +2397,7 @@ reference "sub:Spielformen,-Spielertypen-und"
  Falls es Schnittpunkte in den Anwendungen hinsichtlich der Gamification-Pattern
 s gibt, lässt sich hieraus ableiten, welche konkrete Umsetzung besser funktionie
 rt.
- Zudem sind Spielmechanismen ein Indikator von Spielformen die im Produkt
+ Zudem sind Spielmechanismen ein Indikator von Spielformen, die im Produkt
  bewusst oder unbewusst eingesetzt werden.
 \end_layout
 
@@ -2447,8 +2443,8 @@ Spielform wurde als gesondertes Vergleichskriterium festgelegt, da es ein
  werden nun mithilfe der Vergleichsmerkmale strukturiert analysiert.
  Spielmechanismen in Form von Gamification-Patterns werden bei erstmaliger
  Erwähnung kurz in ihrer Funktionsweise erläutert.
- Dabei wird zuerst das Gamification-Pattern genannt und nachfolgend die
- Beschreibung und der Einsatzort.
+ Dabei wird zunächst das Gamification-Pattern und nachfolgend die Beschreibung
+ und der Einsatzort genannt.
  Anwendungsfunktionen, an welchen z.
  B.
  eine bestimmte Eigenschaft besonders deutlich sichtbar ist, werden zudem
@@ -2460,20 +2456,21 @@ Ausschlusskriterien
 \end_layout
 
 \begin_layout Standard
-Es gibt neben den aufgelisteten Anwendungen und Arbeiten auch eine Reihe
- weiterer Produkte, welche aber anhand folgender Ausschlusskriterien nicht
- für eine nähere Analyse infrage kommen.
- Es sind ausschließlich kostenfreie Anwendungen ausgewählt worden.
+Für die Analyse infrage kommen ausschließlich kostenfreie Anwendungen.
  Dazu wurde zwischen Anwendungen unterschieden, bei denen bereits der Download
- kostenpflichtig ist und Anwendungen die In-App-Käufe anbieten.
+ kostenpflichtig ist, und Anwendungen die In-App-Käufe anbieten.
  Letzteres ist vertretbar, solange sie nicht Zugriff zu Hauptfunktionen
  der Anwendungen versperren.
 \end_layout
 
 \begin_layout Standard
-Bietet eine Anwendung überwiegend Inhalte wie Buchungen zu Unterkünften
- oder Flügen an, so ist dies ein Ausschlussargument für die Aufnahme, wie
- es bei TripAdvisor der Fall ist (s.
+Bietet eine Anwendung überwiegend Inhalte wie Buchungen von Unterkünften
+ oder Flügen an, so ist dies ein Ausschlussargument für die Aufnahme in
+ die Marktanalyse, wie es bei 
+\emph on
+TripAdvisor
+\emph default
+ der Fall ist (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -2490,8 +2487,12 @@ reference "fig:ausschluss-a"
 \begin_layout Standard
 Ein weiteres Ausschlusskriterium ist die Nichtbenutzbarkeit zum Zeitpunkt
  der Analyse.
- In der Anwendung Tripme konnte die Erstellung eines Trips durch eine Fehlermeld
-ung nicht mehr fortgesetzt werden (s.
+ In der Anwendung 
+\emph on
+Tripme
+\emph default
+ konnte die Erstellung eines Trips durch eine Fehlermeldung nicht mehr fortgeset
+zt werden (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -2501,7 +2502,7 @@ reference "fig:ausschluss-b"
 \end_inset
 
 ).
- Trotz funktionierenden Internetzugangs verlangte die Anwendung eine Prüfung
+ Trotz funktionierendem Internetzugang, verlangte die Anwendung eine Prüfung
  der Netzwerkeinstellungen.
 \end_layout
 
@@ -2660,15 +2661,17 @@ key "Kuhnlein.2014"
  Der Name wurde dem englischen Begriff Sightseeing (engl.
  für Besichtigung von Sehenswürdigkeiten) entlehnt.
  Motivationale Defizite in Teilen der Planungsphase und der eigentlichen
- Tour sollten durch die Gamifizierung behoben werden und Reisenden ein intensive
-res und somit besseres Erlebnis bieten.
+ Tour sollten durch die Gamifizierung behoben werden.
+ Ebenfalls sollte sie Reisenden ein intensiveres und somit besseres Erlebnis
+ bieten.
  Nach der Konzeptphase wurde das Projekt als Demonstrationsprototyp aufgesetzt
  und den Probanden innerhalb einer Testphase zum Erproben überreicht.
 \end_layout
 
 \begin_layout Standard
-Das Zielverhalten der Nutzer soll mithilfe der Konzeptstudie dahingehend
- motiviert werden, dass diese ihre favorisierten Touren auswählen und beginnen.
+Das Zielverhalten der Nutzenden soll mithilfe der Konzeptstudie dahingehend
+ motiviert werden, dass die Nutzenden ihre favorisierten Touren auswählen
+ und beginnen.
  Eine Auswahl von themenbasierenden Touren soll einen möglichst großen Bereich
  von Interessensgebieten abdecken (s.
  Abb.
@@ -2679,11 +2682,10 @@ reference "fig:seesight-a"
 
 \end_inset
 
-) .
- Beim Start einer Tour kann man alle Orte der Reihe nach besuchen, oder
+).
+ Beim Start einer Tour lassen sich alle Orte der Reihe nach besuchen, oder
  einzelne auch überspringen.
- Gelangt man zu einem Zielort, lassen sich zusätzliche Informationen dazu
- abrufen.
+ Ist ein Zielort erreicht, lassen sich zusätzliche Informationen dazu abrufen.
  Zudem gibt es kleine Aufgaben auf freiwilliger Basis an den Orten zu bewältigen
 , welche zum weiteren Erkunden einladen (s.
  Abb.
@@ -2706,7 +2708,7 @@ reference "fig:seesight-d"
 \end_inset
 
 ), welche innerhalb der Anwendung weitere Optionen freischalten sollten.
- Es sollte damit möglich sein, eigene Touren zu erstellen und mit der Community
+ Damit ist es möglich, eigene Touren zu erstellen und mit der Community
  zu teilen.
 \end_layout
 
@@ -2715,19 +2717,17 @@ Anwendungsziel
 \end_layout
 
 \begin_layout Standard
-Ziel der Arbeit ist die Entwicklung eines interaktiven Touren-Guide, der
+Ziel der Arbeit ist die Entwicklung eines interaktiven Touren-Guides, der
  seinen Nutzern ein intensiveres Ausflugserlebnis garantiert.
- Die Anwendung sollte gewöhnliche angebotene Reiseführer vor Ort und entsprechen
-de Reisegruppen ersetzen, in denen motivationale Defizite auftreten.
- Beispielsweise kann eine gebuchte Tour nicht das gesamte Interessengebiet
- abdecken, oder ist zu oberflächlich bzw.
- zu speziell.
+ Die Anwendung sollte gewöhnlich angebotene Reiseführer vor Ort und entsprechend
+e Reisegruppen ersetzen, in denen motivationale Defizite auftreten.
+ Für eine gebuchte Tour erweist es sich als schwierig, das gesamte Interessengeb
+iet abzudecken, oder ist zu oberflächlich beziehungsweise zu speziell.
  Ebenso kann die Anzahl der Teilnehmer oder festgelegte Zeiten nicht den
  eigenen Erwartungen entsprechen.
- Reiseführungen bzw.
- ninteressante Sehenswürdigkeiten lassen sich schwer pausieren, abkürzen
- oder gar abbrechen.
- Zuletzt kann das soziales Gefüge der Reisegruppe nicht den eigenen Erwartungen
+ Reiseführungen beziehungsweise uninteressante Sehenswürdigkeiten lassen
+ sich schwer pausieren, abkürzen oder gar abbrechen.
+ Zuletzt kann das soziale Gefüge der Reisegruppe nicht den eigenen Erwartungen
  entsprechen.
 \end_layout
 
@@ -2752,8 +2752,8 @@ description "User Interface"
 \end_inset
 
 .
- Sie helfen dabei, sich vorzustellen, wie sich Nutzer in bestimmten Situationen
- während der Anwendung verhalten könnten.
+ Sie helfen dabei, sich vorzustellen, wie sich Nutzende in bestimmten Situatione
+n während der Anwendung verhalten könnten.
  In Verbindung mit den Spielertypen nach Bartle wurde anschließend die Zielgrupp
 e den Bereichen Socializer und Explorer zugeordnet.
 \end_layout
@@ -2763,12 +2763,12 @@ Zielverhalten
 \end_layout
 
 \begin_layout Standard
-Im Idealfall sind die Nutzer bereits an Reisen und Ausflügen interessiert.
+Im Idealfall sind Nutzende bereits an Reisen und Ausflügen interessiert.
  Ihnen fehlt jedoch die Motivation für die Planung der Reise, oder ihnen
  widerfahren negative Eindrücke in anderen Bereichen.
- Das primäre Zielverhalten der potenziellen Nutzer soll so aussehen, dass
- sie eine nach eigenen Vorlieben gewählte Tour unternehmen und - falls gewünscht
- - kleine Aufgaben an manchen Orten absolvieren.
+ Das primäre Zielverhalten der potenziellen Nutzenden soll so aussehen,
+ dass sie eine nach eigenen Vorlieben gewählte Tour unternehmen und, falls
+ gewünscht, kleine Aufgaben an manchen Orten absolvieren.
  Anspruchsvolle Vorkehrungen sollen um dieses Zielverhalten herum so gering
  wie möglich gehalten werden:
 \end_layout
@@ -2796,8 +2796,8 @@ Folgende Gamification-Patterns sind im Demonstrationsprototyp der Konzeptstudie
 \end_layout
 
 \begin_layout Itemize
-Easy Getting Started: Ein unkomplizierter Einstieg soll den Nutzer gleich
- zu Beginn animieren, eine erste Städtetour in seiner Nähe zu starten.
+Easy Getting Started: Ein unkomplizierter Einstieg soll Nutzende gleich
+ zu Beginn animieren, eine erste Städtetour in ihrer Nähe zu starten.
  Dieser Spielmechanismus war für die Konzeptstudie geplant, wurde jedoch
  aus Zeitgründen nicht für den Demonstrationsprototyp umgesetzt.
 \end_layout
@@ -2811,25 +2811,25 @@ description "Match Making Rating"
 
 \end_inset
 
-): Es soll dem Nutzer nach Auswahl einer Tour ein Teilnehmervorschlag mit
+): Es soll Nutzenden nach Auswahl einer Tour ein Teilnehmervorschlag mit
  Gleichgesinnten angeboten werden.
  Der Zeitpunkt der Tour und die Präferenzen der Teilnehmer sind hierfür
  ausschlaggebend.
  In der Konzeptphase wird dem Probanden die gleichzeitige Teilnahme mit
  weiteren Probanden vorgeschlagen.
- Dieses Pattern ist eigens für Nutzer des Spielertyps Socializer gewählt.
+ Dieses Pattern ist eigens für Nutzende des Spielertyps Socializer gewählt.
  
 \end_layout
 
 \begin_layout Itemize
-User Generated Content: Nutzern digitaler Spiele kann es schnell an Reizelemente
-n fehlen, wenn sie alle Funktionen und Inhalte entdecken und somit nur Bekanntes
- wieder erlebbar ist.
+User Generated Content: Nutzenden digitaler Spiele kann es schnell an Reizelemen
+ten fehlen, wenn sie alle Funktionen und Inhalte entdecken und somit nur
+ Bekanntes wieder erlebbar ist.
  Oft können auch nur kleine Mängel in Spielen oder Levels den Gesamteindruck
  nachhaltig negativ beeinflussen; ähnliche Szenarien gelten auch in spielfremden
  Domänen.
- Ein Editor für die Bearbeitung vorhandener Touren, bzw.
- der Schaffung eigener neuer Touren kann die Motivation erneut steigern.
+ Ein Editor für die Bearbeitung vorhandener Touren, beziehungsweise der
+ Schaffung eigener neuer Touren kann die Motivation erneut steigern.
  Dieser Spielmechanismus war innerhalb der Konzeptstudie geplant.
  Durch die Gegebenheit einer späteren möglichen Aktivierung dieser Funktionalitä
 t innerhalb des Anwendungszyklus und des kurzen Testzeitraums mit den Probanden
@@ -2846,7 +2846,7 @@ Feedback: Positive Kommentare auf eigene mit der Community geteilte Touren
 \end_layout
 
 \begin_layout Itemize
-Punktesystem: Das Pattern des Sammelns von Punkten solle zum einen den Nutzern
+Punktesystem: Das Pattern des Sammelns von Punkten soll zum einen Nutzenden
  ihren aktuellen Gegenwert in der Community widerspiegeln, zum anderen sind
  Punkte in der Studie dazu gedacht weitere Funktionen für die Nutzerschaft
  freizuschalten.
@@ -2863,16 +2863,12 @@ Challenge: Challenges sind kleinere, schnell zu erledigende Aufgaben innerhalb
 \end_layout
 
 \begin_layout Itemize
-Badge: Nach bestimmten Ereignissen sollen die Nutzer mit Auszeichnungen
- in Form von Badges belohnt werden.
- Im Test der Konzeptstudie ist beispielsweise der Badge 
-\begin_inset Quotes eld
-\end_inset
-
-Newbie
-\begin_inset Quotes erd
-\end_inset
-
+Badge: Nach bestimmten Ereignissen sollen Nutzende mit Auszeichnungen in
+ Form von Badges belohnt werden.
+ Im Test der Konzeptstudie ist beispielsweise ein 
+\emph on
+Newbie-Bagde
+\emph default
  für die erstmalige Absolvierung einer Tour verliehen worden.
  Dieses Pattern spricht mehrheitlich den Spielertyp Achiever an.
 \end_layout
@@ -2882,10 +2878,10 @@ Persönliches Hauptziel: Ein Spiel kann mehrere Stunden oder gar Tage andauern.
  Damit Spieler nicht währenddessen aufgrund eines fehlenden, sich lohnenden
  Ziels aufgeben, wird ein besonders erstrebenswertes, persönliches Hauptziel
  am Ende von Spielen definiert.
- Das Hauptziel ist beispielsweise eine Story-Handlung zu einem für die Nutzer
- befriedigenden Abschluss bringen zu wollen.
+ Das Hauptziel ist beispielsweise eine Story-Handlung zu einem befriedigenden
+ Abschluss bringen zu wollen.
  Es kann aber auch ein individuelles Persönlichkeitsmerkmal sein.
- Im Falle der Konzeptstudie ist es eine Städtetour mit freier Wahl Rubriken
+ Im Falle der Konzeptstudie ist es eine Städtetour mit freier Auswahl Rubriken
  spezifischer Eigenschaften.
  
 \end_layout
@@ -2898,7 +2894,7 @@ Spielform
 Als Spielform liegt der Fokus primär auf Selbsterfahrung.
  Bei Ausflügen soll es um das Erkunden und Entdecken von großen sowie kleinen
  Sehenswürdigkeiten gehen.
- Diese auf den Reisenden einwirkenden Erfahrungen lassen sich am Besten
+ Diese, auf den Reisenden einwirkenden Erfahrungen lassen sich am besten
  ohne Wettkampf oder anderen künstlich herbeigeführten Abhängigkeiten mit
  Spielern (Koordination und Kooperation) erleben.
 \end_layout
@@ -3059,7 +3055,7 @@ name "sec:Überblick-zu-verwandten-Anwendungen-und-Arbeiten"
 \end_layout
 
 \begin_layout Standard
-Dieser Abschnitt analysiert sieben ausgewählte verwandte Anwendungen und
+Dieser Abschnitt analysiert sieben ausgewählte, verwandte Anwendungen und
  Arbeiten, welche sich in den in Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3110,9 +3106,9 @@ cite[S.~31]{DeutscherReiseverband.2015}
 
 \begin_layout Standard
 Einige der folgenden Anwendungen besitzen neben Anwendungszielen auch Geschäftsz
-iele wie der Steigerung des finanziellen Umsatzes.
+iele wie beispielsweise die Steigerung des finanziellen Umsatzes.
  Diese Ziele stehen teilweise in Korrelation mit ihren Anwendungszielen,
- werden jedoch nicht mit in die Marktanalyse mit einfließen.
+ werden jedoch nicht mit in die Marktanalyse einfließen.
 \end_layout
 
 \begin_layout Subsection
@@ -3145,7 +3141,7 @@ reference "fig:Tripwolf-a"
 
 \end_inset
 
-) und sie mit ihrer App synchronisieren oder gleich darauf erstellen 
+) und sie mit ihrer App synchronisieren 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "tripwolfGmbH.2015"
@@ -3158,9 +3154,9 @@ key "tripwolfGmbH.2015"
 \begin_layout Standard
 Für die Durchführung des Zielverhaltens muss zuerst eine präferierte Stadt
  aus einer Guide-Liste gewählt werden.
- Danach steht es dem Nutzer frei, aus welchen Themen zu Nachtleben, Gastronomie,
- Sehenswürdigkeiten, Hotellerie, Touren und anderen Aktivitäten er sich
- seine Städtetour organisieren möchte.
+ Danach steht es Nutzenden frei, sich ihre Städtetour aus den Bereichen
+ Nachtleben, Gastronomie, Sehenswürdigkeiten und anderen Aktivitäten zu
+ organisieren.
  Die freie Auswahl aller zur Verfügung stehenden Städte und Sehenswürdigkeiten
  ist jedoch eingeschränkt, bedingt durch eine präsente Bewerbung von In-App-Käuf
 en.
@@ -3171,8 +3167,12 @@ reference "fig:Tripwolf-a"
 
 \end_inset
 
- als Premium Guide gekennzeichneten Städte stehen beispielsweise erst nach
- deren Kauf zur Verfügung.
+ als 
+\emph on
+Premium Guide
+\emph default
+ gekennzeichneten Städte stehen beispielsweise erst nach deren Kauf zur
+ Verfügung.
 \end_layout
 
 \begin_layout Paragraph*
@@ -3180,8 +3180,8 @@ Anwendungsziel
 \end_layout
 
 \begin_layout Standard
-Die Anwendung möchte ihren Nutzern mit ihrer Auswahl die bestmögliche Reiseplanu
-ng bieten.
+Die Anwendung möchte ihren Nutzenden mit ihrer Auswahl die bestmögliche
+ Reiseplanung bieten.
  
 \end_layout
 
@@ -3194,7 +3194,7 @@ Die Anwendung richtet sich primär an Städtereisende, gemessen an dem Guide-Ang
 ot, welches sich fast ausschließlich aus namhaften Städten zusammenfassen
  lässt.
  Die Zielgruppe lässt sich hauptsächlich auf den Spielertyp Explorer eingrenzen.
- Die Nutzer können aus dem vielfältigen Angebot von Sehenswürdigkeiten,
+ Die Nutzenden können aus dem vielfältigen Angebot von Sehenswürdigkeiten,
  Touren und Übernachtungsmöglichkeiten in Ruhe fremde Städte besichtigen
  (s.
  Abb.
@@ -3218,8 +3218,8 @@ Zielverhalten
 \emph on
 Tripwolf
 \emph default
- lässt seinen Nutzer die Freiheit, persönliche Touren in einer Art Baukastensyst
-em aus Sehenswürdigkeiten und Orten zu planen (s.
+ lässt seinen Nutzenden die Freiheit, persönliche Touren in einer Art Baukastens
+ystem aus Sehenswürdigkeiten und Orten zu planen (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -3257,10 +3257,10 @@ Selbsterfahrung lässt sich für
 Tripwolf
 \emph default
  als einzige Spielform bestimmen.
- Spielerische Abhängigkeiten zu anderen Nutzern wurden nicht in die Anwendung
+ Spielerische Abhängigkeiten zu anderen Nutzenden wurden nicht in die Anwendung
  implementiert.
  Der Entwickler konzentriert sich auf eine unterstützende, mobile Lösung
- für die Reiseplanungen seiner Nutzer.
+ für die Reiseplanungen seiner Nutzenden.
 \end_layout
 
 \begin_layout Standard
@@ -3451,12 +3451,12 @@ Die Anwendung
 \emph on
 Trip Journal
 \emph default
- versteht sich weniger als Reiseführer sondern vielmehr als ein Reisetagebuch.
- Der Fokus richtet sich auf die Dokumentation und das Teilen bzw.
+ versteht sich weniger als Reiseführer, sondern vielmehr als ein Reisetagebuch.
+ Der Fokus richtet sich auf die Dokumentation und das Teilen beziehungsweise
  Verfolgen der Reiseerlebnisse mit Freunden.
  Einen weiteren Community-Aspekt über das Teilen hinaus besitzt die Anwendung
  jedoch nicht.
- Ansonsten lässt sie dem Nutzer völlige Freiheit in der Konfiguration eigener
+ Ansonsten lässt sie Nutzenden völlige Freiheit in der Konfiguration eigener
  Touren und gewährt Einblick in Reisestatistiken 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -3486,8 +3486,8 @@ Die Zielgruppe lässt sich nicht auf einen einzelnen Spielertyp festlegen.
  Durch die umfangreiche Auswahl an Austauschmöglichkeit mit Freunden (z.
  B.
  Teilen von Fotos, Videos, Geokoordinaten oder ganzen Reisen) und der Voraussetz
-ung auf Reiselust lassen sich als Spielertypen Socializer und Explorer identifiz
-ieren.
+ung auf Reiselust, lassen sich als Spielertypen Socializer und Explorer
+ identifizieren.
 \end_layout
 
 \begin_layout Paragraph*
@@ -3495,10 +3495,9 @@ Zielverhalten
 \end_layout
 
 \begin_layout Standard
-Nutzer erstellen ihre eigenen Reiserouten und bereisen diese aus eigenem
- Antrieb heraus.
- Aus ihrer Motivation heraus erstellen sie selbst Inhalte wie Notizen oder
- Fotos und teilen diese mit ihrem Freundeskreis.
+Nutzende erstellen ihre eigenen Reiserouten und bereisen diese.
+ Aus eigener Motivation heraus erstellen sie selbst Inhalte wie Notizen
+ oder Fotos und teilen diese mit ihrem Freundeskreis.
 \end_layout
 
 \begin_layout Paragraph*
@@ -3524,9 +3523,9 @@ Spielform
 
 \begin_layout Standard
 Innerhalb der Anwendung existieren keinerlei Abhängigkeiten, die zu Interaktione
-n mit anderen Nutzer führen, weshalb sich die Spielform auf Selbsterfahrung
+n mit anderen Anwendenden führen, weshalb sich die Spielform auf Selbsterfahrung
  eingrenzen lässt.
- Sie ist somit dieselbe wie von 
+ Die Spielform ist somit dieselbe wie von 
 \emph on
 SeeSight
 \emph default
@@ -3550,13 +3549,13 @@ name "sub:Quarterquest"
 \end_layout
 
 \begin_layout Standard
-Die 
+Bei der 
 \emph on
 Quarterquest
 \emph default
--Reihe sind auf unterschiedliche Städte und Regionen zugeschnittene Anwendungen
- welche das Erkunden eben dieser Orte für Touristen interessanter machen
- sollen.
+-Reihe handelt es sich um auf unterschiedliche Städte und Regionen zugeschnitten
+e Anwendungen, welche das Erkunden eben dieser Orte für Touristen interessanter
+ machen sollen.
  Der Hersteller 
 \emph on
 Linkwerk
@@ -3585,7 +3584,7 @@ SeeSight
 \emph default
  sehr ähnlich.
  Es werden mehrere Touren angeboten, jedoch nur eine Tour pro Anwendung.
- Genauso existieren auch Aufgaben an den einzelnen Orten.
+ Gleichsam existieren auch Aufgaben an den einzelnen Orten.
  Der Unterschied ist der, dass sie in der 
 \emph on
 Quarterquest
@@ -3614,7 +3613,7 @@ Die
 \emph on
 Quarterquest
 \emph default
--Reihe richtet sich laut dem Hersteller sowohl an Touristen als auch an
+-Reihe richtet sich laut dem Hersteller sowohl an Touristen, als auch an
  Einheimische.
  Nutzer des Spielertyps Explorer können sich von der Anwendung angesprochen
  fühlen, weil die Anwendung mit 
@@ -3634,6 +3633,13 @@ glqq
 \begin_inset Quotes erd
 \end_inset
 
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mintert.o.J.b"
+
+\end_inset
+
  wirbt, die es zu erkunden gilt.
  Achiever können zudem an der Idee des Sammelns von Punkten und Auszeichnungen
  interessiert sein 
@@ -3651,7 +3657,7 @@ Zielverhalten
 \end_layout
 
 \begin_layout Standard
-Um das Anwendungsziel zu erreichen, beantworten Nutzer ortsbezogene Quiz-Fragen
+Um das Anwendungsziel zu erreichen, beantworten Nutzende ortsbezogene Quizfragen
  zu den besuchten Schauplätzen.
  Für den erfolgreichen Abschluss einer Tour, ist eine genauere Erkundung
  der Sehenswürdigkeiten nötig.
@@ -3674,7 +3680,8 @@ Quests: Quests sind Aufgabenstellungen, die sich über mehrere Phasen hinweg
 \emph on
 Quarterquest
 \emph default
- versteht seine angebotenen Touren als Quests (s.
+ versteht seine angebotenen Touren als Quests, in denen unentdeckte Orte
+ oder aufregende Plätze zu erkunden sind (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -3683,8 +3690,7 @@ reference "fig:Quarterquest-a"
 
 \end_inset
 
-), in denen unentdeckte Orte oder aufregende Plätze zu erkunden sind.
- 
+).
 \end_layout
 
 \begin_layout Itemize
@@ -3702,11 +3708,12 @@ reference "fig:Quarterquest-b"
 \end_inset
 
 ).
- Diese müssen richtig beantwortet werden, damit die Tour fortgesetzbar.
+ Diese müssen richtig beantwortet werden, damit die Tour fortgesetzt werden
+ kann.
 \end_layout
 
 \begin_layout Itemize
-Tipps: Dem Nutzer werden in der Awendung Tipps optional angeboten, um schwierige
+Tipps: Nutzenden werden in der Anwendung Tipps optional angeboten, um schwierige
  Problemstellungen ohne Frustration überwinden zu können.
  Oft ist die Annahme von Tipps mit einem Defizit von Reputation oder Punkten
  verbunden.
@@ -3722,13 +3729,13 @@ Quarterquest
 \begin_layout Itemize
 Badge: Auszeichnungen für besondere Verdienste werden oft in Form von Badges
  vergeben.
- Häufig geschieht eine Verleihung auch in unangebrachten Situationen und
- die eigentliche Besonderheit wird somit zur Nebensache.
+ Häufig geschieht eine Verleihung auch in unangebrachten Situationen.
+ Somit wird die eigentliche Besonderheit zur Nebensache.
  In 
 \emph on
 Quarterquest
 \emph default
- wird beispielsweise einen Badge für die Annahme des ersten Tipps verliehen
+ wird beispielsweise ein Badge für die Annahme des ersten Tipps verliehen
  (s.
  Abb.
  
@@ -3742,8 +3749,8 @@ reference "fig:Quarterquest-c"
 \end_layout
 
 \begin_layout Itemize
-Highscore: Highscores sind Motivationsanreize, bestimmte Aktionen zu wiederholen
-, um im Nachhinein ein besseres Ergebnis - einen neuen Highscore - zu erhalten.
+Highscore: Highscores sind Motivationsanreize bestimmte Aktionen zu wiederholen,
+ um im Nachhinein ein besseres Ergebnis, einen neuen Highscore, zu erhalten.
  Genauso kann es Motivation sein, den direkten Vergleich mit anderen Mitspielern
  zu suchen, beispielsweise mithilfe eines Leaderboards (s.
  nächster Punkt).
@@ -3757,10 +3764,10 @@ Quarterquest
 
 \begin_layout Itemize
 Rangliste/Leaderboard: Das Leaderboard ist in Verbindung des übergeordneten
- Musters Highscore eine Anzeige der Rangbesten Spieler eines Spiels.
+ Musters Highscore eine Anzeige der Rangbesten Spieler.
  Die Motivation liegt hier im direkten Leistungsvergleich mit Mitspielern.
  Das Leaderboard bietet der Hersteller nicht in seinen Anwendungen, sondern
- auf seiner Webseite anwendungsübergreifend.
+ auf seiner Webseite anwendungsübergreifend an.
 \end_layout
 
 \begin_layout Paragraph*
@@ -3960,9 +3967,9 @@ Die Anwendung
 Streetspotr
 \emph default
  des gleichnamigen Unternehmens ist eine Mobile Crowdsourcing-Plattform.
- Nutzer sammeln durch Annahme von Mikro-Tätigkeiten (im Folgenden Spots
+ Anwendende sammeln durch Annahme von Mikro-Tätigkeiten (im Folgenden Spots
  genannt) in ihrer Umgebung Informationen für Unternehmen.
- Als Beispiel für Spots sei das Prüfen von Produkten am Verkaufsort (Point
+ Ein Beispiel für Spots ist das Prüfen von Produkten am Verkaufsort (Point
  of Sale, PoS
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
@@ -3999,9 +4006,9 @@ Anwendungsziel
 
 \begin_layout Standard
 Ziel dieser Plattform ist es, Unternehmen mit Micro-Jobs und Kunden zusammenzubr
-ingen, indem extrinsisch motivierende Nutzer mit der Anwendung kleinere
- Tätigkeiten von Unternehmen annehmen und für sie in der näheren Umgebung
- abschließen.
+ingen.
+ Extrinsisch motivierte Nutzende nehmen mit der Anwendung kleinere Unternehmenst
+ätigkeiten an und schließen sie in der näheren Umgebung ab.
  Dieses Anwendungsziel ist nicht vergleichbar mit dem von 
 \emph on
 SeeSight
@@ -4033,14 +4040,14 @@ key "Hoier.2016"
 
 .
  Die Annahme von unternehmensfinanzierten Spots ist, bedingt durch durch
- das Bezahlsysem, allerdings nur Erwachsenen möglich.
+ das Bezahlsystem, nur Erwachsenen möglich.
  Als Haupt-Spielertyp lässt sich wegen der existierenden Gamification-Patterns
  (s.
  Spielmechanismen) der Achiever identifizieren.
  Socializer und Explorer sind die zwei weitere Spielertypen, die sich durch
  die Community und den Sehenswürdigkeiten-Spots angesprochen fühlen können.
  Obwohl die Spielform auch teilweise Konfliktpotential beinhaltet (s.
- Spielform), sollten sich konfliktorientiere Zielgruppen nicht angesprochen
+ Spielform), sollten sich konfliktorientierte Zielgruppen nicht angesprochen
  fühlen.
  Die Anwendung ist daraufhin nicht explizit konzipiert.
 \end_layout
@@ -4064,8 +4071,8 @@ Easy Getting Started:
 \emph on
 Streetspotr
 \emph default
- lässt neu registrierte Nutzer ihre Erstanmeldung in Form eines Spots erledigen
- (s.
+ lässt neu registrierte Nutzende ihre Erstanmeldung in Form eines Spots
+ erledigen (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -4075,7 +4082,7 @@ reference "fig:street-b"
 \end_inset
 
 ).
- Diese Funktion lässt die Hemmschwelle senken, direkt nach der Anmeldung
+ Diese Funktion lässt die Hemmschwelle sinken, direkt nach der Anmeldung
  einen weiteren, offiziellen Spot anzunehmen.
 \end_layout
 
@@ -4088,8 +4095,8 @@ Punktesystem: Bei Erledigung von Sehenswürdigkeiten-Spots steigt der eigene
 
 \begin_layout Itemize
 Rangliste/Leaderboard: Mit den gesammelten Punkten errechnet sich im Profil
- der Nutzer ein Rang, der ihre Position in einer Rangliste nach der geleisteten
- Aktivität feststellt (s.
+ der Nutzenden ein Rang, der ihre Position in einer Rangliste nach der geleistet
+en Aktivität feststellt (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -4107,10 +4114,16 @@ Badge: Badges werden in
 Streetspotr
 \emph default
  für verschiedene Verdienste vergeben.
- Einen so genannten Newbie-Badge kann man beispielsweise durch Erfüllung
- des ersten Spots erhalten.
- Des Weiteren gibt es Corporate-Badges bei Annahme und Erledigung von Spots
- namhafter Unternehmen.
+ Einen so genannten 
+\emph on
+Newbie-Badge
+\emph default
+ kann man beispielsweise durch Erfüllung des ersten Spots erhalten.
+ Des Weiteren gibt es 
+\emph on
+Corporate-Badges
+\emph default
+ bei Annahme und Erledigung von Spots namhafter Unternehmen.
 \end_layout
 
 \begin_layout Itemize
@@ -4118,14 +4131,13 @@ Fortschrittsanzeige: In Spielen wird häufig das Geschehen von Fortschrittsanzei
 en begleitet.
  Sie hat den Vorteil, dass der Bezug zum gegenwärtigen Fortschritt des Spiels
  oder der Aufgabe gewährleistet ist.
- Motivationale Defizite wie Ziellosigkeit können somit abgeschwächt oder
- gar ganz entfernt werden.
+ Motivationale Defizite wie Ziellosigkeit, können somit abgeschwächt oder
+ ganz entfernt werden.
  
 \emph on
 Streetspotr
 \emph default
- kennzeichnet farblich geschickt die bereits erledigten Teilaufgaben eines
- Spots.
+ kennzeichnet farblich die bereits erledigten Teilaufgaben eines Spots.
  Der Nutzer erkennt somit sofort seinen Tätigkeitsfortschritt.
 \end_layout
 
@@ -4143,16 +4155,16 @@ ung zu identifizieren.
  stellen.
  Konflikt entsteht durch lukrative Spots, welche nur limitiert angeboten
  werden.
- In diesem Fall bekommt Derjenige den Spot bzw.
- eine Reservierung, der schneller ist.
- Langsamen Nutzern wird durch das aktive Eingreifen von schnelleren Nutzern
+ In diesem Fall bekommen diejenigen den Spot beziehungsweise eine Reservierung,
+ die schneller sind.
+ Langsamen Nutzenden wird durch das aktive Eingreifen von schnelleren Nutzenden
  der Zugang zu solchen Spots verwehrt.
- Die Mechanismus fließt aber deshalb nicht wertend in die Analyse, da diesbezügl
-ich ein Austausch zwischen den Nutzern fehlt.
+ Der Mechanismus fließt aber deshalb nicht wertend in die Analyse ein, da
+ diesbezüglich ein Austausch zwischen den Nutzenden fehlt.
  Selbsterfahrung hingegen ist nicht gegeben, da bei Abschluss eines jeden
  Spots, ob bezahlt oder als sehenswürdig deklariert, Punkte verdient werden.
- Aus dieser für die Rangliste bestimmende Kriterium, lässt sich erneut die
- Spielform Wettkampf ableiten und nicht Selbsterfahrung.
+ Aus dieser, für die Rangliste bestimmende Kriterium, lässt sich erneut
+ die Spielform Wettkampf ableiten und nicht Selbsterfahrung.
 \end_layout
 
 \begin_layout Standard
@@ -4381,15 +4393,15 @@ Anwendungsziel
 \end_layout
 
 \begin_layout Standard
-Die Anwendung möchte ihren Nutzern das Gefühl einer individuellen Stadtbesichtig
-ung bieten, in welcher die Nutzer die Rolle des Reiseführers selbst in die
- Hand nehmen.
+Die Anwendung möchte ihren Nutzenden das Gefühl einer individuellen Stadtbesicht
+igung bieten, in welcher die Nutzenden die Rolle des Reiseführers selbst
+ in die Hand nehmen.
  
 \emph on
 GPSmyCity
 \emph default
  verweist hierbei auf den Wegfall etwaiger unbeliebter Faktoren, wie beispielswe
-ise den Beitritt in Reisegruppen, oder zeitlichen Einschränkungen 
+ise den Beitritt in Reisegruppen oder zeitlichen Einschränkungen 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "GPSMYCITYInc.2016"
@@ -4408,8 +4420,8 @@ Zielgruppe/Spielertyp
 \emph on
 City Maps and Walks
 \emph default
- möchte ihrer Zielgruppe abwechslungsreiche Touren präsentieren abseits
- der sonst vom Pauschalurlauber besuchten Tourismuspfade 
+ möchte ihrer Zielgruppe, abseits der von Pauschalurlaubern besuchten Tourismusp
+fade, abwechslungsreiche Touren präsentieren 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "GPSMYCITYInc.2016"
@@ -4417,7 +4429,7 @@ key "GPSMYCITYInc.2016"
 \end_inset
 
 .
- Das Anwendungsziel sowie die Routen abseits des Mainstream-Tourismus macht
+ Das Anwendungsziel sowie die Routen abseits des Mainstream-Tourismus machen
  die App besonders für Explorer ansprechend.
 \end_layout
 
@@ -4426,7 +4438,7 @@ Zielverhalten
 \end_layout
 
 \begin_layout Standard
-Das Zielverhalten ist ähnlich dem von 
+Das Zielverhalten ähnelt dem von 
 \emph on
 Tripwolf
 \emph default
@@ -4447,8 +4459,8 @@ reference "fig:city-a"
  Während der Tour werden sowohl die erkundeten Ziele, als auch der eigene
  Standort durch eine automatisch erstellte Reiseroute auf einer laufend
  aktualisierten Karte visualisiert.
- Den Nutzern soll während der gesamten Zeit das Gefühl gegeben werden, Kontrolle
- über ihre Tour zu besitzen.
+ Den Nutzenden soll während der gesamten Zeit das Gefühl gegeben werden,
+ Kontrolle über ihre Tour zu besitzen.
 \end_layout
 
 \begin_layout Subsubsection
@@ -4456,20 +4468,20 @@ Spielmechanismen
 \end_layout
 
 \begin_layout Itemize
-User Generated Content: Nutzer können ihre eigenen Touren organisieren und
- mit Freunden teilen.
+User Generated Content: Nutzende können ihre eigenen Touren organisieren
+ und mit Freunden teilen.
 \end_layout
 
 \begin_layout Itemize
-Punktesystem: Das System vergibt an registrierte Nutzer Punkte, wenn sie
- besuchte Orte als solche markieren oder Fotos zu den Sehenswürdigkeiten
+Punktesystem: Das System vergibt an registrierte Nutzende Punkte, wenn sie
+ besuchte Orte als solche markieren, oder Fotos zu den Sehenswürdigkeiten
  vor Ort hochladen.
  Für genügend Punkte erhält man Auszeichnungen in Form von Badges und bald
  erhältlicher Belohnungen durch Vollversionen.
 \end_layout
 
 \begin_layout Itemize
-Badge: Badges werden an Nutzer mit bestimmter ausreichend hoher Punktezahl
+Badge: Badges werden an Nutzende mit bestimmter ausreichend hoher Punktezahl
  vergeben.
 \end_layout
 
@@ -4486,7 +4498,7 @@ reference "fig:city-c"
 \end_inset
 
 ) und im Info-Menü erwähnt.
- Ein Wettkampf mit weiteren Nutzern bezüglich der Auszeichnungen ist zwar
+ Ein Wettkampf mit weiteren Nutzenden bezüglich der Auszeichnungen ist zwar
  im Text angedeutet, es sind aber innerhalb der Anwendung keinerlei Handlungsmög
 lichkeiten mit der Community erkennbar.
 \end_layout
@@ -4497,8 +4509,8 @@ Spielform
 
 \begin_layout Standard
 Die Spielform der Anwendung lässt sich als Selbsterfahrung deklarieren.
- Nutzer begehen für sich alleine oder zusammen mit Freunden Städtetouren,
- ohne weitere Abhängigkeiten in Form von Interaktionen mit weiteren Nutzern.
+ Nutzende begehen für sich alleine oder zusammen mit Freunden Städtetouren,
+ ohne weitere Abhängigkeiten in Form von Interaktionen mit weiteren Nutzenden.
 \end_layout
 
 \begin_layout Standard
@@ -4682,10 +4694,16 @@ Foursquare & Swarm
 \emph on
 Foursquare
 \emph default
-, mit der an verschiedenen Orten Check-Ins getätigt werden konnten um so
- Freunden den derzeitigen Standort mitzuteilen.
- Besonderen Stellenwert besitzt die spielerische Komponente des Check-Ins,
- mit der Nutzer Prestige über Orte und Lokale erlangen.
+, mit der an verschiedenen Orten 
+\emph on
+Check-Ins
+\emph default
+ getätigt werden konnten, um so Freunden den derzeitigen Standort mitzuteilen.
+ Besonderen Stellenwert besitzt die spielerische Komponente des 
+\emph on
+Check-Ins
+\emph default
+, mit der Nutzende Prestige über Orte und Lokale erlangen.
  2014 übernahm diese Komponente die neue Anwendung namens 
 \emph on
 Swarm
@@ -4707,13 +4725,13 @@ Foursquare
 \emph on
 Swarm
 \emph default
- mit den Aufenthaltsorten seiner Nutzer sie um Auszeichnungen konkurrieren.
+ mit den Aufenthaltsorten seiner Nutzenden sie um Auszeichnungen konkurrieren.
  
 \emph on
 Foursquare
 \emph default
  entspricht hinsichtlich seiner Domäne nicht exakt dem des Reisens, es existiere
-n zumindest aber Schnittpunkte in Bereich Aufsuchen erstrebenswerter Orte.
+n zumindest aber Schnittpunkte im Bereich Aufsuchen erstrebenswerter Orte.
  Interessant und ausschlaggebend für die Einbeziehung in diese Marktstudie,
  ist seine markante Gamifizierung.
 \end_layout
@@ -4726,8 +4744,8 @@ Anwendungsziel
 Die Aufteilung einer Anwendung in zwei autonome Anwendungen erhöht die Komplexit
 ät zur Identifizierung des Anwendungsziels.
  Denn hieraus stellt sich die grundlegende Frage, ob jede Anwendung separat
- betrachtet werden soll, oder nicht.
- Im Rahmen dieser Arbeit, wird die Ansichtsweise verfolgt, dass 
+ betrachtet werden soll oder nicht.
+ Im Rahmen dieser Arbeit wird die Ansichtsweise verfolgt, dass 
 \emph on
 Foursquare
 \emph default
@@ -4790,7 +4808,7 @@ Zielgruppe/Spielertyp
 Swarm
 \emph default
  konzentriert sich stark auf eine wettstreitende Zielgruppe.
- Das ständige Messen mit Gleichgesinnten sollte vor allem Nutzer mit der
+ Das ständige Messen mit Gleichgesinnten sollte vor allem Nutzende mit der
  Persönlichkeit eines Killers ansprechen.
  Das Sammeln verschiedener Belohnungen (z.
  B.
@@ -4799,8 +4817,11 @@ Swarm
 \emph on
 Foursquare
 \emph default
- verliert hingegen durch die starke Abtrennung der Check-Ins an charakteristisch
-e Spielertyp-Merkmale.
+ verliert hingegen durch die starke Abtrennung der 
+\emph on
+Check-Ins
+\emph default
+ an charakteristische Spielertyp-Merkmale.
  
 \end_layout
 
@@ -4809,13 +4830,17 @@ Zielverhalten
 \end_layout
 
 \begin_layout Standard
-Das Zielverhalten der Nutzer lässt sich in die folgenden Schritte unterteilen:
- das Suchen und Finden eines Ortes oder Lokals sowie den tatsächlichen Besuch.
- Das Vorgehen der Nutzer wird hierbei durch Anwendungsfunktionen wie beispielswe
-ise einstellbaren Präferenzen, Filtermöglichkeiten und der Standortbestimmung
- unterstützt.
- Die Möglichkeit des Check-Ins und der sich dadurch eröffnenden Spielmechanismen
- sind standortbezogen.
+Das Zielverhalten der Nutzenden lässt sich in die folgenden Schritte unterteilen
+: das Suchen und Finden eines Ortes oder Lokals sowie den tatsächlichen
+ Besuch.
+ Das Vorgehen der Nutzenden wird hierbei durch Anwendungsfunktionen wie
+ beispielsweise einstellbaren Präferenzen, Filtermöglichkeiten und der Standortb
+estimmung unterstützt.
+ Die Möglichkeit des 
+\emph on
+Check-Ins
+\emph default
+ und der sich dadurch eröffnenden Spielmechanismen sind standortbezogen.
  Dies soll die darauf ansprechende Zielgruppe zusätzlich zu einem Besuch
  des Ortes motivieren.
 \end_layout
@@ -4841,11 +4866,15 @@ Swarm
  a.
  Preise gewinnen lassen.
  Darüber hinaus werden sie auch für die Ranglistenbestimmung verwendet.
- Verdient werden Coins, indem Check-Ins getätigt werden.
- Der Begriff suggeriert eine virtuellen Währung innerhalb der Anwendung,
+ Verdient werden Coins, indem 
+\emph on
+Check-Ins
+\emph default
+ getätigt werden.
+ Der Begriff suggeriert eine virtuelle Währung innerhalb der Anwendung,
  allerdings lassen sich damit keine Käufe tätigen.
- Hauptmerkmal einer virtuellen Währung - welches ebenfalls ein Gamification-Patt
-erns darstellt - ist die Möglichkeit zum Kauf virtueller Zusatzinhalte.
+ Hauptmerkmal einer virtuellen Währung, welches ebenfalls ein Gamification-Patte
+rn darstellt, ist die Möglichkeit zum Kauf virtueller Zusatzinhalte.
 \end_layout
 
 \begin_layout Itemize
@@ -4853,7 +4882,7 @@ Rangliste/Leaderboard: Die Rangliste in
 \emph on
 Swarm
 \emph default
- basiert auf verdienten Coins der Nutzer.
+ basiert auf verdienten Coins der Nutzenden.
  Ihre Besonderheit ist ihre wöchentliche Aktualisierung.
  Sehr häufig frequentierter Ranglistenwechsel wird somit nur zu bestimmten
  Zeiten vollzogen.
@@ -4865,8 +4894,8 @@ Assistent: In
 \emph on
 Swarm
 \emph default
- assistiert ein virtuelle Person den Nutzer in neuen Einstellungen und Funktione
-n (s.
+ assistiert eine virtuelle Person dem Nutzende in neuen Einstellungen und
+ Funktionen (s.
  Abb.
  
 \begin_inset CommandInset ref
@@ -4880,11 +4909,14 @@ reference "fig:swarm-a"
  Fragen, das Geben von Tipps und Tricks, sowie die Funktion eines Tutorialratgeb
 ers.
  Die Darstellung eines Assistenten variiert und kann von der Seriosität
- der UI ab abhängen
+ der UI abhängen
 \end_layout
 
 \begin_layout Itemize
-Badge: Badges werden in der Anwendung Sticker genannt, welche durch Check-Ins
+Badge: Badges werden in der Anwendung Sticker genannt, welche durch 
+\emph on
+Check-Ins
+\emph default
  bestimmter Orte erhältlich sind (s.
  Abb.
  
@@ -4904,8 +4936,8 @@ Foursquare
 \emph on
 Swarm
 \emph default
- gehen manche Nutzer auch soweit, dass gezielt Badges gesammelt werden und
- der Besuch der Orte zur Nebensache deklariert wird 
+ gehen manche Nutzende auch soweit, dass gezielt Badges gesammelt werden
+ und der Besuch der Orte zur Nebensache deklariert wird 
 \begin_inset ERT
 status open
 
@@ -4926,8 +4958,11 @@ Titel: In
 \emph on
 Swarm
 \emph default
- bekommen Nutzer für Orte die sie mit den meisten Check-Ins dominieren,
- den Titel des Mayors (engl.
+ bekommen Nutzende für Orte die sie mit den meisten 
+\emph on
+Check-Ins
+\emph default
+ dominieren, den Titel des Mayors (engl.
  für Bürgermeister) verliehen (s.
  Abb.
  
@@ -4938,11 +4973,14 @@ reference "fig:swarm-b"
 \end_inset
 
 ).
- Der Verlust eines Titels ist ebenso möglich, indem andere Nutzer die Anzahl
- der eigenen Check-Ins übertrifft.
+ Der Verlust eines Titels ist ebenso möglich, indem andere Nutzende die
+ Anzahl der eigenen 
+\emph on
+Check-Ins
+\emph default
+ übertreffen.
  Eine Ernennung zum Mayor oder zumindest die Aussicht darauf besitzt hohes
- Motivationspotential lässt wie Frith herausfindet.
- 
+ Motivationspotential 
 \begin_inset ERT
 status open
 
@@ -4973,7 +5011,7 @@ Swarm
 \emph on
 Swarm
 \emph default
- bestrebt darin Nutzer vom Spielertyp Killer und Achiever zu motivieren.
+ bestrebt darin, Nutzende vom Spielertyp Killer und Achiever zu motivieren.
  Dies propagiert die Anwendung ausreichend oft in ihren Inhalten mit der
  Frage nach mehr Wettbewerb (s.
  Abb.
@@ -4985,8 +5023,11 @@ reference "fig:swarm-c"
 \end_inset
 
 ).
- Zudem existiert mit den Check-Ins ein Mechanismsu, der die negative Beeinflussu
-ng auf andere Nutzer erlaubt.
+ Zudem existiert mit den 
+\emph on
+Check-Ins
+\emph default
+ ein Mechanismus, der die negative Beeinflussung auf andere Nutzende erlaubt.
  Die in Abschnitt 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -5191,10 +5232,8 @@ key "Marcus.2013b"
 
  beschriebenes Produktkonzept.
  Die Anwendung soll Reisenden beim Erforschen von Zielorten assistieren
- und Sie beim Lernprozess - das Verstehen fremder Kulturen - begleiten.
- Als führendes Beispiel erwähnt Marcus die Grand Tour aus dem 17.
- und 18.
- Jahrhundert 
+ und sie beim Lernprozess - das Verstehen fremder Kulturen - begleiten.
+ Als führendes Beispiel erwähnt 
 \begin_inset ERT
 status open
 
@@ -5202,12 +5241,14 @@ status open
 
 
 \backslash
-cite[S.~261]{Marcus.2013b}
+citet[S.~261]{Marcus.2013b}
 \end_layout
 
 \end_inset
 
-.
+ die Grand Tour aus dem 17.
+ und 18.
+ Jahrhundert .
  Eine solche Reise diente meist jungen Adeligen als Abschluss ihrer Ausbildung.
  Die Reisen beinhalteten kulturelle Stätten und Sehenswürdigkeiten im mitteleuro
 päischen Raum.
@@ -5276,8 +5317,8 @@ cite[S.~262]{Marcus.2013b}
 
 \begin_layout Standard
 Mit seinem Konzept möchte er also seine Zielgruppe vom gewöhnlichen Freizeittour
-ismus wegbewegen, und hin zu einem Tourismus des interkulturellen Verstehens
- und Lernens.
+ismus weg-, und hin zu einem Tourismus des interkulturellen Verstehens und
+ Lernens bewegen.
 \end_layout
 
 \begin_layout Paragraph*
@@ -5285,10 +5326,10 @@ Zielgruppe/Spielertyp
 \end_layout
 
 \begin_layout Standard
-Seine Zielgruppe gibt Markus Reisende mit einem durchschnittlichen bis höheren
- Bildungsstand an und einem maximalen Alter von 50 Jahren.
- Zudem sind sie aufgeschlossen gegenüber fremden Ländern, Kulturen und Menschen
- 
+Als seine Zielgruppe gibt Markus Reisende mit einem durchschnittlichen bis
+ höheren Bildungsstand und einem maximalen Alter von 50 Jahren an.
+ Zudem sei die Zielgruppe aufgeschlossen gegenüber fremden Ländern, Kulturen
+ und Menschen 
 \begin_inset ERT
 status open
 
@@ -5302,9 +5343,9 @@ cite[S.~266]{Marcus.2013b}
 \end_inset
 
 .
- Daraus ist abzuleiten, dass besagte Zielgruppe sich aus einer Kombination
+ Daraus ist abzuleiten, dass die besagte Zielgruppe sich aus einer Kombination
  von Explorern und Socializern zusammensetzt.
- Des Weiteren lässt sich wegen mancher Gamification-Patterns (z.
+ Des Weiteren lässt sich wegen manchen Gamification-Patterns (z.
  B.
  Challenges, Skill-Tree) auf einer untergeordneten Ebene auch der Spielertyp
  Achiever hinzufügen.
@@ -5315,11 +5356,11 @@ Zielverhalten
 \end_layout
 
 \begin_layout Standard
-Die Nutzer sollen während ihrer Reise von gezielten Vorschlägen eines virtuellen
- Assistenten innerhalb der Anwendung zu individuellen und besonderen Aufgaben
- verleitet werden.
+Die Nutzenden sollen während ihrer Reise von gezielten Vorschlägen eines
+ virtuellen Assistenten innerhalb der Anwendung zu individuellen und besonderen
+ Aufgaben verleitet werden.
  Durch Erfüllung dieser Aufgaben erhalten sie einen intensiveren Eindruck
- von den Kulturgepflogenheiten der jeweiligen Länder.
+ von den kulturellen Bräuchen der jeweiligen Länder.
  
 \end_layout
 
@@ -5332,16 +5373,8 @@ Challenges: In
 \emph on
 The Travel Machine
 \emph default
- stehen Aufgaben in Form von kleineren Spielen oder Quizze unter dem Tab
- 
-\begin_inset Quotes eld
-\end_inset
-
-Challenges
-\begin_inset Quotes erd
-\end_inset
-
- zur Wissensprüfung bereit.
+ stehen Aufgaben in Form von kleineren Spielen oder Quizze unter einen eigenen
+ Menüpunkt zur Wissensprüfung bereit.
  
 \begin_inset ERT
 status open
@@ -5362,9 +5395,10 @@ SeeSight
 \emph default
  sind sie nicht in die Tour integriert, sondern sind getrennt davon, gesammelt
  abrufbar.
- Trotzdem behandeln beide Versionen dasselbe Thema, nämlich Inhalte zu einzelnen
- kulturellen Orten, oder Ländern dem Nutzer begreifbar zu machen.
- Als Belohnung zu erfolgreich abgeschlossenen Challenges erwarten den Nutzer
+ Trotzdem behandeln beide Versionen dasselbe Thema.
+ Beide Versionen wollen den Nutzenden Inhalte zu einzelnen kulturellen Orten
+ oder Ländern näher bringen.
+ Als Belohnung zu erfolgreich abgeschlossenen Challenges erwarten Nutzenden
  höhere Status oder Titel.
  Ab einem gewissen Level können auch Gutscheine oder Preisnachlässe von
  kooperierenden Firmen gewährt werden.
@@ -5372,16 +5406,16 @@ SeeSight
 
 \begin_layout Itemize
 Skill-Tree: Spiele bieten manchmal die Möglichkeit der Weiterentwicklung
- seiner Spielfigur in verschiedenen Fertigkeiten oder Richtungen.
- Durch die individuellen Weiterentwicklungsmöglichkeiten der eigenen Spielfigur
- kann sich der Nutzer durch sein virtuelles Ich besser selbst darstellen.
+ der eigenen Spielfigur in verschiedenen Fertigkeiten oder Richtungen.
+ Durch die individuellen Weiterentwicklungsmöglichkeiten seiner Spielfigur
+ kann sich der Nutzende durch sein virtuelles Ich besser selbst darstellen.
  Dadurch kann er sich mit der Spielfigur identifizieren und wird langfristig
  persönlich und auf emotionaler Ebene an die Anwendung gebunden.
- Nutzer können in 
+ Nutzende können in 
 \emph on
 The Travel Machine
 \emph default
- virtuelle Status und Titel als Belohnung für abgeschlossene Challenges
+ einen virtuellen Status und Titel als Belohnung für abgeschlossene Challenges
  erhalten und diese mit der Community teilen 
 \begin_inset ERT
 status open
@@ -5397,7 +5431,7 @@ cite[S.~264]{Marcus.2013b}
 
 .
  Während ein höherer Status der Person generell mehr Kompetenzen zuspricht,
- können verliehene Titel eine Richtung ihrer Erfolge vermitteln.
+ können verliehene Titel Auskunft über Erfolge vermitteln.
 \end_layout
 
 \begin_layout Itemize
@@ -5421,13 +5455,13 @@ cite[S.~272--275]{Marcus.2013b}
 
 \begin_layout Itemize
 Aufeinanderfolgende Informationen: Es besteht ein Risiko, den Reisenden
- mit der angebotenen Anwendung zu viele Informationen auf einmal, bzw.
- ohne klaren Zusammenhang in die Hand zu geben.
+ mit der angebotenen Anwendung zu viele Informationen auf einmal, beziehungsweis
+e ohne klaren Zusammenhang, in die Hand zu geben.
  Solche Aktionen können den Spannungsbogen einer Tour verringern.
  Die Aufgabe des Travel Advisors, eine Hauptkomponente der Travel Machine,
- ist es, dem Nutzer ausgewogen zu bestimmten Ereignissen oder Orten Informatione
-n oder Ideen vorzuschlagen, Rückmeldung zu erreichten Zielen zu geben, oder
- Challenges anzubieten 
+ ist es, dem Nutzenden ausgewogen zu bestimmten Ereignissen oder Orten Informati
+onen oder Ideen vorzuschlagen, Rückmeldung zu erreichten Zielen zu geben,
+ oder Challenges anzubieten 
 \begin_inset ERT
 status open
 
@@ -5444,15 +5478,15 @@ cite[S.~264]{Marcus.2013b}
 \end_layout
 
 \begin_layout Itemize
-MMR: Es gibt ein System mit dessen Hilfe Nutzer mit anderen Reisenden in
- Kontakt treten können.
+MMR: Es gibt ein System mit dessen Hilfe Nutzende mit anderen Reisenden
+ in Kontakt treten können.
  In 
 \emph on
 The Travel Machine
 \emph default
  lassen sich Tagebucheinträge verfassen.
  Die Standortfreigabe der Tagebuchschreibenden ermöglicht die Lokalisierung
- von Nutzern mit ähnlichen Interessen in der unmittelbaren eigenen Umgebung.
+ von Nutzenden mit ähnlichen Interessen in der unmittelbaren eigenen Umgebung
  
 \begin_inset ERT
 status open
@@ -5475,7 +5509,7 @@ Spielform
 
 \begin_layout Standard
 Mit seinem Konzept zur Umgestalten des Reiseverhaltens möchte Markus den
- Selbstfindungs-Charakter der Nutzer ansprechen 
+ Selbstfindungs-Charakter der Nutzenden ansprechen 
 \begin_inset ERT
 status open
 
@@ -5877,15 +5911,15 @@ Erfüllen verschiedener Aufgaben während der Reise
 \end_inset
 
  Der Spalte Anwendungsziel ist entnehmbar, dass die überwiegende Mehrheit
- ihre Nutzer in reisespezifischen Tätigkeiten unterstützen oder Funktionen
+ ihre Nutzenden in reisespezifischen Tätigkeiten unterstützen oder Funktionen
  bereitstellen, die erfahrungsbereicherende Reiseerlebnisse ermöglichen.
  Einzig 
 \emph on
 Streetspotr
 \emph default
  besitzt ein anderes Primärziel.
- Jenes Anwendungsziel - die Absolvierung von Aufgaben - sind hingegen bei
- Anwendungen wie 
+ Jenes Anwendungsziel, die Absolvierung von Aufgaben, ist hingegen bei Anwendung
+en wie 
 \emph on
 SeeSight
 \emph default
@@ -5897,7 +5931,7 @@ Quarterquest
 \emph on
 The Travel Machine
 \emph default
- das beabsichtigte Zielverhalten der Nutzer.
+ das beabsichtigte Zielverhalten der Nutzenden.
  Andere Anwendungen wie 
 \emph on
 Tripwolf
@@ -5910,8 +5944,8 @@ Trip Journal
 \emph on
 City Maps and Walks
 \emph default
- sind bestrebt darin, dass ihre Zielgruppe Touren bzw.
- Reisen auswählen oder sogar selbst erstellen und diese antreten.
+ sind bestrebt darin, dass ihre Zielgruppe Touren beziehungsweise Reisen
+ auswählen oder sogar selbst erstellen, und diese antreten.
 \end_layout
 
 \begin_layout Standard
@@ -6030,7 +6064,7 @@ reference "fig:Verteilung-der-Marktstudie-nach-Formen-des-Spiels"
  Die weiteren Formen des Spiels Koordination und Kooperation ließen sich
  in den Anwendungen und Arbeiten nicht identifizieren.
  Ein Beispiel für Kooperation wäre beispielsweise die permanente, gegenseitige
- Unterstützung von Nutzern bei Quiz-Fragen gewesen.
+ Unterstützung von Nutzenden bei Quizfragen gewesen.
 \end_layout
 
 \begin_layout Standard

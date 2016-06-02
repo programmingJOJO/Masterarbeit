@@ -128,7 +128,7 @@ reference "chap:Evaluation"
 
 \end_inset
 
-, wird nun im abschließenden Teil die zu Beginn der Abschlussarbeit gestellte
+ wird nun im abschließenden Teil die zu Beginn der Abschlussarbeit gestellte
  Frage rekapituliert, wie motivationale Defizite innerhalb der spielfremden
  Domäne Reisen durch Anwendung von Gamification bewältigt und zu einem bestimmte
 n Verhalten anregen können.
@@ -142,7 +142,7 @@ Diskussion der Ergebnisse
 \end_layout
 
 \begin_layout Standard
-Ziel der vorliegenden Abschlussarbeit war es unter Berücksichtigung der
+Ziel der vorliegenden Abschlussarbeit war es, unter Berücksichtigung der
  derzeitigen technischen Möglichkeiten bei der App-Entwicklung einen Prototyp
  mit dem Kontext Reisen zu verwirklichen, welcher motivationale Defizite
  reduziert und zu einem bestimmten Verhalten beeinflusst.
@@ -194,8 +194,8 @@ reference "Ziel-2:-Realisierung"
  beinhaltet die Implementierung zum Prototyp und die daran angesetzte Testphase.
  Geplante Funktionen in den Bereichen Geolocation und Personalisierung mussten
  während der Umsetzung zurückgestellt werden.
- Ungeachtet dessen, ermöglicht der Prototyp vollumfänglich das intendierte
- Zielverhalten.
+ Ungeachtet dessen ermöglicht der Prototyp das intendierte Zielverhalten
+ vollumfänglich.
  Dieses Zielverhalten - die Beantwortung standortbasierter Fragestellungen
  - wurde mit unterstützenden Mechanismen zum Testzeitpunkt mit Einverständnis
  der Teilnehmer getrackt.
@@ -220,13 +220,13 @@ reference "sec:Evaluierung-der-Ergebnisse"
 
 \end_inset
 
- bei, wo zu erkennen ist, dass die Gesamtheit der Ergebnisse ein durchwachsendes
+ bei, die erkennen lässt, dass die Gesamtheit der Ergebnisse ein durchwachsendes
  Resultat ergibt.
  Während diejenigen, die eine Tour auswählten, diese auch überwiegend beendeten,
  wählte die Mehrheit der Probanden erst gar keine Tour aus.
  Die Gründe dazu können von einer Abwägung der Interessen bis hin zu fehlender
- Freizeit für diese Tätigkeit liegen.
- Denn das Zielverhalten benötigt eine angemessene Zeitspanne zur Durchführung.
+ Freizeit für diese Tätigkeit liegen, denn das Zielverhalten benötigt eine
+ angemessene Zeitspanne zur Durchführung.
  Andererseits kann das Verhältnis der aktiven Probanden zu den nicht aktiven
  Teilnehmern ein gewöhnliches Merkmal der Generierung von App-Nutzern sein.
 \end_layout
@@ -234,14 +234,13 @@ reference "sec:Evaluierung-der-Ergebnisse"
 \begin_layout Standard
 Was die Reduzierung motivationaler Defizite durch unterstützende Mechanismen
  angeht, so wurden diese zu Beginn der Anwendung sehr gut angenommen.
- Es war beispielsweise mit der Personalisierung nach Vorlieben geplant,
- dass bestimmte Vorgehensweisen innerhalb der Anwendung zu vereinfachen
- sind.
+ Die Personalisierung nach Vorlieben beispielsweise, sollte zur Folge haben,
+ dass bestimmte Handlungen innerhalb der Anwendung zu vereinfachen sind.
  Die Nutzer sollten somit schneller und bequemer das Zielverhalten durchführen
  können.
  Weitere unterstützende Elemente hingegen, wie die Fortschrittsanzeige oder
- die Hinweise zu den angebotenen Aufgabenstellungen können keinen klaren
- Erfolg zugeschrieben werden.
+ die Hinweise zu den angebotenen Aufgabenstellungen kann kein klarer Erfolg
+ zugeschrieben werden.
  Dies begründet sich jedoch in ihrer subtilen Darstellung und weniger an
  ihrer Effektivität.
 \end_layout
@@ -256,7 +255,7 @@ n und somit auch eine bewusstere Wahrnehmung der besuchten Orte.
  taten.
  Dieses Ergebnis liegt hinter den eigenen Erwartungen zurück, die für das
  Zielverhalten sprächen.
- Jedoch ist zu erwähnten, dass in den ebenfalls evaluierten Meinungen der
+ Jedoch ist zu erwähnen, dass in den ebenfalls evaluierten Meinungen der
  Probanden hohes Optimierungspotential liegt.
  
 \end_layout
@@ -267,11 +266,10 @@ Ausblick
 
 \begin_layout Standard
 Trotz der nicht zufrieden stellenden Ergebnisse gilt das ausgearbeitete
- Konzept nicht als Fehlschlag.
- Denn wie bereits in Abschnitt zu den chronologischen Vorgehensmodellen
- erklärt wird, ist nicht auszuschließen, dass die Nutzer das Produkt im
- ersten Testdurchlauf akzeptieren.
- In Hinblick auf eine konsequente Weiterentwicklung des Prototyps, besitzt
+ Konzept nicht als Fehlschlag, denn wie bereits in Abschnitt zu den chronologisc
+hen Vorgehensmodellen erklärt wird, ist nicht auszuschließen, dass die Nutzer
+ das Produkt im ersten Testdurchlauf akzeptieren.
+ In Hinblick auf eine konsequente Weiterentwicklung des Prototyps besitzt
  das Konzept weiterhin hohes Potential.
  In einem nächsten Überarbeitungsvorgang sollten neben den geplanten, aber
  zurückgestellten Funktionen, auch die von den Probanden erwähnten Optimierungsm
@@ -313,12 +311,12 @@ trierung zu erfassen.
 \end_layout
 
 \begin_layout Standard
-Mit Berücksichtigung des genannten Optimierungspotentials, lässt sich das
+Unter Berücksichtigung des genannten Optimierungspotentials lässt sich das
  in dieser Arbeit entworfene Konzept für Städtetouren als eine gelungene,
  wenn auch verbesserungswürdige Gamification-Lösung bezeichnen.
- In nachkommenden Überarbeitungszyklen oder als als Muster für ähnliche
- Anwendungen kann sie das Gesamterlebnis von Touren aufwerten und als ständiger,
- mobiler Begleiter für Urlaubs- und Städtereisende verwendet werden.
+ In nachkommenden Überarbeitungszyklen oder als Muster für ähnliche Anwendungen
+ kann sie das Gesamterlebnis von Touren aufwerten und als ständiger, mobiler
+ Begleiter für Urlaubs- und Städtereisende verwendet werden.
 \end_layout
 
 \end_body

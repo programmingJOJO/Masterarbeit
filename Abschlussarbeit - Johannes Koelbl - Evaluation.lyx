@@ -233,8 +233,7 @@ Dies lässt nun die Schlussfolgerung zu, dass der zweitgenannte Ansatz aufgrund
  Für den zu evaluierenden Prototyp ergibt sich daraus ein weiteres Problem:
  Eine kontinuierliche Durchführung des Zielverhaltens über den Testzeitraum
  ist nämlich nicht mit der Intention des Prototyps, der Durchführung des
- Zielverhaltens über jede Reise bzw.
- Tour hinweg, zu vergleichen.
+ Zielverhaltens über jede Reise beziehungsweise Tour hinweg, zu vergleichen.
  Der Prototyp ist kein Produkt, welches wöchentlich oder gar täglich angewendet
  wird.
 \end_layout
